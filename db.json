@@ -110,7 +110,7 @@
       ]
     },
     "available": false
-  },
+  }, 
   "trinart": {
     "name": "trinart",
     "type": "ckpt",
