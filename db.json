@@ -105,12 +105,12 @@
         {
           "file_name": "yiffy.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://sexy.canine.wf/file/yiffy-ckpt/yiffy-e18.ckpt",
+          "file_url": "https://sexy.canine.wf/file/yiffy-ckpt/yiffy-e18.ckpt"
         }
-      ] 
+      ]
     },
     "available": false
-  }, 
+  },
   "trinart": {
     "name": "trinart",
     "type": "ckpt",
