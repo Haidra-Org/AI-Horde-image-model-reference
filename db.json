@@ -2,6 +2,9 @@
   "stable_diffusion": {
     "name": "stable_diffusion",
     "type": "ckpt",
+    "description": "Generalist AI image generating model",
+    "version": "1.4",
+    "style": "generalist",
     "nsfw": false,
     "download_all": true,
     "requires": [
@@ -38,6 +41,9 @@
   "waifu_diffusion": {
     "name": "waifu_diffusion",
     "type": "ckpt",
+    "description": "Anime style generations.",
+    "version": "1.3",
+    "style": "anime",
     "nsfw": false,
     "download_all": true,
     "requires": [
@@ -66,6 +72,9 @@
   "Furry_Epoch": {
     "name": "Furry_Epoch",
     "type": "ckpt",
+    "description": "Furry style generations.",
+    "version": "4",
+    "style": "furry",
     "nsfw": false,
     "download_all": true,
     "requires": [
@@ -94,6 +103,9 @@
   "Furry_Yiffy": {
     "name": "Furry_Yiffy",
     "type": "ckpt",
+    "description": "NSFW-oriented furry style generations.",
+    "version": "18",
+    "style": "furry",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -122,6 +134,9 @@
   "Furry_Zack3D": {
     "name": "Furry_Zack3D",
     "type": "ckpt",
+    "description": "Kink/NSFW oriented furry style generations.",
+    "version": "1",
+    "style": "furry",
     "nsfw": true,
     "download_all": true,
     "requires": [
@@ -150,6 +165,9 @@
   "trinart": {
     "name": "trinart",
     "type": "ckpt",
+    "description": "Manga style generations.",
+    "version": "1",
+    "style": "anime",
     "nsfw": false,
     "download_all": true,
     "requires": [
@@ -177,6 +195,9 @@
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
+    "description": "Upscaler.",
+    "version": "0.1.0",
+    "style": "generalist",
     "config": {
       "files": [
         {
@@ -196,6 +217,9 @@
   "RealESRGAN_x4plus_anime_6B": {
     "name": "RealESRGAN_x4plus_anime_6B",
     "type": "realesrgan",
+    "description": "Anime-Focused upscaler.",
+    "version": "0.2.2.4",
+    "style": "anime",
     "config": {
       "files": [
         {
@@ -215,6 +239,9 @@
   "GFPGAN": {
     "name": "GFPGAN",
     "type": "gfpgan",
+    "description": "Face correction.",
+    "version": "1.4",
+    "style": "generalist",
     "config": {
       "files": [
         {
@@ -250,6 +277,9 @@
   "LDSR": {
     "name": "LDSR",
     "type": "ckpt",
+    "description": "Upscaler.",
+    "version": "1",
+    "style": "generalist",
     "nsfw": false,
     "download_all": true,
     "config": {
