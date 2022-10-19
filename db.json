@@ -2,7 +2,7 @@
   "stable_diffusion": {
     "name": "stable_diffusion",
     "type": "ckpt",
-    "description": "Generalist AI image generating model",
+    "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "version": "1.4",
     "style": "generalist",
     "nsfw": false,
