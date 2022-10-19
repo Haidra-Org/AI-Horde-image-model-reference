@@ -91,7 +91,7 @@
     },
     "available": false
   },
-  "yiffy": {
+  "Furry_Yiffy": {
     "name": "Furry_Yiffy",
     "type": "ckpt",
     "nsfw": true,
@@ -119,7 +119,7 @@
     },
     "available": false
   },
-  "Zack3D": {
+  "Furry_Zack3D": {
     "name": "Furry_Zack3D",
     "type": "ckpt",
     "nsfw": true,
