@@ -69,8 +69,8 @@
     },
     "available": false
   },
-  "Furry_Epoch": {
-    "name": "Furry_Epoch",
+  "Furry Epoch": {
+    "name": "Furry Epoch",
     "type": "ckpt",
     "description": "Furry styled generations.",
     "version": "4",
@@ -100,8 +100,8 @@
     },
     "available": false
   },
-  "Furry_Yiffy": {
-    "name": "Furry_Yiffy",
+  "Yiffy": {
+    "name": "Yiffy",
     "type": "ckpt",
     "description": "Furry styled generations.",
     "version": "18",
@@ -131,8 +131,8 @@
     },
     "available": false
   },
-  "Furry_Zack3D": {
-    "name": "Furry_Zack3D",
+  "Zack3D": {
+    "name": "Zack3D",
     "type": "ckpt",
     "description": "Kink/NSFW oriented furry styled generations.",
     "version": "1",
