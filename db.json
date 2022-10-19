@@ -41,7 +41,7 @@
   "waifu_diffusion": {
     "name": "waifu_diffusion",
     "type": "ckpt",
-    "description": "Anime style generations.",
+    "description": "Anime styled generations.",
     "version": "1.3",
     "style": "anime",
     "nsfw": false,
@@ -72,7 +72,7 @@
   "Furry_Epoch": {
     "name": "Furry_Epoch",
     "type": "ckpt",
-    "description": "Furry style generations.",
+    "description": "Furry styled generations.",
     "version": "4",
     "style": "furry",
     "nsfw": false,
@@ -103,7 +103,7 @@
   "Furry_Yiffy": {
     "name": "Furry_Yiffy",
     "type": "ckpt",
-    "description": "NSFW-oriented furry style generations.",
+    "description": "NSFW oriented furry styled generations.",
     "version": "18",
     "style": "furry",
     "nsfw": true,
@@ -134,7 +134,7 @@
   "Furry_Zack3D": {
     "name": "Furry_Zack3D",
     "type": "ckpt",
-    "description": "Kink/NSFW oriented furry style generations.",
+    "description": "Kink/NSFW oriented furry styled generations.",
     "version": "1",
     "style": "furry",
     "nsfw": true,
@@ -165,7 +165,7 @@
   "trinart": {
     "name": "trinart",
     "type": "ckpt",
-    "description": "Manga style generations.",
+    "description": "Manga styled generations.",
     "version": "1",
     "style": "anime",
     "nsfw": false,
@@ -217,7 +217,7 @@
   "RealESRGAN_x4plus_anime_6B": {
     "name": "RealESRGAN_x4plus_anime_6B",
     "type": "realesrgan",
-    "description": "Anime-Focused upscaler.",
+    "description": "Anime focused upscaler.",
     "version": "0.2.2.4",
     "style": "anime",
     "config": {
