@@ -95,7 +95,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/yiffy.ckpt"
+          "path": "models/custom/yiffy.ckpt",
+          "md5sum": "dbe25794e24af183565dc45e9ec99713"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
