@@ -2,6 +2,7 @@
   "stable_diffusion": {
     "name": "stable_diffusion",
     "type": "ckpt",
+    "nsfw": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -36,6 +37,7 @@
   "waifu_diffusion": {
     "name": "waifu_diffusion",
     "type": "ckpt",
+    "nsfw": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -62,6 +64,7 @@
   "furry_diffusion": {
     "name": "Furry_Epoch",
     "type": "ckpt",
+    "nsfw": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -88,6 +91,7 @@
   "yiffy": {
     "name": "Furry_Yiffy",
     "type": "ckpt",
+    "nsfw": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -114,6 +118,7 @@
   "Zack3D": {
     "name": "Furry_Zack3D",
     "type": "ckpt",
+    "nsfw": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -140,6 +145,7 @@
   "trinart": {
     "name": "trinart",
     "type": "ckpt",
+    "nsfw": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
