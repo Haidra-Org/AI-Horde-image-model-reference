@@ -3,6 +3,7 @@
     "name": "stable_diffusion",
     "type": "ckpt",
     "nsfw": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -38,6 +39,7 @@
     "name": "waifu_diffusion",
     "type": "ckpt",
     "nsfw": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -65,6 +67,7 @@
     "name": "Furry_Epoch",
     "type": "ckpt",
     "nsfw": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -92,6 +95,7 @@
     "name": "Furry_Yiffy",
     "type": "ckpt",
     "nsfw": true,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -119,6 +123,7 @@
     "name": "Furry_Zack3D",
     "type": "ckpt",
     "nsfw": true,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -146,6 +151,7 @@
     "name": "trinart",
     "type": "ckpt",
     "nsfw": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -244,6 +250,8 @@
   "LDSR": {
     "name": "LDSR",
     "type": "ckpt",
+    "nsfw": false,
+    "download_all": true,
     "config": {
       "files": [
         {
