@@ -76,7 +76,7 @@
     "version": "4",
     "style": "furry",
     "nsfw": false,
-    "download_all": true,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -103,11 +103,11 @@
   "Furry_Yiffy": {
     "name": "Furry_Yiffy",
     "type": "ckpt",
-    "description": "NSFW oriented furry styled generations.",
+    "description": "Furry styled generations.",
     "version": "18",
     "style": "furry",
-    "nsfw": true,
-    "download_all": false,
+    "nsfw": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
