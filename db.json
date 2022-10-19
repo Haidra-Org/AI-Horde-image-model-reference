@@ -63,7 +63,7 @@
     },
     "available": false
   },
-  "furry_diffusion": {
+  "Furry_Epoch": {
     "name": "Furry_Epoch",
     "type": "ckpt",
     "nsfw": false,
