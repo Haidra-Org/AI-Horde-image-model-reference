@@ -63,7 +63,7 @@
         {
           "file_name": "model.ckpt",
           "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
+          "file_url": "https://{username}:{password}@huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
           "hf_auth": true
         }
       ]
