@@ -24,7 +24,7 @@
         {
           "file_name": "model_1_5.ckpt",
           "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
+          "file_url": "https://{username}:{password}@huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
           "hf_auth": true
         }
       ]
