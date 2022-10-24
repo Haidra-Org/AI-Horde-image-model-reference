@@ -227,9 +227,40 @@
   "colorbook": {
     "name": "colorbook",
     "type": "ckpt",
+    "description": "Based on the Arcane TV show",
+    "version": "1",
+    "style": "dreambooth",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/colorbook.ckpt",
+          "md5sum": "c8fe9c392f08ab8b6269394038961509"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "colorbook.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/jvkape/ColoringBookSD/resolve/main/VARPJ1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Arcane Diffusion": {
+    "name": "Arcane Diffusion",
+    "type": "ckpt",
     "description": "Minimalist coloring book style images",
     "version": "1",
-    "style": "minimalist",
+    "style": "dreambooth",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -248,7 +279,7 @@
         {
           "file_name": "colorbook.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/jvkape/ColoringBookSD/resolve/main/VARPJ1.ckpt"
+          "file_url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt"
         }
       ]
     },
