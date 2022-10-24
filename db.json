@@ -269,7 +269,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/arcane_diffusion.ckpt"
+          "path": "models/custom/arcane_diffusion.ckpt",
+          "md5sum": "218055cf8b7f49559de4a6c939dec9ed"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
