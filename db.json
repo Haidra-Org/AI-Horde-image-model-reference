@@ -224,6 +224,36 @@
     },
     "available": false
   },
+  "colorbook": {
+    "name": "colorbook",
+    "type": "ckpt",
+    "description": "Minimalist coloring book style images",
+    "version": "1",
+    "style": "minimalist",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/colorbook.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "colorbook.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/jvkape/ColoringBookSD/resolve/main/VARPJ1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
