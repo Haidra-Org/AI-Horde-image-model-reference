@@ -300,7 +300,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/spider-verse_diffusion.ckpt"
+          "path": "models/custom/spider-verse_diffusion.ckpt",
+          "md5sum": "45315570874b90caf6dba1750eeb9ec8"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -330,7 +331,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/archer_diffusion.ckpt"
+          "path": "models/custom/archer_diffusion.ckpt",
+          "md5sum": "b54b3a2a05efe39380b056008105f34c"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
