@@ -269,7 +269,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/colorbook.ckpt"
+          "path": "models/custom/arcane_diffusion.ckpt"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
