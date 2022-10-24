@@ -227,7 +227,7 @@
   "colorbook": {
     "name": "colorbook",
     "type": "ckpt",
-    "description": "Based on the Arcane TV show",
+    "description": "Minimalist coloring book style images",
     "version": "1",
     "style": "dreambooth",
     "nsfw": false,
@@ -258,7 +258,7 @@
   "Arcane Diffusion": {
     "name": "Arcane Diffusion",
     "type": "ckpt",
-    "description": "Minimalist coloring book style images",
+    "description": "Based on the Arcane TV show",
     "version": "1",
     "style": "dreambooth",
     "nsfw": false,
