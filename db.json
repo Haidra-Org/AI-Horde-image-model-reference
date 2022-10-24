@@ -279,7 +279,7 @@
         {
           "file_name": "colorbook.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/blob/main/arcane-diffusion-v3.ckpt"
+          "file_url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt"
         }
       ]
     },
