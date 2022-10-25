@@ -389,7 +389,7 @@
     "available": false
   },
   "Robo-Diffusion": {
-    "name": "Robo-Diffusion ",
+    "name": "Robo-Diffusion",
     "type": "ckpt",
     "description": "Robot oriented drawing style",
     "version": "1",
