@@ -230,6 +230,8 @@
     "description": "Minimalist coloring book style images",
     "version": "1",
     "style": "dreambooth",
+    "trigger": "in VARPJ1 Coloring Book Art Style",
+    "homepage": "https://huggingface.co/jvkape/ColoringBookSD",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -261,6 +263,8 @@
     "description": "Based on the Arcane TV show",
     "version": "3",
     "style": "dreambooth",
+    "trigger": "arcane style",
+    "homepage": "https://huggingface.co/nitrosocke/arcane-diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -292,6 +296,8 @@
     "description": "Based on the Into the Spider-Verse movie's animation style",
     "version": "1",
     "style": "dreambooth",
+    "trigger": "spiderverse style",
+    "homepage": "https://huggingface.co/nitrosocke/spider-verse-diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -322,7 +328,9 @@
     "type": "ckpt",
     "description": "Based on the Archer's TV show animation style",
     "version": "1",
+    "trigger": "archer style",
     "style": "dreambooth",
+    "homepage": "https://huggingface.co/nitrosocke/archer-diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -343,6 +351,70 @@
           "file_name": "archer_diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/nitrosocke/archer-diffusion/resolve/main/archer-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Elden Ring Diffusion": {
+    "name": "Elden Ring Diffusion",
+    "type": "ckpt",
+    "description": "Based on the Elden Ring video game style",
+    "version": "2",
+    "style": "dreambooth",
+    "trigger": "elden ring style",
+    "homepage": "https://huggingface.co/nitrosocke/elden-ring-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/elden_ring_diffusion.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "elden_ring_diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Robo-Diffusion": {
+    "name": "Robo-Diffusion ",
+    "type": "ckpt",
+    "description": "Robot oriented drawing style",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "nousr robot",
+    "homepage": "https://huggingface.co/nousr/robo-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/robo_diffusion.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "robo_diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/nousr/robo-diffusion/resolve/main/models/robo-diffusion-v1.ckpt"
         }
       ]
     },
