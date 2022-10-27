@@ -448,7 +448,7 @@
         {
           "file_name": "modern_disney_diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/nitrosocke/modern-disney-diffusion/blob/main/modernDisney-v1-pruned.ckpt"
+          "file_url": "https://huggingface.co/nitrosocke/modern-disney-diffusion/resolve/main/modernDisney-v1-pruned.ckpt"
         }
       ]
     },
