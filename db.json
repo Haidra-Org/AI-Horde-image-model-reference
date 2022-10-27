@@ -429,7 +429,7 @@
     "version": "1",
     "style": "dreambooth",
     "trigger": "modern disney style",
-    "homepage": "https://huggingface.co/nousr/robo-diffusion",
+    "homepage": "https://huggingface.co/nitrosocke/modern-disney-diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
