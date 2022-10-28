@@ -695,6 +695,13 @@
     },
     "available": false
   },
+  "stable_diffusion_inpainting": {
+    "name": "stable_diffusion_inpainting",
+    "type": "diffusers",
+    "hf_path": "runwayml/stable-diffusion-inpainting",
+    "hf_auth": true,
+    "available": false
+  },
   "safety_checker": {
     "name": "safety_checker",
     "type": "safety_checker",
