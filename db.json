@@ -698,6 +698,9 @@
   "stable_diffusion_inpainting": {
     "name": "stable_diffusion_inpainting",
     "type": "diffusers",
+    "description": "Generalist model specialized for movifying areas of existing images",
+    "version": "1.5",
+    "style": "inpainting",
     "hf_path": "runwayml/stable-diffusion-inpainting",
     "hf_auth": true,
     "available": false
