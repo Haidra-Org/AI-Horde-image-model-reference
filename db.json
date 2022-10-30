@@ -454,6 +454,39 @@
     },
     "available": false
   },
+  "Xynthii-Diffusion": {
+    "name": "Xynthii-Diffusion",
+    "type": "ckpt",
+    "description": "Xynthii-Diffusion (cyclops monster girls)",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "xynthii",
+    "homepage": "https://huggingface.co/hlky/xynthii-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/xynthii_fp16.ckpt",
+          "md5sum": "012fa83214f6310f0491d828a2750e9f"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "xynthii_fp16.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/hlky/xynthii-diffusion/resolve/main/models/xynthii_fp16.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
