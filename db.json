@@ -471,7 +471,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/classic-anim-diffusion.ckpt"
+          "path": "models/custom/classic-anim-diffusion.ckpt",
+          "md5sum": "ef6f168e2cceedb104ca57f6a1da27fd"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -536,7 +537,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/comic-diffusion.ckpt"
+          "path": "models/custom/comic-diffusion.ckpt",
+          "md5sum": "bf4c240f0883090c33722370a46f556f"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
