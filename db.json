@@ -422,23 +422,22 @@
     },
     "available": false
   },
-  "Modern Disney Diffusion": {
-    "name": "Modern Disney Diffusion",
+  "mo-di-diffusion": {
+    "name": "mo-di-diffusion",
     "type": "ckpt",
-    "description": "Modern Disney animation style",
+    "description": "Popular animation studio styled generations.",
     "version": "1",
     "style": "dreambooth",
-    "trigger": "modern disney style",
-    "homepage": "https://huggingface.co/nitrosocke/modern-disney-diffusion",
     "nsfw": false,
-    "download_all": false,
+    "download_all": true,
     "requires": [
       "clip-vit-large-patch14"
     ],
     "config": {
       "files": [
         {
-          "path": "models/custom/modern_disney_diffusion.ckpt"
+          "path": "models/custom/mo-di-diffusion.ckpt",
+          "md5sum": "393f79603e5cab05307670d0f71a5193"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -446,9 +445,9 @@
       ],
       "download": [
         {
-          "file_name": "modern_disney_diffusion.ckpt",
+          "file_name": "mo-di-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/nitrosocke/modern-disney-diffusion/resolve/main/modernDisney-v1-pruned.ckpt"
+          "file_url": "https://huggingface.co/nitrosocke/mo-di-diffusion/resolve/main/moDi-v1-pruned.ckpt"
         }
       ]
     },
