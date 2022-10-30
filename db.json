@@ -425,7 +425,7 @@
   "mo-di-diffusion": {
     "name": "mo-di-diffusion",
     "type": "ckpt",
-    "description": "Popular animation studio styled generations.",
+    "description": "Popular animation studio modern style generations.",
     "version": "1",
     "style": "dreambooth",
     "trigger": "modern disney style",
