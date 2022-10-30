@@ -453,6 +453,36 @@
     },
     "available": false
   },
+  "Classic Animation Diffusion": {
+    "name": "Classic Animation Diffusion",
+    "type": "ckpt",
+    "description": "Popular animation studio classic style generations.",
+    "version": "1",
+    "style": "dreambooth",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/classic-anim-diffusion.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "classic-anim-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAnim-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "Xynthii-Diffusion": {
     "name": "Xynthii-Diffusion",
     "type": "ckpt",
