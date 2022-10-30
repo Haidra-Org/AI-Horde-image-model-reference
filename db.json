@@ -428,6 +428,8 @@
     "description": "Popular animation studio styled generations.",
     "version": "1",
     "style": "dreambooth",
+    "trigger": "modern disney style",
+    "homepage": "https://huggingface.co/nitrosocke/mo-di-diffusion",
     "nsfw": false,
     "download_all": true,
     "requires": [
@@ -459,6 +461,8 @@
     "description": "Popular animation studio classic style generations.",
     "version": "1",
     "style": "dreambooth",
+    "trigger": "classic disney style",
+    "homepage": "https://huggingface.co/nitrosocke/classic-anim-diffusion",
     "nsfw": false,
     "download_all": true,
     "requires": [
