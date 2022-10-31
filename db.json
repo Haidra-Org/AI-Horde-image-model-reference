@@ -554,6 +554,39 @@
     },
     "available": false
   },
+  "Tron Legacy Diffusion ": {
+    "name": "Tron Legacy Diffusion ",
+    "type": "ckpt",
+    "description": "Tron Legacy movie style",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "trnlgcy ",
+    "homepage": "https://huggingface.co/ogkalu/Comic-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/comic-diffusionTron-Legacy-Style-trnlgcy.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Tron-Legacy-Style-trnlgcy.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt",
+          "hf_auth": true
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
