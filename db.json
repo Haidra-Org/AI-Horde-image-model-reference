@@ -570,7 +570,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/comic-diffusionTron-Legacy-Style-trnlgcy.ckpt",
+          "path": "models/custom/Tron-Legacy-Style-trnlgcy.ckpt",
           "md5sum": "97cd368155eed1d0f71c064e3dcd8553"
         },
         {
