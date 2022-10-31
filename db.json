@@ -554,14 +554,14 @@
     },
     "available": false
   },
-  "Tron Legacy Diffusion ": {
-    "name": "Tron Legacy Diffusion ",
+  "Tron Legacy Diffusion": {
+    "name": "Tron Legacy Diffusion",
     "type": "ckpt",
     "description": "Tron Legacy movie style",
     "version": "1",
     "style": "dreambooth",
-    "trigger": "trnlgcy ",
-    "homepage": "https://huggingface.co/ogkalu/Comic-Diffusion",
+    "trigger": "trnlgcy",
+    "homepage": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -582,6 +582,39 @@
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt",
           "hf_auth": true
+        }
+      ]
+    },
+    "available": false
+  },
+  "Microworlds": {
+    "name": "Microworlds",
+    "type": "ckpt",
+    "description": "Isometric microworlds",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "microworld render style",
+    "homepage": "https://publicprompts.art/microworlds-dreambooth-model/",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/microworld_PublicPrompts.ckpt",
+          "md5sum": "1ea601ec3be285f2dfb220fd8d2887ce"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "microworld_PublicPrompts.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/db0/microworlds/resolve/main/microworld_PublicPrompts.ckpt"
         }
       ]
     },
