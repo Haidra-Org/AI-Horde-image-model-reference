@@ -570,7 +570,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/comic-diffusionTron-Legacy-Style-trnlgcy.ckpt"
+          "path": "models/custom/comic-diffusionTron-Legacy-Style-trnlgcy.ckpt",
+          "md5sum": "97cd368155eed1d0f71c064e3dcd8553"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -580,8 +581,7 @@
         {
           "file_name": "Tron-Legacy-Style-trnlgcy.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt",
-          "hf_auth": true
+          "file_url": "https://huggingface.co/db0/tron-legacy-copy/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt"
         }
       ]
     },
