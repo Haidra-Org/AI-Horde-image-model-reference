@@ -373,7 +373,7 @@
       "files": [
         {
           "path": "models/custom/elden_ring_diffusion.ckpt",
-          "md5sum": "bb51785c2b5d524fa626c9b0727e7fdb"
+          "md5sum": "bcc5873b5278e6a383fb86665bc84468"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -383,7 +383,7 @@
         {
           "file_name": "elden_ring_diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenring-v2-pruned.ckpt"
+          "file_url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenRing-v3-pruned.ckpt"
         }
       ]
     },
