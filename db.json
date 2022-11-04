@@ -620,38 +620,6 @@
     },
     "available": false
   },
-  "Zeipher Female Model": {
-    "name": "Zeipher Female Model",
-    "type": "ckpt",
-    "description": "For creating images of nude solo women",
-    "version": "F111",
-    "style": "NSFW",
-    "homepage": "https://ai.zeipher.com/",
-    "nsfw": true,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/zeipher_female.ckpt",
-          "md5sum": "ed119c704e6a33cb5362e5f0e0455ad0"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-    "download": [
-      {
-        "file_name": "zeipher_female.ckpt",
-        "file_path": "models/custom",
-        "file_url": "https://huggingface.co/Reachout/F111/blob/main/f111.ckpt"
-      }
-    ]
-   },
-   "available": false
-  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
