@@ -686,6 +686,39 @@
     },
     "available": false
   },
+  "Borderlands": {
+    "name": "Borderlands",
+    "type": "ckpt",
+    "description": "Based on Borderlands video game style, trained on characters and scenes",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "borderlands",
+    "homepage": "https://huggingface.co/PublicPrompts/borderlands",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/borderlands.ckpt",
+          "md5sum": "bbea57acf5c527e47db649804e0d7a20"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "borderlands.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/PublicPrompts/borderlands/resolve/main/borderlands.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
