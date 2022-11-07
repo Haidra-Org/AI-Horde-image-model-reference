@@ -625,7 +625,7 @@
     "name": "Zeipher Female Model",
     "type": "ckpt",
     "description": "For creating images of nude solo women",
-    "version": "111",
+    "version": "222",
     "style": "NSFW",
     "homepage": "https://ai.zeipher.com/",
     "nsfw": true,
@@ -636,8 +636,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/f111.ckpt",
-          "md5sum": "539b4cb7fde194b56fa76eee640e77c6"
+          "path": "models/custom/f222.ckpt",
+          "md5sum": "900436d0801d1804fd52f269257fce9f"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -645,9 +645,9 @@
       ],
     "download": [
       {
-        "file_name": "f111.ckpt",
+        "file_name": "f222.ckpt",
         "file_path": "models/custom",
-        "file_url": "https://huggingface.co/Reachout/F111/resolve/main/f111.ckpt"
+        "file_url": "https://huggingface.co/Reachout/F222/resolve/main/f222.ckpt"
       }
     ]
    },
