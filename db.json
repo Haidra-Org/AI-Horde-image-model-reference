@@ -653,6 +653,39 @@
    },
    "available": false
   },
+  "Redshift Diffusion": {
+    "name": "Redshift Diffusion",
+    "type": "ckpt",
+    "description": "Dreambooth model trained on high resolution 3D artworks",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "redshift style",
+    "homepage": "https://huggingface.co/nitrosocke/redshift-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/redshift.ckpt",
+          "md5sum": "ab2ae074f9ee9460d4244fb2cb1ade65"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "redshift.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/redshift-diffusion-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
