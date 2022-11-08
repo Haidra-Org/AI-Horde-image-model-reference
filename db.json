@@ -719,6 +719,39 @@
     },
     "available": false
   },
+  "Cyberpunk Anime Diffusion": {
+    "name": "Cyberpunk Anime Diffusion",
+    "type": "ckpt",
+    "description": "Cyberpunk anime characters",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "dgs illustration style",
+    "homepage": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Cyberpunk-Anime-Diffusion.ckpt",
+          "md5sum": "12151c617aaadf6ba87d30997b0b7190"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Cyberpunk-Anime-Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion/resolve/main/Cyberpunk-Anime-Diffusion.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
