@@ -725,7 +725,7 @@
     "description": "Cyberpunk anime characters",
     "version": "1",
     "style": "dreambooth",
-    "trigger": "dgs illustration style",
+    "trigger": "dgs, illustration style",
     "homepage": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -780,6 +780,72 @@
           "file_name": "mdjrny-v4.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/prompthero/midjourney-v4-diffusion/resolve/main/mdjrny-v4.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Papercut Diffusion": {
+    "name": "Papercut Diffusion",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on Paper cut images",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "PaperCut",
+    "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PaperCut_v1.ckpt",
+          "md5sum": "353d94ec1c790b12aa01c1077a70848c"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PaperCut_v1.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model/resolve/main/PaperCut_v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "AIO Pixel Art": {
+    "name": "AIO Pixel Art",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "pixel sprite, 16bitscene",
+    "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/AIO-Pixel-Art.ckpt",
+          "md5sum": "c00345a631cca93c5cc19fbeb59ea8fc"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "AIO-Pixel-Art.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/PublicPrompts/All-In-One-Pixel-Model/resolve/main/Public-Prompts-Pixel-Model.ckpt"
         }
       ]
     },
