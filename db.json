@@ -752,6 +752,39 @@
     },
     "available": false
   },
+  "Midjourney Diffusion": {
+    "name": "Midjourney Diffusion",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on Midjourney v4 images",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "mdjrny-v4 style",
+    "homepage": "https://huggingface.co/prompthero/midjourney-v4-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/mdjrny-v4.ckpt",
+          "md5sum": "241bfa51943fe0b52aa695bcaa142b3b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "mdjrny-v4.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/prompthero/midjourney-v4-diffusion/resolve/main/mdjrny-v4.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
