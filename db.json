@@ -917,6 +917,38 @@
     },
     "available": false
   },
+  "Mega Merge Diffusion": {
+    "name": "Mega Merge Diffusion",
+    "type": "ckpt",
+    "description": "SD 1.5 merged with 17 other models",
+    "version": "1",
+    "style": "generalist nsfw",
+    "homepage": "https://huggingface.co/ShinCore/MMDv1-18",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "mega-merge-diffusion-a.ckpt",
+          "md5sum": "8b4d66961604d1a64ca8f8bca3797dd6"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "mega-merge-diffusion-a.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERGE%20ALPHA.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
