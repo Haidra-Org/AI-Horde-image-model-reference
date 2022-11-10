@@ -932,7 +932,7 @@
     "config": {
       "files": [
         {
-          "path": "mega-merge-diffusion-a.ckpt",
+          "path": "models/custom/mega-merge-diffusion-a.ckpt",
           "md5sum": "8b4d66961604d1a64ca8f8bca3797dd6"
         },
         {
