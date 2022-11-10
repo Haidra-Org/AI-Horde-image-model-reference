@@ -884,6 +884,39 @@
     },
     "available": false
   },
+  "App Icon Diffusion": {
+    "name": "App Icon Diffusion",
+    "type": "ckpt",
+    "description": "Dreambooth model fine tuned on mobile app icons",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "IconsMi",
+    "homepage": "https://huggingface.co/jvkape/IconsMI-AppIconsModelforSD",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/app-icon-diffusion-2k.ckpt",
+          "md5sum": "93ed6d6d23be0dde878223a13d6a715e"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "app-icon-diffusion-2k.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/jvkape/IconsMI-AppIconsModelforSD/resolve/main/IconsMi_step_2000.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
