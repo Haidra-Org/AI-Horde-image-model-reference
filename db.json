@@ -851,6 +851,39 @@
     },
     "available": false
   },
+  "JWST Deep Space Diffusion": {
+    "name": "JWST Deep Space Diffusion",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on JWST imagery",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "jwst",
+    "homepage": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/JWST-Deep-Space.ckpt",
+          "md5sum": "609109e33a48306701a463e0497a7326"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "JWST-Deep-Space.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/resolve/main/JWST-Deep-Space.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
