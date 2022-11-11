@@ -985,7 +985,7 @@
   "Van Gogh Diffusion": {
     "name": "Van Gogh Diffusion",
     "type": "ckpt",
-    "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent",
+    "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
     "version": "1",
     "style": "dreambooth",
     "trigger": "lvngvncnt",
@@ -1010,6 +1010,38 @@
           "file_name": "Van-Gogh-Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/dallinmackay/Van-Gogh-diffusion/resolve/main/Van-Gogh-Style-lvngvncnt-v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Anything Diffusion": {
+    "name": "Anything Diffusion",
+    "type": "ckpt",
+    "description": "Highly detailed Anime styled generations",
+    "version": "3",
+    "style": "anime",
+    "homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Anything-v3.ckpt",
+          "md5sum": "0aa33de6b36c239ba579e73edf10a026"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Anything-Diffusion-v3.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.ckpt"
         }
       ]
     },
