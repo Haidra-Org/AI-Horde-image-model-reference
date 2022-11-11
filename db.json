@@ -1030,7 +1030,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/Anything-v3.ckpt",
+          "path": "models/custom/Anything-Diffusion-v3.ckpt",
           "md5sum": "0aa33de6b36c239ba579e73edf10a026"
         },
         {
