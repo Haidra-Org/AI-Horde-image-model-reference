@@ -825,7 +825,7 @@
     "version": "1",
     "style": "dreambooth",
     "trigger": "pixel sprite, 16bitscene",
-    "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model",
+    "homepage": "https://huggingface.co/PublicPrompts/All-In-One-Pixel-Model",
     "nsfw": false,
     "download_all": false,
     "requires": [
