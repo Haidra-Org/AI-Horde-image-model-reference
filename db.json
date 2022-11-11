@@ -1047,6 +1047,39 @@
     },
     "available": false
   },
+  "BubblyDubbly": {
+    "name": "BubblyDubbly",
+    "type": "ckpt",
+    "description": "Dreamy sketched/painted portraits",
+    "version": "1",
+    "style": "dreambooth",
+    "trigger": "art by bubblydubbly",
+    "homepage": "https://huggingface.co/Marre-Barre/bubblydubbly",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/bubblydubbly_7k.ckpt",
+          "md5sum": "fedc9d27158d97011c3d2ea7f1c46d9b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "bubblydubbly_7k.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Marre-Barre/bubblydubbly/resolve/main/bubblydubbly_7k.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
