@@ -1080,6 +1080,38 @@
     },
     "available": false
   },
+  "Dungeons and Diffusion": {
+    "name": "Dungeons and Diffusion",
+    "type": "ckpt",
+    "description": "Generates D&D styled characters, trained on art commissions",
+    "version": "1",
+    "style": "dreambooth",
+    "homepage": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Dungeons-and-Diffusion-30k.ckpt",
+          "md5sum": "591fb04c1cfceb7bac7aeedc6be8b030"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Dungeons-and-Diffusion-30k.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/resolve/main/model30000.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
