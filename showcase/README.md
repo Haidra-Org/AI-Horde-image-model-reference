@@ -8,6 +8,7 @@ grid resolution: 1536x1536
 grid format: webp
 (3) or more prompt variations
 ```
+Below are optional steps in case you are not familiar with photo editors; fairly simple way to create a image grid
 Instructions
 1. Paste the following code into the yaml text field
 2. Load (9) images
@@ -34,4 +35,17 @@ shadow:
   offsetX: 0
   offsetY: 0
 
+```
+
+## Link showcase to Json
+[nataili-model-reference/db.json](../db.json)
+
+```json
+"Anything Diffusion": {
+    "name": "Anything Diffusion",
+    "type": "ckpt",
+    "description": "Highly detailed Anime styled generations",
+    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/EXAMPLE_Anything_Diffusion.webp",
+    "version": "3",
+    "style": "anime",
 ```
