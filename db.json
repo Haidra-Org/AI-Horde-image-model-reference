@@ -525,10 +525,10 @@
   "Comic-Diffusion": {
     "name": "Comic-Diffusion",
     "type": "ckpt",
-    "description": "Western Comic book style",
-    "version": "1",
+    "description": "Western Comic book style, tokens are charliebo, holliemengert, pepelarraz, andreasrocha, jamesdaly",
+    "version": "2",
     "style": "comic book, 2d vector",
-    "trigger": "comicmay artsyle",
+    "trigger": "charliebo artsyle",
     "homepage": "https://huggingface.co/ogkalu/Comic-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -538,8 +538,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/comic-diffusion.ckpt",
-          "md5sum": "bf4c240f0883090c33722370a46f556f"
+          "path": "models/custom/comic-diffusion-v2.ckpt",
+          "md5sum": "f5f797366a3684e56e1eefaf4ce57a0f"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -547,9 +547,9 @@
       ],
       "download": [
         {
-          "file_name": "comic-diffusion.ckpt",
+          "file_name": "comic-diffusion-v2.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/ogkalu/Comic-Diffusion/resolve/main/comic-diffusion.ckpt"
+          "file_url": "https://huggingface.co/ogkalu/Comic-Diffusion/resolve/main/comic-diffusion-V2.ckpt"
         }
       ]
     },
