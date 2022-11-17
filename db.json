@@ -1120,10 +1120,10 @@
   "Clazy": {
     "name": "Clazy",
     "type": "ckpt",
-    "description": ["Generates clay-like figures"],
+    "description": "Generates clay-like figures",
     "version": "1",
     "style": "clay",
-    "trigger": "clazy style",
+    "trigger": ["clazy style"],
     "homepage": "https://huggingface.co/Signorlimone/Clazy",
     "nsfw": false,
     "download_all": false,
