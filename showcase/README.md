@@ -45,11 +45,11 @@ shadow:
     "name": "Anything Diffusion",
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/EXAMPLE_Anything_Diffusion.webp",
+    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion.webp",
     "version": "3",
     "style": "anime",
 ```
 ## Example Image
 Anything Diffusion
-![alt text](https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/EXAMPLE_Anything_Diffusion.webp "Anything Diffusion")
+![alt text](https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion.webp "Anything Diffusion")
 
