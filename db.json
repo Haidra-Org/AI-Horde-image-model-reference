@@ -270,6 +270,10 @@
     "name": "Arcane Diffusion",
     "type": "ckpt",
     "description": "Based on the Arcane TV show",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/01_bigdowg.jpg",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/02_bigdowg.jpg"
+    ],
     "version": "3",
     "style": "cel shading",
     "trigger": ["arcane style"],
@@ -1209,10 +1213,6 @@
     "name": "Nitro Diffusion",
     "type": "ckpt",
     "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/01_bigdowg.jpg",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/02_bigdowg.jpg"
-    ],
     "version": "1",
     "style": "Multi-style Portraits/Landscapes",
     "trigger": ["archer style", "arcane style", "modern disney style"],
