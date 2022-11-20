@@ -656,9 +656,9 @@
    "Zeipher Female Model": {
     "name": "Zeipher Female Model",
     "type": "ckpt",
-    "description": "For creating images of nude solo women",
+    "description": "For creating images of nude solo women. Also known as f222",
     "version": "222",
-    "style": "boudoir photography",
+    "style": "f222, boudoir photography",
     "homepage": "https://ai.zeipher.com/",
     "nsfw": true,
     "download_all": false,
