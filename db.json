@@ -376,6 +376,9 @@
     "name": "Elden Ring Diffusion",
     "type": "ckpt",
     "description": "Based on the Elden Ring video game style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp"
+    ],
     "version": "2",
     "style": "modern game engine",
     "trigger": ["elden ring style"],
