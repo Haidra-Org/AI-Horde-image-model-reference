@@ -1173,8 +1173,8 @@
     "description": "Generates clay-like figures",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/01_bigdowg.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/02_bigdowg.jpg"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/02_bigdowg.jpg"
     ],
     "version": "1",
     "style": "clay",
