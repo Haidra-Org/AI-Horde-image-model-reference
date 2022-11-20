@@ -76,7 +76,7 @@
     "description": "Anime styled generations.",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeuklane.webp"
     ],
     "version": "1.3",
     "style": "anime",
@@ -204,7 +204,7 @@
     "description": "Manga styled generations.",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart/01_monarch.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -404,7 +404,7 @@
     "description": "Robot oriented drawing style",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "2D portrait render",
@@ -441,7 +441,7 @@
     "description": "Popular animation studio modern style generations.",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "storybook realism",
@@ -476,6 +476,9 @@
     "name": "Classic Animation Diffusion",
     "type": "ckpt",
     "description": "Popular animation studio classic style generations.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/classic_animation_diffusion/01_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "timeless storybook",
     "trigger": ["classic disney style"],
@@ -608,6 +611,9 @@
     "name": "Microworlds",
     "type": "ckpt",
     "description": "Isometric microworlds",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/01_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "3d render",
     "trigger": ["microworld render style"],
@@ -673,6 +679,9 @@
     "name": "Redshift Diffusion",
     "type": "ckpt",
     "description": "Dreambooth model trained on high resolution 3D artworks",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/redshift/01_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "cinema4D",
     "trigger": ["redshift style"],
@@ -774,7 +783,7 @@
     "description": "Stable Diffusion fine tuned on Midjourney v4 images",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "generalist",
@@ -809,6 +818,9 @@
     "name": "Papercut Diffusion",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Paper cut images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/papercut/01_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "paper cutout art",
     "trigger": ["PaperCut"],
@@ -844,7 +856,7 @@
     "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art.webp",
     "showcases": [
-        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art.webp"
+        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
       ],
     "version": "1",
     "style": "pixle art",
@@ -881,7 +893,7 @@
     "description": "Stable Diffusion fine tuned on JWST imagery",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "space",
@@ -918,7 +930,7 @@
     "description": "Dreambooth model fine tuned on mobile app icons",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "icons",
@@ -1020,7 +1032,7 @@
     "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "painting",
@@ -1057,7 +1069,7 @@
     "description": "Highly detailed Anime styled generations",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp"
     ],
     "version": "3",
     "style": "anime",
@@ -1091,6 +1103,9 @@
     "name": "BubblyDubbly",
     "type": "ckpt",
     "description": "Dreamy sketched/painted portraits",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/01_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "painting",
     "trigger": ["art by bubblydubbly"],
@@ -1158,7 +1173,8 @@
     "description": "Generates clay-like figures",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/02_bigdowg.jpg"
     ],
     "version": "1",
     "style": "clay",
@@ -1193,6 +1209,10 @@
     "name": "Nitro Diffusion",
     "type": "ckpt",
     "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/01_bigdowg.jpg",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/02_bigdowg.jpg"
+    ],
     "version": "1",
     "style": "Multi-style Portraits/Landscapes",
     "trigger": ["archer style", "arcane style", "modern disney style"],
