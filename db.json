@@ -76,7 +76,7 @@
     "description": "Anime styled generations.",
     "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion.webp",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeuklane.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp"
     ],
     "version": "1.3",
     "style": "anime",
