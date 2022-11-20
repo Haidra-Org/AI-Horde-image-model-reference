@@ -340,6 +340,9 @@
     "name": "Archer Diffusion",
     "type": "ckpt",
     "description": "Based on the Archer's TV show animation style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "trigger": ["archer style"],
     "style": "comic book, 2d vector",
@@ -516,6 +519,9 @@
     "name": "Xynthii-Diffusion",
     "type": "ckpt",
     "description": "Xynthii-Diffusion (cyclops monster girls)",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/xynthii_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "neon drawing",
     "trigger": ["xynthii"],
