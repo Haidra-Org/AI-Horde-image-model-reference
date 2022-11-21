@@ -1120,7 +1120,8 @@
     "type": "ckpt",
     "description": "Dreamy sketched/painted portraits",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/01_bigdowg.jpg"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/02_bigdowg.webp"
     ],
     "version": "1",
     "style": "painting",
