@@ -307,6 +307,9 @@
     "name": "Spider-Verse Diffusion",
     "type": "ckpt",
     "description": "Based on the Into the Spider-Verse movie's animation style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/spider_verse_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "cgi, comic book",
     "trigger": ["spiderverse style"],
