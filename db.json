@@ -1010,6 +1010,9 @@
     "name": "Voxel Art Diffusion",
     "type": "ckpt",
     "description": "Stable Diffusion fine-tuned on voxel art style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/voxel_art_diffusion/01_dethinhfil.webp"
+    ],
     "version": "1",
     "style": "voxel art",
     "trigger": ["VoxelArt"],
