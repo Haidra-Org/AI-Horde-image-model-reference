@@ -1294,6 +1294,39 @@
     },
     "available": false
   },
+  "Synthwave": {
+    "name": "Synthwave",
+    "type": "ckpt",
+    "description": "Stable Diffusion model to create images in Synthwave/outrun style",
+    "version": "1",
+    "style": "neon lines",
+    "trigger": ["snthwve style"],
+    "homepage": "https://huggingface.co/PublicPrompts/Synthwave",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/synthwave.ckpt",
+          "md5sum": "99d37805cab8f98fc07c741345ab9a56"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "synthwave.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/PublicPrompts/Synthwave/resolve/main/snthwve%20style.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
