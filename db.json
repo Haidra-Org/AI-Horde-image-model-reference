@@ -1299,7 +1299,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion model to create images in Synthwave/outrun style",
     "version": "1",
-    "style": "neon lines",
+    "style": "neon lines, portrait/landscape",
     "trigger": ["snthwve style"],
     "homepage": "https://huggingface.co/PublicPrompts/Synthwave",
     "nsfw": false,
