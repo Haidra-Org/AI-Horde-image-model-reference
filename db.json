@@ -1259,6 +1259,9 @@
     "name": "Samdoesarts Ultmerge",
     "type": "ckpt",
     "description": "Portraits in the style of Sam Yang, merged with chewtoy and orange code's models",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/samdoesarts_ultmerge/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "painted portraits",
     "trigger": ["samdoesarts style"],
