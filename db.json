@@ -3,6 +3,9 @@
     "name": "stable_diffusion",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_bigdowg.webp"
+    ],
     "version": "1.5",
     "style": "generalist",
     "nsfw": false,
@@ -35,6 +38,9 @@
     "name": "stable_diffusion_1.4",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_1.4/01_bigdowg.webp"
+    ],
     "version": "1.4",
     "style": "generalist",
     "nsfw": false,
@@ -1333,7 +1339,7 @@
     "description": "Generate beautiful vector illustration",
     "version": "1",
     "style": "vector art",
-    "trigger": "vectorartz",
+    "trigger": ["vectorartz"],
     "homepage": "https://huggingface.co/coder119/Vectorartz_Diffusion",
     "nsfw": false,
     "download_all": false,
