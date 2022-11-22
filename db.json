@@ -1340,6 +1340,9 @@
     "name": "vectorartz",
     "type": "ckpt",
     "description": "Generate beautiful vector illustration",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/01.webp"
+    ],
     "version": "1",
     "style": "vector art",
     "trigger": ["vectorartz"],
