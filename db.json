@@ -147,7 +147,8 @@
     "type": "ckpt",
     "description": "Furry styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/01_pika.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/02_bigdowg.webp"
     ],
     "version": "18",
     "style": "furry",
@@ -1307,6 +1308,9 @@
     "name": "Synthwave",
     "type": "ckpt",
     "description": "Stable Diffusion model to create images in Synthwave/outrun style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/synthwave/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "neon lines, portrait/landscape",
     "trigger": ["snthwve style"],
@@ -1341,7 +1345,8 @@
     "type": "ckpt",
     "description": "Generate beautiful vector illustration",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/01.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/01.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/02_bigdowg.webp"
     ],
     "version": "1",
     "style": "vector art",
