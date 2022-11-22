@@ -146,6 +146,9 @@
     "name": "Yiffy",
     "type": "ckpt",
     "description": "Furry styled generations.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/01_bigdowg.webp"
+    ],
     "version": "18",
     "style": "furry",
     "nsfw": false,
