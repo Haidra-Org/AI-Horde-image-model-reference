@@ -1476,6 +1476,39 @@
     },
     "available": false
   },
+  "Guohua Diffusion": {
+    "name": "Guohua Diffusion",
+    "type": "ckpt",
+    "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
+    "version": "1",
+    "style": "painting",
+    "trigger": ["guohua style"],
+    "homepage": "https://huggingface.co/Langboat/Guohua-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/guohua-diffusion.ckpt",
+          "md5sum": "031f1e1bb108048028c55d729d1c26d7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "guohua-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Langboat/Guohua-Diffusion/resolve/main/guohua.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
