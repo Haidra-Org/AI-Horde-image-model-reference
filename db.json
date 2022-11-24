@@ -1,4 +1,33 @@
 {
+  "stable_diffusion_2.0": {
+		"name": "stable_diffusion_2.0",
+		"type": "ckpt",
+		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+		"version": "2.0",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"requires": ["clip-vit-large-patch14"],
+		"config": {
+			"files": [
+				{
+					"path": "models/ldm/stable-diffusion-v2/model_2_0.ckpt",
+					"md5sum": "48cb3980ec03a370b68bd0a9d8eefece"
+				},
+				{
+					"path": "configs/stable-diffusion/v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "model_2_0.ckpt",
+					"file_path": "models/ldm/stable-diffusion-v2",
+					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
   "stable_diffusion": {
     "name": "stable_diffusion",
     "type": "ckpt",
