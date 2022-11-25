@@ -602,7 +602,7 @@
     "description": "Western Comic book style",
     "version": "2",
     "style": "comic book, 2d vector",
-    "trigger": ["charliebo artsyle","holliemengert artstyle","pepelarraz artstyle","andreasrocha artstyle","jamesdaly artstyle"],
+    "trigger": ["charliebo artstyle","holliemengert artstyle","pepelarraz artstyle","andreasrocha artstyle","jamesdaly artstyle"],
     "homepage": "https://huggingface.co/ogkalu/Comic-Diffusion",
     "nsfw": false,
     "download_all": false,
