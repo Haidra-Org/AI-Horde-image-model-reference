@@ -843,7 +843,7 @@
     "version": "1",
     "style": "generalist",
     "trigger": ["mdjrny-v4 style"],
-    "homepage": "https://huggingface.co/prompthero/midjourney-v4-diffusion",
+    "homepage": "https://huggingface.co/prompthero/openjourney",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -914,8 +914,8 @@
         "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
       ],
     "version": "1",
-    "style": "pixle art",
-    "trigger": ["pixel sprite", "16bitscene"],
+    "style": "pixel art",
+    "trigger": ["pixelsprite", "16bitscene"],
     "homepage": "https://huggingface.co/PublicPrompts/All-In-One-Pixel-Model",
     "nsfw": false,
     "download_all": false,
