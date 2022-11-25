@@ -109,7 +109,6 @@
     "name": "waifu_diffusion",
     "type": "ckpt",
     "description": "Anime styled generations.",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp"
     ],
@@ -241,7 +240,6 @@
     "name": "trinart",
     "type": "ckpt",
     "description": "Manga styled generations.",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart/01_monarch.webp"
     ],
@@ -454,7 +452,6 @@
     "name": "Robo-Diffusion",
     "type": "ckpt",
     "description": "Robot oriented drawing style",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion/01_bigdowg.webp"
     ],
@@ -491,7 +488,6 @@
     "name": "mo-di-diffusion",
     "type": "ckpt",
     "description": "Popular animation studio modern style generations.",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
     ],
@@ -836,7 +832,6 @@
     "name": "Midjourney Diffusion",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Midjourney v4 images",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
     ],
@@ -909,7 +904,6 @@
     "name": "AIO Pixel Art",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art.webp",
     "showcases": [
         "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
       ],
@@ -946,7 +940,6 @@
     "name": "JWST Deep Space Diffusion",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on JWST imagery",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion/01_bigdowg.webp"
     ],
@@ -983,7 +976,6 @@
     "name": "App Icon Diffusion",
     "type": "ckpt",
     "description": "Dreambooth model fine tuned on mobile app icons",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion/01_bigdowg.webp"
     ],
@@ -1088,7 +1080,6 @@
     "name": "Van Gogh Diffusion",
     "type": "ckpt",
     "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
     ],
@@ -1125,7 +1116,6 @@
     "name": "Anything Diffusion",
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp"
     ],
@@ -1198,6 +1188,10 @@
     "name": "Dungeons and Diffusion",
     "type": "ckpt",
     "description": "Generates D&D styled characters, trained on art commissions",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
+    ],
     "version": "1",
     "style": "realistic fantasy render",
     "homepage": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion",
@@ -1230,7 +1224,6 @@
     "name": "Clazy",
     "type": "ckpt",
     "description": "Generates clay-like figures",
-    "showcase": "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy.webp",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/01_bigdowg.webp",
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/02_bigdowg.jpg"
