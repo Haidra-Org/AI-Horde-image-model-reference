@@ -698,6 +698,9 @@
     "name": "Zeipher Female Model",
     "type": "ckpt",
     "description": "For creating images of nude solo women. Also known as f222",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zeipher_female_model/01_bigdowg.webp"
+    ],
     "version": "222",
     "style": "f222, boudoir photography",
     "homepage": "https://ai.zeipher.com/",
