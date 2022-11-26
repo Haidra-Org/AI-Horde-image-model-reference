@@ -802,6 +802,9 @@
     "name": "Cyberpunk Anime Diffusion",
     "type": "ckpt",
     "description": "Cyberpunk anime characters",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyberpunk_anime_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "futuristic anime",
     "trigger": ["dgs", "illustration style"],
