@@ -3,6 +3,9 @@
 		"name": "stable_diffusion_2.0",
 		"type": "ckpt",
 		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+    ],
 		"version": "2.0",
 		"style": "generalist",
 		"nsfw": false,
@@ -1544,6 +1547,9 @@
     "name": "Inkpunk Diffusion",
     "type": "ckpt",
     "description": "inspired by Gorillaz art, FLCL and Yoji Shinkawa. Trained on images generated from Midjourney",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/inkpunk_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "inkpunk",
     "trigger": ["nvinkpunk"],
