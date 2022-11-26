@@ -1534,6 +1534,72 @@
     },
     "available": false
   },
+  "Inkpunk Diffusion": {
+    "name": "Inkpunk Diffusion",
+    "type": "ckpt",
+    "description": "inspired by Gorillaz art, FLCL and Yoji Shinkawa. Trained on images generated from Midjourney",
+    "version": "1",
+    "style": "inkpunk",
+    "trigger": ["nvinkpunk"],
+    "homepage": "https://huggingface.co/Envvi/Inkpunk-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/inkpunk-diffusion.ckpt",
+          "md5sum": "c00d7f3613331ce86c71f7e1ea3b41e7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "inkpunk-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Envvi/Inkpunk-Diffusion/resolve/main/inkpunk-diffusion-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Fantasy Card Diffusion": {
+    "name": "Fantasy Card Diffusion",
+    "type": "ckpt",
+    "description": "fantasy trading card style art, trained on all currently available Magic: the Gathering card art",
+    "version": "1",
+    "style": "tcg",
+    "trigger": ["mtg card art"],
+    "homepage": "https://huggingface.co/volrath50/fantasy-card-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/fantasy-card-diffusion.ckpt",
+          "md5sum": "fb073a4b1103bd33a7bb636bb154475a"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "fantasy-card-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/volrath50/fantasy-card-diffusion/resolve/main/fantasycarddiffusion_140000.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
