@@ -1442,6 +1442,9 @@
     "name": "Ghibli Diffusion",
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on images from Studio Ghibli feature films",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ghibli_diffusion/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "anime",
     "trigger": ["ghibli style"],
