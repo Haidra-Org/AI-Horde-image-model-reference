@@ -1612,6 +1612,39 @@
     },
     "available": false
   },
+  "Knollingcase": {
+    "name": "Knollingcase",
+    "type": "ckpt",
+    "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
+    "version": "1",
+    "style": "isometric display case",
+    "trigger": ["knollingcase"],
+    "homepage": "https://huggingface.co/Aybeeceedee/knollingcase",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/knollingcase.ckpt",
+          "md5sum": "b5be9d0a6f493ab0703ab3cbb28a3aa5"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "knollingcase.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Aybeeceedee/knollingcase/resolve/main/knollingcase.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
