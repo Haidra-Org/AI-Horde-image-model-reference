@@ -1550,7 +1550,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/inkpunk_diffusion/01_bigdowg.webp"
     ],
-    "version": "1",
+    "version": "2",
     "style": "inkpunk",
     "trigger": ["nvinkpunk"],
     "homepage": "https://huggingface.co/Envvi/Inkpunk-Diffusion",
@@ -1563,7 +1563,7 @@
       "files": [
         {
           "path": "models/custom/inkpunk-diffusion.ckpt",
-          "md5sum": "c00d7f3613331ce86c71f7e1ea3b41e7"
+          "md5sum": "6a802d2914a08393e656b336f837efc7"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1573,7 +1573,7 @@
         {
           "file_name": "inkpunk-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Envvi/Inkpunk-Diffusion/resolve/main/inkpunk-diffusion-v1.ckpt"
+          "file_url": "https://huggingface.co/Envvi/Inkpunk-Diffusion/resolve/main/inkpunk-diffusion-v2.ckpt"
         }
       ]
     },
