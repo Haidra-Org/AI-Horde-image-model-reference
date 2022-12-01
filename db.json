@@ -1481,6 +1481,9 @@
     "name": "Hentai Diffusion",
     "type": "ckpt",
     "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
+    ],
     "version": "17",
     "style": "anime",
     "trigger": ["1girl, anime"],
