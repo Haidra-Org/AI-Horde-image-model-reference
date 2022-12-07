@@ -1,4 +1,35 @@
 {
+  "stable_diffusion_2.1": {
+		"name": "stable_diffusion_2.1",
+		"type": "ckpt",
+		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+    ],
+		"version": "2.1",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"requires": ["clip-vit-large-patch14"],
+		"config": {
+			"files": [
+				{
+					"path": "models/ldm/stable-diffusion-v2/model_2_1.ckpt"
+				},
+				{
+					"path": "configs/stable-diffusion/v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "model_2_1.ckpt",
+					"file_path": "models/ldm/stable-diffusion-v2",
+					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
   "stable_diffusion_2.0": {
 		"name": "stable_diffusion_2.0",
 		"type": "ckpt",
