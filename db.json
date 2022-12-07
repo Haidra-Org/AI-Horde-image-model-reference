@@ -1847,6 +1847,9 @@
     "name": "Dawgsmix",
     "type": "ckpt",
     "description": "anime and realistic anatomy focused merged of anything , trinart , f222 , sd1.5",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dawgsmix/01_bigdowg.webp"
+    ],
     "version": "1",
     "style": "realistic anime",
     "homepage": "https://huggingface.co/bigdog/Dawgsmix",
@@ -1870,6 +1873,105 @@
           "file_name": "biggdawgs_mix.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/bigdog/Dawgsmix/resolve/main/BIGGdawgs_mix.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Papercutcraft": {
+    "name": "Papercutcraft",
+    "type": "ckpt",
+    "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
+    "version": "1",
+    "style": "paper cutout art",
+    "trigger":["papercutcraft style"],
+    "homepage": "https://huggingface.co/OlafII/papercutcraft-v1",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/papercutcraft.ckpt",
+          "md5sum": "9f37ef2b28367a64272f3350a92031fe"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "papercutcraft.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/OlafII/papercutcraft-v1/resolve/main/papercutcraft-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Kurzgesagtish": {
+    "name": "Kurzgesagtish",
+    "type": "ckpt",
+    "description": "artstyle compareable to the Kurzgesagt YouTube channel,",
+    "version": "1",
+    "style": "vector art",
+    "trigger":["illustration style kurzgesagtish"],
+    "homepage": "https://huggingface.co/Imakemodels/Kurzgesagtish",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/kurzgesagtish.ckpt",
+          "md5sum": "d5feba6c60982ee4bc9e900473c890d4"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "kurzgesagtish.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Imakemodels/Kurzgesagtish/resolve/main/Kurzgesagtishh_0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "ChromaV5": {
+    "name": "ChromaV5",
+    "type": "ckpt",
+    "description": "generates metalic/chrome looking images",
+    "version": "1.6",
+    "style": "generalist",
+    "trigger":["ChromaV5"],
+    "homepage": "https://huggingface.co/SomaMythos/ChromaV5",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/chromav5.ckpt",
+          "md5sum": "2fd4063028dacb05997dba772e002b04"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "chromav5.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/SomaMythos/ChromaV5/resolve/main/ChromaV5.ckpt"
         }
       ]
     },
