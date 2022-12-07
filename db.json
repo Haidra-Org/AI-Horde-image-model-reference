@@ -1521,7 +1521,7 @@
     "style": "anime",
     "trigger": ["1girl, anime"],
     "homepage": "https://github.com/Delcos/Hentai-Diffusion",
-    "nsfw": false,
+    "nsfw": true,
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
