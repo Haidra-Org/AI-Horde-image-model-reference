@@ -2008,6 +2008,39 @@
     },
     "available": false
   },
+  "Dreamlike Diffusion": {
+    "name": "Dreamlike Diffusion",
+    "type": "ckpt",
+    "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
+    "version": "1.0",
+    "style": "generalist",
+    "trigger":["dreamlikeart"],
+    "homepage": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/dreamlike-diffusion.ckpt",
+          "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "dreamlike-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0/resolve/main/dreamlike-diffusion-1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
