@@ -2041,6 +2041,204 @@
     },
     "available": false
   },
+  "Analog Diffusion": {
+    "name": "Analog Diffusion",
+    "type": "ckpt",
+    "description": "A dreambooth model trained on a diverse set of analog photographs",
+    "version": "1.0",
+    "style": "generalist",
+    "trigger":["analog style"],
+    "homepage": "https://huggingface.co/wavymulder/Analog-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/analog-diffusion.ckpt",
+          "md5sum": "73e73310bf9360e8098c1b82975c8dae"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "analog-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/analog-diffusion-1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Asim Simpsons": {
+    "name": "Asim Simpsons",
+    "type": "ckpt",
+    "description": "The Simpsons dreambooth model",
+    "version": "1.0",
+    "style": "cartoon",
+    "trigger":["asim style"],
+    "homepage": "https://huggingface.co/PiyarSquare/sd_asim_simpsons",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/asim-simpsons.ckpt",
+          "md5sum": "cac2a1fcff8f2b1bd1d6e4514e412006"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "asim-simpsons.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/PiyarSquare/sd_asim_simpsons/resolve/main/asim_v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Funko Diffusion": {
+    "name": "Funko Diffusion",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
+    "version": "1.0",
+    "style": "cartoon",
+    "trigger":["funko style"],
+    "homepage": "https://huggingface.co/prompthero/funko-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/funko-diffusion.ckpt",
+          "md5sum": "d2a2a80a8f725d517422259ce16c38fb"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "funko-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/prompthero/funko-diffusion/resolve/main/funko.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Double Exposure Diffusion": {
+    "name": "Double Exposure Diffusion",
+    "type": "ckpt",
+    "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
+    "version": "2.0",
+    "style": "generalist",
+    "trigger":["dublex style, dublex"],
+    "homepage": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/dublex-diffusion.ckpt",
+          "md5sum": "fb7dbe346c6390cf2b2f774e3048d424"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "dublex-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion/resolve/main/Double_Exposure_v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Microscopic": {
+    "name": "Microscopic",
+    "type": "ckpt",
+    "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
+    "version": "1.0",
+    "style": "microscopic",
+    "trigger":["microscopic"],
+    "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_Microscopic_model",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/microscopic-diffusion.ckpt",
+          "md5sum": "c10f35dd08f93b15ef3d346d6fa1b9cf"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "microscopic-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_Microscopic_model/resolve/main/Microscopic_v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Balloon Art": {
+    "name": "Balloon Art",
+    "type": "ckpt",
+    "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
+    "version": "1.0",
+    "style": "balloon",
+    "trigger":["BalloonArt"],
+    "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_BalloonArt_Model",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/balloonart-diffusion.ckpt",
+          "md5sum": "d2b965fc96600d464ae6094d9c8337e7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "balloonart-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_BalloonArt_Model/resolve/main/BalloonArt_v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
