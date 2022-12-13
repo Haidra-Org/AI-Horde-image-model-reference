@@ -1942,14 +1942,14 @@
     },
     "available": false
   },
-  "Kurzgesagtish": {
-    "name": "Kurzgesagtish",
+  "kurzgesagt": {
+    "name": "Kurzgesagt",
     "type": "ckpt",
-    "description": "artstyle compareable to the Kurzgesagt YouTube channel,",
+    "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos,",
     "version": "1",
-    "style": "vector art",
-    "trigger":["illustration style kurzgesagtish"],
-    "homepage": "https://huggingface.co/Imakemodels/Kurzgesagtish",
+    "style": "kurzgesagt artstyle",
+    "trigger":["kurzgesagt style"],
+    "homepage": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -1959,7 +1959,7 @@
       "files": [
         {
           "path": "models/custom/kurzgesagtish.ckpt",
-          "md5sum": "d5feba6c60982ee4bc9e900473c890d4"
+          "md5sum": "f012a7cacd0727eb52978150aa09abbb"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1967,9 +1967,9 @@
       ],
       "download": [
         {
-          "file_name": "kurzgesagtish.ckpt",
+          "file_name": "kurzgesagt-style-v1.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Imakemodels/Kurzgesagtish/resolve/main/Kurzgesagtishh_0.ckpt"
+          "file_url": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune/resolve/main/kurzgesagt-style-v1.ckpt"
         }
       ]
     },
