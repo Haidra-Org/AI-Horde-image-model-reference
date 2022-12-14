@@ -1943,9 +1943,9 @@
     "available": false
   },
   "kurzgesagt": {
-    "name": "Kurzgesagt",
+    "name": "kurzgesagt",
     "type": "ckpt",
-    "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos,",
+    "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of styles from Kurzgesagt videos,",
     "version": "1",
     "style": "kurzgesagt artstyle",
     "trigger":["kurzgesagt style"],
@@ -1958,7 +1958,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/kurzgesagtish.ckpt",
+          "path": "models/custom/kurzgesagt-style-v1.ckpt",
           "md5sum": "f012a7cacd0727eb52978150aa09abbb"
         },
         {
