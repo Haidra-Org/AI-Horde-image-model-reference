@@ -1761,7 +1761,7 @@
       "files": [
         {
           "path": "models/custom/rpg.ckpt",
-          "md5sum": "82b614e555dc2b35fcba86bf62d6ad5e"
+          "md5sum": "e27033b41a06a1f22c49b01cd8d5dd26"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
