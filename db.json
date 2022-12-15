@@ -2239,6 +2239,39 @@
     },
     "available": false
   },
+  "Future Diffusion": {
+    "name": "Balloon Art",
+    "type": "ckpt",
+    "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
+    "version": "1.0",
+    "style": "sci-fi",
+    "trigger":["future style"],
+    "homepage": "https://huggingface.co/nitrosocke/Future-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/future-diffusion.ckpt",
+          "md5sum": "985396d8ee97c1bad8bdbd9dd55b04ae"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "future-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/nitrosocke/Future-Diffusion/resolve/main/future-diffusion-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
