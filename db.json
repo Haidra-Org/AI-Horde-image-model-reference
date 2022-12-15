@@ -2240,7 +2240,7 @@
     "available": false
   },
   "Future Diffusion": {
-    "name": "Balloon Art",
+    "name": "Future Diffusion",
     "type": "ckpt",
     "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
     "version": "1.0",
