@@ -1945,7 +1945,7 @@
   "kurzgesagt": {
     "name": "kurzgesagt",
     "type": "ckpt",
-    "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of styles from Kurzgesagt videos,",
+    "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
     "version": "1",
     "style": "kurzgesagt artstyle",
     "trigger":["kurzgesagt style"],
