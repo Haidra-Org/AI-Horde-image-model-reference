@@ -1,6 +1,7 @@
 {
   "stable_diffusion_2.1": {
 		"name": "stable_diffusion_2.1",
+		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -32,6 +33,7 @@
 	},
   "stable_diffusion_2.0": {
 		"name": "stable_diffusion_2.0",
+		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -64,6 +66,7 @@
 	},
   "stable_diffusion": {
     "name": "stable_diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -99,6 +102,7 @@
   },  
   "stable_diffusion_1.4": {
     "name": "stable_diffusion_1.4",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -141,6 +145,7 @@
   },
   "waifu_diffusion": {
     "name": "waifu_diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anime styled generations.",
     "showcases": [
@@ -175,6 +180,7 @@
   },
   "Furry Epoch": {
     "name": "Furry Epoch",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Furry styled generations.",
     "version": "4",
@@ -206,6 +212,7 @@
   },
   "Yiffy": {
     "name": "Yiffy",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Furry styled generations.",
     "showcases": [
@@ -241,6 +248,7 @@
   },
   "Zack3D": {
     "name": "Zack3D",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Kink/NSFW oriented furry styled generations.",
     "version": "1",
@@ -272,6 +280,7 @@
   },
   "trinart": {
     "name": "trinart",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Manga styled generations.",
     "showcases": [
@@ -306,6 +315,7 @@
   },
   "colorbook": {
     "name": "colorbook",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Minimalist coloring book style images",
     "version": "1",
@@ -339,6 +349,7 @@
   },
   "Arcane Diffusion": {
     "name": "Arcane Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Arcane TV show",
     "showcases": [
@@ -376,6 +387,7 @@
   },
   "Squishmallow Diffusion": {
     "name": "Squishmallow Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Squishmallows",
     "version": "1",
@@ -409,6 +421,7 @@
   },
   "Spider-Verse Diffusion": {
     "name": "Spider-Verse Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Into the Spider-Verse movie's animation style",
     "showcases": [
@@ -445,6 +458,7 @@
   },
   "Archer Diffusion": {
     "name": "Archer Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Archer's TV show animation style",
     "showcases": [
@@ -481,6 +495,7 @@
   },
   "Elden Ring Diffusion": {
     "name": "Elden Ring Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Elden Ring video game style",
     "showcases": [
@@ -517,6 +532,7 @@
   },
   "Robo-Diffusion": {
     "name": "Robo-Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Robot oriented drawing style",
     "showcases": [
@@ -553,6 +569,7 @@
   },
   "mo-di-diffusion": {
     "name": "mo-di-diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Popular animation studio modern style generations.",
     "showcases": [
@@ -589,6 +606,7 @@
   },
   "Classic Animation Diffusion": {
     "name": "Classic Animation Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Popular animation studio classic style generations.",
     "showcases": [
@@ -625,6 +643,7 @@
   },
   "Xynthii-Diffusion": {
     "name": "Xynthii-Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Xynthii-Diffusion (cyclops monster girls)",
     "showcases": [
@@ -661,6 +680,7 @@
   },
   "Comic-Diffusion": {
     "name": "Comic-Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Western Comic book style",
     "version": "2",
@@ -694,6 +714,7 @@
   },
   "Tron Legacy Diffusion": {
     "name": "Tron Legacy Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Tron Legacy movie style",
     "version": "1",
@@ -727,6 +748,7 @@
   },
   "Microworlds": {
     "name": "Microworlds",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Isometric microworlds",
     "showcases": [
@@ -763,6 +785,7 @@
   },
    "Zeipher Female Model": {
     "name": "Zeipher Female Model",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "For creating images of nude solo women. Also known as f222",
     "showcases": [
@@ -798,6 +821,7 @@
   },
   "Redshift Diffusion": {
     "name": "Redshift Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreambooth model trained on high resolution 3D artworks",
     "showcases": [
@@ -834,6 +858,7 @@
   },
   "Borderlands": {
     "name": "Borderlands",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on Borderlands video game style, trained on characters and scenes",
     "version": "1",
@@ -867,6 +892,7 @@
   },
   "Cyberpunk Anime Diffusion": {
     "name": "Cyberpunk Anime Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Cyberpunk anime characters",
     "showcases": [
@@ -903,6 +929,7 @@
   },
   "Midjourney Diffusion": {
     "name": "Midjourney Diffusion",
+		"baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Midjourney v4 images",
     "showcases": [
@@ -939,6 +966,7 @@
   },
   "Papercut Diffusion": {
     "name": "Papercut Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Paper cut images",
     "showcases": [
@@ -975,6 +1003,7 @@
   },
   "AIO Pixel Art": {
     "name": "AIO Pixel Art",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
     "showcases": [
@@ -1011,6 +1040,7 @@
   },
   "JWST Deep Space Diffusion": {
     "name": "JWST Deep Space Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on JWST imagery",
     "showcases": [
@@ -1047,6 +1077,7 @@
   },
   "App Icon Diffusion": {
     "name": "App Icon Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreambooth model fine tuned on mobile app icons",
     "showcases": [
@@ -1083,6 +1114,7 @@
   },
   "Mega Merge Diffusion": {
     "name": "Mega Merge Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "SD 1.5 merged with 17 other models",
     "version": "1",
@@ -1115,6 +1147,7 @@
   },
   "Voxel Art Diffusion": {
     "name": "Voxel Art Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine-tuned on voxel art style",
     "showcases": [
@@ -1151,6 +1184,7 @@
   },
   "Van Gogh Diffusion": {
     "name": "Van Gogh Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
     "showcases": [
@@ -1187,6 +1221,7 @@
   },
   "Anything Diffusion": {
     "name": "Anything Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
     "showcases": [
@@ -1222,6 +1257,7 @@
   },
   "BubblyDubbly": {
     "name": "BubblyDubbly",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreamy sketched/painted portraits",
     "showcases": [
@@ -1259,6 +1295,7 @@
   },
   "Dungeons and Diffusion": {
     "name": "Dungeons and Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generates D&D styled characters, trained on art commissions",
     "showcases": [
@@ -1295,6 +1332,7 @@
   },
   "Clazy": {
     "name": "Clazy",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generates clay-like figures",
     "showcases": [
@@ -1332,6 +1370,7 @@
   },
   "Nitro Diffusion": {
     "name": "Nitro Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
     "version": "1",
@@ -1365,6 +1404,7 @@
   },
   "Samdoesarts Ultmerge": {
     "name": "Samdoesarts Ultmerge",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Portraits in the style of Sam Yang, merged with chewtoy and orange code's models",
     "showcases": [
@@ -1401,6 +1441,7 @@
   },
   "Synthwave": {
     "name": "Synthwave",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion model to create images in Synthwave/outrun style",
     "showcases": [
@@ -1437,6 +1478,7 @@
   },
   "vectorartz": {
     "name": "vectorartz",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generate beautiful vector illustration",
     "showcases": [
@@ -1474,6 +1516,7 @@
   },
   "Ranma Diffusion": {
     "name": "Ranma Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "imitates the style of late '80s early 90's anime, Anything v3 base",
     "version": "1",
@@ -1507,6 +1550,7 @@
   },
   "Ghibli Diffusion": {
     "name": "Ghibli Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on images from Studio Ghibli feature films",
     "showcases": [
@@ -1543,6 +1587,7 @@
   },
   "Hentai Diffusion": {
     "name": "Hentai Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
     "showcases": [
@@ -1579,6 +1624,7 @@
   },
   "Guohua Diffusion": {
     "name": "Guohua Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
     "version": "1",
@@ -1612,6 +1658,7 @@
   },
   "Inkpunk Diffusion": {
     "name": "Inkpunk Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "inspired by Gorillaz art, FLCL and Yoji Shinkawa. Trained on images generated from Midjourney",
     "showcases": [
@@ -1648,6 +1695,7 @@
   },
   "Fantasy Card Diffusion": {
     "name": "Fantasy Card Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "fantasy trading card style art, trained on all currently available Magic: the Gathering card art",
     "version": "1",
@@ -1681,6 +1729,7 @@
   },
   "Knollingcase": {
     "name": "Knollingcase",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
     "version": "1",
@@ -1714,6 +1763,7 @@
   },
   "Midjourney PaintArt": {
     "name": "Midjourney PaintArt",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Midjourney v4 painting style",
     "version": "1",
@@ -1747,6 +1797,7 @@
   },
   "RPG": {
     "name": "RPG",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "portraits of charecters in the style of the game Baldur's Gate",
     "version": "1",
@@ -1779,6 +1830,7 @@
   },
   "Poison": {
     "name": "Poison",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anything Diffusion fine-tuned to produce high-quality realistic anime styled images",
     "version": "1",
@@ -1811,6 +1863,7 @@
   },
   "Eimis Anime Diffusion": {
     "name": "Eimis Anime Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model is trained with high quality and detailed anime images",
     "version": "1",
@@ -1843,6 +1896,7 @@
   },
   "Wavyfusion": {
     "name": "Wavyfusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "dreambooth model trained on a very diverse dataset ranging from photographs to paintings",
     "version": "1",
@@ -1876,6 +1930,7 @@
   },
   "Dawgsmix": {
     "name": "Dawgsmix",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "anime and realistic anatomy focused merged of anything , trinart , f222 , sd1.5",
     "showcases": [
@@ -1911,6 +1966,7 @@
   },
   "Papercutcraft": {
     "name": "Papercutcraft",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
     "version": "1",
@@ -1944,6 +2000,7 @@
   },
   "kurzgesagt": {
     "name": "kurzgesagt",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
     "version": "1",
@@ -1977,6 +2034,7 @@
   },
   "ChromaV5": {
     "name": "ChromaV5",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "generates metalic/chrome looking images",
     "version": "1.6",
@@ -2010,6 +2068,7 @@
   },
   "Dreamlike Diffusion": {
     "name": "Dreamlike Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
     "version": "1.0",
@@ -2043,6 +2102,7 @@
   },
   "Analog Diffusion": {
     "name": "Analog Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A dreambooth model trained on a diverse set of analog photographs",
     "version": "1.0",
@@ -2076,6 +2136,7 @@
   },
   "Asim Simpsons": {
     "name": "Asim Simpsons",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "The Simpsons dreambooth model",
     "version": "1.0",
@@ -2109,6 +2170,7 @@
   },
   "Funko Diffusion": {
     "name": "Funko Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
     "version": "1.0",
@@ -2142,6 +2204,7 @@
   },
   "Double Exposure Diffusion": {
     "name": "Double Exposure Diffusion",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
     "version": "2.0",
@@ -2175,6 +2238,7 @@
   },
   "Microscopic": {
     "name": "Microscopic",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
     "version": "1.0",
@@ -2208,6 +2272,7 @@
   },
   "Balloon Art": {
     "name": "Balloon Art",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
     "version": "1.0",
@@ -2241,6 +2306,7 @@
   },
   "Future Diffusion": {
     "name": "Future Diffusion",
+    "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
     "version": "1.0",
