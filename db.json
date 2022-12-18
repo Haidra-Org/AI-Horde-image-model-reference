@@ -1968,6 +1968,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anything Diffusion fine-tuned to produce high-quality realistic anime styled images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/poison/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "anime",
     "homepage": "https://huggingface.co/Fansy/poison",
