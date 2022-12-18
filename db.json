@@ -1,72 +1,73 @@
 {
   "stable_diffusion_2.1": {
-		"name": "stable_diffusion_2.1",
-		"baseline": "stable diffusion 2",
-		"type": "ckpt",
-		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+    "name": "stable_diffusion_2.1",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "version": "2.1",
+    "style": "generalist",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
     ],
-		"version": "2.1",
-		"style": "generalist",
-		"nsfw": false,
-		"download_all": true,
-		"requires": ["clip-vit-large-patch14"],
-		"config": {
-			"files": [
-				{
-					"path": "models/ldm/stable-diffusion-v2/model_2_1.ckpt"
-				},
-				{
-					"path": "configs/stable-diffusion/v2-inference-v.yaml"
-				}
-			],
-			"download": [
-				{
-					"file_name": "model_2_1.ckpt",
-					"file_path": "models/ldm/stable-diffusion-v2",
-					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
-				}
-			]
-		},
-		"available": false
-	},
+    "config": {
+      "files": [
+        {
+          "path": "models/ldm/stable-diffusion-v2/model_2_1.ckpt"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "model_2_1.ckpt",
+          "file_path": "models/ldm/stable-diffusion-v2",
+          "file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "stable_diffusion_2.0": {
-		"name": "stable_diffusion_2.0",
-		"baseline": "stable diffusion 2",
-		"type": "ckpt",
-		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "name": "stable_diffusion_2.0",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
     ],
-		"version": "2.0",
-		"style": "generalist",
-		"nsfw": false,
-		"download_all": true,
-		"requires": ["clip-vit-large-patch14"],
-		"config": {
-			"files": [
-				{
-					"path": "models/ldm/stable-diffusion-v2/model_2_0.ckpt",
-					"md5sum": "48cb3980ec03a370b68bd0a9d8eefece"
-				},
-				{
-					"path": "configs/stable-diffusion/v2-inference-v.yaml"
-				}
-			],
-			"download": [
-				{
-					"file_name": "model_2_0.ckpt",
-					"file_path": "models/ldm/stable-diffusion-v2",
-					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt"
-				}
-			]
-		},
-		"available": false
-	},
+    "version": "2.0",
+    "style": "generalist",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/ldm/stable-diffusion-v2/model_2_0.ckpt",
+          "md5sum": "48cb3980ec03a370b68bd0a9d8eefece"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "model_2_0.ckpt",
+          "file_path": "models/ldm/stable-diffusion-v2",
+          "file_url": "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "stable_diffusion": {
     "name": "stable_diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -99,10 +100,10 @@
       ]
     },
     "available": false
-  },  
+  },
   "stable_diffusion_1.4": {
     "name": "stable_diffusion_1.4",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
@@ -145,11 +146,12 @@
   },
   "waifu_diffusion": {
     "name": "waifu_diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anime styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp"
     ],
     "version": "1.3",
     "style": "anime",
@@ -180,9 +182,12 @@
   },
   "Furry Epoch": {
     "name": "Furry Epoch",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Furry styled generations.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/furry_epoch/01_gigachad.webp"
+    ],
     "version": "4",
     "style": "furry",
     "nsfw": false,
@@ -212,7 +217,7 @@
   },
   "Yiffy": {
     "name": "Yiffy",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Furry styled generations.",
     "showcases": [
@@ -248,9 +253,12 @@
   },
   "Zack3D": {
     "name": "Zack3D",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Kink/NSFW oriented furry styled generations.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zack3d/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "furry",
     "nsfw": true,
@@ -280,7 +288,7 @@
   },
   "trinart": {
     "name": "trinart",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Manga styled generations.",
     "showcases": [
@@ -315,12 +323,17 @@
   },
   "colorbook": {
     "name": "colorbook",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Minimalist coloring book style images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/colorbook/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "line art",
-    "trigger": ["in VARPJ1 Coloring Book Art Style"],
+    "trigger": [
+      "in VARPJ1 Coloring Book Art Style"
+    ],
     "homepage": "https://huggingface.co/jvkape/ColoringBookSD",
     "nsfw": false,
     "download_all": false,
@@ -349,7 +362,7 @@
   },
   "Arcane Diffusion": {
     "name": "Arcane Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Arcane TV show",
     "showcases": [
@@ -358,7 +371,9 @@
     ],
     "version": "3",
     "style": "cel shading",
-    "trigger": ["arcane style"],
+    "trigger": [
+      "arcane style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/arcane-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -387,12 +402,17 @@
   },
   "Squishmallow Diffusion": {
     "name": "Squishmallow Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Squishmallows",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/squishmallow_diffusion/01_bigdawg.webp"
+    ],
     "version": "1",
     "style": "squishmallow",
-    "trigger": ["Squishmallow"],
+    "trigger": [
+      "Squishmallow"
+    ],
     "homepage": "https://huggingface.co/hlky/squishmallow",
     "nsfw": false,
     "download_all": false,
@@ -421,7 +441,7 @@
   },
   "Spider-Verse Diffusion": {
     "name": "Spider-Verse Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Into the Spider-Verse movie's animation style",
     "showcases": [
@@ -429,7 +449,9 @@
     ],
     "version": "1",
     "style": "cgi, comic book",
-    "trigger": ["spiderverse style"],
+    "trigger": [
+      "spiderverse style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/spider-verse-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -458,14 +480,16 @@
   },
   "Archer Diffusion": {
     "name": "Archer Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Archer's TV show animation style",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
-    "trigger": ["archer style"],
+    "trigger": [
+      "archer style"
+    ],
     "style": "comic book, 2d vector",
     "homepage": "https://huggingface.co/nitrosocke/archer-diffusion",
     "nsfw": false,
@@ -495,15 +519,18 @@
   },
   "Elden Ring Diffusion": {
     "name": "Elden Ring Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on the Elden Ring video game style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/02_gigachad.webp"
     ],
     "version": "2",
     "style": "modern game engine",
-    "trigger": ["elden ring style"],
+    "trigger": [
+      "elden ring style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/elden-ring-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -532,7 +559,7 @@
   },
   "Robo-Diffusion": {
     "name": "Robo-Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Robot oriented drawing style",
     "showcases": [
@@ -540,7 +567,9 @@
     ],
     "version": "1",
     "style": "2D portrait render",
-    "trigger": ["nousr robot"],
+    "trigger": [
+      "nousr robot"
+    ],
     "homepage": "https://huggingface.co/nousr/robo-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -569,7 +598,7 @@
   },
   "mo-di-diffusion": {
     "name": "mo-di-diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Popular animation studio modern style generations.",
     "showcases": [
@@ -577,7 +606,9 @@
     ],
     "version": "1",
     "style": "storybook realism",
-    "trigger": ["modern disney style"],
+    "trigger": [
+      "modern disney style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/mo-di-diffusion",
     "nsfw": false,
     "download_all": true,
@@ -606,7 +637,7 @@
   },
   "Classic Animation Diffusion": {
     "name": "Classic Animation Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Popular animation studio classic style generations.",
     "showcases": [
@@ -614,7 +645,9 @@
     ],
     "version": "1",
     "style": "timeless storybook",
-    "trigger": ["classic disney style"],
+    "trigger": [
+      "classic disney style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/classic-anim-diffusion",
     "nsfw": false,
     "download_all": true,
@@ -643,7 +676,7 @@
   },
   "Xynthii-Diffusion": {
     "name": "Xynthii-Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Xynthii-Diffusion (cyclops monster girls)",
     "showcases": [
@@ -651,7 +684,9 @@
     ],
     "version": "1",
     "style": "neon drawing",
-    "trigger": ["xynthii"],
+    "trigger": [
+      "xynthii"
+    ],
     "homepage": "https://huggingface.co/hlky/xynthii-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -680,12 +715,21 @@
   },
   "Comic-Diffusion": {
     "name": "Comic-Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Western Comic book style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/comic_diffusion/01_gigachad.webp"
+    ],
     "version": "2",
     "style": "comic book, 2d vector",
-    "trigger": ["charliebo artstyle","holliemengert artstyle","pepelarraz artstyle","andreasrocha artstyle","jamesdaly artstyle"],
+    "trigger": [
+      "charliebo artstyle",
+      "holliemengert artstyle",
+      "pepelarraz artstyle",
+      "andreasrocha artstyle",
+      "jamesdaly artstyle"
+    ],
     "homepage": "https://huggingface.co/ogkalu/Comic-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -714,12 +758,17 @@
   },
   "Tron Legacy Diffusion": {
     "name": "Tron Legacy Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Tron Legacy movie style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tron_legacy_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "futuristic portrait/landscape",
-    "trigger": ["trnlgcy"],
+    "trigger": [
+      "trnlgcy"
+    ],
     "homepage": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -748,7 +797,7 @@
   },
   "Microworlds": {
     "name": "Microworlds",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Isometric microworlds",
     "showcases": [
@@ -756,7 +805,9 @@
     ],
     "version": "1",
     "style": "3d render",
-    "trigger": ["microworld render style"],
+    "trigger": [
+      "microworld render style"
+    ],
     "homepage": "https://publicprompts.art/microworlds-dreambooth-model/",
     "nsfw": false,
     "download_all": false,
@@ -783,9 +834,9 @@
     },
     "available": false
   },
-   "Zeipher Female Model": {
+  "Zeipher Female Model": {
     "name": "Zeipher Female Model",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "For creating images of nude solo women. Also known as f222",
     "showcases": [
@@ -809,19 +860,19 @@
           "path": "configs/stable-diffusion/v1-inference.yaml"
         }
       ],
-    "download": [
-      {
-        "file_name": "f222.ckpt",
-        "file_path": "models/custom",
-        "file_url": "https://huggingface.co/Reachout/F222/resolve/main/f222.ckpt"
-      }
-    ]
-   },
-   "available": false
+      "download": [
+        {
+          "file_name": "f222.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Reachout/F222/resolve/main/f222.ckpt"
+        }
+      ]
+    },
+    "available": false
   },
   "Redshift Diffusion": {
     "name": "Redshift Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreambooth model trained on high resolution 3D artworks",
     "showcases": [
@@ -829,7 +880,9 @@
     ],
     "version": "1",
     "style": "cinema4D",
-    "trigger": ["redshift style"],
+    "trigger": [
+      "redshift style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/redshift-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -858,12 +911,18 @@
   },
   "Borderlands": {
     "name": "Borderlands",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Based on Borderlands video game style, trained on characters and scenes",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/borderlands/01_gigachad.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/borderlands/02_jakeukalane.webp"
+    ],
     "version": "1",
     "style": "cell shading",
-    "trigger": ["borderlands"],
+    "trigger": [
+      "borderlands"
+    ],
     "homepage": "https://huggingface.co/PublicPrompts/borderlands",
     "nsfw": false,
     "download_all": false,
@@ -892,7 +951,7 @@
   },
   "Cyberpunk Anime Diffusion": {
     "name": "Cyberpunk Anime Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Cyberpunk anime characters",
     "showcases": [
@@ -900,7 +959,10 @@
     ],
     "version": "1",
     "style": "futuristic anime",
-    "trigger": ["dgs", "illustration style"],
+    "trigger": [
+      "dgs",
+      "illustration style"
+    ],
     "homepage": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -929,7 +991,7 @@
   },
   "Midjourney Diffusion": {
     "name": "Midjourney Diffusion",
-		"baseline": "stable diffusion 1",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Midjourney v4 images",
     "showcases": [
@@ -937,7 +999,9 @@
     ],
     "version": "1",
     "style": "generalist",
-    "trigger": ["mdjrny-v4 style"],
+    "trigger": [
+      "mdjrny-v4 style"
+    ],
     "homepage": "https://huggingface.co/prompthero/openjourney",
     "nsfw": false,
     "download_all": false,
@@ -974,7 +1038,9 @@
     ],
     "version": "1",
     "style": "paper cutout art",
-    "trigger": ["PaperCut"],
+    "trigger": [
+      "PaperCut"
+    ],
     "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model",
     "nsfw": false,
     "download_all": false,
@@ -1007,11 +1073,14 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
     "showcases": [
-        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
-      ],
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
+    ],
     "version": "1",
     "style": "pixel art",
-    "trigger": ["pixelsprite", "16bitscene"],
+    "trigger": [
+      "pixelsprite",
+      "16bitscene"
+    ],
     "homepage": "https://huggingface.co/PublicPrompts/All-In-One-Pixel-Model",
     "nsfw": false,
     "download_all": false,
@@ -1048,7 +1117,9 @@
     ],
     "version": "1",
     "style": "space",
-    "trigger": ["jwst"],
+    "trigger": [
+      "jwst"
+    ],
     "homepage": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1085,7 +1156,9 @@
     ],
     "version": "1",
     "style": "icons",
-    "trigger": ["IconsMi"],
+    "trigger": [
+      "IconsMi"
+    ],
     "homepage": "https://huggingface.co/jvkape/IconsMI-AppIconsModelforSD",
     "nsfw": false,
     "download_all": false,
@@ -1117,6 +1190,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "SD 1.5 merged with 17 other models",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mega_merge_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "generalist",
     "homepage": "https://huggingface.co/ShinCore/MMDv1-18",
@@ -1155,7 +1231,9 @@
     ],
     "version": "1",
     "style": "voxel art",
-    "trigger": ["VoxelArt"],
+    "trigger": [
+      "VoxelArt"
+    ],
     "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_VoxelArt_Model",
     "nsfw": false,
     "download_all": false,
@@ -1192,7 +1270,9 @@
     ],
     "version": "1",
     "style": "painting",
-    "trigger": ["lvngvncnt"],
+    "trigger": [
+      "lvngvncnt"
+    ],
     "homepage": "https://huggingface.co/dallinmackay/Van-Gogh-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1225,7 +1305,8 @@
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp"
     ],
     "version": "3",
     "style": "anime",
@@ -1266,7 +1347,9 @@
     ],
     "version": "1",
     "style": "painting",
-    "trigger": ["art by bubblydubbly"],
+    "trigger": [
+      "art by bubblydubbly"
+    ],
     "homepage": "https://huggingface.co/Marre-Barre/bubblydubbly",
     "nsfw": false,
     "download_all": false,
@@ -1341,7 +1424,9 @@
     ],
     "version": "1",
     "style": "clay",
-    "trigger": ["clazy style"],
+    "trigger": [
+      "clazy style"
+    ],
     "homepage": "https://huggingface.co/Signorlimone/Clazy",
     "nsfw": false,
     "download_all": false,
@@ -1373,9 +1458,16 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/nitro_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "Multi-style Portraits/Landscapes",
-    "trigger": ["archer style", "arcane style", "modern disney style"],
+    "trigger": [
+      "archer style",
+      "arcane style",
+      "modern disney style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/Nitro-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1412,7 +1504,9 @@
     ],
     "version": "1",
     "style": "painted portraits",
-    "trigger": ["samdoesarts style"],
+    "trigger": [
+      "samdoesarts style"
+    ],
     "homepage": "https://civitai.com/models/68",
     "nsfw": false,
     "download_all": false,
@@ -1449,7 +1543,9 @@
     ],
     "version": "1",
     "style": "neon lines, portrait/landscape",
-    "trigger": ["snthwve style"],
+    "trigger": [
+      "snthwve style"
+    ],
     "homepage": "https://huggingface.co/PublicPrompts/Synthwave",
     "nsfw": false,
     "download_all": false,
@@ -1487,7 +1583,9 @@
     ],
     "version": "1",
     "style": "vector art",
-    "trigger": ["vectorartz"],
+    "trigger": [
+      "vectorartz"
+    ],
     "homepage": "https://huggingface.co/coder119/Vectorartz_Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1519,9 +1617,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "imitates the style of late '80s early 90's anime, Anything v3 base",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ranma_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "anime",
-    "trigger": ["80sanimestyle"],
+    "trigger": [
+      "80sanimestyle"
+    ],
     "homepage": "https://huggingface.co/tashachan28/ranma_diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1558,7 +1661,9 @@
     ],
     "version": "1",
     "style": "anime",
-    "trigger": ["ghibli style"],
+    "trigger": [
+      "ghibli style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/Ghibli-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1595,7 +1700,9 @@
     ],
     "version": "17",
     "style": "anime",
-    "trigger": ["1girl, anime"],
+    "trigger": [
+      "1girl, anime"
+    ],
     "homepage": "https://github.com/Delcos/Hentai-Diffusion",
     "nsfw": true,
     "download_all": false,
@@ -1627,9 +1734,15 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/guohua_diffusion/01_ghostdragon11.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/guohua_diffusion/02_gigachad.webp"
+    ],
     "version": "1",
     "style": "painting",
-    "trigger": ["guohua style"],
+    "trigger": [
+      "guohua style"
+    ],
     "homepage": "https://huggingface.co/Langboat/Guohua-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1666,7 +1779,9 @@
     ],
     "version": "2",
     "style": "inkpunk",
-    "trigger": ["nvinkpunk"],
+    "trigger": [
+      "nvinkpunk"
+    ],
     "homepage": "https://huggingface.co/Envvi/Inkpunk-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1698,9 +1813,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "fantasy trading card style art, trained on all currently available Magic: the Gathering card art",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/fantasy_card_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "tcg",
-    "trigger": ["mtg card art"],
+    "trigger": [
+      "mtg card art"
+    ],
     "homepage": "https://huggingface.co/volrath50/fantasy-card-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -1732,9 +1852,15 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/01_gigachad.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp"
+    ],
     "version": "1",
     "style": "isometric display case",
-    "trigger": ["knollingcase"],
+    "trigger": [
+      "knollingcase"
+    ],
     "homepage": "https://huggingface.co/Aybeeceedee/knollingcase",
     "nsfw": false,
     "download_all": false,
@@ -1766,9 +1892,15 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Midjourney v4 painting style",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_paintart/01_gigachad.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_paintart/02_ghostdragon11.webp"
+    ],
     "version": "1",
     "style": "painting",
-    "trigger": ["mdjrny-pntrt"],
+    "trigger": [
+      "mdjrny-pntrt"
+    ],
     "homepage": "https://huggingface.co/ShadoWxShinigamI/Midjourney-v4-PaintArt",
     "nsfw": false,
     "download_all": false,
@@ -1800,6 +1932,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "portraits of charecters in the style of the game Baldur's Gate",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rpg/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "Baldur's Gate",
     "homepage": "https://huggingface.co/Anashel/rpg",
@@ -1866,6 +2001,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model is trained with high quality and detailed anime images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/eimis_anime_diffusion/01_bigdawg.webp"
+    ],
     "version": "1",
     "style": "anime",
     "homepage": "https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v",
@@ -1899,9 +2037,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "dreambooth model trained on a very diverse dataset ranging from photographs to paintings",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/wavyfusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "generalist",
-    "trigger":["wa-vy style"],
+    "trigger": [
+      "wa-vy style"
+    ],
     "homepage": "https://huggingface.co/wavymulder/wavyfusion",
     "nsfw": false,
     "download_all": false,
@@ -1969,9 +2112,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/papercutcraft/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "paper cutout art",
-    "trigger":["papercutcraft style"],
+    "trigger": [
+      "papercutcraft style"
+    ],
     "homepage": "https://huggingface.co/OlafII/papercutcraft-v1",
     "nsfw": false,
     "download_all": false,
@@ -2003,9 +2151,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/kurzgesagt/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "kurzgesagt artstyle",
-    "trigger":["kurzgesagt style"],
+    "trigger": [
+      "kurzgesagt style"
+    ],
     "homepage": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune",
     "nsfw": false,
     "download_all": false,
@@ -2037,9 +2190,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "generates metalic/chrome looking images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chromav5/01_gigachad.webp"
+    ],
     "version": "1.6",
     "style": "generalist",
-    "trigger":["ChromaV5"],
+    "trigger": [
+      "ChromaV5"
+    ],
     "homepage": "https://huggingface.co/SomaMythos/ChromaV5",
     "nsfw": false,
     "download_all": false,
@@ -2071,9 +2229,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlike_diffusion/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "generalist",
-    "trigger":["dreamlikeart"],
+    "trigger": [
+      "dreamlikeart"
+    ],
     "homepage": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0",
     "nsfw": false,
     "download_all": false,
@@ -2105,9 +2268,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A dreambooth model trained on a diverse set of analog photographs",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/analog_diffusion/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "generalist",
-    "trigger":["analog style"],
+    "trigger": [
+      "analog style"
+    ],
     "homepage": "https://huggingface.co/wavymulder/Analog-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -2139,9 +2307,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "The Simpsons dreambooth model",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/asim_simpsons/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "cartoon",
-    "trigger":["asim style"],
+    "trigger": [
+      "asim style"
+    ],
     "homepage": "https://huggingface.co/PiyarSquare/sd_asim_simpsons",
     "nsfw": false,
     "download_all": false,
@@ -2173,9 +2346,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/funko_diffusion/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "cartoon",
-    "trigger":["funko style"],
+    "trigger": [
+      "funko style"
+    ],
     "homepage": "https://huggingface.co/prompthero/funko-diffusion",
     "nsfw": false,
     "download_all": false,
@@ -2207,9 +2385,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/double_exposure_diffusion/01_gigachad.webp"
+    ],
     "version": "2.0",
     "style": "generalist",
-    "trigger":["dublex style, dublex"],
+    "trigger": [
+      "dublex style, dublex"
+    ],
     "homepage": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -2241,9 +2424,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microscopic/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "microscopic",
-    "trigger":["microscopic"],
+    "trigger": [
+      "microscopic"
+    ],
     "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_Microscopic_model",
     "nsfw": false,
     "download_all": false,
@@ -2275,9 +2463,14 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/balloon_art/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "balloon",
-    "trigger":["BalloonArt"],
+    "trigger": [
+      "BalloonArt"
+    ],
     "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_BalloonArt_Model",
     "nsfw": false,
     "download_all": false,
@@ -2309,9 +2502,14 @@
     "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/future_diffusion/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "sci-fi",
-    "trigger":["future style"],
+    "trigger": [
+      "future style"
+    ],
     "homepage": "https://huggingface.co/nitrosocke/Future-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -2511,7 +2709,7 @@
   },
   "ViT-g-14": {
     "name": "ViT-g-14",
-    "pretrained_name":  "laion2b_s12b_b42k",
+    "pretrained_name": "laion2b_s12b_b42k",
     "type": "open_clip",
     "config": {
       "files": [
@@ -2541,7 +2739,7 @@
   },
   "ViT-H-14": {
     "name": "ViT-H-14",
-    "pretrained_name":  "laion2b_s32b_b79k",
+    "pretrained_name": "laion2b_s32b_b79k",
     "type": "open_clip",
     "config": {
       "files": [
@@ -2594,7 +2792,6 @@
           ]
         }
       ]
-      
     },
     "available": false
   },
