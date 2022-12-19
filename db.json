@@ -2575,6 +2575,40 @@
     },
     "available": false
   },
+  "Valorant Diffusion": {
+    "name": "Valorant Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model was trained on the Valorant agents splash arts, and some extra arts on the official website",
+    "version": "1.0",
+    "style": "valorant",
+    "trigger":["valorant style"],
+    "homepage": "https://huggingface.co/ItsJayQz/Valorant_Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/valorant-diffusion.ckpt",
+          "md5sum": "7d5087fc1144057bf65cdcae079dd3d8"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "valorant-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ItsJayQz/Valorant_Diffusion/resolve/main/Valorant_Diffusion_valorant_style.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
