@@ -2649,9 +2649,6 @@
     "description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
     "version": "1.0",
     "style": "anime",
-    "showcases": [
-      "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/samples/acth-sample-1girl.png", "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/samples/acth-sample-1boy.png"
-    ],
     "homepage": "https://huggingface.co/JosephusCheung/ACertainThing",
     "nsfw": false,
     "download_all": false,
@@ -2686,9 +2683,6 @@
     "version": "1.0",
     "style": "GTA5",
     "trigger":["gtav style"],
-    "showcases": [
-      "https://s3.amazonaws.com/moonup/production/uploads/1670900787088-635eafb49f24f6db0a1eafd1.png"
-    ],
     "homepage": "https://huggingface.co/ItsJayQz/GTA5_Artwork_Diffusion",
     "nsfw": false,
     "download_all": false,
