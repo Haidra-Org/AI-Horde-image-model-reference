@@ -4,6 +4,10 @@
     "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
+    ],
     "version": "2.1",
     "style": "generalist",
     "nsfw": false,
