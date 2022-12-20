@@ -2609,6 +2609,112 @@
     },
     "available": false
   },
+  "Hassanblend": {
+    "name": "Hassanblend",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model was for creating people",
+    "version": "1.4",
+    "style": "photorealism",
+    "homepage": "https://huggingface.co/hassanblend/hassanblend1.4",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/hassanblend.ckpt",
+          "md5sum": "156bc7ac0ba3bdbc54ee6bc315c9c726"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "hassanblend.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/hassanblend/hassanblend1.4/resolve/main/HassanBlend1.4.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "ACertainThing": {
+    "name": "ACertainThing",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
+    "version": "1.0",
+    "style": "anime",
+    "showcases": [
+      "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/samples/acth-sample-1girl.png", "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/samples/acth-sample-1boy.png"
+    ],
+    "homepage": "https://huggingface.co/JosephusCheung/ACertainThing",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ACertainThing.ckpt",
+          "md5sum": "c7668ab28b54a52a86421785a17cef46"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ACertainThing.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/ACertainThing.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "GTA5 Artwork Diffusion": {
+    "name": "GTA5 Artwork Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model was trained on the loading screens, gta storymode, and gta online DLCs artworks. Which includes characters, background, chop, and some objects. The model can do people and portrait pretty easily, as well as cars, and houses. For some reasons, the model stills automatically include in some game footage, so landscapes tend to look a bit more game-like.",
+    "version": "1.0",
+    "style": "GTA5",
+    "trigger":["gtav style"],
+    "showcases": [
+      "https://s3.amazonaws.com/moonup/production/uploads/1670900787088-635eafb49f24f6db0a1eafd1.png"
+    ],
+    "homepage": "https://huggingface.co/ItsJayQz/GTA5_Artwork_Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/GTA5_Artwork_Diffusion.ckpt",
+          "md5sum": "8a430fbd33526ab4d8fc0065deeef9b4"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "GTA5_Artwork_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ItsJayQz/GTA5_Artwork_Diffusion/resolve/main/GTA5_Artwork_Diffusion_gtav_style.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
