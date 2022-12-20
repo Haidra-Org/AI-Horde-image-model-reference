@@ -2088,7 +2088,7 @@
     ],
     "version": "1",
     "style": "realistic anime",
-    "homepage": "https://huggingface.co/bigdog/Dawgsmix",
+    "homepage": "https://huggingface.co/Sanjii/Dawgsmix",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -2108,7 +2108,7 @@
         {
           "file_name": "biggdawgs_mix.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/bigdog/Dawgsmix/resolve/main/BIGGdawgs_mix.ckpt"
+          "file_url": "https://huggingface.co/Sanjii/Dawgsmix/resolve/main/biggdawgs_mix.ckpt"
         }
       ]
     },
