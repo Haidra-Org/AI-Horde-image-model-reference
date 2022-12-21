@@ -2651,6 +2651,10 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/acertainthing/01_juice.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/acertainthing/02_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "anime",
     "homepage": "https://huggingface.co/JosephusCheung/ACertainThing",
@@ -2684,6 +2688,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model was trained on the loading screens, gta storymode, and gta online DLCs artworks. Which includes characters, background, chop, and some objects. The model can do people and portrait pretty easily, as well as cars, and houses. For some reasons, the model stills automatically include in some game footage, so landscapes tend to look a bit more game-like.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gta5_artwork_diffusion/01_bettername.webp"
+    ],
     "version": "1.0",
     "style": "GTA5",
     "trigger":["gtav style"],
