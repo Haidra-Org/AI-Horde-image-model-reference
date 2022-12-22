@@ -2753,6 +2753,40 @@
     },
     "available": false
   },
+  "Smoke Diffusion": {
+    "name": "Smoke Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is the fine-tuned Stable Diffusion model trained on images of smoke",
+    "version": "1.0",
+    "style": "photo",
+    "trigger":["ssmoky"],
+    "homepage": "https://huggingface.co/guumaster/smoke-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Smoke_Diffusion.ckpt",
+          "md5sum": "1ed41feadcf843a42f4d167b5a6350e7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Smoke_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/guumaster/smoke-diffusion/resolve/main/ssmoky1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
