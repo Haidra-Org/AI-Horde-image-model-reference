@@ -2720,6 +2720,39 @@
     },
     "available": false
   },
+  "Trinart Characters": {
+    "name": "Trinart Characters",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Derrida (formerly TrinArt Characters v2) is a stable diffusion v1-based model that was further improved on the previous characters v1 model. While this is still a versatility and compositional variation anime/manga model like other TrinArt models, when compared to the v1 model, Derrida was focused on more anatomical stability and slightly less on variation due to further multi-epoch training and finetuning.",
+    "version": "2.0",
+    "style": "anime",
+    "homepage": "https://huggingface.co/naclbit/trinart_derrida_characters_v2_stable_diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Trinart_Characters.ckpt",
+          "md5sum": "7111688d1ef1572c8b656a8d9299b42c"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Trinart_Characters.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/naclbit/trinart_derrida_characters_v2_stable_diffusion/resolve/main/derrida_final.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
