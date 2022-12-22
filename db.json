@@ -1026,7 +1026,7 @@
         {
           "file_name": "mdjrny-v4.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/prompthero/midjourney-v4-diffusion/resolve/main/mdjrny-v4.ckpt"
+          "file_url": "https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.ckpt"
         }
       ]
     },
