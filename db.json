@@ -2549,7 +2549,7 @@
     "type": "ckpt",
     "description": "Seek.art MEGA is a general use 'anything' model that significantly improves on 1.5 across dozens of styles. Created by Coreco at seek.art",
     "showcases": [
-      "https://huggingface.co/coreco/seek.art_MEGA/resolve/main/examples.png"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/seek-art_mega/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -2618,6 +2618,10 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model was for creating people",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/01_gigachad.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/02_bettername.webp"
+    ],
     "version": "1.4",
     "style": "photorealism",
     "homepage": "https://huggingface.co/hassanblend/hassanblend1.4",
@@ -2758,6 +2762,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on images of smoke",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/smoke_diffusion/01_voodoocode.webp"
+    ],
     "version": "1.0",
     "style": "photo",
     "trigger":["ssmoky"],
