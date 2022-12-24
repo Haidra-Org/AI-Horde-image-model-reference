@@ -2549,7 +2549,7 @@
     "type": "ckpt",
     "description": "Seek.art MEGA is a general use 'anything' model that significantly improves on 1.5 across dozens of styles. Created by Coreco at seek.art",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/seek-art_mega/01_gigachad.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
