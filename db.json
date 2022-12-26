@@ -1727,7 +1727,7 @@
         {
           "file_name": "hentai-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/blob/main/HD-18.ckpt"
+          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-18.ckpt"
         }
       ]
     },
