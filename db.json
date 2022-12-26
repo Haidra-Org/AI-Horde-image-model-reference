@@ -1702,7 +1702,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
     ],
-    "version": "18",
+    "version": "17",
     "style": "anime",
     "trigger": [
       "1girl, anime"
@@ -1717,7 +1717,7 @@
       "files": [
         {
           "path": "models/custom/hentai-diffusion.ckpt",
-          "md5sum": "aaac3151da0f35b9e801699ef80585a2"
+          "md5sum": "1f6277fd3793a715f242d7c347302e9c"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1727,7 +1727,7 @@
         {
           "file_name": "hentai-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-18.ckpt"
+          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-17.ckpt"
         }
       ]
     },
