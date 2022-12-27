@@ -2870,6 +2870,42 @@
     },
     "available": false
   },
+    "PortraitPlus": {
+    "name": "PortraitPlus",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
+    "showcases": [
+      "https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg"
+    ],
+    "version": "1.0",
+    "style": "photo",
+    "homepage": "https://huggingface.co/wavymulder/portraitplus",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PortraitPlus.ckpt",
+          "md5sum": "d25578c1fcb069c3f5613939d903ee84"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PortraitPlus.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/wavymulder/portraitplus/resolve/main/portrait%2B1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
