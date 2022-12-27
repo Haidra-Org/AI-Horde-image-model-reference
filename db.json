@@ -2880,6 +2880,7 @@
     ],
     "version": "1.0",
     "style": "photo",
+    "trigger":["portrait+ style"],
     "homepage": "https://huggingface.co/wavymulder/portraitplus",
     "nsfw": false,
     "download_all": false,
