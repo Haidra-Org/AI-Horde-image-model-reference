@@ -2794,6 +2794,79 @@
     },
     "available": false
   },
+  "Supermarionation": {
+    "name": "Supermarionation",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is a fine-tuned Stable Diffusion model (based on v1.5) trained on screenshots from Gerry Anderson Supermarionation stop motion animation movie, basically from Thunderbirds tv series",
+    "showcases": [
+      "https://huggingface.co/tuwonga/supermarionation/resolve/main/supermarionation_v2_prev1.jpg"
+    ],
+    "version": "2.0",
+    "style": "supermarionation",
+    "trigger":["supermarionation"],
+    "homepage": "https://huggingface.co/tuwonga/supermarionation",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Supermarionation.ckpt",
+          "md5sum": "321c36eac4e9a8f4d3903a8112ebfeed"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Supermarionation.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/tuwonga/supermarionation/resolve/main/supermarionation_v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Dreamlike Photoreal": {
+    "name": "Dreamlike Photoreal",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Dreamlike Photoreal 1.0 is a photorealistic Stable Diffusion 1.5 model fine tuned on high quality photos, made by dreamlike.art.",
+    "showcases": [
+      "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0/resolve/main/preview.jpg"
+    ],
+    "version": "1.0",
+    "style": "photorealistic",
+    "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Dreamlike_Photoreal.ckpt",
+          "md5sum": "97c0379e6763633807e7a2dff6279f9f"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Dreamlike_Photoreal.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0/resolve/main/dreamlike-photoreal-1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
