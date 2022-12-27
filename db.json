@@ -2729,6 +2729,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Derrida (formerly TrinArt Characters v2) is a stable diffusion v1-based model that was further improved on the previous characters v1 model. While this is still a versatility and compositional variation anime/manga model like other TrinArt models, when compared to the v1 model, Derrida was focused on more anatomical stability and slightly less on variation due to further multi-epoch training and finetuning.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart_characters/01_juice.webp"
+    ],
     "version": "2.0",
     "style": "anime",
     "homepage": "https://huggingface.co/naclbit/trinart_derrida_characters_v2_stable_diffusion",
