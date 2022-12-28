@@ -2907,6 +2907,43 @@
     },
     "available": false
   },
+  "Vintedois Diffusion": {
+    "name": "22h Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
+    "showcases": [
+      "https://huggingface.co/22h/vintedois-diffusion-v0-1/resolve/main/joined.png"
+    ],
+    "version": "0.1",
+    "style": "general",
+    "trigger":["estilovintedois"],
+    "homepage": "https://huggingface.co/22h/vintedois-diffusion-v0-1",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Vintedois_Diffusion.ckpt",
+          "md5sum": "8beebe273bb4f360849d31efdd29fe27"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Vintedois_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/22h/vintedois-diffusion-v0-1/resolve/main/model.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
