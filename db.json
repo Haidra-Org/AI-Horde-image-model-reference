@@ -2944,6 +2944,43 @@
     },
     "available": false
   },
+  "Darkest Diffusion": {
+    "name": "Darkest Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A free and open source Stable Diffusion model created by AI-Characters, trained on the artstyle of the game 'Darkest Dungeon'",
+    "showcases": [
+      "https://huggingface.co/ai-characters/Darkest-Diffusion/resolve/main/gandr-collage.jpg"
+    ],
+    "version": "1.0",
+    "style": "darkest dungeon",
+    "trigger":["in the artstyle of dd"],
+    "homepage": "https://huggingface.co/ai-characters/Darkest-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Darkest_Diffusion.ckpt",
+          "md5sum": "f67124451cf3ec0a3543a864e3008af7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Darkest_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ai-characters/Darkest-Diffusion/resolve/main/Darkest-Diffusion-v1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
