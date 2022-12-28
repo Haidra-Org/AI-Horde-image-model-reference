@@ -2908,7 +2908,7 @@
     "available": false
   },
   "Vintedois Diffusion": {
-    "name": "22h Diffusion",
+    "name": "Vintedois Diffusion",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
