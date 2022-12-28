@@ -2913,7 +2913,7 @@
     "type": "ckpt",
     "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
     "showcases": [
-      "https://huggingface.co/22h/vintedois-diffusion-v0-1/resolve/main/joined.png"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
     ],
     "version": "0.1",
     "style": "general",
