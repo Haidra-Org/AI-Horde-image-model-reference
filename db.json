@@ -3003,7 +3003,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/hentai-diffusion.ckpt",
+          "path": "models/custom/HD-18.ckpt",
           "md5sum": "aaac3151da0f35b9e801699ef80585a2"
         },
         {
@@ -3012,7 +3012,7 @@
       ],
       "download": [
         {
-          "file_name": "hentai-diffusion.ckpt",
+          "file_name": "HD-18.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-18.ckpt"
         }
