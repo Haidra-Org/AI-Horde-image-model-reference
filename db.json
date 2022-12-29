@@ -2981,45 +2981,6 @@
     },
     "available": false
   },
-  "HD-18 Test": {
-    "name": "HD-18 Test",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
-    ],
-    "version": "18",
-    "style": "anime",
-    "trigger": [
-      "1girl, anime"
-    ],
-    "homepage": "https://github.com/Delcos/Hentai-Diffusion",
-    "nsfw": true,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/hentai-diffusion.ckpt",
-          "md5sum": "aaac3151da0f35b9e801699ef80585a2"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "hentai-diffusion.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-18.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
