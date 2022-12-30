@@ -69,6 +69,16 @@
     },
     "available": false
   },
+  "Stable Diffusion 2 Depth": {
+    "name": "Stable Diffusion 2 Depth",
+    "type": "depth2img",
+    "description": "Generalist model specialized for creating depth maps of existing images, for img2img creations",
+    "version": "2",
+    "style": "img2img",
+    "hf_path": "stabilityai/stable-diffusion-2-depth",
+    "hf_auth": false,
+    "available": false	
+  },
   "stable_diffusion": {
     "name": "stable_diffusion",
     "baseline": "stable diffusion 1",
