@@ -74,7 +74,7 @@
     "type": "diffusers",
     "description": "Generalist model specialized for creating depth maps of existing images, for img2img creations",
     "version": "2",
-    "style": "img2img",
+    "style": "depth2img",
     "hf_path": "stabilityai/stable-diffusion-2-depth",
     "hf_auth": false,
     "available": false	
