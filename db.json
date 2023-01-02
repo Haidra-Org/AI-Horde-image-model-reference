@@ -3025,8 +3025,8 @@
     },
     "available": false
   },
-  "Min Illust Background Diffusion": {
-    "name": "Min Illust Background Diffusion",
+  "Min Illust Background": {
+    "name": "Min Illust Background",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
