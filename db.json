@@ -3051,7 +3051,7 @@
       ],
       "download": [
         {
-          "file_name": "MinIllustBackground_Diffusion",
+          "file_name": "MinIllustBackground_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/ProGamerGov/Min-Illust-Background-Diffusion/resolve/main/sjh_style_v1_iter2250.ckpt"
         }
@@ -3085,7 +3085,7 @@
       ],
       "download": [
         {
-          "file_name": "DarkVictorian_Diffusion",
+          "file_name": "DarkVictorian_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/proxima/darkvictorian_artstyle/resolve/main/darkvictorian_artstyle_v2.ckpt"
         }
@@ -3118,7 +3118,7 @@
       ],
       "download": [
         {
-          "file_name": "CoolJapan_Diffusion",
+          "file_name": "CoolJapan_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/aipicasso/cool-japan-diffusion-2-1-0-beta/resolve/main/v2-1-0-beta.ckpt"
         }
