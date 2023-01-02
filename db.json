@@ -2991,6 +2991,40 @@
     },
     "available": false
   },
+    "Eternos": {
+    "name": "Eternos",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A surrealist / Minimalist model",
+    "version": "1.0",
+    "style": "surrealist",
+    "trigger":["romerorzeternos"],
+    "homepage": "https://huggingface.co/RomeroRZ/style-eternos",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Eternos.ckpt",
+          "md5sum": "d82d743c5531f42aacc80af491bb5124"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Eternos.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/RomeroRZ/style-eternos/resolve/main/romerorz-eternos-512.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
