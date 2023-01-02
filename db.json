@@ -3043,7 +3043,7 @@
       "files": [
         {
           "path": "models/custom/MinIllustBackground_Diffusion.ckpt",
-          "md5sum": "7a6cf731facd4f3f1c07f9e200f0fb0b"
+          "md5sum": "cf5fb557635a5a707003fcfeb4934af6"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3088,39 +3088,6 @@
           "file_name": "DarkVictorian_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/proxima/darkvictorian_artstyle/resolve/main/darkvictorian_artstyle_v2.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
-  "Cool Japan Diffusion": {
-    "name": "Cool Japan Diffusion",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "a fine-tuned model of Stable Diffusion that specializes in expressing Cool Japan in anime, manga, and games",
-    "version": "2.1 beta",
-    "style": "anime/manga",
-    "homepage": "https://huggingface.co/aipicasso/cool-japan-diffusion-2-1-0-beta",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/CoolJapan_Diffusion.ckpt",
-          "md5sum": "b7d4076503af04dd9c8c623183433aac"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "CoolJapan_Diffusion.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/aipicasso/cool-japan-diffusion-2-1-0-beta/resolve/main/v2-1-0-beta.ckpt"
         }
       ]
     },
