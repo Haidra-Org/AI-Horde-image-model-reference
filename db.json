@@ -2991,6 +2991,141 @@
     },
     "available": false
   },
+  "Eternos": {
+    "name": "Eternos",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A surrealist / Minimalist model",
+    "version": "1.0",
+    "style": "surrealist",
+    "trigger":["romerorzeternos"],
+    "homepage": "https://huggingface.co/RomeroRZ/style-eternos",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Eternos.ckpt",
+          "md5sum": "d82d743c5531f42aacc80af491bb5124"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Eternos.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/RomeroRZ/style-eternos/resolve/main/romerorz-eternos-512.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Min Illust Background Diffusion": {
+    "name": "Min Illust Background Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
+    "version": "1.0",
+    "style": "landscape",
+    "trigger":["sjh style"],
+    "homepage": "https://huggingface.co/ProGamerGov/Min-Illust-Background-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/MinIllustBackground_Diffusion.ckpt",
+          "md5sum": "7a6cf731facd4f3f1c07f9e200f0fb0b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "MinIllustBackground_Diffusion",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ProGamerGov/Min-Illust-Background-Diffusion/resolve/main/sjh_style_v1_iter2250.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Dark Victorian Diffusion": {
+    "name": "Dark Victorian Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "finetuned on dark, moody, victorian imagery",
+    "version": "2.0",
+    "style": "victorian",
+    "trigger":["darkvictorian artstyle"],
+    "homepage": "https://huggingface.co/proxima/darkvictorian_artstyle",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/DarkVictorian_Diffusion.ckpt",
+          "md5sum": "29f6c1d379360859c6e3fcf4be2e5381"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "DarkVictorian_Diffusion",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/proxima/darkvictorian_artstyle/resolve/main/darkvictorian_artstyle_v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Cool Japan Diffusion": {
+    "name": "Cool Japan Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "a fine-tuned model of Stable Diffusion that specializes in expressing Cool Japan in anime, manga, and games",
+    "version": "2.1 beta",
+    "style": "anime/manga",
+    "homepage": "https://huggingface.co/aipicasso/cool-japan-diffusion-2-1-0-beta",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/CoolJapan_Diffusion.ckpt",
+          "md5sum": "b7d4076503af04dd9c8c623183433aac"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "CoolJapan_Diffusion",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/aipicasso/cool-japan-diffusion-2-1-0-beta/resolve/main/v2-1-0-beta.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
