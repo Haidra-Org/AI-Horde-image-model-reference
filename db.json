@@ -3093,6 +3093,74 @@
     },
     "available": false
   },
+  "DnD Item": {
+    "name": "DnD Item",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is a model (dnditem) for creating magic items, for the game Dungeons and Dragons! It was trained to be very similar to the official results that are available here: https://www.dndbeyond.com/magic-items",
+    "version": "1.0",
+    "style": "DnD",
+    "trigger":["dnditem"],
+    "homepage": "https://huggingface.co/stale2000/sd-dnditem",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/DnDItem.ckpt",
+          "md5sum": "ecb05cd91feb21c4b7f12022e4a8da7c"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "DnDItem.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/stale2000/sd-dnditem/resolve/main/dnditem-v1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "ModernArt Diffusion": {
+    "name": "ModernArt Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "You can use this model to generate modernart style images",
+    "version": "1.0",
+    "style": "modern art",
+    "trigger":["modernartst"],
+    "homepage": "https://huggingface.co/theintuitiveye/modernartstyle",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ModernArt_Diffusion.ckpt",
+          "md5sum": "8fa2323f4fac81899c188ab25830e454"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ModernArt_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/theintuitiveye/modernartstyle/resolve/main/modernartstv1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
