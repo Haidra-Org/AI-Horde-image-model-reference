@@ -2594,6 +2594,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model was trained on the Valorant agents splash arts, and some extra arts on the official website",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/valorant_diffusion/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "valorant",
     "trigger":["valorant style"],
@@ -3098,6 +3101,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This is a model (dnditem) for creating magic items, for the game Dungeons and Dragons! It was trained to be very similar to the official results that are available here: https://www.dndbeyond.com/magic-items",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dnd_item/01_voodoocode.webp"
+    ],
     "version": "1.0",
     "style": "DnD",
     "trigger":["dnditem"],
@@ -3132,6 +3138,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "You can use this model to generate modernart style images",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp"
+    ],
     "version": "1.0",
     "style": "modern art",
     "trigger":["modernartst"],
