@@ -1712,12 +1712,12 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
     ],
-    "version": "19",
+    "version": "17",
     "style": "anime",
     "trigger": [
       "1girl, anime"
     ],
-    "homepage": "https://github.com/Deltaadams/HentaiDiffusion",
+    "homepage": "https://github.com/Delcos/Hentai-Diffusion",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -1727,7 +1727,7 @@
       "files": [
         {
           "path": "models/custom/hentai-diffusion.ckpt",
-          "md5sum": "4b87c5f27919228eadd47013a2764fd9"
+          "md5sum": "1f6277fd3793a715f242d7c347302e9c"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1737,7 +1737,7 @@
         {
           "file_name": "hentai-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-19.ckpt"
+          "file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-17.ckpt"
         }
       ]
     },
@@ -3166,75 +3166,6 @@
           "file_name": "ModernArt_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/theintuitiveye/modernartstyle/resolve/main/modernartstv1.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
-  "HASDX": {
-    "name": "HASDX",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "He merged a few checkpoints and got something buttery and amazing. Does great with things other then people too. It can do anything really. It doesn't need crazy prompts either. Keep it simple. No need for all the artist names and trending on whatever.",
-    "showcases": [
-      "https://s3.amazonaws.com/moonup/production/uploads/1672801449030-6344cba8762379fc63032a74.jpeg"
-    ],
-    "version": "1.0",
-    "style": "generalist",
-    "homepage": "https://huggingface.co/BestJammer/HASDX",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/HASDX.ckpt",
-          "md5sum": "762f5780b54539a55e396f4c7c01f282"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "HASDX.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/BestJammer/HASDX/resolve/main/ckptSXDHAS.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ProtoGen": {
-    "name": "ProtoGen",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "One Step Closer to Reality",
-    "version": "5.3",
-    "style": "generalist",
-    "homepage": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/ProtoGen.ckpt",
-          "md5sum": "857dcdf1eb76e8a6f44ad181bbb277d4"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "ProtoGen.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release/resolve/main/ProtoGen_X5.3.ckpt"
         }
       ]
     },
