@@ -1949,7 +1949,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rpg/01_gigachad.webp"
     ],
-    "version": "1",
+    "version": "2",
     "style": "Baldur's Gate",
     "homepage": "https://huggingface.co/Anashel/rpg",
     "nsfw": false,
@@ -2853,11 +2853,12 @@
     "type": "ckpt",
     "description": "Dreamlike Photoreal 1.0 is a photorealistic Stable Diffusion 1.5 model fine tuned on high quality photos, made by dreamlike.art.",
     "showcases": [
-      "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0/resolve/main/preview.jpg"
+      "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/preview1.jpg",
+      "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/preview2.jpg"
     ],
-    "version": "1.0",
+    "version": "2.0",
     "style": "photorealistic",
-    "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0",
+    "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -2867,7 +2868,7 @@
       "files": [
         {
           "path": "models/custom/Dreamlike_Photoreal.ckpt",
-          "md5sum": "97c0379e6763633807e7a2dff6279f9f"
+          "md5sum": "f7bacaa513f5f54805d1fb5bfde7e658"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -2877,7 +2878,7 @@
         {
           "file_name": "Dreamlike_Photoreal.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-1.0/resolve/main/dreamlike-photoreal-1.0.ckpt"
+          "file_url": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/dreamlike-photoreal-2.0.ckpt"
         }
       ]
     },
