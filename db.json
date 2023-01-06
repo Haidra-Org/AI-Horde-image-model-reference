@@ -160,14 +160,14 @@
   },
   "waifu_diffusion": {
     "name": "waifu_diffusion",
-    "baseline": "stable diffusion 2",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Anime styled generations.",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp"
     ],
-    "version": "1.4",
+    "version": "1.3",
     "style": "anime",
     "nsfw": false,
     "download_all": true,
@@ -178,22 +178,17 @@
       "files": [
         {
           "path": "models/custom/waifu-diffusion.ckpt",
-          "md5sum": "6d8a9d814341946e01e6e1d62b2214c0"
+          "md5sum": "dc688dc907c953532c659374e7ddf1e4"
         },
         {
-          "path": "configs/stable-diffusion/waifu-diffusion.yaml"
+          "path": "configs/stable-diffusion/v1-inference.yaml"
         }
       ],
       "download": [
         {
           "file_name": "waifu-diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/wd-1-4-anime_e1.ckpt"
-        },
-        {
-          "file_name": "waifu-diffusion.yaml",
-          "file_path": "configs/stable-diffusion",
-          "file_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-4/resolve/main/wd-1-4-anime_e1.yaml"
+          "file_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float32.ckpt"
         }
       ]
     },
