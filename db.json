@@ -3281,9 +3281,6 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp"
-    ],
     "version": "2",
     "style": "characters",
     "homepage": "https://civitai.com/models/2034/moedel",
