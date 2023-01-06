@@ -3245,6 +3245,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp"
+    ],
     "version": "1.1",
     "style": "3d render",
     "homepage": "https://huggingface.co/HavoAloe/3DKX_1.0b",
