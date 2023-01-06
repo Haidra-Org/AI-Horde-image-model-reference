@@ -3276,6 +3276,39 @@
     },
     "available": false
   },
+  "Moedel": {
+    "name": "Moedel",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
+    "version": "2",
+    "style": "characters",
+    "homepage": "https://civitai.com/models/2034/moedel",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/moedel.ckpt",
+          "md5sum": "4ea5e452fc03905819519ca8150dcac6"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "moedel.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/2181"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
