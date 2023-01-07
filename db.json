@@ -2890,7 +2890,7 @@
     "type": "ckpt",
     "description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
     "showcases": [
-      "https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/portraitplus/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "photo",
@@ -3246,7 +3246,8 @@
     "type": "ckpt",
     "description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/02_gigachad.webp"
     ],
     "version": "1.1",
     "style": "3d render",
