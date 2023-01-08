@@ -3410,6 +3410,39 @@
     },
     "available": false
   },
+  "Healy's Anime Blend": {
+    "name": "Healy's Anime Blend",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is a blend of some anime models mixed with 'realistic' stuff",
+    "version": "1.0",
+    "style": "anime",
+    "homepage": "https://civitai.com/models/1400/healys-anime-blend",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Healys.ckpt",
+          "md5sum": "416566bada0313f4504857dcdbe530c6"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Healys.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/1498"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
