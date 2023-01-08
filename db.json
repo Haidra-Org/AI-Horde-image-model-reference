@@ -3310,6 +3310,40 @@
     },
     "available": false
   },
+  "DreamLikeSamKuvshinov": {
+    "name": "DreamLikeSamKuvshinov",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A mixture of Dreamlike Diffusion 1.0, SamDoesArt V3 and Kuvshinov style models.  Created mostly for exploring different character concepts with a focus on drawings, but the mix happened to be pretty good at realistic-ish images, all thanks to wonderful models that it uses.",
+    "version": "1",
+    "style": "characters",
+    "homepage": "https://civitai.com/models/1473/dreamlikesamkuvshinov",
+    "trigger":["dreamlikeart", "samdoesart", "kuvshinov"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/DreamLikeSamKuvshinov.ckpt",
+          "md5sum": "0e836fa9fe4ed5a91ec1251513358ea8"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "DreamLikeSamKuvshinov.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/1642"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
