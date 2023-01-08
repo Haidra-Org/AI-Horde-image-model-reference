@@ -2635,9 +2635,9 @@
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/01_gigachad.webp",
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/02_bettername.webp"
     ],
-    "version": "1.4",
+    "version": "1.5",
     "style": "photorealism",
-    "homepage": "https://huggingface.co/hassanblend/hassanblend1.4",
+    "homepage": "https://huggingface.co/hassanblend/hassanblend1.5",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -2647,7 +2647,7 @@
       "files": [
         {
           "path": "models/custom/hassanblend.ckpt",
-          "md5sum": "156bc7ac0ba3bdbc54ee6bc315c9c726"
+          "md5sum": "c170bd57281f8f267852fb6481931602"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -2657,7 +2657,7 @@
         {
           "file_name": "hassanblend.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/hassanblend/hassanblend1.4/resolve/main/HassanBlend1.4.ckpt"
+          "file_url": "https://huggingface.co/hassanblend/HassanBlend1.5/resolve/main/HassanBlend1.5.ckpt"
         }
       ]
     },
