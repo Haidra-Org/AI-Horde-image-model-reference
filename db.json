@@ -3344,6 +3344,39 @@
     },
     "available": false
   },
+  "Sygil-Dev Diffusion": {
+    "name": "Sygil-Dev Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
+    "version": "1",
+    "style": "generalist",
+    "homepage": "https://huggingface.co/Sygil/Sygil-Diffusion-v0.1",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/SygilDev_Diffusion.ckpt",
+          "md5sum": "7763d1c3fe8f7faba1760756bf16a35d"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "SygilDev_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion-v0.1/resolve/main/sygil-diffusion-v0.1_410280_lora.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
