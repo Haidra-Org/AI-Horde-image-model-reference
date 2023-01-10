@@ -1324,7 +1324,7 @@
     ],
     "version": "3",
     "style": "anime",
-    "homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
+    "homepage": "https://huggingface.co/Linaqruf/anything-v3-better-vae",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -1333,8 +1333,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/Anything-Diffusion-v3.ckpt",
-          "md5sum": "0aa33de6b36c239ba579e73edf10a026"
+          "path": "models/custom/Anything-Diffusion.ckpt",
+          "md5sum": "d84fc4acb3b8e4ce44b71ebc776c5fdf"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1342,9 +1342,9 @@
       ],
       "download": [
         {
-          "file_name": "Anything-Diffusion-v3.ckpt",
+          "file_name": "Anything-Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.ckpt"
+          "file_url": "https://huggingface.co/Linaqruf/anything-v3-better-vae/resolve/main/any-v3-fp32-better-vae.ckpt"
         }
       ]
     },
@@ -3504,6 +3504,106 @@
           "file_name": "Sci-Fi_Diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion/resolve/main/Sci-Fi_Diffusion_1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Ultraskin": {
+    "name": "Ultraskin",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
+    "version": "0.9",
+    "style": "portrait photography",
+    "homepage": "https://huggingface.co/VegaKH/Ultraskin",
+    "trigger":["ultraskin"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Ultraskin.ckpt",
+          "md5sum": "8e487864e56b73235c5ec304ed3a94a5"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Ultraskin.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/VegaKH/Ultraskin/resolve/main/ultraskin.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Sonic Diffusion": {
+    "name": "Sonic Diffusion",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
+    "version": "2",
+    "style": "Sonic The Hedgehog",
+    "homepage": "https://huggingface.co/Metal079/SonicDiffusionV2",
+    "trigger":["mobian"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Sonic_Diffusion.ckpt",
+          "md5sum": "ccef7ef01eb5c07ef49cfbab6579b37d"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Sonic_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2_SD21.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "PPP": {
+    "name": "PPP",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "PPP is a realistic model merge, tested and tweaked for human females. Mostly based on NSFW models",
+    "version": "1.0",
+    "style": "boudoir photography",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PPP.ckpt",
+          "md5sum": "0e9012fab5382c7c3e9f3365e474835e"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PPP.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/1304"
         }
       ]
     },
