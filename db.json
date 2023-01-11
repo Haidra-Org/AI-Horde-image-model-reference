@@ -3545,7 +3545,7 @@
   },
   "Sonic Diffusion": {
     "name": "Sonic Diffusion",
-    "baseline": "stable diffusion 2",
+    "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
     "version": "2",
@@ -3561,17 +3561,17 @@
       "files": [
         {
           "path": "models/custom/Sonic_Diffusion.ckpt",
-          "md5sum": "ccef7ef01eb5c07ef49cfbab6579b37d"
+          "md5sum": "6f0a9581fedf5971f502e29e82a81e20"
         },
         {
-          "path": "configs/stable-diffusion/v2-inference.yaml"
+          "path": "configs/stable-diffusion/v1-inference.yaml"
         }
       ],
       "download": [
         {
           "file_name": "Sonic_Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2_SD21.ckpt"
+          "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2.ckpt"
         }
       ]
     },
