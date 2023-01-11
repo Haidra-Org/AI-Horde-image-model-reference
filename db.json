@@ -2088,42 +2088,6 @@
     },
     "available": false
   },
-  "Dawgsmix": {
-    "name": "Dawgsmix",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "anime and realistic anatomy focused merged of anything , trinart , f222 , sd1.5",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dawgsmix/01_bigdowg.webp"
-    ],
-    "version": "1",
-    "style": "realistic anime",
-    "homepage": "https://huggingface.co/Sanjii/Dawgsmix",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/biggdawgs_mix.ckpt",
-          "md5sum": "498114d1e23035b06c6cc40ff0cf3674"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "biggdawgs_mix.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Sanjii/Dawgsmix/resolve/main/biggdawgs_mix.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
   "Papercutcraft": {
     "name": "Papercutcraft",
     "baseline": "stable diffusion 1",
