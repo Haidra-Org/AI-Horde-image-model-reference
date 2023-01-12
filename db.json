@@ -3639,6 +3639,39 @@
     },
     "available": false
   },
+  "DucHaiten": {
+    "name": "DucHaiten",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "DucHaiten's character generation model",
+    "version": "1.1",
+    "style": "cartoon/anime",
+    "homepage": "https://huggingface.co/DucHaiten/DucHaitenAIart",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/DucHaiten.ckpt",
+          "md5sum": "deae914e47f3c6156ed9aacbb05d495c"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "DucHaiten.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart_v1.1.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
