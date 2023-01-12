@@ -3606,6 +3606,39 @@
     },
     "available": false
   },
+  "Protogen Infinity": {
+    "name": "Protogen Infinity",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
+    "version": "8.6",
+    "style": "generalist",
+    "homepage": "https://civitai.com/models/4398/protogen-infinity-official-release",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Protogen_Infinity.ckpt",
+          "md5sum": "dba1f1d9180d983ce780e486f9a40d66"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Protogen_Infinity.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/4974"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
