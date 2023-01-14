@@ -3313,9 +3313,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
-    "version": "1",
+    "version": "0.1",
     "style": "generalist",
-    "homepage": "https://huggingface.co/Sygil/Sygil-Diffusion-v0.1",
+    "homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -3325,7 +3325,7 @@
       "files": [
         {
           "path": "models/custom/SygilDev_Diffusion.ckpt",
-          "md5sum": "7763d1c3fe8f7faba1760756bf16a35d"
+          "md5sum": "ca5851247b57ad21b98a8945c97e97f8"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3335,7 +3335,7 @@
         {
           "file_name": "SygilDev_Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion-v0.1/resolve/main/sygil-diffusion-v0.1_410280_lora.ckpt"
+          "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.1.ckpt"
         }
       ]
     },
