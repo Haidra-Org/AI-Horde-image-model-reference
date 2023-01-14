@@ -1322,9 +1322,9 @@
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp",
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp"
     ],
-    "version": "3",
+    "version": "4.5",
     "style": "anime",
-    "homepage": "https://huggingface.co/Linaqruf/anything-v3-better-vae",
+    "homepage": "https://huggingface.co/andite/anything-v4.0",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -1334,7 +1334,7 @@
       "files": [
         {
           "path": "models/custom/Anything-Diffusion.ckpt",
-          "md5sum": "d84fc4acb3b8e4ce44b71ebc776c5fdf"
+          "md5sum": "2f42bb28fe05b7f9c5cce93a0eaff2ea"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1344,7 +1344,7 @@
         {
           "file_name": "Anything-Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Linaqruf/anything-v3-better-vae/resolve/main/any-v3-fp32-better-vae.ckpt"
+          "file_url": "https://huggingface.co/Airic/Anything-V4.5/resolve/main/Anything-v4.5-pruned-mergedVae.ckpt"
         }
       ]
     },
