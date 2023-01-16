@@ -85,7 +85,8 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/02_executivebees24601.webp"
     ],
     "version": "1.5",
     "style": "generalist",
@@ -1320,7 +1321,8 @@
     "description": "Highly detailed Anime styled generations",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/03_executivebees24601.webp"
     ],
     "version": "4.5",
     "style": "anime",
