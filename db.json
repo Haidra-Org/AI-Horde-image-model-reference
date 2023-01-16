@@ -3674,6 +3674,39 @@
     },
     "available": false
   },
+  "Dreamshaper": {
+    "name": "Dreamshaper",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Merged model mix of Midnight mixer, roboEtics, f222, elldrethSLucidMix, Seek.ART Mega, rpg, hassanBlend, modelshoot and roboDiffusion",
+    "version": "3.3",
+    "style": "realistic cartoon/anime/fantasy",
+    "homepage": "https://civitai.com/models/4384/dreamshaper",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Dreamshaper.ckpt",
+          "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Dreamshaper.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Airic/Dreamshaper_33-vae/resolve/main/dreamshaper_33-inclVae.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
