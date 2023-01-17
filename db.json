@@ -3741,6 +3741,40 @@
     },
     "available": false
   },
+  "Marvel Diffusion": {
+    "name": "Marvel Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
+    "version": "2",
+    "style": "comic/animation",
+    "homepage": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion",
+    "trigger": ["whatif style"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/marvel-diffusion.ckpt",
+          "md5sum": "25efe8824d8553df4fea4ccff51ef2de"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "marvel-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion/resolve/main/Marvel_WhatIf_DiffusionV2_whatif_style.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
