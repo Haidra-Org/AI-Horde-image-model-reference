@@ -3864,6 +3864,40 @@
     },
     "available": false
   },
+  "DGSpitzer Art Diffusion": {
+    "name": "DGSpitzer Art Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Dreambooth model based on Vintedois, trained on a dataset of DGSpitzer art. Styles included are outline, sketch, anime, painting and landscape",
+    "version": "1",
+    "style": "digital art",
+    "homepage": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion",
+    "trigger": ["painting", "arts, dgspitzer", "outline", "anime","whiteshape","sketch","landscape"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/DGSpitzer_art_diffusion.ckpt",
+          "md5sum": "3e3d3fae77f485343886d68551d79ec7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "DGSpitzer_art_diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion/resolve/main/DGSpitzer-Art-Diffusion.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
