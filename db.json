@@ -3831,6 +3831,39 @@
     },
     "available": false
   },
+  "Lawlas's yiff mix": {
+    "name": "Lawlas's yiff mix",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Based on yiffy-e18 and Anything, produces sfw/nsfw furry anthro artworks of different styles with consistant quality, while maintaining details on stuff like clothes, background, etc. with simpler prompts.",
+    "version": "1",
+    "style": "furry",
+    "homepage": "https://civitai.com/models/4698/lawlass-yiff-mix",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Lawlas-yiffmix.ckpt",
+          "md5sum": "42e450fe64b8b1af2539f1b545aba7f2"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Lawlas-yiffmix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Airic/lawlas-yiff-mix/resolve/main/Lawlas-YiffMix-inclVae.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
