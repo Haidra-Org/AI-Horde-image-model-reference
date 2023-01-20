@@ -53,5 +53,5 @@ shadow:
 ```
 ## Example Image
 Anything Diffusion
-![alt text](https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/01.webp "Anything Diffusion")
+![alt text](https://github.com/Sygil-Dev/nataili-model-reference/blob/main/showcase/anything_diffusion/01.webp "Anything Diffusion")
 
