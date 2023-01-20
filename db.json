@@ -3110,7 +3110,8 @@
     "type": "ckpt",
     "description": "You can use this model to generate modernart style images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp",
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/02_gigachad.webp"
     ],
     "version": "1.0",
     "style": "modern art",
@@ -3147,7 +3148,7 @@
     "type": "ckpt",
     "description": "He merged a few checkpoints and got something buttery and amazing. Does great with things other then people too. It can do anything really. It doesn't need crazy prompts either. Keep it simple. No need for all the artist names and trending on whatever.",
     "showcases": [
-      "https://s3.amazonaws.com/moonup/production/uploads/1672801449030-6344cba8762379fc63032a74.jpeg"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hasdx/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -3288,6 +3289,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A mixture of Dreamlike Diffusion 1.0, SamDoesArt V3 and Kuvshinov style models.  Created mostly for exploring different character concepts with a focus on drawings, but the mix happened to be pretty good at realistic-ish images, all thanks to wonderful models that it uses.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "characters",
     "homepage": "https://civitai.com/models/1473/dreamlikesamkuvshinov",
@@ -3355,6 +3359,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A do (almost) anything model",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moistmix/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "generalist",
     "homepage": "https://civitai.com/models/3450/moistmix",
@@ -3424,6 +3431,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "It's an all-around easy-to-prompt general purpose semi-realistic to realistic model that cranks out some really nice images. No trigger words required",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
+    ],
     "version": "1.0",
     "style": "generalist",
     "homepage": "https://civitai.com/models/1366/elldreths-lucid-mix",
@@ -3527,6 +3537,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
+    ],
     "version": "2",
     "style": "Sonic The Hedgehog",
     "homepage": "https://huggingface.co/Metal079/SonicDiffusionV2",
@@ -3632,6 +3645,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
+    ],
     "version": "8.6",
     "style": "generalist",
     "homepage": "https://civitai.com/models/4398/protogen-infinity-official-release",
@@ -3701,6 +3717,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Merged model mix of Midnight mixer, roboEtics, f222, elldrethSLucidMix, Seek.ART Mega, rpg, hassanBlend, modelshoot and roboDiffusion",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
+    ],
     "version": "3.3",
     "style": "realistic cartoon/anime/fantasy",
     "homepage": "https://civitai.com/models/4384/dreamshaper",
@@ -3734,6 +3753,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "based off work of great artworks from Legend of Zelda: Breath of The Wild",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "painting/fantasy",
     "homepage": "https://huggingface.co/s3nh/zelda-botw-stable-diffusion",
@@ -3768,6 +3790,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
+    ],
     "version": "2",
     "style": "comic/animation",
     "homepage": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion",
@@ -3802,6 +3827,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Generates t-shirt logos, base model is vintedois-diffusion with additional training on t-shirt logos size 640x640px",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
+    ],
     "version": "1",
     "style": "screenprint",
     "homepage": "https://civitai.com/models/4694/lessmagifactorygreater-t-shirt-diffusion",
