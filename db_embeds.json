@@ -1,0 +1,10 @@
+{
+	"dblx": {
+		"EmbedName": "Double Exposure",
+		"FilePath": "/models/sd-concepts-library/dblx",
+		"baseline": "stable diffusion 2",
+		"Description": "Creates renders with the double exposure photo effect",
+		"triggers": ["dblx"],
+		"showcase": ""
+	}
+}
