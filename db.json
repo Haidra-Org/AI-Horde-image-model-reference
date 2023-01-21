@@ -110,8 +110,8 @@
         {
           "file_name": "model_1_5.ckpt",
           "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://{username}:{password}@huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
-          "hf_auth": true
+          "file_url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
+          "hf_auth": false
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "file_name": "model.ckpt",
           "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://{username}:{password}@huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
-          "hf_auth": true
+          "file_url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
+          "hf_auth": false
         }
       ]
     },
@@ -4214,7 +4214,7 @@
     "version": "1.5",
     "style": "inpainting",
     "hf_path": "runwayml/stable-diffusion-inpainting",
-    "hf_auth": true,
+    "hf_auth": false,
     "available": false
   },
   "safety_checker": {
