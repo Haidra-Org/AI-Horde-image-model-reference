@@ -1226,7 +1226,7 @@
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
 		],
-		"version": "1",
+		"version": "3",
 		"style": "realistic fantasy render",
 		"homepage": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion",
 		"nsfw": false,
@@ -1234,8 +1234,8 @@
 		"config": {
 			"files": [
 				{
-					"path": "Dungeons-and-Diffusion-30k.ckpt",
-					"md5sum": "591fb04c1cfceb7bac7aeedc6be8b030"
+					"path": "Dungeons-and-Diffusion.ckpt",
+					"md5sum": "e1ab002275d7f7340179f68a98b6fa0d"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -1243,9 +1243,9 @@
 			],
 			"download": [
 				{
-					"file_name": "Dungeons-and-Diffusion-30k.ckpt",
+					"file_name": "Dungeons-and-Diffusion.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/resolve/main/model30000.ckpt"
+					"file_url": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/resolve/main/D%26Diffusion3.0_Protogen.ckpt"
 				}
 			]
 		},
@@ -3518,6 +3518,36 @@
 			  "file_name": "DGSpitzer_art_diffusion.ckpt",
 			  "file_path": "",
 			  "file_url": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion/resolve/main/DGSpitzer-Art-Diffusion.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Realistic Vision": {
+		"name": "Realistic Vision",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Model for creating photorealistic humans",
+		"version": "1.2",
+		"style": "photo/portrait",
+		"homepage": "https://civitai.com/models/4201/realistic-vision-v12",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "RealisticVision.ckpt",
+			  "md5sum": "78b17d5ecb1f59e776a6177cfa4a47e7"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "RealisticVision.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/5196?type=Model&format=PickleTensor"
 			}
 		  ]
 		},
