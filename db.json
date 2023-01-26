@@ -3966,7 +3966,7 @@
     "version": "2",
     "style": "digital art",
     "homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
-    "nsfw": true,
+    "nsfw": false,
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
@@ -3986,6 +3986,39 @@
           "file_name": "DanMumford.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/v2UpdatedFlonixsDan_flonixsDanMumford.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "PFG": {
+    "name": "PFG",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "NSFW Model for realistic and Hentai images",
+    "version": "1.11",
+    "style": "boudoir photography",
+    "homepage": "https://civitai.com/models/1227/pfg",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PFG.ckpt",
+          "md5sum": "07dc65f652bb400af4d03b0bf6a41b95"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PFG.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/1291"
         }
       ]
     },
