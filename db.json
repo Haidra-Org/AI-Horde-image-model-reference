@@ -4074,7 +4074,7 @@
       "files": [
         {
           "path": "models/custom/Deliberate.ckpt",
-          "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
+          "md5sum": "676e7f60a2b3194b7a258c0064b1987e"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
