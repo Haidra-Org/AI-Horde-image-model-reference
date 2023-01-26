@@ -4028,7 +4028,7 @@
     "name": "Epic Diffusion",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "Epîc Diffusion is a general purpose model based on Stable Diffusion 1.x intended to replace the official SD releases as your default model. It is focused on providing high quality output in a wide range of different styles, with support for NFSW content.",
+    "description": "Epic Diffusion is a general purpose model based on Stable Diffusion 1.x intended to replace the official SD releases as your default model. It is focused on providing high quality output in a wide range of different styles, with support for NFSW content.",
     "version": "1.1",
     "style": "generalist",
     "homepage": "https://civitai.com/models/3855/epic-diffusion",
@@ -4051,7 +4051,40 @@
         {
           "file_name": "EpicDiffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/1291"
+          "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Deliberate": {
+    "name": "Deliberate",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model provides you the ability to create anything you want. The more power of prompt knowledges you have, the better results you'll get. It basically means that you'll never get a perfect result with just a few words. You have to fill out your prompt line extremely detailed",
+    "version": "1.1",
+    "style": "generalist",
+    "homepage": "https://civitai.com/models/4823/deliberate",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Deliberate.ckpt",
+          "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Deliberate.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/5616?type=Model&format=PickleTensor"
         }
       ]
     },
