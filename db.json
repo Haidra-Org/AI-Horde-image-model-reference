@@ -4131,8 +4131,7 @@
     "description": "GalaxyTimeMachine's GTM Ultimate Blend - a generalist model good at portraits, scenery with a fantasy vibe",
     "version": "3",
     "style": "fantasy",
-    "homepage": "https://civitai.com/models/4897/concept-sheet",
-    "trigger": ["concept-art"],
+    "homepage": "https://civitai.com/models/4884/galaxytimemachines-gtmultimateblendv3",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -4141,8 +4140,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/ConceptSheet.ckpt",
-          "md5sum": "4164e3765e41fc65d283360a1f406a51"
+          "path": "models/custom/GTM.ckpt",
+          "md5sum": "056847e46439d4afbaebceb268398b41"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4150,9 +4149,9 @@
       ],
       "download": [
         {
-          "file_name": "ConceptSheet.ckpt",
+          "file_name": "GTM.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+          "file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
         }
       ]
     },
