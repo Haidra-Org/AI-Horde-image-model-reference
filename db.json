@@ -4165,7 +4165,7 @@
     "version": "4",
     "style": "characters/portraits",
     "homepage": "https://huggingface.co/ManglerFTW/CharHelper",
-    "trigger": ["CHV3CZombie","CHV3CAlien","CHV3CBird","CHV3SLighthouse", "CHV3SCute", "CHV3SMacro"],
+    "trigger": ["CHV3CZombie","CHV3CAlien","CHV3CBird","CHV3SLighthouse","CHV3SCute","CHV3SMacro"],
     "nsfw": false,
     "download_all": false,
     "requires": [
