@@ -4090,6 +4090,39 @@
     },
     "available": false
   },
+  "Concept Sheet": {
+    "name": "Concept Sheet",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model is just the first dreambooth iteration for concept-sheet/old-books style. Based on SD 2.1",
+    "version": "alpha",
+    "style": "concept-sheet/old-books",
+    "homepage": "https://civitai.com/models/4897/concept-sheet",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ConceptSheet.ckpt",
+          "md5sum": "4164e3765e41fc65d283360a1f406a51"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ConceptSheet.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
