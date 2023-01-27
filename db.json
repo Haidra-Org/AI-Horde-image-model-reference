@@ -4098,6 +4098,7 @@
     "version": "alpha",
     "style": "concept-sheet/old-books",
     "homepage": "https://civitai.com/models/4897/concept-sheet",
+    "trigger": ["concept-art"],
     "nsfw": false,
     "download_all": false,
     "requires": [
