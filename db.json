@@ -4090,6 +4090,141 @@
     },
     "available": false
   },
+  "Concept Sheet": {
+    "name": "Concept Sheet",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model is just the first dreambooth iteration for concept-sheet/old-books style. Based on SD 2.1",
+    "version": "alpha",
+    "style": "concept-sheet/old-books",
+    "homepage": "https://civitai.com/models/4897/concept-sheet",
+    "trigger": ["concept-art"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ConceptSheet.ckpt",
+          "md5sum": "4164e3765e41fc65d283360a1f406a51"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ConceptSheet.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
+  "GTM Ultimate Blend": {
+    "name": "GTM Ultimate Blend",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "GalaxyTimeMachine's GTM Ultimate Blend - a generalist model good at portraits, scenery with a fantasy vibe",
+    "version": "3",
+    "style": "fantasy",
+    "homepage": "https://civitai.com/models/4884/galaxytimemachines-gtmultimateblendv3",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/GTM.ckpt",
+          "md5sum": "056847e46439d4afbaebceb268398b41"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "GTM.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
+  "CharHelper": {
+    "name": "CharHelper",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
+    "version": "4",
+    "style": "characters/portraits",
+    "homepage": "https://huggingface.co/ManglerFTW/CharHelper",
+    "trigger": ["CHV3CZombie","CHV3CAlien","CHV3CBird","CHV3SLighthouse", "CHV3SCute", "CHV3SMacro"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/CharHelper.ckpt",
+          "md5sum": "f4d86a86161cb403f334fe46c066a74e"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "CharHelper.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/CharHelperV4.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Pokemon3D": {
+    "name": "Pokemon3D",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+    "version": "1",
+    "style": "pokemon",
+    "homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
+    "trigger": ["GMAX","Mega","<PokemonName>"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Pokemon3D.ckpt",
+          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Pokemon3D.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
