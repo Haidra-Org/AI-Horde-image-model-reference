@@ -4192,6 +4192,40 @@
     },
     "available": false
   },
+  "Pokemon3D": {
+    "name": "Pokemon3D",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+    "version": "1",
+    "style": "pokemon",
+    "homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
+    "trigger": ["GMAX","Mega","<PokemonName>"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Pokemon3D.ckpt",
+          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Pokemon3D.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
