@@ -2974,7 +2974,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
-		"version": "0.1",
+		"version": "0.2",
 		"style": "generalist",
 		"homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
 		"nsfw": false,
@@ -2983,7 +2983,7 @@
 		  "files": [
 			{
 			  "path": "SygilDev_Diffusion.ckpt",
-			  "md5sum": "ca5851247b57ad21b98a8945c97e97f8"
+			  "md5sum": "1e2c8f1ff3a7687ac5e2ce31e690f09e"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -2993,7 +2993,7 @@
 			{
 			  "file_name": "SygilDev_Diffusion.ckpt",
 			  "file_path": "",
-			  "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.1.ckpt"
+			  "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.2.ckpt"
 			}
 		  ]
 		},
@@ -3548,6 +3548,249 @@
 			  "file_name": "RealisticVision.ckpt",
 			  "file_path": "",
 			  "file_url": "https://civitai.com/api/download/models/5196?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Dan Mumford Style": {
+		"name": "Dan Mumford Style",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Model trained with a dataset of DanMumford Style images, courtesy of Flonix",
+		"version": "2",
+		"style": "digital art",
+		"homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "DanMumford.ckpt",
+			  "md5sum": "67183f6818d2e00592de91aabeffbf32"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "DanMumford.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/v2UpdatedFlonixsDan_flonixsDanMumford.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "PFG": {
+		"name": "PFG",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "NSFW Model for realistic and Hentai images",
+		"version": "1.11",
+		"style": "boudoir photography",
+		"homepage": "https://civitai.com/models/1227/pfg",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "PFG.ckpt",
+			  "md5sum": "07dc65f652bb400af4d03b0bf6a41b95"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "PFG.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/1291"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Epic Diffusion": {
+		"name": "Epic Diffusion",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Epic Diffusion is a general purpose model based on Stable Diffusion 1.x intended to replace the official SD releases as your default model. It is focused on providing high quality output in a wide range of different styles, with support for NFSW content.",
+		"version": "1.1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/3855/epic-diffusion",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "EpicDiffusion.ckpt",
+			  "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "EpicDiffusion.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Deliberate": {
+		"name": "Deliberate",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This model provides you the ability to create anything you want. The more power of prompt knowledges you have, the better results you'll get. It basically means that you'll never get a perfect result with just a few words. You have to fill out your prompt line extremely detailed",
+		"version": "1.1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/4823/deliberate",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Deliberate.ckpt",
+			  "md5sum": "676e7f60a2b3194b7a258c0064b1987e"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Deliberate.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/5616?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Concept Sheet": {
+		"name": "Concept Sheet",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "This model is just the first dreambooth iteration for concept-sheet/old-books style. Based on SD 2.1",
+		"version": "alpha",
+		"style": "concept-sheet/old-books",
+		"homepage": "https://civitai.com/models/4897/concept-sheet",
+		"trigger": ["concept-art"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "ConceptSheet.ckpt",
+			  "md5sum": "4164e3765e41fc65d283360a1f406a51"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "ConceptSheet.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "GTM Ultimate Blend": {
+		"name": "GTM Ultimate Blend",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "GalaxyTimeMachine's GTM Ultimate Blend - a generalist model good at portraits, scenery with a fantasy vibe",
+		"version": "3",
+		"style": "fantasy",
+		"homepage": "https://civitai.com/models/4884/galaxytimemachines-gtmultimateblendv3",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "GTM.ckpt",
+			  "md5sum": "056847e46439d4afbaebceb268398b41"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "GTM.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "CharHelper": {
+		"name": "CharHelper",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
+		"version": "4",
+		"style": "characters/portraits",
+		"homepage": "https://huggingface.co/ManglerFTW/CharHelper",
+		"trigger": ["CHV3CZombie","CHV3CAlien","CHV3CBird","CHV3SLighthouse","CHV3SCute","CHV3SMacro"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "CharHelper.ckpt",
+			  "md5sum": "f4d86a86161cb403f334fe46c066a74e"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "CharHelper.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/CharHelperV4.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Pokemon3D": {
+		"name": "Pokemon3D",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+		"version": "1",
+		"style": "pokemon",
+		"homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
+		"trigger": ["GMAX","Mega","<PokemonName>"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Pokemon3D.ckpt",
+			  "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Pokemon3D.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
 			}
 		  ]
 		},
