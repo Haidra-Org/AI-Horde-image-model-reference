@@ -4241,8 +4241,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/pix2pix.ckpt",
-          "md5sum": "f5b23f276ad1df6636fe5a94cb58c312"
+          "path": "models/custom/pix2pix.ckpt"
         },
         {
           "path": "configs/stable-diffusion/v1-inference-v.yaml"
