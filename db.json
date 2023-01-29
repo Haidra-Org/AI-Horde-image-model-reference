@@ -4242,7 +4242,7 @@
       "files": [
         {
           "path": "models/custom/pix2pix.ckpt",
-          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+          "md5sum": "f5b23f276ad1df6636fe5a94cb58c312"
         },
         {
           "path": "configs/stable-diffusion/v1-inference-v.yaml"
@@ -4252,7 +4252,7 @@
         {
           "file_name": "pix2pix.ckpt",
           "file_path": "models/custom",
-          "file_url": "http://instruct-pix2pix.eecs.berkeley.edu/instruct-pix2pix-00-22000.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pix2pix.ckpt"
         }
       ]
     },
