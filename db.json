@@ -1719,7 +1719,7 @@
     "version": "19",
     "style": "anime",
     "trigger": [
-      "1girl, anime"
+      "anime"
     ],
     "homepage": "https://github.com/Deltaadams/HentaiDiffusion",
     "nsfw": true,
