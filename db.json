@@ -4225,6 +4225,39 @@
     },
     "available": false
   },
+  "pix2pix
+    "name": "pix2pix",
+    "baseline": "stable diffusion 1",
+    "type": "pix2pix",
+    "description": "Model specifically trained for pix2pix use",
+    "version": "1",
+    "style": "generalist",
+    "homepage": "https://github.com/timothybrooks/instruct-pix2pix",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/pix2pix.ckpt",
+          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "pix2pix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "http://instruct-pix2pix.eecs.berkeley.edu/instruct-pix2pix-00-22000.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
