@@ -4225,7 +4225,7 @@
     },
     "available": false
   },
-  "pix2pix
+  "pix2pix"
     "name": "pix2pix",
     "baseline": "stable diffusion 1",
     "type": "pix2pix",
