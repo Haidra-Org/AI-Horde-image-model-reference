@@ -71,6 +71,7 @@
   },
   "Stable Diffusion 2 Depth": {
     "name": "Stable Diffusion 2 Depth",
+    "baseline": "stable diffusion 2",
     "type": "diffusers",
     "description": "Generalist model specialized for creating depth maps of existing images, for img2img creations",
     "version": "2",
@@ -4541,6 +4542,7 @@
   },
   "stable_diffusion_inpainting": {
     "name": "stable_diffusion_inpainting",
+    "baseline": "stable diffusion 1",
     "type": "diffusers",
     "description": "Generalist model specialized for modifying areas of existing images",
     "version": "1.5",
