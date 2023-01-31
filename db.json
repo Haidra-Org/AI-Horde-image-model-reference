@@ -4258,6 +4258,40 @@
     },
     "available": false
   },
+  "Vivid Watercolors": {
+    "name": "Vivid Watercolors",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
+    "version": "1",
+    "style": "watercolor",
+    "homepage": "https://huggingface.co/Evel/VividWatercolors",
+    "trigger": ["wtrcolor style"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/VividWatercolors.ckpt",
+          "md5sum": "99c02bdc193671a876a282479d4c1d93"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "VividWatercolors.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Evel/VividWatercolors/resolve/main/VividWatercolors_5000.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
