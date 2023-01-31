@@ -4292,6 +4292,105 @@
     },
     "available": false
   },
+  "Counterfeit": {
+    "name": "Counterfeit",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Counterfeit is anime style Stable Diffusion model",
+    "version": "2.0",
+    "style": "anime",
+    "homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Counterfeit.ckpt",
+          "md5sum": "d1aefc249752c109918acb075dcff85b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Counterfeit.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Counterfeit-V2-pruned.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Openniji": {
+    "name": "Openniji",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "The Stable Diffusion model trained on Nijijourney images",
+    "version": "1.0",
+    "style": "niji",
+    "homepage": "https://civitai.com/models/5143/openniji",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/OpenNiji.ckpt",
+          "md5sum": "2613cfe5c112694d1ad7612f03e79977"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "OpenNiji.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/openniji_10.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Pastel Mix": {
+    "name": "Pastel Mix",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
+    "version": "1",
+    "style": "anime",
+    "homepage": "https://huggingface.co/andite/pastel-mix",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PastelMix.ckpt",
+          "md5sum": "a1b01acea65d2f67ceb6ca19400df8ad"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PastelMix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/andite/pastel-mix/resolve/main/pastelmix-better-vae-fp16.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
