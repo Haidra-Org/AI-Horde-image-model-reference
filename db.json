@@ -4231,8 +4231,9 @@
   "pix2pix": {
     "name": "pix2pix",
     "baseline": "stable diffusion 1",
-    "type": "pix2pix",
+    "type": "ckpt",
     "description": "Model specifically trained for pix2pix use",
+    "min_bridge_version": 12,
     "version": "1",
     "style": "generalist",
     "homepage": "https://github.com/timothybrooks/instruct-pix2pix",
