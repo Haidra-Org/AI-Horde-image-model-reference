@@ -1720,7 +1720,9 @@
     "version": "19",
     "style": "anime",
     "trigger": [
-      "anime"
+      "anime",
+      "1girl",
+      "1boy"
     ],
     "homepage": "https://github.com/Deltaadams/HentaiDiffusion",
     "nsfw": true,
