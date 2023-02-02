@@ -4395,6 +4395,40 @@
     },
     "available": false
   },
+  "pulp-vector-beta": {
+    "name": "pulp vector beta",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
+    "version": "beta",
+    "style": "vector art",
+    "homepage": "https://civitai.com/models/4618/vector-art",
+    "trigger":["vector-art","pulp-diffusion"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/vectorArt_pulpVectorBeta.ckpt",
+          "md5sum": "F3427844A139D5BE2C4B4CEC2E67B2F1"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "vectorArt_pulpVectorBeta.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
