@@ -3935,7 +3935,7 @@
     "description": "Model for creating photorealistic humans",
     "version": "1.3",
     "style": "photo/portrait",
-    "homepage": "https://civitai.com/models/4201/realistic-vision-v12",
+    "homepage": "https://civitai.com/models/4201/realistic-vision-v13",
     "nsfw": true,
     "download_all": false,
     "requires": [
