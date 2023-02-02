@@ -4395,8 +4395,8 @@
     },
     "available": false
   },
-  "pulp-vector-beta": {
-    "name": "pulp vector beta",
+  "Pulp Vector Art": {
+    "name": "Pulp Vector Art",
     "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
@@ -4412,8 +4412,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/vectorArt_pulpVectorBeta.ckpt",
-          "md5sum": "F3427844A139D5BE2C4B4CEC2E67B2F1"
+          "path": "models/custom/pulp_vectorart.ckpt",
+          "md5sum": "f3427844a139d5be2c4b4cec2e67b2f1"
         },
         {
           "path": "configs/stable-diffusion/v2-inference-v.yaml"
@@ -4421,7 +4421,7 @@
       ],
       "download": [
         {
-          "file_name": "vectorArt_pulpVectorBeta.ckpt",
+          "file_name": "pulp_vectorart.ckpt",
           "file_path": "models/custom",
           "file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor"
         }
