@@ -3672,7 +3672,7 @@
         {
           "file_name": "Protogen_Infinity.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/4974"
+          "file_url": "https://civitai.com/api/download/models/4974?type=Model&format=PickleTensor"
         }
       ]
     },
