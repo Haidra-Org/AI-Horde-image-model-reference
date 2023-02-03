@@ -18,6 +18,55 @@
 		},
 		"available": false
 	},
+    "coca_ViT-L-14": {
+		"name": "coca_ViT-L-14",
+		"type": "coca",
+		"config": {
+			"files": [
+				{
+					"path": "laion2B-s13B-b90k-mscoco-2014.pt"
+				}
+			],
+			"download": [
+				{
+					"file_name": "laion2B-s13B-b90k-mscoco-2014.pt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/spaces/gpucce/CoCa/resolve/main/laion2B-s13B-b90k-mscoco-2014.pt"
+				}
+			]
+		},
+		"available": false
+	},
+    "ViT-bigG-14": {
+		"name": "ViT-bigG-14",
+		"pretrained_name": "laion2b_s39b_b160k",
+		"type": "open_clip",
+		"config": {
+			"files": [
+				{
+					"path": "models--laion--CLIP-ViT-G-14-laion2B-s39B-b160k/"
+				}
+			],
+			"download": [
+				{
+					"file_name": "main",
+					"file_path": "models--laion--CLIP-ViT-G-14-laion2B-s39B-b160k/refs",
+					"file_content": "011889ea0a463dce7a0c052d6f87f58ef98de29e"
+				},
+				{
+					"file_name": "0d5318839ad03607c48055c45897c655a14c0276a79f6b867934ddd073760e39",
+					"file_path": "models--laion--CLIP-ViT-G-14-laion2B-s39B-b160k/blobs",
+					"file_url": "https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k/resolve/main/open_clip_pytorch_model.bin"
+				},
+				{
+					"file_name": "open_clip_pytorch_model.bin",
+					"file_path": "models--laion--CLIP-ViT-G-14-laion2B-s39B-b160k/snapshots/011889ea0a463dce7a0c052d6f87f58ef98de29e",
+					"symlink": "models--laion--CLIP-ViT-G-14-laion2B-s39B-b160k/blobs/0d5318839ad03607c48055c45897c655a14c0276a79f6b867934ddd073760e39"
+				}
+			]
+		},
+		"available": false
+	},
 	"ViT-g-14": {
 		"name": "ViT-g-14",
 		"pretrained_name": "laion2b_s12b_b42k",
