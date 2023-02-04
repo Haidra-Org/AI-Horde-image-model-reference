@@ -3185,6 +3185,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A merge with over 23 other models with a methodical, careful and genuine approach. Freedom of prompting art or photo or both, landscapes or backgrounds or interiors, people or entities or scenes, stiff poses or movement or even mouth and facial emotions.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/liberty/01_liberty.webp"
+    ],
     "version": "1.0",
     "style": "photorealism",
     "homepage": "https://civitai.com/models/5935/liberty",
