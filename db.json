@@ -4531,6 +4531,39 @@
     },
     "available": false
   },
+  "GorynichMix": {
+    "name": "GorynichMix",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Model mix based on any4.5, Elysium, Dreamlike and few more models",
+    "version": "1.2",
+    "style": "digital art",
+    "homepage": "https://civitai.com/models/4815/gorynichmix",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/GorynichMix.ckpt",
+          "md5sum": "774fcbdd5888ace511064370a322f601"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "GorynichMix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/gorynichmix_v12-pruned.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
