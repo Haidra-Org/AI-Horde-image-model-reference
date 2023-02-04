@@ -3180,6 +3180,42 @@
     },
     "available": false
   },
+  "Liberty": {
+    "name": "Liberty",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A merge with over 23 other models with a methodical, careful and genuine approach. Freedom of prompting art or photo or both, landscapes or backgrounds or interiors, people or entities or scenes, stiff poses or movement or even mouth and facial emotions.",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/liberty/01_liberty.webp"
+    ],
+    "version": "1.0",
+    "style": "photorealism",
+    "homepage": "https://civitai.com/models/5935/liberty",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/liberty.ckpt",
+          "md5sum": "bde75d7ae88cc7896c1cdfd2f5bd9ea7"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "liberty.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/6908?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "ProtoGen": {
     "name": "ProtoGen",
     "baseline": "stable diffusion 1",
