@@ -4429,6 +4429,40 @@
     },
     "available": false
   },
+  "Rainbowpatch": {
+    "name": "Rainbowpatch",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Rainbowpatch is a fine-tuned model specifically trained to generate high-quality stylized images, this model doesn't require complicated detailed text prompts.",
+    "version": "1.2",
+    "style": "illustration, concept-art",
+    "homepage": "https://civitai.com/models/5528/rainbowpatch-12",
+    "trigger":["rainbowpatch"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/rainbowpatch.ckpt",
+          "md5sum": "b082ad98aeedcd28b9164162a1ccf3e1"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "rainbowpatch.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
@@ -4446,39 +4480,6 @@
           "file_name": "RealESRGAN_x4plus.pth",
           "file_path": "models/realesrgan",
           "file_url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth"
-        }
-      ]
-    },
-    "available": false
-    "Rainbowpatch 12": {
-    "name": "Rainbowpatch 12",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "Rainbowpatch is a fine-tuned model specifically trained to generate high-quality stylized images, this model doesn't require complicated detailed text prompts.",
-    "version": "1.2",
-    "style": "illustration, concept-art",
-    "homepage": "https://civitai.com/models/5528/rainbowpatch-12",
-    "trigger":["Rainbowpatch"],
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/rainbowpatch12.ckpt",
-          "md5sum": "b082ad98aeedcd28b9164162a1ccf3e1"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "rainbowpatch12.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor"
         }
       ]
     },
