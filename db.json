@@ -4564,6 +4564,39 @@
     },
     "available": false
   },
+  "Laolei New Berry Protogen Mix": {
+    "name": "Laolei New Berry Protogen Mix",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Awesome anime character/realism mix",
+    "version": "v1",
+    "style": "digital art",
+    "homepage": "https://civitai.com/models/4099/laolei-new-berry-protogen-mix",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/LNBPM.ckpt",
+          "md5sum": "e64e0f0467695bd6f1d1ffd0c755269b"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "LNBPM.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/LaoLeiNewBerry_inclvae.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
