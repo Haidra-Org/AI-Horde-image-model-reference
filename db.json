@@ -4497,6 +4497,40 @@
     },
     "available": false
   },
+  "T-Shirt Print Designs": {
+    "name": "T-Shirt Print Designs",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This is a style model for creating prints for tshirts",
+    "version": "0.1",
+    "style": "tshirt prints",
+    "homepage": "https://civitai.com/models/5256/t-shirt-print-designs-test-model",
+    "trigger":["printdesign"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/tshirt-print-designs.ckpt",
+          "md5sum": "d1f51ba806e29742df8adbf35169bd2c"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "tshirt-print-designs.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/6098?type=Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
