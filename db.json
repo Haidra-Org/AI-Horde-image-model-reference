@@ -3400,7 +3400,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moistmix/01_gigachad.webp"
     ],
-    "version": "1.0",
+    "version": "2",
     "style": "generalist",
     "homepage": "https://civitai.com/models/3450/moistmix",
     "nsfw": false,
@@ -3412,7 +3412,7 @@
       "files": [
         {
           "path": "models/custom/MoistMix.ckpt",
-          "md5sum": "675fc83c7aabce6fb1a003d5a1a24c21"
+          "md5sum": "fe58cff02ec3c355d9d3abe925a775d5"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3422,7 +3422,7 @@
         {
           "file_name": "MoistMix.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/3829?type=Model&format=PickleTensor"
+          "file_url": "https://civitai.com/api/download/models/5955?type=Model&format=PickleTensor"
         }
       ]
     },
