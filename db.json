@@ -816,17 +816,17 @@
     "name": "Microworlds",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "Isometric microworlds",
+    "description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/02_racebannin.webp"
     ],
-    "version": "1",
-    "style": "3d render",
+    "version": "3",
+    "style": "3d render, isometric",
     "trigger": [
-      "microworld render style"
+      "microworld"
     ],
-    "homepage": "https://publicprompts.art/microworlds-dreambooth-model/",
+    "homepage": "https://civitai.com/models/5434/microworlds-remake-notext",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -836,7 +836,7 @@
       "files": [
         {
           "path": "models/custom/microworld_PublicPrompts.ckpt",
-          "md5sum": "1ea601ec3be285f2dfb220fd8d2887ce"
+          "md5sum": "8e674ab3b1478bcee60f1ca25bee088c"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -846,7 +846,7 @@
         {
           "file_name": "microworld_PublicPrompts.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/db0/microworlds/resolve/main/microworld_PublicPrompts.ckpt"
+          "file_url": "https://civitai.com/api/download/models/7239"
         }
       ]
     },
