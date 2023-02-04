@@ -4597,6 +4597,38 @@
     },
     "available": false
   },
+  "URPM": {
+    "name": "URPM",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Model for creating photorealistic humans",
+    "version": "1.2",
+    "style": "boudoir photography",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/URPM.ckpt",
+          "md5sum": "ada0906adbfc6b6aa24d8aa1adcde98e"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "URPM.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/4971?type=Pruned%20Model&format=PickleTensor"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
