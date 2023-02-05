@@ -3513,6 +3513,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/scifi_diffusion/01_scifi.webp"
+    ],
     "config": {
       "files": [
         {
