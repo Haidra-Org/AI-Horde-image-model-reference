@@ -4700,6 +4700,7 @@
       ]
     },
     "available": false
+  },
   "Rachel Walker Watercolors": {
     "name": "Rachel Walker Watercolors",
     "baseline": "stable diffusion 1",
@@ -4733,7 +4734,6 @@
       ]
     },
     "available": false
-  },
   },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
