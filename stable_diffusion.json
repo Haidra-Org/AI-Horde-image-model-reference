@@ -69,7 +69,9 @@
 		"type": "ckpt",
 		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_bigdowg.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_racebannin.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/02_bigdowg.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/03_executivebees24601.webp"
 		],
 		"version": "1.5",
 		"style": "generalist",
@@ -89,8 +91,7 @@
 				{
 					"file_name": "model_1_5.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
-					"hf_auth": false
+					"file_url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
 				}
 			]
 		},
@@ -122,8 +123,7 @@
 				{
 					"file_name": "model.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
-					"hf_auth": false
+					"file_url": "https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt"
 				}
 			]
 		},
@@ -136,7 +136,8 @@
 		"description": "Anime styled generations.",
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/03_racebannin.webp"
 		],
 		"version": "1.3",
 		"style": "anime",
@@ -711,21 +712,22 @@
 		"name": "Microworlds",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
-		"description": "Isometric microworlds",
+		"description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/01_bigdowg.jpg"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/02_racebannin.webp"
 		],
-		"version": "1",
-		"style": "3d render",
-		"trigger": ["microworld render style"],
-		"homepage": "https://publicprompts.art/microworlds-dreambooth-model/",
+		"version": "3",
+		"style": "3d render, isometric",
+		"trigger": ["microworld"],
+		"homepage": "https://civitai.com/models/5434/microworlds-remake-notext",
 		"nsfw": false,
 		"download_all": false,
 		"config": {
 			"files": [
 				{
 					"path": "microworld_PublicPrompts.ckpt",
-					"md5sum": "1ea601ec3be285f2dfb220fd8d2887ce"
+					"md5sum": "8e674ab3b1478bcee60f1ca25bee088c"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -735,7 +737,7 @@
 				{
 					"file_name": "microworld_PublicPrompts.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/db0/microworlds/resolve/main/microworld_PublicPrompts.ckpt"
+					"file_url": "https://civitai.com/api/download/models/7239"
 				}
 			]
 		},
@@ -1155,18 +1157,19 @@
 		"description": "Highly detailed Anime styled generations",
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp",
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/03_executivebees24601.webp"
 		],
-		"version": "3",
+		"version": "4.5",
 		"style": "anime",
-		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
+		"homepage": "https://huggingface.co/andite/anything-v4.0",
 		"nsfw": false,
 		"download_all": false,
 		"config": {
 			"files": [
 				{
-					"path": "Anything-Diffusion-v3.ckpt",
-					"md5sum": "0aa33de6b36c239ba579e73edf10a026"
+					"path": "Anything-Diffusion.ckpt",
+					"md5sum": "2f42bb28fe05b7f9c5cce93a0eaff2ea"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -1174,9 +1177,9 @@
 			],
 			"download": [
 				{
-					"file_name": "Anything-Diffusion-v3.ckpt",
+					"file_name": "Anything-Diffusion.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.ckpt"
+					"file_url": "https://huggingface.co/Airic/Anything-V4.5/resolve/main/Anything-v4.5-pruned-mergedVae.ckpt"
 				}
 			]
 		},
@@ -1499,9 +1502,9 @@
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
 		],
-		"version": "19",
+		"version": "22",
 		"style": "anime",
-		"trigger": ["1girl, anime"],
+		"trigger": ["anime", "1girl", "1boy"],
 		"homepage": "https://github.com/Deltaadams/HentaiDiffusion",
 		"nsfw": true,
 		"download_all": false,
@@ -1509,7 +1512,7 @@
 			"files": [
 				{
 					"path": "hentai-diffusion.ckpt",
-					"md5sum": "4b87c5f27919228eadd47013a2764fd9"
+					"md5sum": "a2e354439e785e48f31c4c5004ab2874"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -1519,7 +1522,7 @@
 				{
 					"file_name": "hentai-diffusion.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/Deltaadams/HentaiDiffusion/resolve/main/HD-19.ckpt"
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/HD-22_inclvae-pruned.ckpt"
 				}
 			]
 		},
@@ -1635,7 +1638,8 @@
 		"description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/01_gigachad.webp",
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/03_gigachad.webp"
 		],
 		"version": "1",
 		"style": "isometric display case",
@@ -1826,39 +1830,6 @@
 					"file_name": "wavyfusion.ckpt",
 					"file_path": "",
 					"file_url": "https://huggingface.co/wavymulder/wavyfusion/resolve/main/wa-vy-fusion_1.0.ckpt"
-				}
-			]
-		},
-		"available": false
-	},
-	"Dawgsmix": {
-		"name": "Dawgsmix",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "anime and realistic anatomy focused merged of anything , trinart , f222 , sd1.5",
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dawgsmix/01_bigdowg.webp"
-		],
-		"version": "1",
-		"style": "realistic anime",
-		"homepage": "https://huggingface.co/Sanjii/Dawgsmix",
-		"nsfw": false,
-		"download_all": false,
-		"config": {
-			"files": [
-				{
-					"path": "biggdawgs_mix.ckpt",
-					"md5sum": "498114d1e23035b06c6cc40ff0cf3674"
-				},
-				{
-					"path": "v1-inference.yaml"
-				}
-			],
-			"download": [
-				{
-					"file_name": "biggdawgs_mix.ckpt",
-					"file_path": "",
-					"file_url": "https://huggingface.co/Sanjii/Dawgsmix/resolve/main/biggdawgs_mix.ckpt"
 				}
 			]
 		},
@@ -2314,16 +2285,16 @@
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/01_gigachad.webp",
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/02_bettername.webp"
 		],
-		"version": "1.4",
+		"version": "1.5",
 		"style": "photorealism",
-		"homepage": "https://huggingface.co/hassanblend/hassanblend1.4",
+		"homepage": "https://huggingface.co/hassanblend/hassanblend1.5",
 		"nsfw": true,
 		"download_all": false,
 		"config": {
 			"files": [
 				{
 					"path": "hassanblend.ckpt",
-					"md5sum": "156bc7ac0ba3bdbc54ee6bc315c9c726"
+					"md5sum": "c170bd57281f8f267852fb6481931602"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -2333,7 +2304,7 @@
 				{
 					"file_name": "hassanblend.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/hassanblend/hassanblend1.4/resolve/main/HassanBlend1.4.ckpt"
+					"file_url": "https://huggingface.co/hassanblend/HassanBlend1.5/resolve/main/HassanBlend1.5.ckpt"
 				}
 			]
 		},
@@ -2548,7 +2519,7 @@
 		"type": "ckpt",
 		"description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
 		"showcases": [
-			"https://huggingface.co/wavymulder/portraitplus/resolve/main/imgs/page1.jpg"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/portraitplus/01_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "photo",
@@ -2777,7 +2748,8 @@
 		"type": "ckpt",
 		"description": "You can use this model to generate modernart style images",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/02_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "modern art",
@@ -2811,7 +2783,7 @@
 		"type": "ckpt",
 		"description": "He merged a few checkpoints and got something buttery and amazing. Does great with things other then people too. It can do anything really. It doesn't need crazy prompts either. Keep it simple. No need for all the artist names and trending on whatever.",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hasdx/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hasdx/01_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "generalist",
@@ -2819,32 +2791,65 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "HASDX.ckpt",
-			  "md5sum": "762f5780b54539a55e396f4c7c01f282"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "HASDX.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/BestJammer/HASDX/resolve/main/ckptSXDHAS.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "HASDX.ckpt",
+					"md5sum": "762f5780b54539a55e396f4c7c01f282"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "HASDX.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/BestJammer/HASDX/resolve/main/ckptSXDHAS.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "ProtoGen": {
+	},
+	"Liberty": {
+		"name": "Liberty",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A merge with over 23 other models with a methodical, careful and genuine approach. Freedom of prompting art or photo or both, landscapes or backgrounds or interiors, people or entities or scenes, stiff poses or movement or even mouth and facial emotions.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/liberty/01_liberty.webp"
+		],
+		"version": "1.0",
+		"style": "photorealism",
+		"homepage": "https://civitai.com/models/5935/liberty",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "liberty.ckpt",
+					"md5sum": "bde75d7ae88cc7896c1cdfd2f5bd9ea7"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "liberty.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/6908?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"ProtoGen": {
 		"name": "ProtoGen",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "One Step Closer to Reality",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen/01_gigachad.webp"
 		],
 		"version": "5.3",
 		"style": "generalist",
@@ -2852,33 +2857,33 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "ProtoGen.ckpt",
-			  "md5sum": "857dcdf1eb76e8a6f44ad181bbb277d4"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "ProtoGen.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release/resolve/main/ProtoGen_X5.3.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "ProtoGen.ckpt",
+					"md5sum": "857dcdf1eb76e8a6f44ad181bbb277d4"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "ProtoGen.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release/resolve/main/ProtoGen_X5.3.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "3DKX": {
+	},
+	"3DKX": {
 		"name": "3DKX",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp",
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/02_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/02_gigachad.webp"
 		],
 		"version": "1.1",
 		"style": "3d render",
@@ -2886,26 +2891,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "3DKX.ckpt",
-			  "md5sum": "43501894669a781fd3e03ee865cc4ccc"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "3DKX.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/HavoAloe/3DKX_1.0b/resolve/main/3DKX_v1.1.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "3DKX.ckpt",
+					"md5sum": "43501894669a781fd3e03ee865cc4ccc"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "3DKX.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/HavoAloe/3DKX_1.0b/resolve/main/3DKX_v1.1.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Moedel": {
+	},
+	"Moedel": {
 		"name": "Moedel",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -2916,60 +2921,60 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "moedel.ckpt",
-			  "md5sum": "4ea5e452fc03905819519ca8150dcac6"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "moedel.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/2181"
-			}
-		  ]
+			"files": [
+				{
+					"path": "moedel.ckpt",
+					"md5sum": "4ea5e452fc03905819519ca8150dcac6"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "moedel.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/2181"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "DreamLikeSamKuvshinov": {
+	},
+	"DreamLikeSamKuvshinov": {
 		"name": "DreamLikeSamKuvshinov",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A mixture of Dreamlike Diffusion 1.0, SamDoesArt V3 and Kuvshinov style models.  Created mostly for exploring different character concepts with a focus on drawings, but the mix happened to be pretty good at realistic-ish images, all thanks to wonderful models that it uses.",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
 		],
 		"version": "1",
 		"style": "characters",
 		"homepage": "https://civitai.com/models/1473/dreamlikesamkuvshinov",
-		"trigger":["dreamlikeart", "samdoesart", "kuvshinov"],
+		"trigger": ["dreamlikeart", "samdoesart", "kuvshinov"],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "DreamLikeSamKuvshinov.ckpt",
-			  "md5sum": "0e836fa9fe4ed5a91ec1251513358ea8"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "DreamLikeSamKuvshinov.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/1642"
-			}
-		  ]
+			"files": [
+				{
+					"path": "DreamLikeSamKuvshinov.ckpt",
+					"md5sum": "0e836fa9fe4ed5a91ec1251513358ea8"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "DreamLikeSamKuvshinov.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1642"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Sygil-Dev Diffusion": {
+	},
+	"Sygil-Dev Diffusion": {
 		"name": "Sygil-Dev Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -2980,65 +2985,65 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "SygilDev_Diffusion.ckpt",
-			  "md5sum": "1e2c8f1ff3a7687ac5e2ce31e690f09e"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "SygilDev_Diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.2.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "SygilDev_Diffusion.ckpt",
+					"md5sum": "1e2c8f1ff3a7687ac5e2ce31e690f09e"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "SygilDev_Diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.2.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "MoistMix": {
+	},
+	"MoistMix": {
 		"name": "MoistMix",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A do (almost) anything model",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moistmix/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moistmix/01_gigachad.webp"
 		],
-		"version": "1.0",
+		"version": "2",
 		"style": "generalist",
 		"homepage": "https://civitai.com/models/3450/moistmix",
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "MoistMix.ckpt",
-			  "md5sum": "675fc83c7aabce6fb1a003d5a1a24c21"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "MoistMix.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/3829?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "MoistMix.ckpt",
+					"md5sum": "fe58cff02ec3c355d9d3abe925a775d5"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "MoistMix.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5955?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Healy's Anime Blend": {
+	},
+	"Healy's Anime Blend": {
 		"name": "Healy's Anime Blend",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This is a blend of some anime models mixed with 'realistic' stuff",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/healys_anime_blend/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/healys_anime_blend/01_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "anime",
@@ -3046,32 +3051,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Healys.ckpt",
-			  "md5sum": "416566bada0313f4504857dcdbe530c6"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Healys.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/1498"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Healys.ckpt",
+					"md5sum": "416566bada0313f4504857dcdbe530c6"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Healys.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1498"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Elldreth's Lucid Mix": {
+	},
+	"Elldreth's Lucid Mix": {
 		"name": "Elldreth's Lucid Mix",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "It's an all-around easy-to-prompt general purpose semi-realistic to realistic model that cranks out some really nice images. No trigger words required",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "generalist",
@@ -3079,26 +3084,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Elldreths_Lucid_Mix.ckpt",
-			  "md5sum": "b2b73886b8d3cc040aea991f264acb56"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Elldreths_Lucid_Mix.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Elldreths_Lucid_Mix.ckpt",
+					"md5sum": "b2b73886b8d3cc040aea991f264acb56"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Elldreths_Lucid_Mix.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Sci-Fi Diffusion": {
+	},
+	"Sci-Fi Diffusion": {
 		"name": "Sci-Fi Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3109,132 +3114,132 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Sci-Fi_Diffusion.ckpt",
-			  "md5sum": "64eb04eecdd6edd9af1b11d8972515a3"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Sci-Fi_Diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion/resolve/main/Sci-Fi_Diffusion_1.0.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Sci-Fi_Diffusion.ckpt",
+					"md5sum": "64eb04eecdd6edd9af1b11d8972515a3"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Sci-Fi_Diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion/resolve/main/Sci-Fi_Diffusion_1.0.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Ultraskin": {
+	},
+	"Ultraskin": {
 		"name": "Ultraskin",
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ultraskin/01_voodoocode.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ultraskin/01_voodoocode.webp"
 		],
 		"version": "0.9",
 		"style": "portrait photography",
 		"homepage": "https://huggingface.co/VegaKH/Ultraskin",
-		"trigger":["ultraskin"],
+		"trigger": ["ultraskin"],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Ultraskin.ckpt",
-			  "md5sum": "8e487864e56b73235c5ec304ed3a94a5"
-			},
-			{
-			  "path": "v2-inference-v.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Ultraskin.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/VegaKH/Ultraskin/resolve/main/ultraskin.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Ultraskin.ckpt",
+					"md5sum": "8e487864e56b73235c5ec304ed3a94a5"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Ultraskin.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/VegaKH/Ultraskin/resolve/main/ultraskin.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Sonic Diffusion": {
+	},
+	"Sonic Diffusion": {
 		"name": "Sonic Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
 		],
 		"version": "2",
 		"style": "Sonic The Hedgehog",
 		"homepage": "https://huggingface.co/Metal079/SonicDiffusionV2",
-		"trigger":["mobian"],
+		"trigger": ["mobian"],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Sonic_Diffusion.ckpt",
-			  "md5sum": "6f0a9581fedf5971f502e29e82a81e20"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Sonic_Diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Sonic_Diffusion.ckpt",
+					"md5sum": "6f0a9581fedf5971f502e29e82a81e20"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Sonic_Diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "PPP": {
+	},
+	"PPP": {
 		"name": "PPP",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "PPP is a realistic model merge, tested and tweaked for human females. Mostly based on NSFW models",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ppp/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ppp/01_gigachad.webp"
 		],
 		"version": "1.0",
 		"style": "boudoir photography",
 		"nsfw": true,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "PPP.ckpt",
-			  "md5sum": "0e9012fab5382c7c3e9f3365e474835e"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "PPP.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/1304"
-			}
-		  ]
+			"files": [
+				{
+					"path": "PPP.ckpt",
+					"md5sum": "0e9012fab5382c7c3e9f3365e474835e"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "PPP.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1304"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Anygen": {
+	},
+	"Anygen": {
 		"name": "Anygen",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A best of both worlds - merging the anime of Anything v3 with Protogens photorealism - VAE is included",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anygen/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anygen/01_gigachad.webp"
 		],
 		"version": "3.7",
 		"style": "portraits",
@@ -3242,32 +3247,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Anygen.ckpt",
-			  "md5sum": "230a5ab427ad84f7380a27dd480e1530"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Anygen.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/anygen_v37_inclvae.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Anygen.ckpt",
+					"md5sum": "230a5ab427ad84f7380a27dd480e1530"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Anygen.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/anygen_v37_inclvae.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Protogen Infinity": {
+	},
+	"Protogen Infinity": {
 		"name": "Protogen Infinity",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
 		],
 		"version": "8.6",
 		"style": "generalist",
@@ -3275,32 +3280,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Protogen_Infinity.ckpt",
-			  "md5sum": "dba1f1d9180d983ce780e486f9a40d66"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Protogen_Infinity.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/4974"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Protogen_Infinity.ckpt",
+					"md5sum": "dba1f1d9180d983ce780e486f9a40d66"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Protogen_Infinity.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/4974?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "DucHaiten": {
+	},
+	"DucHaiten": {
 		"name": "DucHaiten",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "DucHaiten's character generation model",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/duchaiten/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/duchaiten/01_gigachad.webp"
 		],
 		"version": "1.1",
 		"style": "cartoon/anime",
@@ -3308,32 +3313,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "DucHaiten.ckpt",
-			  "md5sum": "deae914e47f3c6156ed9aacbb05d495c"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "DucHaiten.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart_v1.1.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "DucHaiten.ckpt",
+					"md5sum": "deae914e47f3c6156ed9aacbb05d495c"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "DucHaiten.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart_v1.1.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Dreamshaper": {
+	},
+	"Dreamshaper": {
 		"name": "Dreamshaper",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Merged model mix of Midnight mixer, roboEtics, f222, elldrethSLucidMix, Seek.ART Mega, rpg, hassanBlend, modelshoot and roboDiffusion",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
 		],
 		"version": "3.3",
 		"style": "realistic cartoon/anime/fantasy",
@@ -3341,32 +3346,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Dreamshaper.ckpt",
-			  "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Dreamshaper.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Airic/Dreamshaper_33-vae/resolve/main/dreamshaper_33-inclVae.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Dreamshaper.ckpt",
+					"md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Dreamshaper.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Airic/Dreamshaper_33-vae/resolve/main/dreamshaper_33-inclVae.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Zelda BOTW": {
+	},
+	"Zelda BOTW": {
 		"name": "Zelda BOTW",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "based off work of great artworks from Legend of Zelda: Breath of The Wild",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
 		],
 		"version": "1",
 		"style": "painting/fantasy",
@@ -3375,32 +3380,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "zelda-botw.ckpt",
-			  "md5sum": "e8b897c2c96885ad270ac38a5f2ff0e8"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "zelda-botw.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/s3nh/zelda-botw-stable-diffusion/resolve/main/model.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "zelda-botw.ckpt",
+					"md5sum": "e8b897c2c96885ad270ac38a5f2ff0e8"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "zelda-botw.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/s3nh/zelda-botw-stable-diffusion/resolve/main/model.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Marvel Diffusion": {
+	},
+	"Marvel Diffusion": {
 		"name": "Marvel Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
 		],
 		"version": "2",
 		"style": "comic/animation",
@@ -3409,32 +3414,32 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "marvel-diffusion.ckpt",
-			  "md5sum": "25efe8824d8553df4fea4ccff51ef2de"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "marvel-diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion/resolve/main/Marvel_WhatIf_DiffusionV2_whatif_style.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "marvel-diffusion.ckpt",
+					"md5sum": "25efe8824d8553df4fea4ccff51ef2de"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "marvel-diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion/resolve/main/Marvel_WhatIf_DiffusionV2_whatif_style.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "T-Shirt Diffusion": {
+	},
+	"T-Shirt Diffusion": {
 		"name": "T-Shirt Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Generates t-shirt logos, base model is vintedois-diffusion with additional training on t-shirt logos size 640x640px",
 		"showcases": [
-		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
 		],
 		"version": "1",
 		"style": "screenprint",
@@ -3443,26 +3448,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "t-shirt_diffusion.ckpt",
-			  "md5sum": "37e58d85c8b0815f61526afa1c5d98e4"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "t-shirt_diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5365"
-			}
-		  ]
+			"files": [
+				{
+					"path": "t-shirt_diffusion.ckpt",
+					"md5sum": "37e58d85c8b0815f61526afa1c5d98e4"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "t-shirt_diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5365?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Lawlas's yiff mix": {
+	},
+	"Lawlas's yiff mix": {
 		"name": "Lawlas's yiff mix",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3473,26 +3478,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Lawlas-yiffmix.ckpt",
-			  "md5sum": "42e450fe64b8b1af2539f1b545aba7f2"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Lawlas-yiffmix.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Airic/lawlas-yiff-mix/resolve/main/Lawlas-YiffMix-inclVae.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Lawlas-yiffmix.ckpt",
+					"md5sum": "42e450fe64b8b1af2539f1b545aba7f2"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Lawlas-yiffmix.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Airic/lawlas-yiff-mix/resolve/main/Lawlas-YiffMix-inclVae.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "DGSpitzer Art Diffusion": {
+	},
+	"DGSpitzer Art Diffusion": {
 		"name": "DGSpitzer Art Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3500,60 +3505,68 @@
 		"version": "1",
 		"style": "digital art",
 		"homepage": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion",
-		"trigger": ["painting", "arts, dgspitzer", "outline", "anime","whiteshape","sketch","landscape"],
+		"trigger": [
+			"painting",
+			"arts, dgspitzer",
+			"outline",
+			"anime",
+			"whiteshape",
+			"sketch",
+			"landscape"
+		],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "DGSpitzer_art_diffusion.ckpt",
-			  "md5sum": "3e3d3fae77f485343886d68551d79ec7"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "DGSpitzer_art_diffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion/resolve/main/DGSpitzer-Art-Diffusion.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "DGSpitzer_art_diffusion.ckpt",
+					"md5sum": "3e3d3fae77f485343886d68551d79ec7"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "DGSpitzer_art_diffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion/resolve/main/DGSpitzer-Art-Diffusion.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Realistic Vision": {
+	},
+	"Realistic Vision": {
 		"name": "Realistic Vision",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Model for creating photorealistic humans",
-		"version": "1.2",
+		"version": "1.3",
 		"style": "photo/portrait",
-		"homepage": "https://civitai.com/models/4201/realistic-vision-v12",
+		"homepage": "https://civitai.com/models/4201/realistic-vision-v13",
 		"nsfw": true,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "RealisticVision.ckpt",
-			  "md5sum": "78b17d5ecb1f59e776a6177cfa4a47e7"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "RealisticVision.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5196?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "RealisticVision.ckpt",
+					"md5sum": "8c41f9f090e4c924b2a05cf21608e6c0"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "RealisticVision.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/6987?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Dan Mumford Style": {
+	},
+	"Dan Mumford Style": {
 		"name": "Dan Mumford Style",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3564,26 +3577,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "DanMumford.ckpt",
-			  "md5sum": "67183f6818d2e00592de91aabeffbf32"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "DanMumford.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/v2UpdatedFlonixsDan_flonixsDanMumford.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "DanMumford.ckpt",
+					"md5sum": "67183f6818d2e00592de91aabeffbf32"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "DanMumford.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/v2UpdatedFlonixsDan_flonixsDanMumford.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "PFG": {
+	},
+	"PFG": {
 		"name": "PFG",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3594,26 +3607,26 @@
 		"nsfw": true,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "PFG.ckpt",
-			  "md5sum": "07dc65f652bb400af4d03b0bf6a41b95"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "PFG.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/1291"
-			}
-		  ]
+			"files": [
+				{
+					"path": "PFG.ckpt",
+					"md5sum": "07dc65f652bb400af4d03b0bf6a41b95"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "PFG.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1291"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Epic Diffusion": {
+	},
+	"Epic Diffusion": {
 		"name": "Epic Diffusion",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3624,26 +3637,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "EpicDiffusion.ckpt",
-			  "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "EpicDiffusion.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "EpicDiffusion.ckpt",
+					"md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "EpicDiffusion.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Deliberate": {
+	},
+	"Deliberate": {
 		"name": "Deliberate",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3653,27 +3666,30 @@
 		"homepage": "https://civitai.com/models/4823/deliberate",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/deliberate/01_deliberate.webp"
+		],
 		"config": {
-		  "files": [
-			{
-			  "path": "Deliberate.ckpt",
-			  "md5sum": "676e7f60a2b3194b7a258c0064b1987e"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Deliberate.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5616?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Deliberate.ckpt",
+					"md5sum": "676e7f60a2b3194b7a258c0064b1987e"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Deliberate.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5616?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Concept Sheet": {
+	},
+	"Concept Sheet": {
 		"name": "Concept Sheet",
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
@@ -3685,26 +3701,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "ConceptSheet.ckpt",
-			  "md5sum": "4164e3765e41fc65d283360a1f406a51"
-			},
-			{
-			  "path": "v2-inference-v.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "ConceptSheet.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "ConceptSheet.ckpt",
+					"md5sum": "4164e3765e41fc65d283360a1f406a51"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "ConceptSheet.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "GTM Ultimate Blend": {
+	},
+	"GTM Ultimate Blend": {
 		"name": "GTM Ultimate Blend",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
@@ -3715,26 +3731,26 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "GTM.ckpt",
-			  "md5sum": "056847e46439d4afbaebceb268398b41"
-			},
-			{
-			  "path": "v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "GTM.ckpt",
-			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
-			}
-		  ]
+			"files": [
+				{
+					"path": "GTM.ckpt",
+					"md5sum": "056847e46439d4afbaebceb268398b41"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "GTM.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "CharHelper": {
+	},
+	"CharHelper": {
 		"name": "CharHelper",
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
@@ -3742,30 +3758,37 @@
 		"version": "4",
 		"style": "characters/portraits",
 		"homepage": "https://huggingface.co/ManglerFTW/CharHelper",
-		"trigger": ["CHV3CZombie","CHV3CAlien","CHV3CBird","CHV3SLighthouse","CHV3SCute","CHV3SMacro"],
+		"trigger": [
+			"CHV3CZombie",
+			"CHV3CAlien",
+			"CHV3CBird",
+			"CHV3SLighthouse",
+			"CHV3SCute",
+			"CHV3SMacro"
+		],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "CharHelper.ckpt",
-			  "md5sum": "f4d86a86161cb403f334fe46c066a74e"
-			},
-			{
-			  "path": "v2-inference-v.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "CharHelper.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/CharHelperV4.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "CharHelper.ckpt",
+					"md5sum": "f4d86a86161cb403f334fe46c066a74e"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "CharHelper.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/CharHelperV4.ckpt"
+				}
+			]
 		},
 		"available": false
-	  },
-	  "Pokemon3D": {
+	},
+	"Pokemon3D": {
 		"name": "Pokemon3D",
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
@@ -3773,27 +3796,453 @@
 		"version": "1",
 		"style": "pokemon",
 		"homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
-		"trigger": ["GMAX","Mega","<PokemonName>"],
+		"trigger": ["GMAX", "Mega", "<PokemonName>"],
 		"nsfw": false,
 		"download_all": false,
 		"config": {
-		  "files": [
-			{
-			  "path": "Pokemon3D.ckpt",
-			  "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
-			},
-			{
-			  "path": "v2-inference-v.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Pokemon3D.ckpt",
-			  "file_path": "",
-			  "file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
-			}
-		  ]
+			"files": [
+				{
+					"path": "Pokemon3D.ckpt",
+					"md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Pokemon3D.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
+				}
+			]
 		},
 		"available": false
-	  }
+	},
+	"pix2pix": {
+		"name": "pix2pix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Model specifically trained for pix2pix use",
+		"min_bridge_version": 12,
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://github.com/timothybrooks/instruct-pix2pix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "pix2pix.ckpt",
+					"md5sum": "f5b23f276ad1df6636fe5a94cb58c312"
+				},
+				{
+					"path": "pix2pix.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "pix2pix.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pix2pix.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Vivid Watercolors": {
+		"name": "Vivid Watercolors",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
+		"version": "1",
+		"style": "watercolor",
+		"homepage": "https://huggingface.co/Evel/VividWatercolors",
+		"trigger": ["wtrcolor style"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "VividWatercolors.ckpt",
+					"md5sum": "99c02bdc193671a876a282479d4c1d93"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "VividWatercolors.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/Evel/VividWatercolors/resolve/main/VividWatercolors_5000.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Counterfeit": {
+		"name": "Counterfeit",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Counterfeit is anime style Stable Diffusion model",
+		"version": "2.0",
+		"style": "anime",
+		"homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "Counterfeit.ckpt",
+					"md5sum": "d1aefc249752c109918acb075dcff85b"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "Counterfeit.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Counterfeit-V2-pruned.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Openniji": {
+		"name": "Openniji",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "The Stable Diffusion model trained on Nijijourney images",
+		"version": "1.0",
+		"style": "niji",
+		"homepage": "https://civitai.com/models/5143/openniji",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "OpenNiji.ckpt",
+					"md5sum": "2613cfe5c112694d1ad7612f03e79977"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "OpenNiji.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/openniji_10.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Pastel Mix": {
+		"name": "Pastel Mix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
+		"version": "1",
+		"style": "anime",
+		"homepage": "https://huggingface.co/andite/pastel-mix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "PastelMix.ckpt",
+					"md5sum": "a1b01acea65d2f67ceb6ca19400df8ad"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "PastelMix.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/andite/pastel-mix/resolve/main/pastelmix-better-vae-fp16.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Pulp Vector Art": {
+		"name": "Pulp Vector Art",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
+		"version": "beta",
+		"style": "vector art",
+		"homepage": "https://civitai.com/models/4618/vector-art",
+		"trigger": ["vector-art", "pulp-diffusion"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "pulp_vectorart.ckpt",
+					"md5sum": "f3427844a139d5be2c4b4cec2e67b2f1"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "pulp_vectorart.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"Rainbowpatch": {
+		"name": "Rainbowpatch",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Rainbowpatch is a fine-tuned model specifically trained to generate high-quality stylized images, this model doesn't require complicated detailed text prompts.",
+		"version": "1.2",
+		"style": "illustration, concept-art",
+		"homepage": "https://civitai.com/models/5528/rainbowpatch-12",
+		"trigger": ["rainbowpatch"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "rainbowpatch.ckpt",
+					"md5sum": "b082ad98aeedcd28b9164162a1ccf3e1"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "rainbowpatch.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"Vector Art": {
+		"name": "Vector Art",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "This is a style model for Stable Diffusion 2.1 mimicking vector style.",
+		"version": "beta",
+		"style": "vector art",
+		"homepage": "https://civitai.com/models/4618/vector-art",
+		"trigger": ["vector-art"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "vector_art.ckpt",
+					"md5sum": "218567e0a45db9139337c888a40285f1"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "vector_art.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/5265?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"T-Shirt Print Designs": {
+		"name": "T-Shirt Print Designs",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This is a style model for creating prints for tshirts",
+		"version": "0.1",
+		"style": "tshirt prints",
+		"homepage": "https://civitai.com/models/5256/t-shirt-print-designs-test-model",
+		"trigger": ["printdesign"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "tshirt-print-designs.ckpt",
+					"md5sum": "d1f51ba806e29742df8adbf35169bd2c"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "tshirt-print-designs.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/6098?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"GorynichMix": {
+		"name": "GorynichMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Model mix based on any4.5, Elysium, Dreamlike and few more models",
+		"version": "1.2",
+		"style": "digital art",
+		"homepage": "https://civitai.com/models/4815/gorynichmix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "GorynichMix.ckpt",
+					"md5sum": "774fcbdd5888ace511064370a322f601"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "GorynichMix.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/gorynichmix_v12-pruned.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"Laolei New Berry Protogen Mix": {
+		"name": "Laolei New Berry Protogen Mix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Awesome anime character/realism mix",
+		"version": "1",
+		"style": "digital art",
+		"homepage": "https://civitai.com/models/4099/laolei-new-berry-protogen-mix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "LNBPM.ckpt",
+					"md5sum": "e64e0f0467695bd6f1d1ffd0c755269b"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "LNBPM.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/LaoLeiNewBerry_inclvae.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+	"URPM": {
+		"name": "URPM",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Model for creating photorealistic humans",
+		"version": "1.2",
+		"style": "boudoir photography",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "URPM.ckpt",
+					"md5sum": "ada0906adbfc6b6aa24d8aa1adcde98e"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "URPM.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/4971?type=Pruned%20Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"Cheese Daddys Landscape Mix": {
+		"name": "Cheese Daddys Landscape Mix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This model is tweak and more merges mainly intended for landscapes, but works decent for people",
+		"version": "3.5",
+		"style": "landscape",
+		"homepage": "https://civitai.com/models/5041/cheese-daddys-landscapes-mix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "CDLandscapeMix.ckpt",
+					"md5sum": "73eae68e9dfae23c10d4aab2df183390"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "CDLandscapeMix.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/7304?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	},
+	"Rachel Walker Watercolors": {
+		"name": "Rachel Walker Watercolors",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
+		"version": "1.2",
+		"style": "watercolors",
+		"homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
+		"trigger": ["rachelwalker style"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "RachelWalkerWatercolor.ckpt",
+					"md5sum": "d60f473bce07d567fa335ad893b46b39"
+				},
+				{
+					"path": "v1-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "RachelWalkerWatercolor.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/1135"
+				}
+			]
+		},
+		"available": false
+	}
 }
