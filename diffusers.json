@@ -1,0 +1,22 @@
+{
+  "Stable Diffusion 2 Depth": {
+    "name": "Stable Diffusion 2 Depth",
+    "type": "diffusers",
+    "description": "Generalist model specialized for creating depth maps of existing images, for img2img creations",
+    "version": "2",
+    "style": "depth2img",
+    "hf_path": "stabilityai/stable-diffusion-2-depth",
+    "hf_auth": false,
+    "available": false	
+  },
+  "stable_diffusion_inpainting": {
+	  "name": "stable_diffusion_inpainting",
+	  "type": "diffusers",
+	  "description": "Generalist model specialized for modifying areas of existing images",
+	  "version": "1.5",
+	  "style": "inpainting",
+	  "hf_path": "runwayml/stable-diffusion-inpainting",
+	  "hf_auth": false,
+	  "available": false
+	}
+}
