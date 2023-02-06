@@ -4804,6 +4804,40 @@
     },
     "available": false
   },
+  "Unstable Ink Dream": {
+    "name": "Unstable Ink Dream",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Create a variety of styles including realistic photos, realistic drawings, and animations like last three fig",
+    "version": "6.0",
+    "style": "paintart portrait/landscape",
+    "homepage": "https://huggingface.co/Oosayam/UnstableSamInkDream",
+    "trigger": ["nvinkpunk", "kuvshinov","dreamlikeart","samdoesart","analog style","modelshoot style"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/unstableinkdream.ckpt",
+          "md5sum": "20cad084326b84a0080c014811cd9c61"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "unstableinkdream.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Airic/unstableinkdream/resolve/main/unstableinkdream_v6.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
