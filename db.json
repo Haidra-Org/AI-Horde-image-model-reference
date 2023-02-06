@@ -4773,7 +4773,7 @@
       "files": [
         {
           "path": "models/custom/ProjectUnreal5.ckpt",
-          "md5sum": "d60f473bce07d567fa335ad893b46b39"
+          "md5sum": "427e4828e5f66aa79fd4998f8f318af8"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
