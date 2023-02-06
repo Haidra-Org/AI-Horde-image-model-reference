@@ -4158,6 +4158,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/conceptsheet/01_concept.webp"
+    ],
     "config": {
       "files": [
         {
