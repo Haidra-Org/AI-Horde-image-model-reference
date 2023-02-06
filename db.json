@@ -4756,6 +4756,39 @@
     },
     "available": false
   },
+  "Project Unreal Engine 5": {
+    "name": "Project Unreal Engine 5",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This checkpoint is trained to look like Unreal Engine 5 renders",
+    "version": "2.0",
+    "style": "realism",
+    "homepage": "https://civitai.com/models/4752/project-unreal-engine-5",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ProjectUnreal5.ckpt",
+          "md5sum": "d60f473bce07d567fa335ad893b46b39"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ProjectUnreal5.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/ProjectUnrealEngine5_inclvae.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
