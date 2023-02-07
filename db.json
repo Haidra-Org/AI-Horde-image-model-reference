@@ -4717,6 +4717,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
+    ],
     "config": {
       "files": [
         {

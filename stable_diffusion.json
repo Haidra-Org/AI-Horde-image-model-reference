@@ -4189,6 +4189,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is tweak and more merges mainly intended for landscapes, but works decent for people",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
+		  ],
 		"version": "3.5",
 		"style": "landscape",
 		"homepage": "https://civitai.com/models/5041/cheese-daddys-landscapes-mix",
