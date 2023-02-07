@@ -3950,6 +3950,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4018,6 +4021,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
     ],
     "config": {
       "files": [
@@ -4649,6 +4655,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4716,6 +4725,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
     ],
     "config": {
       "files": [

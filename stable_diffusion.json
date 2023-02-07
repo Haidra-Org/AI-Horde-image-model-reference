@@ -3505,6 +3505,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Dreambooth model based on Vintedois, trained on a dataset of DGSpitzer art. Styles included are outline, sketch, anime, painting and landscape",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+		],
 		"version": "1",
 		"style": "digital art",
 		"homepage": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion",
@@ -3577,6 +3580,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Model trained with a dataset of DanMumford Style images, courtesy of Flonix",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
+		],
 		"version": "2",
 		"style": "digital art",
 		"homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
@@ -4160,6 +4166,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Awesome anime character/realism mix",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
+		],
 		"version": "1",
 		"style": "digital art",
 		"homepage": "https://civitai.com/models/4099/laolei-new-berry-protogen-mix",
@@ -4222,6 +4231,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is tweak and more merges mainly intended for landscapes, but works decent for people",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
+		  ],
 		"version": "3.5",
 		"style": "landscape",
 		"homepage": "https://civitai.com/models/5041/cheese-daddys-landscapes-mix",
