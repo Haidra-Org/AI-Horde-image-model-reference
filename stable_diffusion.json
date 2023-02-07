@@ -1710,7 +1710,7 @@
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rpg/01_gigachad.webp"
 		],
-		"version": "2",
+		"version": "4",
 		"style": "Baldur's Gate",
 		"homepage": "https://huggingface.co/Anashel/rpg",
 		"nsfw": false,
@@ -1719,7 +1719,7 @@
 			"files": [
 				{
 					"path": "rpg.ckpt",
-					"md5sum": "e27033b41a06a1f22c49b01cd8d5dd26"
+					"md5sum": "ce167ae992935aca271b5eccc7b8b983"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -1729,7 +1729,7 @@
 				{
 					"file_name": "rpg.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/Anashel/rpg/resolve/main/RPG-v2.ckpt"
+					"file_url": "https://huggingface.co/Airic/rpg/resolve/main/RPG-v4-inclVae.ckpt"
 				}
 			]
 		},
@@ -2979,7 +2979,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
-		"version": "0.2",
+		"version": "0.4",
 		"style": "generalist",
 		"homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
 		"nsfw": false,
@@ -2988,7 +2988,7 @@
 			"files": [
 				{
 					"path": "SygilDev_Diffusion.ckpt",
-					"md5sum": "1e2c8f1ff3a7687ac5e2ce31e690f09e"
+					"md5sum": "e1b6ac369e2711e046ed12bc1d983a55"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -2998,7 +2998,7 @@
 				{
 					"file_name": "SygilDev_Diffusion.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.2.ckpt"
+					"file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.4.ckpt"
 				}
 			]
 		},
@@ -3477,6 +3477,9 @@
 		"homepage": "https://civitai.com/models/4698/lawlass-yiff-mix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/lawlas/01_lawlas.webp"
+		  ],
 		"config": {
 			"files": [
 				{
@@ -3546,6 +3549,9 @@
 		"homepage": "https://civitai.com/models/4201/realistic-vision-v13",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
+		  ],
 		"config": {
 			"files": [
 				{
@@ -3636,6 +3642,9 @@
 		"homepage": "https://civitai.com/models/3855/epic-diffusion",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/epic_diffusion/01_epic.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -3700,6 +3709,9 @@
 		"trigger": ["concept-art"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/conceptsheet/01_concept.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -3730,6 +3742,9 @@
 		"homepage": "https://civitai.com/models/4884/galaxytimemachines-gtmultimateblendv3",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gtmultimate/01_gtm.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -3861,6 +3876,9 @@
 		"trigger": ["wtrcolor style"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vividwatercolors/01_vivid.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -3891,6 +3909,9 @@
 		"homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/counterfeit/01_counterfeit.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -3951,6 +3972,9 @@
 		"homepage": "https://huggingface.co/andite/pastel-mix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pastelmix/01_pastelmix.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -4013,6 +4037,9 @@
 		"trigger": ["rainbowpatch"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rainbowpatch/01_rainbow.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -4105,6 +4132,9 @@
 		"homepage": "https://civitai.com/models/4815/gorynichmix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gorynichmix/01_gory.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -4164,6 +4194,9 @@
 		"style": "boudoir photography",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/urpm/01_urpm.webp"
+		],
 		"config": {
 			"files": [
 				{
@@ -4244,5 +4277,69 @@
 			]
 		},
 		"available": false
-	}
+	},
+	"Project Unreal Engine 5": {
+		"name": "Project Unreal Engine 5",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This checkpoint is trained to look like Unreal Engine 5 renders",
+		"version": "2.0",
+		"style": "realism",
+		"homepage": "https://civitai.com/models/4752/project-unreal-engine-5",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "ProjectUnreal5.ckpt",
+			  "md5sum": "427e4828e5f66aa79fd4998f8f318af8"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "ProjectUnreal5.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/ProjectUnrealEngine5_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Unstable Ink Dream": {
+		"name": "Unstable Ink Dream",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Create a variety of styles including realistic photos, realistic drawings, and animations like last three fig",
+		"version": "6.0",
+		"style": "paintart portrait/landscape",
+		"homepage": "https://huggingface.co/Oosayam/UnstableSamInkDream",
+		"trigger": ["nvinkpunk", "kuvshinov","dreamlikeart","samdoesart","analog style","modelshoot style"],
+		"nsfw": false,
+		"download_all": false,
+		"showcases": [
+		  "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/unstableinkdream/01_inkdream.webp"
+		],
+		"config": {
+		  "files": [
+			{
+			  "path": "unstableinkdream.ckpt",
+			  "md5sum": "20cad084326b84a0080c014811cd9c61"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "unstableinkdream.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Airic/unstableinkdream/resolve/main/unstableinkdream_v6.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  }
 }
