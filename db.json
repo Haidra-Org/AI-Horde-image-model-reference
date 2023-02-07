@@ -4655,6 +4655,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
+    ],
     "config": {
       "files": [
         {
