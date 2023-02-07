@@ -3306,7 +3306,7 @@
       "files": [
         {
           "path": "models/custom/moedel.ckpt",
-          "md5sum": "4ea5e452fc03905819519ca8150dcac6"
+          "md5sum": "63132423ae711d87c813bf0f0442b154"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3316,7 +3316,7 @@
         {
           "file_name": "moedel.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/2181"
+          "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor"
         }
       ]
     },
