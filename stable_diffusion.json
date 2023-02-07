@@ -3502,6 +3502,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Dreambooth model based on Vintedois, trained on a dataset of DGSpitzer art. Styles included are outline, sketch, anime, painting and landscape",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+		],
 		"version": "1",
 		"style": "digital art",
 		"homepage": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion",

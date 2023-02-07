@@ -3950,6 +3950,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+    ],
     "config": {
       "files": [
         {
