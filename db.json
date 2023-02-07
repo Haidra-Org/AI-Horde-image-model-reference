@@ -1957,7 +1957,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rpg/01_gigachad.webp"
     ],
-    "version": "2",
+    "version": "4",
     "style": "Baldur's Gate",
     "homepage": "https://huggingface.co/Anashel/rpg",
     "nsfw": false,
@@ -1969,7 +1969,7 @@
       "files": [
         {
           "path": "models/custom/rpg.ckpt",
-          "md5sum": "e27033b41a06a1f22c49b01cd8d5dd26"
+          "md5sum": "ce167ae992935aca271b5eccc7b8b983"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1979,7 +1979,7 @@
         {
           "file_name": "rpg.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Anashel/rpg/resolve/main/RPG-v2.ckpt"
+          "file_url": "https://huggingface.co/Airic/rpg/resolve/main/RPG-v4-inclVae.ckpt"
         }
       ]
     },
@@ -3306,7 +3306,7 @@
       "files": [
         {
           "path": "models/custom/moedel.ckpt",
-          "md5sum": "4ea5e452fc03905819519ca8150dcac6"
+          "md5sum": "63132423ae711d87c813bf0f0442b154"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3316,7 +3316,7 @@
         {
           "file_name": "moedel.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/2181"
+          "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor"
         }
       ]
     },
