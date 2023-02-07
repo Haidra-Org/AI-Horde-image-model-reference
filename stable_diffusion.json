@@ -3574,6 +3574,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Model trained with a dataset of DanMumford Style images, courtesy of Flonix",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
+		],
 		"version": "2",
 		"style": "digital art",
 		"homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
