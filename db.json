@@ -4274,6 +4274,9 @@
     "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
+    ],
     "version": "1",
     "style": "pokemon",
     "homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
