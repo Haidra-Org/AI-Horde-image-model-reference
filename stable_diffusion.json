@@ -3613,6 +3613,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "NSFW Model for realistic and Hentai images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pfg/01_pfg.webp"
+	  	],
 		"version": "1.11",
 		"style": "boudoir photography",
 		"homepage": "https://civitai.com/models/1227/pfg",
@@ -3943,6 +3946,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "The Stable Diffusion model trained on Nijijourney images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/openniji/01_openniji.webp"
+		],
 		"version": "1.0",
 		"style": "niji",
 		"homepage": "https://civitai.com/models/5143/openniji",
@@ -4006,6 +4012,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
+		],
 		"version": "beta",
 		"style": "vector art",
 		"homepage": "https://civitai.com/models/4618/vector-art",
@@ -4071,6 +4080,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This is a style model for Stable Diffusion 2.1 mimicking vector style.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorart/01_vectorart.webp"
+		],
 		"version": "beta",
 		"style": "vector art",
 		"homepage": "https://civitai.com/models/4618/vector-art",
@@ -4102,6 +4114,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This is a style model for creating prints for tshirts",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
+		],
 		"version": "0.1",
 		"style": "tshirt prints",
 		"homepage": "https://civitai.com/models/5256/t-shirt-print-designs-test-model",
@@ -4264,6 +4279,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+		],
 		"version": "1.2",
 		"style": "watercolors",
 		"homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",

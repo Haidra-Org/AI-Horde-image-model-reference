@@ -4058,6 +4058,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pfg/01_pfg.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4411,6 +4414,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/openniji/01_openniji.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4480,6 +4486,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
     ],
     "config": {
       "files": [
@@ -4552,6 +4561,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorart/01_vectorart.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4586,6 +4598,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
+		],
     "config": {
       "files": [
         {
@@ -4763,6 +4778,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4795,6 +4813,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/project_unreal_engine5/01_unreal.webp"
     ],
     "config": {
       "files": [
