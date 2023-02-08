@@ -3734,7 +3734,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/duchaiten/01_gigachad.webp"
     ],
-    "version": "1.1",
+    "version": "2",
     "style": "cartoon/anime",
     "homepage": "https://huggingface.co/DucHaiten/DucHaitenAIart",
     "nsfw": false,
@@ -3746,7 +3746,7 @@
       "files": [
         {
           "path": "models/custom/DucHaiten.ckpt",
-          "md5sum": "deae914e47f3c6156ed9aacbb05d495c"
+          "md5sum": "f60df3dea87b54ad45d87bc64278ddf6"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3756,7 +3756,7 @@
         {
           "file_name": "DucHaiten.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart_v1.1.ckpt"
+          "file_url": "https://huggingface.co/Airic/DucHaiten/resolve/main/DucHaitenAIart_v2.ckpt"
         }
       ]
     },
@@ -4385,7 +4385,7 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Counterfeit is anime style Stable Diffusion model",
-    "version": "2.0",
+    "version": "2.5",
     "style": "anime",
     "homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
     "nsfw": false,
@@ -4400,7 +4400,7 @@
       "files": [
         {
           "path": "models/custom/Counterfeit.ckpt",
-          "md5sum": "d1aefc249752c109918acb075dcff85b"
+          "md5sum": "7d94a8c4e07643d50acda00fc6c90e45"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4410,7 +4410,7 @@
         {
           "file_name": "Counterfeit.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Counterfeit-V2-pruned.ckpt"
+          "file_url": "https://huggingface.co/Airic/Counterfeit/resolve/main/Counterfeit-V2.5-inclVae.ckpt"
         }
       ]
     },
