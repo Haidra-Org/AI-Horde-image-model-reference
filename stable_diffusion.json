@@ -3607,6 +3607,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "NSFW Model for realistic and Hentai images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pfg/01_pfg.webp"
+	  	],
 		"version": "1.11",
 		"style": "boudoir photography",
 		"homepage": "https://civitai.com/models/1227/pfg",

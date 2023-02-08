@@ -4058,6 +4058,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pfg/01_pfg.webp"
+    ],
     "config": {
       "files": [
         {
