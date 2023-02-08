@@ -3982,6 +3982,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
+		],
 		"version": "beta",
 		"style": "vector art",
 		"homepage": "https://civitai.com/models/4618/vector-art",
