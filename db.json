@@ -4880,7 +4880,7 @@
         {
           "file_name": "PRMJ.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Airic/unstableinkdream/resolve/main/unstableinkdream_v6.ckpt"
+          "file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor"
         }
       ]
     },
