@@ -4769,6 +4769,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+    ],
     "config": {
       "files": [
         {

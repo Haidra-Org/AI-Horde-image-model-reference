@@ -4237,6 +4237,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+		],
 		"version": "1.2",
 		"style": "watercolors",
 		"homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
