@@ -4370,7 +4370,7 @@
 		"config": {
 		"files": [
 			{
-			"path": "models/custom/PRMJ.ckpt",
+			"path": "PRMJ.ckpt",
 			"md5sum": "44cd3e53b653288bab002c55200a3d6e"
 			},
 			{
@@ -4380,7 +4380,7 @@
 		"download": [
 			{
 			"file_name": "PRMJ.ckpt",
-			"file_path": "models/custom",
+			"file_path": "",
 			"file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor"
 			}
 		]
@@ -4414,7 +4414,7 @@
 		"download": [
 			{
 			"file_name": "Elldreths_Retro_Mix.ckpt",
-			"file_path": "models/custom",
+			"file_path": "",
 			"file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor"
 			}
 		]
@@ -4437,7 +4437,7 @@
 		"config": {
 		  "files": [
 			{
-			  "path": "models/custom/VinteProtogenMix.ckpt",
+			  "path": "VinteProtogenMix.ckpt",
 			  "md5sum": "d5dc55479054c7d36fac397131fd9371"
 			},
 			{
@@ -4447,7 +4447,7 @@
 		  "download": [
 			{
 			  "file_name": "VinteProtogenMix.ckpt",
-			  "file_path": "models/custom",
+			  "file_path": "",
 			  "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor"
 			}
 		  ]
@@ -4470,7 +4470,7 @@
 		"config": {
 		  "files": [
 			{
-			  "path": "models/custom/RodentDiffusion.ckpt",
+			  "path": "RodentDiffusion.ckpt",
 			  "md5sum": "f9c211fa366f10cb293958cd77f73944"
 			},
 			{
@@ -4480,7 +4480,7 @@
 		  "download": [
 			{
 			  "file_name": "RodentDiffusion.ckpt",
-			  "file_path": "models/custom",
+			  "file_path": "",
 			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/rodent-diffusion-1.5.ckpt"
 			}
 		  ]
