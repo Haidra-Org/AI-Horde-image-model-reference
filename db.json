@@ -3049,6 +3049,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
+    ],
     "config": {
       "files": [
         {
