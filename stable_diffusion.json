@@ -2651,6 +2651,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/min_illust_background/01_min.webp"
+		],
 		"version": "1.0",
 		"style": "landscape",
 		"trigger": ["sjh style"],
