@@ -4078,6 +4078,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This is a style model for creating prints for tshirts",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
+		],
 		"version": "0.1",
 		"style": "tshirt prints",
 		"homepage": "https://civitai.com/models/5256/t-shirt-print-designs-test-model",
