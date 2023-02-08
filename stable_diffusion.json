@@ -4044,6 +4044,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This is a style model for Stable Diffusion 2.1 mimicking vector style.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorart/01_vectorart.webp"
+		],
 		"version": "beta",
 		"style": "vector art",
 		"homepage": "https://civitai.com/models/4618/vector-art",
