@@ -3922,6 +3922,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "The Stable Diffusion model trained on Nijijourney images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/openniji/01_openniji.webp"
+		],
 		"version": "1.0",
 		"style": "niji",
 		"homepage": "https://civitai.com/models/5143/openniji",
