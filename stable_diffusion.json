@@ -3767,6 +3767,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/charhelper/01_charhelper.webp"
+		],
 		"version": "4",
 		"style": "characters/portraits",
 		"homepage": "https://huggingface.co/ManglerFTW/CharHelper",
