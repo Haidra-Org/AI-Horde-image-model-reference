@@ -3866,6 +3866,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Model specifically trained for pix2pix use",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
+		],
 		"min_bridge_version": 12,
 		"version": "1",
 		"style": "generalist",
