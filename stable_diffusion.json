@@ -4364,9 +4364,6 @@
 		"homepage": "https://civitai.com/models/6465/prmj",
 		"nsfw": false,
 		"download_all": false,
-		"requires": [
-		"clip-vit-large-patch14"
-		],
 		"config": {
 		"files": [
 			{
@@ -4374,7 +4371,7 @@
 			"md5sum": "44cd3e53b653288bab002c55200a3d6e"
 			},
 			{
-			"path": "configs/stable-diffusion/v2-inference-v.yaml"
+			"path": "v2-inference-v.yaml"
 			}
 		],
 		"download": [
@@ -4398,17 +4395,14 @@
 		"trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
 		"nsfw": false,
 		"download_all": false,
-		"requires": [
-		"clip-vit-large-patch14"
-		],
 		"config": {
 		"files": [
 			{
-			"path": "models/custom/Elldreths_Retro_Mix.ckpt",
+			"path": "Elldreths_Retro_Mix.ckpt",
 			"md5sum": "613d7ac32ac59db04e5209605d9e79c1"
 			},
 			{
-			"path": "configs/stable-diffusion/v1-inference.yaml"
+			"path": "v1-inference.yaml"
 			}
 		],
 		"download": [
@@ -4431,9 +4425,6 @@
 		"homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
 		"nsfw": false,
 		"download_all": false,
-		"requires": [
-		  "clip-vit-large-patch14"
-		],
 		"config": {
 		  "files": [
 			{
@@ -4441,7 +4432,7 @@
 			  "md5sum": "d5dc55479054c7d36fac397131fd9371"
 			},
 			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			  "path": "v1-inference.yaml"
 			}
 		  ],
 		  "download": [
@@ -4464,9 +4455,6 @@
 		"homepage": "https://huggingface.co/NerdyRodent/rodent-diffusion-1-5",
 		"nsfw": false,
 		"download_all": false,
-		"requires": [
-		  "clip-vit-large-patch14"
-		],
 		"config": {
 		  "files": [
 			{
@@ -4474,7 +4462,7 @@
 			  "md5sum": "f9c211fa366f10cb293958cd77f73944"
 			},
 			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			  "path": "v1-inference.yaml"
 			}
 		  ],
 		  "download": [
