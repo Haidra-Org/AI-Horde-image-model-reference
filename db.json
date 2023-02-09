@@ -4979,6 +4979,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
+    ],
     "config": {
       "files": [
         {

@@ -4463,6 +4463,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
+		],
 		"version": "1",
 		"style": "generalist",
 		"homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
