@@ -2981,6 +2981,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/eternos/01_eternos.webp"
+    ],
     "config": {
       "files": [
         {
@@ -3015,6 +3018,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/min_illust_background/01_min.webp"
+    ],
     "config": {
       "files": [
         {
@@ -3048,6 +3054,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
     ],
     "config": {
       "files": [
@@ -3302,6 +3311,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moedel/01_moedel.webp"
+		],
     "config": {
       "files": [
         {
@@ -4240,6 +4252,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/charhelper/01_charhelper.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4265,6 +4280,9 @@
     "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
+    ],
     "version": "1",
     "style": "pokemon",
     "homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
@@ -4307,6 +4325,9 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
+    ],
+    "showcases": [
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
     ],
     "config": {
       "files": [

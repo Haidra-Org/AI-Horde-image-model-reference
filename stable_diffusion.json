@@ -2620,6 +2620,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A surrealist / Minimalist model",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/eternos/01_eternos.webp"
+		  ],
 		"version": "1.0",
 		"style": "surrealist",
 		"trigger": ["romerorzeternos"],
@@ -2651,6 +2654,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/min_illust_background/01_min.webp"
+		],
 		"version": "1.0",
 		"style": "landscape",
 		"trigger": ["sjh style"],
@@ -2682,6 +2688,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "finetuned on dark, moody, victorian imagery",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
+		],
 		"version": "2.0",
 		"style": "victorian",
 		"trigger": ["darkvictorian artstyle"],
@@ -2915,6 +2924,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moedel/01_moedel.webp"
+		],
 		"version": "2",
 		"style": "characters",
 		"homepage": "https://civitai.com/models/2034/moedel",
@@ -3779,6 +3791,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/charhelper/01_charhelper.webp"
+		],
 		"version": "4",
 		"style": "characters/portraits",
 		"homepage": "https://huggingface.co/ManglerFTW/CharHelper",
@@ -3817,6 +3832,9 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
+		],
 		"version": "1",
 		"style": "pokemon",
 		"homepage": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D",
@@ -3848,6 +3866,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Model specifically trained for pix2pix use",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
+		],
 		"min_bridge_version": 12,
 		"version": "1",
 		"style": "generalist",
