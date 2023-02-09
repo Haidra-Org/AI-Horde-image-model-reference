@@ -4392,5 +4392,126 @@
 		  ]
 		},
 		"available": false
+	  },
+	"PRMJ": {
+		"name": "PRMJ",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Custom built SD2.1 generalist model from 28k SFW images ",
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/6465/prmj",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		"files": [
+			{
+			"path": "PRMJ.ckpt",
+			"md5sum": "44cd3e53b653288bab002c55200a3d6e"
+			},
+			{
+			"path": "v2-inference-v.yaml"
+			}
+		],
+		"download": [
+			{
+			"file_name": "PRMJ.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor"
+			}
+		]
+		},
+		"available": false
+	},
+	"Elldreths Retro Mix": {
+		"name": "Elldreths Retro Mix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A retro twist on Elldreths other models",
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/1474/elldreths-retro-mix",
+		"trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		"files": [
+			{
+			"path": "Elldreths_Retro_Mix.ckpt",
+			"md5sum": "613d7ac32ac59db04e5209605d9e79c1"
+			},
+			{
+			"path": "v1-inference.yaml"
+			}
+		],
+		"download": [
+			{
+			"file_name": "Elldreths_Retro_Mix.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor"
+			}
+		]
+		},
+		"available": false
+	},
+	"VinteProtogenMix": {
+		"name": "VinteProtogenMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "VinteProtogenMix.ckpt",
+			  "md5sum": "d5dc55479054c7d36fac397131fd9371"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "VinteProtogenMix.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Rodent Diffusion": {
+		"name": "Rodent Diffusion",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A model created by Youtuber 'Nerdy Rodent' for creating great images with almost any prompt",
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://huggingface.co/NerdyRodent/rodent-diffusion-1-5",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "RodentDiffusion.ckpt",
+			  "md5sum": "f9c211fa366f10cb293958cd77f73944"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "RodentDiffusion.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/rodent-diffusion-1.5.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
