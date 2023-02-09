@@ -2991,6 +2991,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
+		],
 		"version": "0.4",
 		"style": "generalist",
 		"homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
@@ -3867,7 +3870,8 @@
 		"type": "ckpt",
 		"description": "Model specifically trained for pix2pix use",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
 		],
 		"min_bridge_version": 12,
 		"version": "1",
