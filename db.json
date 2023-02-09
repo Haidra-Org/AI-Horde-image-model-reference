@@ -4330,7 +4330,8 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
+      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
     ],
     "config": {
       "files": [
