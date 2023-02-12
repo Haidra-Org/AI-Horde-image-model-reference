@@ -4520,5 +4520,95 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Anything v3": {
+		"name": "Anything v3",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "The original horde Anything model with the VAE built in",
+		"version": "3",
+		"style": "anime",
+		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "AnythingV3.ckpt",
+			  "md5sum": "7f5db00c21aca21f58006e2b664e672a"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "AnythingV3.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AnythingV3_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Woop-Woop Photo": {
+		"name": "Woop-Woop Photo",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A model trained to make detailed, anatomically-accurate (hands, faces, genitals, etc) illustrations of humans and non-humans alike",
+		"version": "1.2",
+		"style": "photorealistic",
+		"homepage": "https://civitai.com/models/4041/woopwoop-photo",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "WoopWoop-Photo.ckpt",
+			  "md5sum": "0db4e27daa69923de214a450120cb4e2"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "WoopWoop-Photo.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/woop-woop-photo12_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Abyss OrangeMix": {
+		"name": "Abyss OrangeMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A model trained to create CG anime characters",
+		"version": "2",
+		"style": "anime",
+		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "AbyssOrangeMix.ckpt",
+			  "md5sum": "0c2246fd7c713ab1604d43395cb56af5"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "AbyssOrangeMix.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AbyssOrangeMix2_pruned_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
