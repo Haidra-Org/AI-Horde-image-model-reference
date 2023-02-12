@@ -5193,6 +5193,38 @@
     },
     "available": false
   },
+  "ChilloutMix": {
+    "name": "ChilloutMix",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "For creating images of nude solo women",
+    "version": "1.0",
+    "style": "photorealistic",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/ChilloutMix.ckpt",
+          "md5sum": "3c404ec36cda6034d064ce89ea6b3b91"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "ChilloutMix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/chilloutmix_NiPrunedFp16.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
