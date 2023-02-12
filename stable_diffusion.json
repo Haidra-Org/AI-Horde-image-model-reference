@@ -4579,5 +4579,38 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Abyss OrangeMix": {
+		"name": "Abyss OrangeMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A model trained to create CG anime characters",
+		"version": "2",
+		"style": "anime",
+		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
+		"nsfw": false,
+		"download_all": false,
+		"requires": [
+		  "clip-vit-large-patch14"
+		],
+		"config": {
+		  "files": [
+			{
+			  "path": "AbyssOrangeMix.ckpt",
+			  "md5sum": "0c2246fd7c713ab1604d43395cb56af5"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "AbyssOrangeMix.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AbyssOrangeMix2_pruned_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
