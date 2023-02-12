@@ -5225,6 +5225,39 @@
     },
     "available": false
   },
+  "Microchars": {
+    "name": "Microchars",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A cross of Cute Rich Style and microworlds, for creating tiny 3d figurines",
+    "version": "1.0",
+    "style": "figurine",
+    "homepage": "https://civitai.com/models/8057/microchars-merge",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Microchars.ckpt",
+          "md5sum": "2a22dfa47854573df87181118862511d"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Microchars.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/9502"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
