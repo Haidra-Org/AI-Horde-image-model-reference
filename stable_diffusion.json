@@ -4633,5 +4633,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Microcasing": {
+		"name": "Microcasing",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A cross of knollingcase and microworlds, for creating tiny worlds in a case",
+		"version": "1.0",
+		"style": "knollingcase",
+		"homepage": "https://civitai.com/models/8232/microcasing-merge",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Microcasing.ckpt",
+			  "md5sum": "9e07e61f1db4df12bea787386c3581ce"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Microcasing.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/9714"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
