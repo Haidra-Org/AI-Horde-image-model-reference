@@ -4722,5 +4722,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Microcritters": {
+		"name": "Microcritters",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A cross of Jak's Creepy Critter and microworlds, for creating tiny 3d monsters",
+		"version": "1.0",
+		"style": "figurine",
+		"homepage": "https://civitai.com/models/8026/micro-critters-merge",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Microcritters.ckpt",
+			  "md5sum": "a96bbfba440016114582b9d60ff6cc4c"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Microcritters.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/9467"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
