@@ -4610,5 +4610,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "CyriousMix": {
+		"name": "CyriousMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Mostly NSFW, semi-realistic anime characters",
+		"version": "1.4",
+		"style": "anime",
+		"homepage": "https://civitai.com/models/6260/cyriousmix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "CyriousMix.ckpt",
+			  "md5sum": "e05ce494959d60053cbb09ff18882641"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "CyriousMix.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/cyriousmix_14.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
