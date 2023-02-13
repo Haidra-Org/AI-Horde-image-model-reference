@@ -4662,7 +4662,7 @@
       "files": [
         {
           "path": "models/custom/GorynichMix.ckpt",
-          "md5sum": "774fcbdd5888ace511064370a322f601"
+          "md5sum": "cfc68e163816bd431bf783ddb2916051"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4672,7 +4672,7 @@
         {
           "file_name": "GorynichMix.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/gorynichmix_v12-pruned.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/gorynich_v12-pruned_inclvae.ckpt"
         }
       ]
     },
