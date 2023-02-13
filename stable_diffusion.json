@@ -4752,5 +4752,34 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "AbyssOrangeMix-AfterDark": {
+		"name": "AbyssOrangeMix-AfterDark",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "AbyssOrangeMix trained for creating NSFW images",
+		"version": "2",
+		"style": "anime nsfw",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "AbyssOrangeMix-AfterDark.ckpt",
+			  "md5sum": "8d4595b81a874be75d7ad5247948eb60"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "AbyssOrangeMix-AfterDark.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AbyssOrangeMix2_AfterDark_pruned_inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
