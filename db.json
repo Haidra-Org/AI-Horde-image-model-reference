@@ -5388,6 +5388,38 @@
     },
     "available": false
   },
+  "Waifu Diffusion Beta": {
+    "name": "Waifu Diffusion Beta",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "Anime styled generations.",
+    "version": "1.5",
+    "style": "anime",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/WD-Beta.ckpt",
+          "md5sum": "45392b1add7dfb8b1b7955f576b4411b"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "WD-Beta.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/wd15-beta1-inclvae.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",

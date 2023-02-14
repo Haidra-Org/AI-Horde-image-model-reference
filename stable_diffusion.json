@@ -4840,5 +4840,34 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Waifu Diffusion Beta": {
+		"name": "Waifu Diffusion Beta",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Anime styled generations.",
+		"version": "1.5",
+		"style": "anime",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "WD-Beta.ckpt",
+			  "md5sum": "45392b1add7dfb8b1b7955f576b4411b"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "WD-Beta.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/wd15-beta1-inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
