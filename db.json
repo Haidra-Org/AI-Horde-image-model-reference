@@ -5421,6 +5421,38 @@
     },
     "available": false
   },
+  "Open Journey Beta": {
+    "name": "Open Journey Beta",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Midjourney v4 painting style",
+    "version": "2",
+    "style": "generalist",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/OJ-Beta.ckpt",
+          "md5sum": "806c9cffed24fdae534a0343bbe085e5"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "OJ-Beta.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/prompthero/openjourney-v2/resolve/main/openjourney-v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
