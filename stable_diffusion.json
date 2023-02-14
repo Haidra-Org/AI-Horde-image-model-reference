@@ -4848,5 +4848,63 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Waifu Diffusion Beta": {
+		"name": "Waifu Diffusion Beta",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Anime styled generations.",
+		"version": "1.5",
+		"style": "anime",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "WD-Beta.ckpt",
+			  "md5sum": "45392b1add7dfb8b1b7955f576b4411b"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "WD-Beta.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/wd15-beta1-inclvae.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Open Journey Beta": {
+		"name": "Open Journey Beta",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Midjourney v4 painting style",
+		"version": "2",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "OJ-Beta.ckpt",
+			  "md5sum": "806c9cffed24fdae534a0343bbe085e5"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "OJ-Beta.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/prompthero/openjourney-v2/resolve/main/openjourney-v2.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
