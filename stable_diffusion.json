@@ -4788,5 +4788,65 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Grapefruit Hentai": {
+		"name": "Grapefruit Hentai",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Grapefruit aims to be a hentai model with a bright and more softer anime style.",
+		"version": "4",
+		"style": "anime",
+		"homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Grapefruit.ckpt",
+			  "md5sum": "8583026f0b363c5e47ddda01fd1f048d"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Grapefruit.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/9000?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Experience": {
+		"name": "Experience",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A generalist model with a slight leaning towards science-fiction and 3d renders",
+		"version": "6.5",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/5952/experience",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "eXp.ckpt",
+			  "md5sum": "8f138f7fdf64dafbe752c04c06bf1b7d"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "eXp.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/7078?type=Model&format=PickleTensor"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
