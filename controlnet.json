@@ -1,0 +1,31 @@
+{
+	"ControlNet - Canny": {
+		"name": "ControlNet - Canny",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating Canny maps for use in img2img",
+		"version": "1",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Canny.ckpt",
+			  "md5sum": "ed67b595a52a090ce69d01e0f0644dad"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Canny.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/control_canny-fp16.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  }
+}
