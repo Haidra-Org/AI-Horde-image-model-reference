@@ -4627,6 +4627,9 @@
 		"homepage": "https://civitai.com/models/6260/cyriousmix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyrious_mix/01_cyrious.webp"
+		],
 		"config": {
 		  "files": [
 			{
