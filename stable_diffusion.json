@@ -4438,6 +4438,9 @@
 		"trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
+		],
 		"config": {
 		"files": [
 			{
