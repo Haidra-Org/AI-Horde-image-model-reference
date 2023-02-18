@@ -5388,6 +5388,9 @@
     "homepage": "https://civitai.com/models/5952/experience",
     "nsfw": false,
     "download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/experience/01_experience.webp"
+		],
     "requires": [
       "clip-vit-large-patch14"
     ],
