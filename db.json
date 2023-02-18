@@ -5355,6 +5355,9 @@
     "homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
     "nsfw": true,
     "download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/grapefruit_hentai/01_grapefruit.webp"
+		],
     "requires": [
       "clip-vit-large-patch14"
     ],
