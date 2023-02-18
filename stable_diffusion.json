@@ -4686,6 +4686,9 @@
 		"style": "photorealistic",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
+		],
 		"config": {
 		  "files": [
 			{
