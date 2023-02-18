@@ -4531,6 +4531,9 @@
 		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anythingv3/01_anythingv3.webp"
+		],
 		"config": {
 		  "files": [
 			{
