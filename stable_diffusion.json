@@ -4594,6 +4594,9 @@
 		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/abyss_orange_mix/01_abyss.webp"
+		],
 		"config": {
 		  "files": [
 			{
