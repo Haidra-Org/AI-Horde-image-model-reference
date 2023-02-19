@@ -2553,7 +2553,7 @@
   },
   "Future Diffusion": {
     "name": "Future Diffusion",
-    "baseline": "stable diffusion 2",
+    "baseline": "stable diffusion 2 512",
     "type": "ckpt",
     "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
     "showcases": [
