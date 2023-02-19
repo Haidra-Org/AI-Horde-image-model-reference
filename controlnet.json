@@ -11,8 +11,8 @@
 		"config": {
 		  "files": [
 			{
-			  "path": "Canny.ckpt",
-			  "md5sum": "ed67b595a52a090ce69d01e0f0644dad"
+			  "path": "Canny.pth",
+			  "md5sum": "680f1938ae2116941c7b95165ae0b293"
 			},
 			{
 			  "path": "cldm_v15.yaml"
@@ -20,9 +20,9 @@
 		  ],
 		  "download": [
 			{
-			  "file_name": "Canny.ckpt",
+			  "file_name": "Canny.pth",
 			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/control_canny-fp16.ckpt"
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_canny.pth"
 			}
 		  ]
 		},
