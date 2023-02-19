@@ -31,7 +31,7 @@
 				{
 					"file_name": "laion2B-s13B-b90k-mscoco-2014.pt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/spaces/gpucce/CoCa/resolve/main/laion2B-s13B-b90k-mscoco-2014.pt"
+					"file_url": "https://huggingface.co/laion/mscoco_finetuned_CoCa-ViT-L-14-laion2B-s13B-b90k/resolve/main/open_clip_pytorch_model.bin"
 				}
 			]
 		},

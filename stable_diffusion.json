@@ -2991,6 +2991,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
+		],
 		"version": "0.4",
 		"style": "generalist",
 		"homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
@@ -3867,7 +3870,8 @@
 		"type": "ckpt",
 		"description": "Model specifically trained for pix2pix use",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp"
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
 		],
 		"min_bridge_version": 12,
 		"version": "1",
@@ -4434,6 +4438,9 @@
 		"trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
+		],
 		"config": {
 		"files": [
 			{
@@ -4459,6 +4466,9 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
+		],
 		"version": "1",
 		"style": "generalist",
 		"homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
@@ -4524,6 +4534,9 @@
 		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anythingv3/01_anythingv3.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4584,6 +4597,9 @@
 		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/abyss_orange_mix/01_abyss.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4614,6 +4630,9 @@
 		"homepage": "https://civitai.com/models/6260/cyriousmix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyrious_mix/01_cyrious.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4673,6 +4692,9 @@
 		"style": "photorealistic",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4792,6 +4814,9 @@
 		"homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/grapefruit_hentai/01_grapefruit.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4822,6 +4847,9 @@
 		"homepage": "https://civitai.com/models/5952/experience",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/experience/01_experience.webp"
+		],
 		"config": {
 		  "files": [
 			{
