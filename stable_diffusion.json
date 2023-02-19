@@ -4438,6 +4438,9 @@
 		"trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
+		],
 		"config": {
 		"files": [
 			{
@@ -4531,6 +4534,9 @@
 		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anythingv3/01_anythingv3.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4591,6 +4597,9 @@
 		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/abyss_orange_mix/01_abyss.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4621,6 +4630,9 @@
 		"homepage": "https://civitai.com/models/6260/cyriousmix",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyrious_mix/01_cyrious.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4680,6 +4692,9 @@
 		"style": "photorealistic",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4799,6 +4814,9 @@
 		"homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/grapefruit_hentai/01_grapefruit.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4829,6 +4847,9 @@
 		"homepage": "https://civitai.com/models/5952/experience",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/experience/01_experience.webp"
+		],
 		"config": {
 		  "files": [
 			{
