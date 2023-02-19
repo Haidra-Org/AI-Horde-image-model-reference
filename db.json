@@ -5485,6 +5485,38 @@
     },
     "available": false
   },
+  "ControlNet - Canny - AnyV3": {
+    "name": "ControlNet - Canny - AnyV3",
+    "baseline": "stable diffusion 1",
+    "type": "controlnet",
+    "description": "For creating Canny maps for use in img2img with results using Anything v3 model",
+    "version": "1",
+    "style": "ControlNet - Anime",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/controlnet/Canny-AnyV3.pth",
+          "md5sum": "3948f057b1e632dec3c0dae87c11dcec"
+        },
+        {
+          "path": "configs/stable-diffusion/cldm_v15.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Canny-AnyV3.pth",
+          "file_path": "models/controlnet",
+          "file_url": "https://huggingface.co/toyxyz/Control_any3/resolve/main/control_any3_canny.pth"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
