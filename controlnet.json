@@ -53,40 +53,69 @@
 		  "download": [
 			{
 			  "file_name": "Canny-AnyV3.pth",
-			  "file_path": "models/controlnet",
+			  "file_path": "",
 			  "file_url": "https://huggingface.co/toyxyz/Control_any3/resolve/main/control_any3_canny.pth"
 			}
 		  ]
 		},
 		"available": false
 	  },
-  "ControlNet - Depth": {
-    "name": "ControlNet - Depth",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Depth maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": true,
-    "config": {
-      "files": [
-        {
-          "path": "Depth.pth",
-          "md5sum": "6c1c59867120a4fdfc009fb7c81a9fb6"
-        },
-        {
-          "path": "cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Depth.pth",
-          "file_path": "",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_depth.pth"
-        }
-      ]
-    },
-    "available": false
-  }
+	  "ControlNet - Canny - Delib": {
+		"name": "ControlNet - Canny - Delib",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating Canny maps for use in img2img with results using Deliberate model to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Canny-Deliberate.pth",
+			  "md5sum": "5a7f3413ec34e432bcc33d2949b7b0bb"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Canny-Deliberate.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/edwardwangxy/ControlNet_Deliberate/resolve/main/deliberate_canny.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	"ControlNet - Depth": {
+		"name": "ControlNet - Depth",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating Depth maps for use in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		"files": [
+			{
+			"path": "Depth.pth",
+			"md5sum": "6c1c59867120a4fdfc009fb7c81a9fb6"
+			},
+			{
+			"path": "cldm_v15.yaml"
+			}
+		],
+		"download": [
+			{
+			"file_name": "Depth.pth",
+			"file_path": "",
+			"file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_depth.pth"
+			}
+		]
+		},
+		"available": false
+	}
 }

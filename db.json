@@ -5610,6 +5610,38 @@
     },
     "available": false
   },
+  "ControlNet - Canny - Delib": {
+    "name": "ControlNet - Canny - Delib",
+    "baseline": "stable diffusion 1",
+    "type": "controlnet",
+    "description": "For creating Canny maps for use in img2img with results using Deliberate model to re-render",
+    "version": "1",
+    "style": "ControlNet - Generalist",
+    "nsfw": false,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/controlnet/Canny-Deliberate.pth",
+          "md5sum": "5a7f3413ec34e432bcc33d2949b7b0bb"
+        },
+        {
+          "path": "configs/stable-diffusion/cldm_v15.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Canny-Deliberate.pth",
+          "file_path": "models/controlnet",
+          "file_url": "https://huggingface.co/edwardwangxy/ControlNet_Deliberate/resolve/main/deliberate_canny.pth"
+        }
+      ]
+    },
+    "available": false
+  },
   "ControlNet - Depth": {
     "name": "ControlNet - Depth",
     "baseline": "stable diffusion 1",
