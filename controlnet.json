@@ -43,11 +43,11 @@
 		"config": {
 		  "files": [
 			{
-			  "path": "models/controlnet/Canny-AnyV3.pth",
+			  "path": "Canny-AnyV3.pth",
 			  "md5sum": "3948f057b1e632dec3c0dae87c11dcec"
 			},
 			{
-			  "path": "configs/stable-diffusion/cldm_v15.yaml"
+			  "path": "cldm_v15.yaml"
 			}
 		  ],
 		  "download": [
