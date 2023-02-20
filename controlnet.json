@@ -117,5 +117,179 @@
 		]
 		},
 		"available": false
-	}
+	},
+	"ControlNet - HED": {
+		"name": "ControlNet - HED",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating HED maps for use in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "HED.pth",
+			  "md5sum": "aa3d5675393ecfa8d614fb1afa13c0af"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "HED.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_hed.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "ControlNet - MLSD": {
+		"name": "ControlNet - MLSD",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating MLSD maps for use in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "MLSD.pth",
+			  "md5sum": "912ff3d292e496cc6e167ef4edd6b5cf"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "MLSD.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_mlsd.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "ControlNet - Normal": {
+		"name": "ControlNet - Normal",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating Normal maps for use in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Normal.pth",
+			  "md5sum": "599b5e8d30619150488be33f1889aaa8"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Normal.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_normal.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "ControlNet - Pose": {
+		"name": "ControlNet - Pose",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For creating openpose maps for use in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Openpose.pth",
+			  "md5sum": "6f7a19a1c066889e51cff677c14f7a51"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Openpose.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "ControlNet - Scribble": {
+		"name": "ControlNet - Scribble",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For using scribbles in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Scribble.pth",
+			  "md5sum": "276e199415b23d23d4a7454730422e77"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Scribble.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_scribble.pth"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "ControlNet - Seg": {
+		"name": "ControlNet - Seg",
+		"baseline": "stable diffusion 1",
+		"type": "controlnet",
+		"description": "For using segmentation maps in img2img using SD1.5 to re-render",
+		"version": "1",
+		"style": "ControlNet - Generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+		  "files": [
+			{
+			  "path": "Seg.pth",
+			  "md5sum": "dadb5c06ad67dc9ef18a1f63c86c897e"
+			},
+			{
+			  "path": "cldm_v15.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Seg.pth",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_seg.pth"
+			}
+		  ]
+		},
+		"available": false
+	  }
 }
