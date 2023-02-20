@@ -31,6 +31,39 @@
 		},
 		"available": false
 	},
+    "stable_diffusion_2.1_512": {
+		"name": "stable_diffusion_2.1_512",
+		"baseline": "stable diffusion 2 512",
+		"type": "ckpt",
+		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
+		],
+		"version": "2.1",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "model_2_1_512.ckpt",
+                    "md5sum": "92c12991d9e5bc8d82b1094b0214a5d3"
+				},
+				{
+					"path": "v2-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "model_2_1_512.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
 	"stable_diffusion_2.0": {
 		"name": "stable_diffusion_2.0",
 		"baseline": "stable diffusion 2",
@@ -58,6 +91,38 @@
 					"file_name": "model_2_0.ckpt",
 					"file_path": "",
 					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt"
+				}
+			]
+		},
+		"available": false
+	},
+    "stable_diffusion_2.0_512": {
+		"name": "stable_diffusion_2.0_512",
+		"baseline": "stable diffusion 2 512",
+		"type": "ckpt",
+		"description": "Generalist AI image generating model. The baseline for all finetuned models.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+		],
+		"version": "2.0",
+		"style": "generalist",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "model_2_0_512.ckpt",
+					"md5sum": "acec06c7696a136a3a24abd6e3eb45ac"
+				},
+				{
+					"path": "v2-inference.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "model_2_0_512.ckpt",
+					"file_path": "",
+					"file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-base/resolve/main/512-base-ema.ckpt"
 				}
 			]
 		},
@@ -2177,7 +2242,7 @@
 	},
 	"Future Diffusion": {
 		"name": "Future Diffusion",
-		"baseline": "stable diffusion 2",
+		"baseline": "stable diffusion 2 512",
 		"type": "ckpt",
 		"description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
 		"showcases": [
