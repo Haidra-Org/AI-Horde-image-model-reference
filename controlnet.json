@@ -7,7 +7,7 @@
 		"version": "1",
 		"style": "generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -36,7 +36,7 @@
 		"version": "1",
 		"style": "ControlNet - Anime",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"requires": [
 		  "clip-vit-large-patch14"
 		],
@@ -68,7 +68,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -97,7 +97,7 @@
 		"version": "1",
 		"style": "generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		"files": [
 			{
@@ -126,7 +126,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -155,7 +155,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -184,7 +184,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -213,7 +213,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -242,7 +242,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -271,7 +271,7 @@
 		"version": "1",
 		"style": "ControlNet - Generalist",
 		"nsfw": false,
-		"download_all": true,
+		"download_all": false,
 		"config": {
 		  "files": [
 			{
@@ -298,6 +298,8 @@
 		"description": "control_canny",
 		"version": "0.1.0",
 		"style": "control_canny",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -323,6 +325,8 @@
 		"description": "control_depth",
 		"version": "0.1.0",
 		"style": "control_depth",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -348,6 +352,8 @@
 		"description": "control_hed",
 		"version": "0.1.0",
 		"style": "control_hed",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -373,6 +379,8 @@
 		"description": "control_mlsd",
 		"version": "0.1.0",
 		"style": "control_mlsd",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -398,6 +406,8 @@
 		"description": "control_normal",
 		"version": "0.1.0",
 		"style": "control_normal",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -423,6 +433,8 @@
 		"description": "control_openpose",
 		"version": "0.1.0",
 		"style": "control_openpose",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -448,6 +460,8 @@
 		"description": "control_scribble",
 		"version": "0.1.0",
 		"style": "control_scribble",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
@@ -473,6 +487,8 @@
 		"description": "control_seg",
 		"version": "0.1.0",
 		"style": "control_seg",
+		"nsfw": false,
+		"download_all": true,
 		"config": {
 			"files": [
 				{
