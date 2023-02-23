@@ -911,7 +911,7 @@
         {
           "file_name": "microworld_PublicPrompts.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/7239"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/microworld_PublicPrompts.ckpt"
         }
       ]
     },
@@ -5339,7 +5339,7 @@
         {
           "file_name": "Microchars.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/9502"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microchars.ckpt"
         }
       ]
     },
@@ -5372,7 +5372,7 @@
         {
           "file_name": "Microcritters.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/9467"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microcritters.ckpt"
         }
       ]
     },
@@ -5546,6 +5546,204 @@
     },
     "available": false
   },
+  "Kenshi": {
+		"name": "Kenshi",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
+		"version": "0.1",
+		"style": "generalist/anime",
+		"homepage": "https://huggingface.co/SweetLuna/Kenshi",
+		"nsfw": false,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/Kenshi.ckpt",
+			  "md5sum": "5cfe1b74be4a5e6fd37777bafedafcf6"
+			},
+			{
+			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Kenshi.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://huggingface.co/Airic/Kenshi/resolve/main/KENSHI01_Pruned_f16.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "DucHaiten Classic Anime": {
+		"name": "DucHaiten Classic Anime",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
+		"version": "1.0",
+		"style": "classic anime",
+		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
+		"nsfw": false,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/DucHaiten_classic.ckpt",
+			  "md5sum": "e7b1bc7494ff84774816e414e5a14dfb"
+			},
+			{
+			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "DucHaiten_classic.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DH_Royle_Temperament_v1.0.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Rev Animated": {
+		"name": "Rev Animated",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
+		"version": "1.0",
+		"style": "realistic anime",
+		"homepage": "https://civitai.com/models/7371/rev-animated",
+		"nsfw": true,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/Rev-animated.ckpt",
+			  "md5sum": "95b599dfc2472f13b0e53f2f0451ae04"
+			},
+			{
+			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Rev-animated.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/revAnimated_reva1.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "A to Zovya RPG": {
+		"name": "A to Zovya RPG",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
+		"version": "1.0",
+		"style": "rpg",
+		"homepage": "https://civitai.com/models/8124/a-to-zovya-rpg-artists-tools-15-and-21",
+		"nsfw": false,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/A-to-z_zovya_rpg.ckpt",
+			  "md5sum": "b74f35949a61f1b777947eb5dc519f8f"
+			},
+			{
+			  "path": "configs/stable-diffusion/v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "A-to-z_zovya_rpg.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/aToZovyaRPGArtistsTools_sd21.ckpt"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Colorful": {
+		"name": "Colorful",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
+		"version": "2.0",
+		"style": "fantasy portraits",
+		"homepage": "https://civitai.com/models/7279/colorful",
+		"nsfw": false,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/colorful.ckpt",
+			  "md5sum": "313e96a3877b01ecd3effb1ccfad116c"
+			},
+			{
+			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "colorful.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://civitai.com/api/download/models/13196"
+			}
+		  ]
+		},
+		"available": false
+	  },
+	  "Movie Diffusion": {
+		"name": "Movie Diffusion",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Movie Diffusion is SD 1.5 trained on 35mm film stills from popular movies.",
+		"version": "1.2",
+		"style": "35mm stills",
+		"homepage": "https://civitai.com/models/8067/movie-diffusion-v12",
+		"nsfw": false,
+		"download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+		"config": {
+		  "files": [
+			{
+			  "path": "models/custom/movie-diffusion.ckpt",
+			  "md5sum": "6dd8835d5b2f9950c880124d2885a1b8"
+			},
+			{
+			  "path": "configs/stable-diffusion/v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "movie-diffusion.ckpt",
+			  "file_path": "models/custom",
+			  "file_url": "https://civitai.com/api/download/models/9953"
+			}
+		  ]
+		},
+		"available": false
+	  },
   "ControlNet - Canny": {
     "name": "ControlNet - Canny",
     "baseline": "stable diffusion 1",
