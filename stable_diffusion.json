@@ -5142,5 +5142,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Movie Diffusion": {
+		"name": "Movie Diffusion",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Movie Diffusion is SD 1.5 trained on 35mm film stills from popular movies.",
+		"version": "1.2",
+		"style": "35mm stills",
+		"homepage": "https://civitai.com/models/8067/movie-diffusion-v12",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "movie-diffusion.ckpt",
+			  "md5sum": "6dd8835d5b2f9950c880124d2885a1b8"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "movie-diffusion.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/9953"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
