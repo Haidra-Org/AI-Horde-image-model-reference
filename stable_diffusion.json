@@ -5022,5 +5022,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "DucHaiten Classic Anime": {
+		"name": "DucHaiten Classic Anime",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
+		"version": "1.0",
+		"style": "classic anime",
+		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "DucHaiten_classic.ckpt",
+			  "md5sum": "e7b1bc7494ff84774816e414e5a14dfb"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "DucHaiten_classic.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DH_Royle_Temperament_v1.0.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
