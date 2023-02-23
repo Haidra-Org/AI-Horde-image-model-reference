@@ -5052,5 +5052,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Rev Animated": {
+		"name": "Rev Animated",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
+		"version": "1.0",
+		"style": "realistic anime",
+		"homepage": "https://civitai.com/models/7371/rev-animated",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Rev-animated.ckpt",
+			  "md5sum": "95b599dfc2472f13b0e53f2f0451ae04"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Rev-animated.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/revAnimated_reva1.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
