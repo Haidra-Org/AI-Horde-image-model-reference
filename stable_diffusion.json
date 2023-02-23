@@ -5112,5 +5112,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Colorful": {
+		"name": "Colorful",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
+		"version": "2.0",
+		"style": "fantasy portraits",
+		"homepage": "https://civitai.com/models/7279/colorful",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "colorful.ckpt",
+			  "md5sum": "313e96a3877b01ecd3effb1ccfad116c"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "colorful.ckpt",
+			  "file_path": "",
+			  "file_url": "https://civitai.com/api/download/models/13196"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
