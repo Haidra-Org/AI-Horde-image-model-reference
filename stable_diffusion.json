@@ -4992,5 +4992,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Kenshi": {
+		"name": "Kenshi",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
+		"version": "0.1",
+		"style": "generalist/anime",
+		"homepage": "https://huggingface.co/SweetLuna/Kenshi",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "Kenshi.ckpt",
+			  "md5sum": "5cfe1b74be4a5e6fd37777bafedafcf6"
+			},
+			{
+			  "path": "v1-inference.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "Kenshi.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Airic/Kenshi/resolve/main/KENSHI01_Pruned_f16.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
