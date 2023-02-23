@@ -802,7 +802,7 @@
 				{
 					"file_name": "microworld_PublicPrompts.ckpt",
 					"file_path": "",
-					"file_url": "https://civitai.com/api/download/models/7239"
+					"file_url": "https://huggingface.co/Airic/mirrors/resolve/main/microworld_PublicPrompts.ckpt"
 				}
 			]
 		},
@@ -4804,7 +4804,7 @@
 			{
 			  "file_name": "Microchars.ckpt",
 			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/9502"
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microchars.ckpt"
 			}
 		  ]
 		},
@@ -4834,7 +4834,7 @@
 			{
 			  "file_name": "Microcritters.ckpt",
 			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/9467"
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microcritters.ckpt"
 			}
 		  ]
 		},
