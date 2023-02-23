@@ -5082,5 +5082,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "A to Zovya RPG": {
+		"name": "A to Zovya RPG",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
+		"version": "1.0",
+		"style": "rpg",
+		"homepage": "https://civitai.com/models/8124/a-to-zovya-rpg-artists-tools-15-and-21",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+			{
+			  "path": "A-to-z_zovya_rpg.ckpt",
+			  "md5sum": "b74f35949a61f1b777947eb5dc519f8f"
+			},
+			{
+			  "path": "v2-inference-v.yaml"
+			}
+		  ],
+		  "download": [
+			{
+			  "file_name": "A-to-z_zovya_rpg.ckpt",
+			  "file_path": "",
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/aToZovyaRPGArtistsTools_sd21.ckpt"
+			}
+		  ]
+		},
+		"available": false
 	  }
 }
