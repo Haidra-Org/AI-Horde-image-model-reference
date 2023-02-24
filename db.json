@@ -5705,7 +5705,7 @@
 			{
 			  "file_name": "colorful.ckpt",
 			  "file_path": "models/custom",
-			  "file_url": "https://civitai.com/api/download/models/13196"
+			  "file_url": "https://civitai.com/api/download/models/13196?type=Model&format=PickleTensor"
 			}
 		  ]
 		},
