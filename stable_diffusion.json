@@ -5323,5 +5323,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Uhmami": {
+		"name": "Uhmami",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "a blend of anime-focused models with a semi-realistic aesthetic, combining 3D digital imagery with photography. It allows the use of prompts based on booru tags, similar to the novelai model, resulting in high-quality semi-realistic images",
+		"version": "1.0",
+		"style": "semi-realistic",
+		"homepage": "https://civitai.com/models/8563/uhmami",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "Uhmami.ckpt",
+			"md5sum": "a3b9bd9c2b48f51b36a636a0465af86d"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Uhmami.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/10098?type=Model&format=PickleTensor"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
