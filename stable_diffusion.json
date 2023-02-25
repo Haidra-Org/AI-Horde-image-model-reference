@@ -5278,7 +5278,7 @@
 		  "files": [
 		  {
 			"path": "Olympus.ckpt",
-			"md5sum": "58c75883da1e0680459ac400c55b251e"
+			"md5sum": "443cb4ecec74fdfb29544b0b7974c4a9"
 		  },
 		  {
 			"path": "v1-inference.yaml"
