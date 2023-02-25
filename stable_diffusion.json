@@ -5308,7 +5308,7 @@
 		  "files": [
 		  {
 			"path": "HRL.ckpt",
-			"md5sum": "mf9021c741c5b8370850835a5839e5d88"
+			"md5sum": "f9021c741c5b8370850835a5839e5d88"
 		  },
 		  {
 			"path": "v1-inference.yaml"
