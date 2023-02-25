@@ -5894,7 +5894,7 @@
         "files": [
         {
           "path": "models/custom/HRL.ckpt",
-          "md5sum": "mf9021c741c5b8370850835a5839e5d88"
+          "md5sum": "f9021c741c5b8370850835a5839e5d88"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
