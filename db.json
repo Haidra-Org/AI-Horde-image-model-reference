@@ -5805,7 +5805,7 @@
         {
           "file_name": "AnimePencilArt.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v4.ckpt"
+          "file_url": "https://huggingface.co/Crosstyan/BPModel/resolve/main/bp_1024_with_vae_te.ckpt"
         }
         ]
       },
