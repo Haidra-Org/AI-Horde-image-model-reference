@@ -5210,6 +5210,7 @@
 		"description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
 		"version": "4",
 		"style": "anime pencil art",
+		"trigger": ["anime pencil concept style"],
 		"homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
 		"nsfw": false,
 		"download_all": false,
