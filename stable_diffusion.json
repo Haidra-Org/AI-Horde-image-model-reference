@@ -5413,5 +5413,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "SynthwavePunk": {
+		"name": "SynthwavePunk",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A mix of synthwave and inkpunk",
+		"version": "1.0",
+		"style": "inkpunk",
+		"homepage": "https://civitai.com/models/1102/synthwavepunk",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "Synthpunk.ckpt",
+			"md5sum": "96b9822c6c38b156eb9b958748699164"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Synthpunk.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/1144?format=PickleTensor"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
