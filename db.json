@@ -5877,6 +5877,72 @@
       },
       "available": false
     },
+    "HRL": {
+      "name": "HRL",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "Hyper Realistic Looking",
+      "version": "3.1",
+      "style": "photorealism",
+      "homepage": "https://civitai.com/models/8616/hrl-hyper-realistic-looking-3",
+      "nsfw": true,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/HRL.ckpt",
+          "md5sum": "mf9021c741c5b8370850835a5839e5d88"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "HRL.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/hrl31_hrl31.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
+    "Uhmami": {
+      "name": "Uhmami",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "a blend of anime-focused models with a semi-realistic aesthetic, combining 3D digital imagery with photography. It allows the use of prompts based on booru tags, similar to the novelai model, resulting in high-quality semi-realistic images",
+      "version": "1.0",
+      "style": "semi-realistic",
+      "homepage": "https://civitai.com/models/8563/uhmami",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/Uhmami.ckpt",
+          "md5sum": "a3b9bd9c2b48f51b36a636a0465af86d"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "Uhmami.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/10098?type=Model&format=PickleTensor"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
