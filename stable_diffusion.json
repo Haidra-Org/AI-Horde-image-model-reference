@@ -5353,5 +5353,95 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "NeverEnding Dream": {
+		"name": "NeverEnding Dream",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This is a dream that you will never want to wake up from. A NeverEnding Dream.  Similar to Dreamshaper, but able to use danbooru tags",
+		"version": "1.0",
+		"style": "semi-realistic",
+		"homepage": "https://civitai.com/models/10028",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "NED.ckpt",
+			"md5sum": "58c75883da1e0680459ac400c55b251e"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "NED.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/blob/main/neverendingDreamNED_bakedVae.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "Protogen Anime": {
+		"name": "Protogen Anime",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A cocktail mix of a bit of everything",
+		"version": "1.0",
+		"style": "anime",
+		"homepage": "https://civitai.com/models/10028",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "Protogen_Anime.ckpt",
+			"md5sum": "4f2220296e0409c75f5752df05f843ca"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Protogen_Anime.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/4007?type=Pruned%20Model&format=PickleTensor"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "SynthwavePunk": {
+		"name": "SynthwavePunk",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A mix of synthwave and inkpunk",
+		"version": "1.0",
+		"style": "inkpunk",
+		"homepage": "https://civitai.com/models/1102/synthwavepunk",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "Synthpunk.ckpt",
+			"md5sum": "96b9822c6c38b156eb9b958748699164"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Synthpunk.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/1144?format=PickleTensor"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
