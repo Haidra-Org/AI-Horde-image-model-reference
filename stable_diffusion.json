@@ -5293,5 +5293,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "HRL": {
+		"name": "HRL",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Hyper Realistic Looking",
+		"version": "3.1",
+		"style": "photorealism",
+		"homepage": "https://civitai.com/models/8616/hrl-hyper-realistic-looking-3",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "HRL.ckpt",
+			"md5sum": "mf9021c741c5b8370850835a5839e5d88"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "HRL.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/hrl31_hrl31.ckpt"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
