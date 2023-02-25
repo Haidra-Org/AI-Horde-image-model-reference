@@ -5443,5 +5443,38 @@
 		  ]
 		},
 		"available": false
-	  }
+	  },
+	  "Graphic-Art": {
+		"name": "Graphic-Art",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Style model for Stable Diffusion. Mainly focusing on graphic design.",
+		"showcases": [
+			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/graphic_art/01_graphicart.webp"
+		],
+		"version": "beta",
+		"style": "vector art",
+		"homepage": "https://civitai.com/models/7884/graphic-art",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+			"files": [
+				{
+					"path": "graphic-art.ckpt",
+					"md5sum": "fe23f60ebb26bc8d2dfda9ed9363ce49"
+				},
+				{
+					"path": "v2-inference-v.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "graphic-art.ckpt",
+					"file_path": "",
+					"file_url": "https://civitai.com/api/download/models/9297?type=Model&format=PickleTensor"
+				}
+			]
+		},
+		"available": false
+	}
 }
