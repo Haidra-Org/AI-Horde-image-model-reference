@@ -5744,326 +5744,72 @@
 		},
 		"available": false
 	  },
-  "ControlNet - Canny": {
-    "name": "ControlNet - Canny",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Canny maps for use in img2img using SD 1.5 to re-render",
-    "version": "1",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
+    "GuoFeng": {
+      "name": "GuoFeng",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "This is a Chinese gorgeous antique style model, which can also be said to be an antique game character model with a 2.5D texture",
+      "version": "3.2",
+      "style": "chinese semi-realistic",
+      "homepage": "https://huggingface.co/xiaolxl/GuoFeng3",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
         {
-          "path": "models/controlnet/Canny.pth",
-          "md5sum": "680f1938ae2116941c7b95165ae0b293"
+          "path": "models/custom/GuoFeng.ckpt",
+          "md5sum": "99305b836778ca3a68970ff6dd1d5ae4"
         },
         {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
+          "path": "configs/stable-diffusion/v1-inference.yaml"
         }
-      ],
-      "download": [
+        ],
+        "download": [
         {
-          "file_name": "Canny.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_canny.pth"
+          "file_name": "GuoFeng.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/xiaolxl/GuoFeng3/resolve/main/GuoFeng3.2.ckpt"
         }
-      ]
+        ]
+      },
+      "available": false
     },
-    "available": false
-  },
-  "ControlNet - Canny - AnyV3": {
-    "name": "ControlNet - Canny - AnyV3",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Canny maps for use in img2img with results using Anything v3 model to re-render",
-    "version": "1",
-    "style": "ControlNet - Anime",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
+    "Anime Pencil Diffusion": {
+      "name": "Anime Pencil Diffusion",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
+      "version": "4",
+      "style": "anime pencil art",
+      "homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
         {
-          "path": "models/controlnet/Canny-AnyV3.pth",
-          "md5sum": "3948f057b1e632dec3c0dae87c11dcec"
+          "path": "models/custom/AnimePencilArt.ckpt",
+          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90"
         },
         {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
+          "path": "configs/stable-diffusion/v1-inference.yaml"
         }
-      ],
-      "download": [
+        ],
+        "download": [
         {
-          "file_name": "Canny-AnyV3.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/toyxyz/Control_any3/resolve/main/control_any3_canny.pth"
+          "file_name": "AnimePencilArt.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v4.ckpt"
         }
-      ]
+        ]
+      },
+      "available": false
     },
-    "available": false
-  },
-  "ControlNet - Canny - Delib": {
-    "name": "ControlNet - Canny - Delib",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Canny maps for use in img2img with results using Deliberate model to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Canny-Deliberate.pth",
-          "md5sum": "5a7f3413ec34e432bcc33d2949b7b0bb"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Canny-Deliberate.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/edwardwangxy/ControlNet_Deliberate/resolve/main/deliberate_canny.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - Depth": {
-    "name": "ControlNet - Depth",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Depth maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Depth.pth",
-          "md5sum": "6c1c59867120a4fdfc009fb7c81a9fb6"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Depth.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_depth.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - HED": {
-    "name": "ControlNet - HED",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating HED maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/HED.pth",
-          "md5sum": "aa3d5675393ecfa8d614fb1afa13c0af"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "HED.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_hed.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - MLSD": {
-    "name": "ControlNet - MLSD",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating MLSD maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/MLSD.pth",
-          "md5sum": "912ff3d292e496cc6e167ef4edd6b5cf"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "MLSD.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_mlsd.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - Normal": {
-    "name": "ControlNet - Normal",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating Normal maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Normal.pth",
-          "md5sum": "599b5e8d30619150488be33f1889aaa8"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Normal.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_normal.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - Pose": {
-    "name": "ControlNet - Pose",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For creating openpose maps for use in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Openpose.pth",
-          "md5sum": "6f7a19a1c066889e51cff677c14f7a51"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Openpose.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_openpose.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - Scribble": {
-    "name": "ControlNet - Scribble",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For using scribbles in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Scribble.pth",
-          "md5sum": "276e199415b23d23d4a7454730422e77"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Scribble.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_scribble.pth"
-        }
-      ]
-    },
-    "available": false
-  },
-  "ControlNet - Seg": {
-    "name": "ControlNet - Seg",
-    "baseline": "stable diffusion 1",
-    "type": "controlnet",
-    "description": "For using segmentation maps in img2img using SD1.5 to re-render",
-    "version": "1",
-    "style": "ControlNet - Generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/controlnet/Seg.pth",
-          "md5sum": "dadb5c06ad67dc9ef18a1f63c86c897e"
-        },
-        {
-          "path": "configs/stable-diffusion/cldm_v15.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "Seg.pth",
-          "file_path": "models/controlnet",
-          "file_url": "https://huggingface.co/lllyasviel/ControlNet/resolve/main/models/control_sd15_seg.pth"
-        }
-      ]
-    },
-    "available": false
-  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
