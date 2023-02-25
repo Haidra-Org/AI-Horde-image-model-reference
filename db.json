@@ -5777,6 +5777,39 @@
       },
       "available": false
     },
+    "Anime Pencil Diffusion": {
+      "name": "Anime Pencil Diffusion",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
+      "version": "4",
+      "style": "anime pencil art",
+      "homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/AnimePencilArt.ckpt",
+          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "AnimePencilArt.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v4.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
