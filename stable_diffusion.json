@@ -5262,5 +5262,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "UMI Olympus": {
+		"name": "UMI Olympus",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A model that generates extremely high quality landscapes, space battles, and fantasy settings. It can also generate very high quality anime characters, though that is not its primary purpose",
+		"version": "1.0",
+		"style": "landscape/fantasy/anime",
+		"homepage": "https://civitai.com/models/6077/umi-ai-mythology-and-babes-by-dutchalex",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "Olympus.ckpt",
+			"md5sum": "58c75883da1e0680459ac400c55b251e"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Olympus.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/umiAIMythologyAndBabes_olympusLandscapesV10.ckpt"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
