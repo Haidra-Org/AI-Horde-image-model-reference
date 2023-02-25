@@ -5810,6 +5810,39 @@
       },
       "available": false
     },
+    "BPModel": {
+      "name": "BPModel",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
+      "version": "1024",
+      "style": "anime",
+      "homepage": "https://huggingface.co/Crosstyan/BPModel",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/BPModel.ckpt",
+          "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "BPModel.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v4.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
