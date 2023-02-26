@@ -4202,7 +4202,7 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "This model provides you the ability to create anything you want. The more power of prompt knowledges you have, the better results you'll get. It basically means that you'll never get a perfect result with just a few words. You have to fill out your prompt line extremely detailed",
-    "version": "1.1",
+    "version": "2",
     "style": "generalist",
     "homepage": "https://civitai.com/models/4823/deliberate",
     "nsfw": false,
@@ -4217,7 +4217,7 @@
       "files": [
         {
           "path": "models/custom/Deliberate.ckpt",
-          "md5sum": "676e7f60a2b3194b7a258c0064b1987e"
+          "md5sum": "65621076b884a0debcae553aa142e935"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4227,7 +4227,7 @@
         {
           "file_name": "Deliberate.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/5616?type=Model&format=PickleTensor"
+          "file_url": "https://civitai.com/api/download/models/15236?type=Model&format=PickleTensor"
         }
       ]
     },
