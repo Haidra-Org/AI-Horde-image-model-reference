@@ -5177,7 +5177,7 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "A model trained to create CG anime characters",
-    "version": "2",
+    "version": "3",
     "style": "anime",
     "homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
     "nsfw": false,
@@ -5192,7 +5192,7 @@
       "files": [
         {
           "path": "models/custom/AbyssOrangeMix.ckpt",
-          "md5sum": "0c2246fd7c713ab1604d43395cb56af5"
+          "md5sum": "ead55bb67080f20e99131dcf669d4eba"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5202,7 +5202,7 @@
         {
           "file_name": "AbyssOrangeMix.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AbyssOrangeMix2_pruned_inclvae.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AOM3_inclVAE.ckpt"
         }
       ]
     },
