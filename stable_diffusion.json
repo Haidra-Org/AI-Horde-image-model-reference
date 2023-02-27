@@ -5506,5 +5506,35 @@
         ]
       },
       "available": false
+    },
+    "SD-Silicon": {
+      "name": "SD-Silicon",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
+      "version": "29",
+      "style": "generalist",
+      "homepage": "https://huggingface.co/Xynon/SD-Silicon",
+      "nsfw": false,
+      "download_all": false,
+      "config": {
+        "files": [
+        {
+          "path": "SD-Silicon.ckpt",
+          "md5sum": "ba36878c61ccabfed7bdf5c213666749"
+        },
+        {
+          "path": "v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "SD-Silicon.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
+        }
+        ]
+      },
+      "available": false
     }
 }
