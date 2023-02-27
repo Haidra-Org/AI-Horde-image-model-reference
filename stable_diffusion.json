@@ -4657,7 +4657,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A model trained to create CG anime characters",
-		"version": "2",
+		"version": "3",
 		"style": "anime",
 		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
 		"nsfw": false,
@@ -4669,7 +4669,7 @@
 		  "files": [
 			{
 			  "path": "AbyssOrangeMix.ckpt",
-			  "md5sum": "0c2246fd7c713ab1604d43395cb56af5"
+			  "md5sum": "ead55bb67080f20e99131dcf669d4eba"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -4679,7 +4679,7 @@
 			{
 			  "file_name": "AbyssOrangeMix.ckpt",
 			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AbyssOrangeMix2_pruned_inclvae.ckpt"
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AOM3_inclVAE.ckpt"
 			}
 		  ]
 		},
@@ -5476,5 +5476,65 @@
 			]
 		},
 		"available": false
-	}
+	},
+    "Illuminati Diffusion": {
+      "name": "Illuminati Diffusion",
+      "baseline": "stable diffusion 2",
+      "type": "ckpt",
+      "description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
+      "version": "1.1",
+      "style": "generalist",
+      "homepage": "https://civitai.com/models/11193",
+      "nsfw": false,
+      "download_all": false,
+      "config": {
+        "files": [
+        {
+          "path": "Illuminati.ckpt",
+          "md5sum": "f9319c292efb474e950a5e2c5897fb56"
+        },
+        {
+          "path": "v2-inference-v.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "Illuminati.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/illuminatiDiffusionV1_v11.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
+    "SD-Silicon": {
+      "name": "SD-Silicon",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
+      "version": "29",
+      "style": "generalist",
+      "homepage": "https://huggingface.co/Xynon/SD-Silicon",
+      "nsfw": false,
+      "download_all": false,
+      "config": {
+        "files": [
+        {
+          "path": "SD-Silicon.ckpt",
+          "md5sum": "ba36878c61ccabfed7bdf5c213666749"
+        },
+        {
+          "path": "v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "SD-Silicon.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
+        }
+        ]
+      },
+      "available": false
+    }
 }
