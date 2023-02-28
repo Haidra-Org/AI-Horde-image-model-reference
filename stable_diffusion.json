@@ -5067,7 +5067,7 @@
 		  "files": [
 			{
 			  "path": "Rev-animated.ckpt",
-			  "md5sum": "e2f4fc9a0ad79d351c385e7a48792ea4"
+			  "md5sum": "6a18a674880db75b7b998fc9dbe9475a"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -5077,7 +5077,7 @@
 			{
 			  "file_name": "Rev-animated.ckpt",
 			  "file_path": "",
-			  "file_url": "https://models.horde.ac/RevAnimated_inclVAE.ckpt"
+			  "file_url": "https://models.horde.ac/RevAnimated_inclKenshiVAE.ckpt"
 			}
 		  ]
 		},
