@@ -5629,7 +5629,7 @@
 		  "files": [
 			{
 			  "path": "models/custom/Rev-animated.ckpt",
-			  "md5sum": "95b599dfc2472f13b0e53f2f0451ae04"
+			  "md5sum": "e2f4fc9a0ad79d351c385e7a48792ea4"
 			},
 			{
 			  "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5639,7 +5639,7 @@
 			{
 			  "file_name": "Rev-animated.ckpt",
 			  "file_path": "models/custom",
-			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/revAnimated_reva1.ckpt"
+			  "file_url": "https://models.horde.ac/RevAnimated_inclVAE.ckpt"
 			}
 		  ]
 		},
