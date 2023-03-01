@@ -1404,7 +1404,7 @@
       "files": [
         {
           "path": "models/custom/Anything-Diffusion.ckpt",
-          "md5sum": "2c7e8c8dca8c51c74cf1015c78c954aa"
+          "md5sum": "01a4fdec28cdb58e26246913871ff4a8"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
