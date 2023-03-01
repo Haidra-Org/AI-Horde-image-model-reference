@@ -1404,7 +1404,7 @@
       "files": [
         {
           "path": "models/custom/Anything-Diffusion.ckpt",
-          "md5sum": "2f42bb28fe05b7f9c5cce93a0eaff2ea"
+          "md5sum": "2c7e8c8dca8c51c74cf1015c78c954aa"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1414,7 +1414,7 @@
         {
           "file_name": "Anything-Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Airic/Anything-V4.5/resolve/main/Anything-v4.5-pruned-mergedVae.ckpt"
+          "file_url": "https://models.horde.ac/AnythingV4.5_inclKenshiVAE.ckpt"
         }
       ]
     },
