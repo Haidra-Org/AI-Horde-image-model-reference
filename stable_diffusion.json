@@ -2350,7 +2350,7 @@
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/01_gigachad.webp",
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/02_bettername.webp"
 		],
-		"version": "1.5",
+		"version": "1.5.1.2",
 		"style": "photorealism",
 		"homepage": "https://huggingface.co/hassanblend/hassanblend1.5",
 		"nsfw": true,
@@ -2359,7 +2359,7 @@
 			"files": [
 				{
 					"path": "hassanblend.ckpt",
-					"md5sum": "c170bd57281f8f267852fb6481931602"
+					"md5sum": "071a44d5b076298a07227e34dad58d92"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -2369,7 +2369,7 @@
 				{
 					"file_name": "hassanblend.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/hassanblend/HassanBlend1.5/resolve/main/HassanBlend1.5.ckpt"
+					"file_url": "https://models.horde.ac/HassanBlend1512.ckpt"
 				}
 			]
 		},
@@ -3363,7 +3363,7 @@
 			"files": [
 				{
 					"path": "Protogen_Infinity.ckpt",
-					"md5sum": "dba1f1d9180d983ce780e486f9a40d66"
+					"md5sum": "ad3f0b5772327511c896e4a7741f1e4e"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -3373,7 +3373,7 @@
 				{
 					"file_name": "Protogen_Infinity.ckpt",
 					"file_path": "",
-					"file_url": "https://civitai.com/api/download/models/4974?type=Model&format=PickleTensor"
+					"file_url": "https://models.horde.ac/ProtogenInfinity.ckpt"
 				}
 			]
 		},
