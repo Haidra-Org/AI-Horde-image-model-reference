@@ -5,8 +5,8 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
     ],
     "version": "2.1",
     "style": "generalist",
@@ -40,8 +40,8 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
-        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.1/02_gigachad.webp"
     ],
     "version": "2.1",
     "style": "generalist",
@@ -73,7 +73,7 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
     ],
     "version": "2.0",
     "style": "generalist",
@@ -108,7 +108,7 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-        "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
     ],
     "version": "2.0",
     "style": "generalist",
@@ -143,7 +143,7 @@
     "style": "depth2img",
     "hf_path": "stabilityai/stable-diffusion-2-depth",
     "hf_auth": false,
-    "available": false	
+    "available": false  
   },
   "stable_diffusion": {
     "name": "stable_diffusion",
@@ -151,9 +151,9 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/01_racebannin.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/02_bigdowg.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion/03_executivebees24601.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion/01_racebannin.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion/02_bigdowg.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion/03_executivebees24601.webp"
     ],
     "version": "1.5",
     "style": "generalist",
@@ -188,7 +188,7 @@
     "type": "ckpt",
     "description": "Generalist AI image generating model. The baseline for all finetuned models.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_1.4/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_1.4/01_bigdowg.webp"
     ],
     "version": "1.4",
     "style": "generalist",
@@ -231,9 +231,9 @@
     "type": "ckpt",
     "description": "Anime styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/waifu_diffusion/03_racebannin.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/waifu_diffusion/03_racebannin.webp"
     ],
     "version": "1.3",
     "style": "anime",
@@ -268,7 +268,7 @@
     "type": "ckpt",
     "description": "Furry styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/furry_epoch/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/furry_epoch/01_gigachad.webp"
     ],
     "version": "4",
     "style": "furry",
@@ -303,8 +303,8 @@
     "type": "ckpt",
     "description": "Furry styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/01_pika.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/yiffy/02_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/yiffy/01_pika.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/yiffy/02_bigdowg.webp"
     ],
     "version": "18",
     "style": "furry",
@@ -339,7 +339,7 @@
     "type": "ckpt",
     "description": "Kink/NSFW oriented furry styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zack3d/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zack3d/01_gigachad.webp"
     ],
     "version": "1",
     "style": "furry",
@@ -374,7 +374,7 @@
     "type": "ckpt",
     "description": "Manga styled generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart/01_monarch.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/trinart/01_monarch.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -409,7 +409,7 @@
     "type": "ckpt",
     "description": "Minimalist coloring book style images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/colorbook/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/colorbook/01_gigachad.webp"
     ],
     "version": "1",
     "style": "line art",
@@ -448,8 +448,8 @@
     "type": "ckpt",
     "description": "Based on the Arcane TV show",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/01_bigdowg.jpg",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/arcane/02_bigdowg.jpg"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/arcane/01_bigdowg.jpg",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/arcane/02_bigdowg.jpg"
     ],
     "version": "3",
     "style": "cel shading",
@@ -488,7 +488,7 @@
     "type": "ckpt",
     "description": "Squishmallows",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/squishmallow_diffusion/01_bigdawg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/squishmallow_diffusion/01_bigdawg.webp"
     ],
     "version": "1",
     "style": "squishmallow",
@@ -527,7 +527,7 @@
     "type": "ckpt",
     "description": "Based on the Into the Spider-Verse movie's animation style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/spider_verse_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/spider_verse_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "cgi, comic book",
@@ -566,7 +566,7 @@
     "type": "ckpt",
     "description": "Based on the Archer's TV show animation style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "trigger": [
@@ -605,8 +605,8 @@
     "type": "ckpt",
     "description": "Based on the Elden Ring video game style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elden_ring_diffusion/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elden_ring_diffusion/02_gigachad.webp"
     ],
     "version": "2",
     "style": "modern game engine",
@@ -645,7 +645,7 @@
     "type": "ckpt",
     "description": "Robot oriented drawing style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/robo_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/robo_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "2D portrait render",
@@ -684,7 +684,7 @@
     "type": "ckpt",
     "description": "Popular animation studio modern style generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "storybook realism",
@@ -723,7 +723,7 @@
     "type": "ckpt",
     "description": "Popular animation studio classic style generations.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/classic_animation_diffusion/01_bigdowg.jpg"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/classic_animation_diffusion/01_bigdowg.jpg"
     ],
     "version": "1",
     "style": "timeless storybook",
@@ -762,7 +762,7 @@
     "type": "ckpt",
     "description": "Xynthii-Diffusion (cyclops monster girls)",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/xynthii_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/xynthii_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "neon drawing",
@@ -801,7 +801,7 @@
     "type": "ckpt",
     "description": "Western Comic book style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/comic_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/comic_diffusion/01_gigachad.webp"
     ],
     "version": "2",
     "style": "comic book, 2d vector",
@@ -844,7 +844,7 @@
     "type": "ckpt",
     "description": "Tron Legacy movie style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tron_legacy_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/tron_legacy_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "futuristic portrait/landscape",
@@ -883,8 +883,8 @@
     "type": "ckpt",
     "description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microworlds/02_racebannin.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microworlds/02_racebannin.webp"
     ],
     "version": "3",
     "style": "3d render, isometric",
@@ -923,7 +923,7 @@
     "type": "ckpt",
     "description": "For creating images of nude solo women. Also known as f222",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zeipher_female_model/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zeipher_female_model/01_bigdowg.webp"
     ],
     "version": "222",
     "style": "f222, boudoir photography",
@@ -959,7 +959,7 @@
     "type": "ckpt",
     "description": "Dreambooth model trained on high resolution 3D artworks",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/redshift/01_bigdowg.jpg"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/redshift/01_bigdowg.jpg"
     ],
     "version": "1",
     "style": "cinema4D",
@@ -998,8 +998,8 @@
     "type": "ckpt",
     "description": "Based on Borderlands video game style, trained on characters and scenes",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/borderlands/01_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/borderlands/02_jakeukalane.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/borderlands/01_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/borderlands/02_jakeukalane.webp"
     ],
     "version": "1",
     "style": "cell shading",
@@ -1038,7 +1038,7 @@
     "type": "ckpt",
     "description": "Cyberpunk anime characters",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyberpunk_anime_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/cyberpunk_anime_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "futuristic anime",
@@ -1078,7 +1078,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Midjourney v4 images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "generalist",
@@ -1117,7 +1117,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Paper cut images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/papercut/01_bigdowg.jpg"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/papercut/01_bigdowg.jpg"
     ],
     "version": "1",
     "style": "paper cutout art",
@@ -1156,7 +1156,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
     ],
     "version": "1",
     "style": "pixel art",
@@ -1196,7 +1196,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on JWST imagery",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/jwst_deep_space_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/jwst_deep_space_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "space",
@@ -1235,7 +1235,7 @@
     "type": "ckpt",
     "description": "Dreambooth model fine tuned on mobile app icons",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/app_icon_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/app_icon_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "icons",
@@ -1274,7 +1274,7 @@
     "type": "ckpt",
     "description": "SD 1.5 merged with 17 other models",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/mega_merge_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/mega_merge_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "generalist",
@@ -1310,7 +1310,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine-tuned on voxel art style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/voxel_art_diffusion/01_dethinhfil.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/voxel_art_diffusion/01_dethinhfil.webp"
     ],
     "version": "1",
     "style": "voxel art",
@@ -1349,7 +1349,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "painting",
@@ -1388,9 +1388,9 @@
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/01.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/02_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anything_diffusion/03_executivebees24601.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/01.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/02_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/03_executivebees24601.webp"
     ],
     "version": "4.5",
     "style": "anime",
@@ -1426,8 +1426,8 @@
     "type": "ckpt",
     "description": "Dreamy sketched/painted portraits",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/01_bigdowg.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/bubblydubbly/02_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/bubblydubbly/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/bubblydubbly/02_bigdowg.webp"
     ],
     "version": "1",
     "style": "painting",
@@ -1466,8 +1466,8 @@
     "type": "ckpt",
     "description": "Generates D&D styled characters, trained on art commissions",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
     ],
     "version": "3",
     "style": "realistic fantasy render",
@@ -1503,8 +1503,8 @@
     "type": "ckpt",
     "description": "Generates clay-like figures",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/01_bigdowg.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/clazy/02_bigdowg.jpg"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/clazy/01_bigdowg.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/clazy/02_bigdowg.jpg"
     ],
     "version": "1",
     "style": "clay",
@@ -1543,7 +1543,7 @@
     "type": "ckpt",
     "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/nitro_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/nitro_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "Multi-style Portraits/Landscapes",
@@ -1584,7 +1584,7 @@
     "type": "ckpt",
     "description": "Portraits in the style of Sam Yang, merged with chewtoy and orange code's models",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/samdoesarts_ultmerge/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/samdoesarts_ultmerge/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "painted portraits",
@@ -1623,7 +1623,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion model to create images in Synthwave/outrun style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/synthwave/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/synthwave/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "neon lines, portrait/landscape",
@@ -1662,8 +1662,8 @@
     "type": "ckpt",
     "description": "Generate beautiful vector illustration",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/01.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorartz/02_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vectorartz/01.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vectorartz/02_bigdowg.webp"
     ],
     "version": "1",
     "style": "vector art",
@@ -1702,7 +1702,7 @@
     "type": "ckpt",
     "description": "imitates the style of late '80s early 90's anime, Anything v3 base",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ranma_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ranma_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -1741,7 +1741,7 @@
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on images from Studio Ghibli feature films",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ghibli_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ghibli_diffusion/01_bigdowg.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -1780,7 +1780,7 @@
     "type": "ckpt",
     "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
     ],
     "version": "22",
     "style": "anime",
@@ -1821,8 +1821,8 @@
     "type": "ckpt",
     "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/guohua_diffusion/01_ghostdragon11.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/guohua_diffusion/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/guohua_diffusion/01_ghostdragon11.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/guohua_diffusion/02_gigachad.webp"
     ],
     "version": "1",
     "style": "painting",
@@ -1861,7 +1861,7 @@
     "type": "ckpt",
     "description": "inspired by Gorillaz art, FLCL and Yoji Shinkawa. Trained on images generated from Midjourney",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/inkpunk_diffusion/01_bigdowg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/inkpunk_diffusion/01_bigdowg.webp"
     ],
     "version": "2",
     "style": "inkpunk",
@@ -1900,7 +1900,7 @@
     "type": "ckpt",
     "description": "fantasy trading card style art, trained on all currently available Magic: the Gathering card art",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/fantasy_card_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/fantasy_card_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "tcg",
@@ -1939,9 +1939,9 @@
     "type": "ckpt",
     "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/01_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/knollingcase/03_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/01_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/03_gigachad.webp"
     ],
     "version": "1",
     "style": "isometric display case",
@@ -1980,8 +1980,8 @@
     "type": "ckpt",
     "description": "Midjourney v4 painting style",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_paintart/01_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/midjourney_paintart/02_ghostdragon11.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_paintart/01_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_paintart/02_ghostdragon11.webp"
     ],
     "version": "1",
     "style": "painting",
@@ -2020,7 +2020,7 @@
     "type": "ckpt",
     "description": "portraits of charecters in the style of the game Baldur's Gate",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rpg/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rpg/01_gigachad.webp"
     ],
     "version": "4",
     "style": "Baldur's Gate",
@@ -2056,7 +2056,7 @@
     "type": "ckpt",
     "description": "Anything Diffusion fine-tuned to produce high-quality realistic anime styled images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/poison/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/poison/01_gigachad.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -2092,7 +2092,7 @@
     "type": "ckpt",
     "description": "This model is trained with high quality and detailed anime images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/eimis_anime_diffusion/01_bigdawg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/eimis_anime_diffusion/01_bigdawg.webp"
     ],
     "version": "1",
     "style": "anime",
@@ -2128,7 +2128,7 @@
     "type": "ckpt",
     "description": "dreambooth model trained on a very diverse dataset ranging from photographs to paintings",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/wavyfusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/wavyfusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "generalist",
@@ -2167,7 +2167,7 @@
     "type": "ckpt",
     "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/papercutcraft/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/papercutcraft/01_gigachad.webp"
     ],
     "version": "1",
     "style": "paper cutout art",
@@ -2206,7 +2206,7 @@
     "type": "ckpt",
     "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/kurzgesagt/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/kurzgesagt/01_gigachad.webp"
     ],
     "version": "1",
     "style": "kurzgesagt artstyle",
@@ -2245,7 +2245,7 @@
     "type": "ckpt",
     "description": "generates metalic/chrome looking images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chromav5/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/chromav5/01_gigachad.webp"
     ],
     "version": "1.6",
     "style": "generalist",
@@ -2284,7 +2284,7 @@
     "type": "ckpt",
     "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlike_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamlike_diffusion/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -2323,7 +2323,7 @@
     "type": "ckpt",
     "description": "A dreambooth model trained on a diverse set of analog photographs",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/analog_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/analog_diffusion/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -2362,7 +2362,7 @@
     "type": "ckpt",
     "description": "The Simpsons dreambooth model",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/asim_simpsons/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/asim_simpsons/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "cartoon",
@@ -2401,7 +2401,7 @@
     "type": "ckpt",
     "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/funko_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/funko_diffusion/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "cartoon",
@@ -2440,7 +2440,7 @@
     "type": "ckpt",
     "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/double_exposure_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/double_exposure_diffusion/01_gigachad.webp"
     ],
     "version": "2.0",
     "style": "generalist",
@@ -2479,7 +2479,7 @@
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/microscopic/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microscopic/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "microscopic",
@@ -2518,7 +2518,7 @@
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/balloon_art/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/balloon_art/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "balloon",
@@ -2557,7 +2557,7 @@
     "type": "ckpt",
     "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/future_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/future_diffusion/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "sci-fi",
@@ -2596,7 +2596,7 @@
     "type": "ckpt",
     "description": "Seek.art MEGA is a general use 'anything' model that significantly improves on 1.5 across dozens of styles. Created by Coreco at seek.art",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -2632,7 +2632,7 @@
     "type": "ckpt",
     "description": "This model was trained on the Valorant agents splash arts, and some extra arts on the official website",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/valorant_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/valorant_diffusion/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "valorant",
@@ -2669,8 +2669,8 @@
     "type": "ckpt",
     "description": "This model was for creating people",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/01_gigachad.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hassanblend/02_bettername.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hassanblend/01_gigachad.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hassanblend/02_bettername.webp"
     ],
     "version": "1.5.1.2",
     "style": "photorealism",
@@ -2706,8 +2706,8 @@
     "type": "ckpt",
     "description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/acertainthing/01_juice.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/acertainthing/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/acertainthing/01_juice.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/acertainthing/02_gigachad.webp"
     ],
     "version": "1.0",
     "style": "anime",
@@ -2743,7 +2743,7 @@
     "type": "ckpt",
     "description": "This model was trained on the loading screens, gta storymode, and gta online DLCs artworks. Which includes characters, background, chop, and some objects. The model can do people and portrait pretty easily, as well as cars, and houses. For some reasons, the model stills automatically include in some game footage, so landscapes tend to look a bit more game-like.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gta5_artwork_diffusion/01_bettername.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gta5_artwork_diffusion/01_bettername.webp"
     ],
     "version": "1.0",
     "style": "GTA5",
@@ -2780,7 +2780,7 @@
     "type": "ckpt",
     "description": "Derrida (formerly TrinArt Characters v2) is a stable diffusion v1-based model that was further improved on the previous characters v1 model. While this is still a versatility and compositional variation anime/manga model like other TrinArt models, when compared to the v1 model, Derrida was focused on more anatomical stability and slightly less on variation due to further multi-epoch training and finetuning.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/trinart_characters/01_juice.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/trinart_characters/01_juice.webp"
     ],
     "version": "2.0",
     "style": "anime",
@@ -2816,7 +2816,7 @@
     "type": "ckpt",
     "description": "This is the fine-tuned Stable Diffusion model trained on images of smoke",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/smoke_diffusion/01_voodoocode.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/smoke_diffusion/01_voodoocode.webp"
     ],
     "version": "1.0",
     "style": "photo",
@@ -2927,7 +2927,7 @@
     "type": "ckpt",
     "description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/portraitplus/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/portraitplus/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "photo",
@@ -2964,7 +2964,7 @@
     "type": "ckpt",
     "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
     ],
     "version": "0.1",
     "style": "general",
@@ -3047,7 +3047,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/eternos/01_eternos.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/eternos/01_eternos.webp"
     ],
     "config": {
       "files": [
@@ -3084,7 +3084,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/min_illust_background/01_min.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/min_illust_background/01_min.webp"
     ],
     "config": {
       "files": [
@@ -3121,7 +3121,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
     ],
     "config": {
       "files": [
@@ -3149,7 +3149,7 @@
     "type": "ckpt",
     "description": "This is a model (dnditem) for creating magic items, for the game Dungeons and Dragons! It was trained to be very similar to the official results that are available here: https://www.dndbeyond.com/magic-items",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dnd_item/01_voodoocode.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dnd_item/01_voodoocode.webp"
     ],
     "version": "1.0",
     "style": "DnD",
@@ -3186,8 +3186,8 @@
     "type": "ckpt",
     "description": "You can use this model to generate modernart style images",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/modernart_diffusion/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/modernart_diffusion/02_gigachad.webp"
     ],
     "version": "1.0",
     "style": "modern art",
@@ -3224,7 +3224,7 @@
     "type": "ckpt",
     "description": "He merged a few checkpoints and got something buttery and amazing. Does great with things other then people too. It can do anything really. It doesn't need crazy prompts either. Keep it simple. No need for all the artist names and trending on whatever.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/hasdx/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hasdx/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -3260,7 +3260,7 @@
     "type": "ckpt",
     "description": "A merge with over 23 other models with a methodical, careful and genuine approach. Freedom of prompting art or photo or both, landscapes or backgrounds or interiors, people or entities or scenes, stiff poses or movement or even mouth and facial emotions.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/liberty/01_liberty.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/liberty/01_liberty.webp"
     ],
     "version": "1.0",
     "style": "photorealism",
@@ -3296,7 +3296,7 @@
     "type": "ckpt",
     "description": "One Step Closer to Reality",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen/01_gigachad.webp"
     ],
     "version": "5.3",
     "style": "generalist",
@@ -3332,8 +3332,8 @@
     "type": "ckpt",
     "description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/01_airic.webp",
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/3dkx/02_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/3dkx/01_airic.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/3dkx/02_gigachad.webp"
     ],
     "version": "1.1",
     "style": "3d render",
@@ -3376,9 +3376,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moedel/01_moedel.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/moedel/01_moedel.webp"
+    ],
     "config": {
       "files": [
         {
@@ -3405,7 +3405,7 @@
     "type": "ckpt",
     "description": "A mixture of Dreamlike Diffusion 1.0, SamDoesArt V3 and Kuvshinov style models.  Created mostly for exploring different character concepts with a focus on drawings, but the mix happened to be pretty good at realistic-ish images, all thanks to wonderful models that it uses.",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
     ],
     "version": "1",
     "style": "characters",
@@ -3450,7 +3450,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
     ],
     "config": {
       "files": [
@@ -3478,7 +3478,7 @@
     "type": "ckpt",
     "description": "A do (almost) anything model",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/moistmix/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/moistmix/01_gigachad.webp"
     ],
     "version": "2",
     "style": "generalist",
@@ -3514,7 +3514,7 @@
     "type": "ckpt",
     "description": "This is a blend of some anime models mixed with 'realistic' stuff",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/healys_anime_blend/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/healys_anime_blend/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "anime",
@@ -3550,7 +3550,7 @@
     "type": "ckpt",
     "description": "It's an all-around easy-to-prompt general purpose semi-realistic to realistic model that cranks out some really nice images. No trigger words required",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "generalist",
@@ -3594,7 +3594,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/scifi_diffusion/01_scifi.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp"
     ],
     "config": {
       "files": [
@@ -3622,7 +3622,7 @@
     "type": "ckpt",
     "description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ultraskin/01_voodoocode.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ultraskin/01_voodoocode.webp"
     ],
     "version": "0.9",
     "style": "portrait photography",
@@ -3659,7 +3659,7 @@
     "type": "ckpt",
     "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
     ],
     "version": "2",
     "style": "Sonic The Hedgehog",
@@ -3696,7 +3696,7 @@
     "type": "ckpt",
     "description": "PPP is a realistic model merge, tested and tweaked for human females. Mostly based on NSFW models",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ppp/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ppp/01_gigachad.webp"
     ],
     "version": "1.0",
     "style": "boudoir photography",
@@ -3731,7 +3731,7 @@
     "type": "ckpt",
     "description": "A best of both worlds - merging the anime of Anything v3 with Protogens photorealism - VAE is included",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anygen/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anygen/01_gigachad.webp"
     ],
     "version": "3.7",
     "style": "portraits",
@@ -3767,7 +3767,7 @@
     "type": "ckpt",
     "description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
     ],
     "version": "8.6",
     "style": "generalist",
@@ -3803,7 +3803,7 @@
     "type": "ckpt",
     "description": "DucHaiten's character generation model",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/duchaiten/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten/01_gigachad.webp"
     ],
     "version": "2",
     "style": "cartoon/anime",
@@ -3839,7 +3839,7 @@
     "type": "ckpt",
     "description": "Merged model mix of Midnight mixer, roboEtics, f222, elldrethSLucidMix, Seek.ART Mega, rpg, hassanBlend, modelshoot and roboDiffusion",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
     ],
     "version": "3.3",
     "style": "realistic cartoon/anime/fantasy",
@@ -3875,7 +3875,7 @@
     "type": "ckpt",
     "description": "based off work of great artworks from Legend of Zelda: Breath of The Wild",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
     ],
     "version": "1",
     "style": "painting/fantasy",
@@ -3912,7 +3912,7 @@
     "type": "ckpt",
     "description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
     ],
     "version": "2",
     "style": "comic/animation",
@@ -3949,7 +3949,7 @@
     "type": "ckpt",
     "description": "Generates t-shirt logos, base model is vintedois-diffusion with additional training on t-shirt logos size 640x640px",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
     ],
     "version": "1",
     "style": "screenprint",
@@ -3994,7 +3994,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/lawlas/01_lawlas.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/lawlas/01_lawlas.webp"
     ],
     "config": {
       "files": [
@@ -4031,7 +4031,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
     ],
     "config": {
       "files": [
@@ -4067,7 +4067,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
     ],
     "config": {
       "files": [
@@ -4103,7 +4103,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
     ],
     "config": {
       "files": [
@@ -4139,7 +4139,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pfg/01_pfg.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pfg/01_pfg.webp"
     ],
     "config": {
       "files": [
@@ -4175,7 +4175,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/epic_diffusion/01_epic.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/epic_diffusion/01_epic.webp"
     ],
     "config": {
       "files": [
@@ -4211,7 +4211,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/deliberate/01_deliberate.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/deliberate/01_deliberate.webp"
     ],
     "config": {
       "files": [
@@ -4248,7 +4248,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/conceptsheet/01_concept.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/conceptsheet/01_concept.webp"
     ],
     "config": {
       "files": [
@@ -4284,7 +4284,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gtmultimate/01_gtm.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gtmultimate/01_gtm.webp"
     ],
     "config": {
       "files": [
@@ -4321,7 +4321,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/charhelper/01_charhelper.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/charhelper/01_charhelper.webp"
     ],
     "config": {
       "files": [
@@ -4349,7 +4349,7 @@
     "type": "ckpt",
     "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
     ],
     "version": "1",
     "style": "pokemon",
@@ -4395,8 +4395,8 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
     ],
     "config": {
       "files": [
@@ -4433,7 +4433,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vividwatercolors/01_vivid.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vividwatercolors/01_vivid.webp"
     ],
     "config": {
       "files": [
@@ -4469,7 +4469,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/counterfeit/01_counterfeit.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/counterfeit/01_counterfeit.webp"
     ],
     "config": {
       "files": [
@@ -4505,7 +4505,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/openniji/01_openniji.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/openniji/01_openniji.webp"
     ],
     "config": {
       "files": [
@@ -4541,7 +4541,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pastelmix/01_pastelmix.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pastelmix/01_pastelmix.webp"
     ],
     "config": {
       "files": [
@@ -4578,7 +4578,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
     ],
     "config": {
       "files": [
@@ -4615,7 +4615,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rainbowpatch/01_rainbow.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rainbowpatch/01_rainbow.webp"
     ],
     "config": {
       "files": [
@@ -4652,7 +4652,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vectorart/01_vectorart.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vectorart/01_vectorart.webp"
     ],
     "config": {
       "files": [
@@ -4688,9 +4688,9 @@
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
+    ],
     "config": {
       "files": [
         {
@@ -4725,7 +4725,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/gorynichmix/01_gory.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gorynichmix/01_gory.webp"
     ],
     "config": {
       "files": [
@@ -4761,7 +4761,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
     ],
     "config": {
       "files": [
@@ -4796,7 +4796,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/urpm/01_urpm.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/urpm/01_urpm.webp"
     ],
     "config": {
       "files": [
@@ -4832,7 +4832,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
     ],
     "config": {
       "files": [
@@ -4869,7 +4869,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
     ],
     "config": {
       "files": [
@@ -4905,7 +4905,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/project_unreal_engine5/01_unreal.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/project_unreal_engine5/01_unreal.webp"
     ],
     "config": {
       "files": [
@@ -4942,7 +4942,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/unstableinkdream/01_inkdream.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/unstableinkdream/01_inkdream.webp"
     ],
     "config": {
       "files": [
@@ -5008,9 +5008,9 @@
     "trigger": ["glen orbik", "eagle bergey","robert maguire","gil elvgren"],
     "nsfw": false,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5048,7 +5048,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
     ],
     "config": {
       "files": [
@@ -5117,7 +5117,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/anythingv3/01_anythingv3.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anythingv3/01_anythingv3.webp"
     ],
     "config": {
       "files": [
@@ -5182,9 +5182,9 @@
     "homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
     "nsfw": false,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/abyss_orange_mix/01_abyss.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/abyss_orange_mix/01_abyss.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5218,9 +5218,9 @@
     "homepage": "https://civitai.com/models/6260/cyriousmix",
     "nsfw": false,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/cyrious_mix/01_cyrious.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/cyrious_mix/01_cyrious.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5286,9 +5286,9 @@
     "style": "photorealistic",
     "nsfw": true,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5420,9 +5420,9 @@
     "homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
     "nsfw": true,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/grapefruit_hentai/01_grapefruit.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/grapefruit_hentai/01_grapefruit.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5456,9 +5456,9 @@
     "homepage": "https://civitai.com/models/5952/experience",
     "nsfw": false,
     "download_all": false,
-		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/experience/01_experience.webp"
-		],
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/experience/01_experience.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5547,203 +5547,203 @@
     "available": false
   },
   "Kenshi": {
-		"name": "Kenshi",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
-		"version": "0.1.1",
-		"style": "generalist/anime",
-		"homepage": "https://huggingface.co/SweetLuna/Kenshi",
-		"nsfw": false,
-		"download_all": false,
+    "name": "Kenshi",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
+    "version": "0.1.1",
+    "style": "generalist/anime",
+    "homepage": "https://huggingface.co/SweetLuna/Kenshi",
+    "nsfw": false,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/Kenshi.ckpt",
-			  "md5sum": "1019ba7f78c5cc6b1eb51451ce015d56"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Kenshi.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/kenshi_inclvae2.ckpt"
-			}
-		  ]
-		},
-		"available": false
-	  },
-	  "DucHaiten Classic Anime": {
-		"name": "DucHaiten Classic Anime",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
-		"version": "1.0",
-		"style": "classic anime",
-		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
-		"nsfw": false,
-		"download_all": false,
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/Kenshi.ckpt",
+        "md5sum": "1019ba7f78c5cc6b1eb51451ce015d56"
+      },
+      {
+        "path": "configs/stable-diffusion/v1-inference.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "Kenshi.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/kenshi_inclvae2.ckpt"
+      }
+      ]
+    },
+    "available": false
+    },
+    "DucHaiten Classic Anime": {
+    "name": "DucHaiten Classic Anime",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
+    "version": "1.0",
+    "style": "classic anime",
+    "homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
+    "nsfw": false,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/DucHaiten_classic.ckpt",
-			  "md5sum": "e7b1bc7494ff84774816e414e5a14dfb"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "DucHaiten_classic.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DH_Royle_Temperament_v1.0.ckpt"
-			}
-		  ]
-		},
-		"available": false
-	  },
-	  "Rev Animated": {
-		"name": "Rev Animated",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
-		"version": "1.0",
-		"style": "realistic anime",
-		"homepage": "https://civitai.com/models/7371/rev-animated",
-		"nsfw": true,
-		"download_all": false,
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/DucHaiten_classic.ckpt",
+        "md5sum": "e7b1bc7494ff84774816e414e5a14dfb"
+      },
+      {
+        "path": "configs/stable-diffusion/v1-inference.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "DucHaiten_classic.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DH_Royle_Temperament_v1.0.ckpt"
+      }
+      ]
+    },
+    "available": false
+    },
+    "Rev Animated": {
+    "name": "Rev Animated",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
+    "version": "1.0",
+    "style": "realistic anime",
+    "homepage": "https://civitai.com/models/7371/rev-animated",
+    "nsfw": true,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/Rev-animated.ckpt",
-			  "md5sum": "6a18a674880db75b7b998fc9dbe9475a"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "Rev-animated.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Rev-animated.ckpt"
-			}
-		  ]
-		},
-		"available": false
-	  },
-	  "A to Zovya RPG": {
-		"name": "A to Zovya RPG",
-		"baseline": "stable diffusion 2",
-		"type": "ckpt",
-		"description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
-		"version": "1.0",
-		"style": "rpg",
-		"homepage": "https://civitai.com/models/8124/a-to-zovya-rpg-artists-tools-15-and-21",
-		"nsfw": false,
-		"download_all": false,
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/Rev-animated.ckpt",
+        "md5sum": "6a18a674880db75b7b998fc9dbe9475a"
+      },
+      {
+        "path": "configs/stable-diffusion/v1-inference.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "Rev-animated.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Rev-animated.ckpt"
+      }
+      ]
+    },
+    "available": false
+    },
+    "A to Zovya RPG": {
+    "name": "A to Zovya RPG",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
+    "version": "1.0",
+    "style": "rpg",
+    "homepage": "https://civitai.com/models/8124/a-to-zovya-rpg-artists-tools-15-and-21",
+    "nsfw": false,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/A-to-z_zovya_rpg.ckpt",
-			  "md5sum": "b74f35949a61f1b777947eb5dc519f8f"
-			},
-			{
-			  "path": "configs/stable-diffusion/v2-inference-v.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "A-to-z_zovya_rpg.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/aToZovyaRPGArtistsTools_sd21.ckpt"
-			}
-		  ]
-		},
-		"available": false
-	  },
-	  "Colorful": {
-		"name": "Colorful",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
-		"version": "2.0",
-		"style": "fantasy portraits",
-		"homepage": "https://civitai.com/models/7279/colorful",
-		"nsfw": false,
-		"download_all": false,
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/A-to-z_zovya_rpg.ckpt",
+        "md5sum": "b74f35949a61f1b777947eb5dc519f8f"
+      },
+      {
+        "path": "configs/stable-diffusion/v2-inference-v.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "A-to-z_zovya_rpg.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/aToZovyaRPGArtistsTools_sd21.ckpt"
+      }
+      ]
+    },
+    "available": false
+    },
+    "Colorful": {
+    "name": "Colorful",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
+    "version": "2.0",
+    "style": "fantasy portraits",
+    "homepage": "https://civitai.com/models/7279/colorful",
+    "nsfw": false,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/colorful.ckpt",
-			  "md5sum": "313e96a3877b01ecd3effb1ccfad116c"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "colorful.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://civitai.com/api/download/models/13196?type=Model&format=PickleTensor"
-			}
-		  ]
-		},
-		"available": false
-	  },
-	  "Movie Diffusion": {
-		"name": "Movie Diffusion",
-		"baseline": "stable diffusion 1",
-		"type": "ckpt",
-		"description": "Movie Diffusion is SD 1.5 trained on 35mm film stills from popular movies.",
-		"version": "1.2",
-		"style": "35mm stills",
-		"homepage": "https://civitai.com/models/8067/movie-diffusion-v12",
-		"nsfw": false,
-		"download_all": false,
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/colorful.ckpt",
+        "md5sum": "313e96a3877b01ecd3effb1ccfad116c"
+      },
+      {
+        "path": "configs/stable-diffusion/v1-inference.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "colorful.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://civitai.com/api/download/models/13196?type=Model&format=PickleTensor"
+      }
+      ]
+    },
+    "available": false
+    },
+    "Movie Diffusion": {
+    "name": "Movie Diffusion",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Movie Diffusion is SD 1.5 trained on 35mm film stills from popular movies.",
+    "version": "1.2",
+    "style": "35mm stills",
+    "homepage": "https://civitai.com/models/8067/movie-diffusion-v12",
+    "nsfw": false,
+    "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
     ],
-		"config": {
-		  "files": [
-			{
-			  "path": "models/custom/movie-diffusion.ckpt",
-			  "md5sum": "6dd8835d5b2f9950c880124d2885a1b8"
-			},
-			{
-			  "path": "configs/stable-diffusion/v1-inference.yaml"
-			}
-		  ],
-		  "download": [
-			{
-			  "file_name": "movie-diffusion.ckpt",
-			  "file_path": "models/custom",
-			  "file_url": "https://civitai.com/api/download/models/9953"
-			}
-		  ]
-		},
-		"available": false
-	  },
+    "config": {
+      "files": [
+      {
+        "path": "models/custom/movie-diffusion.ckpt",
+        "md5sum": "6dd8835d5b2f9950c880124d2885a1b8"
+      },
+      {
+        "path": "configs/stable-diffusion/v1-inference.yaml"
+      }
+      ],
+      "download": [
+      {
+        "file_name": "movie-diffusion.ckpt",
+        "file_path": "models/custom",
+        "file_url": "https://civitai.com/api/download/models/9953"
+      }
+      ]
+    },
+    "available": false
+    },
     "GuoFeng": {
       "name": "GuoFeng",
       "baseline": "stable diffusion 1",
@@ -6499,7 +6499,7 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/graphic_art/01_graphicart.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/graphic_art/01_graphicart.webp"
     ],
     "config": {
       "files": [
