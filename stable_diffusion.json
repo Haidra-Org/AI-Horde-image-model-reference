@@ -4606,7 +4606,7 @@
 		  "files": [
 			{
 			  "path": "AnythingV3.ckpt",
-			  "md5sum": "7f5db00c21aca21f58006e2b664e672a"
+			  "md5sum": "b5b6c32d8800b5bba2270692c71902e7"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -4616,7 +4616,7 @@
 			{
 			  "file_name": "AnythingV3.ckpt",
 			  "file_path": "",
-			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/AnythingV3_inclvae.ckpt"
+			  "file_url": "https://models.horde.ac/AnythingV3_inclKenshiVAE.ckpt"
 			}
 		  ]
 		},
