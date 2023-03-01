@@ -1414,7 +1414,7 @@
         {
           "file_name": "Anything-Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://models.horde.ac/AnythingV4.5_inclKenshiVAE.ckpt"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Anything-Diffusion.ckpt"
         }
       ]
     },
@@ -2694,7 +2694,7 @@
         {
           "file_name": "hassanblend.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://models.horde.ac/HassanBlend1512.ckpt"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/hassanblend.ckpt"
         }
       ]
     },
@@ -3791,7 +3791,7 @@
         {
           "file_name": "Protogen_Infinity.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://models.horde.ac/ProtogenInfinity.ckpt"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Protogen_Infinity.ckpt"
         }
       ]
     },
@@ -5133,7 +5133,7 @@
         {
           "file_name": "AnythingV3.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://models.horde.ac/AnythingV3_inclKenshiVAE.ckpt"
+          "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/AnythingV3_inclKenshiVAE.ckpt"
         }
       ]
     },
@@ -5639,7 +5639,7 @@
 			{
 			  "file_name": "Rev-animated.ckpt",
 			  "file_path": "models/custom",
-			  "file_url": "https://models.horde.ac/RevAnimated_inclKenshiVAE.ckpt"
+			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Rev-animated.ckpt"
 			}
 		  ]
 		},
