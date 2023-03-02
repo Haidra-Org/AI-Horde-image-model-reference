@@ -5791,6 +5791,9 @@
       "requires": [
         "clip-vit-large-patch14"
       ],
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anime_pencil_diffusion/01_anipen.webp"
+      ],
       "config": {
         "files": [
         {
@@ -6522,3 +6525,4 @@
     "available": false
   }
 }
+
