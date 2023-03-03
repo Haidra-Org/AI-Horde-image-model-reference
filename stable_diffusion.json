@@ -15,7 +15,8 @@
     "config": {
       "files": [
         {
-          "path": "model_2_1.ckpt"
+          "path": "model_2_1.ckpt",
+          "sha256sum": "ad2a33c361c1f593c4a1fb32ea81afce2b5bb7d1983c6b94793a26a3b54b08a0"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -48,7 +49,8 @@
       "files": [
         {
           "path": "model_2_1_512.ckpt",
-          "md5sum": "92c12991d9e5bc8d82b1094b0214a5d3"
+          "md5sum": "92c12991d9e5bc8d82b1094b0214a5d3",
+          "sha256sum": "88ecb782561455673c4b78d05093494b9c539fc6bfc08f3a9a4a0dd7b0b10f36"
         },
         {
           "path": "v2-inference.yaml"
@@ -80,7 +82,8 @@
       "files": [
         {
           "path": "model_2_0.ckpt",
-          "md5sum": "48cb3980ec03a370b68bd0a9d8eefece"
+          "md5sum": "48cb3980ec03a370b68bd0a9d8eefece",
+          "sha256sum": "bfcaf0755797b0c30eb00a3787e8b423eb1f5decd8de76c4d824ac2dd27e139f"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -112,7 +115,8 @@
       "files": [
         {
           "path": "model_2_0_512.ckpt",
-          "md5sum": "acec06c7696a136a3a24abd6e3eb45ac"
+          "md5sum": "acec06c7696a136a3a24abd6e3eb45ac",
+          "sha256sum": "d635794c1fedfdfa261e065370bea59c651fc9bfa65dc6d67ad29e11869a1824"
         },
         {
           "path": "v2-inference.yaml"
@@ -146,7 +150,8 @@
       "files": [
         {
           "path": "model_1_5.ckpt",
-          "md5sum": "76cce9b4e4410ff4fd1ec63d44cf7111"
+          "md5sum": "76cce9b4e4410ff4fd1ec63d44cf7111",
+          "sha256sum": "cc6cb27103417325ff94f52b7a5d2dde45a7515b25c255d8e396c90014281516"
         },
         {
           "path": "v1-inference.yaml"
@@ -178,7 +183,8 @@
       "files": [
         {
           "path": "model.ckpt",
-          "md5sum": "c01059060130b8242849d86e97212c84"
+          "md5sum": "c01059060130b8242849d86e97212c84",
+          "sha256sum": "fe4efff1e174c627256e44ec2991ba279b3816e364b49f9be2abc0b3ff3f8556"
         },
         {
           "path": "v1-inference.yaml"
@@ -212,7 +218,8 @@
       "files": [
         {
           "path": "waifu-diffusion.ckpt",
-          "md5sum": "dc688dc907c953532c659374e7ddf1e4"
+          "md5sum": "dc688dc907c953532c659374e7ddf1e4",
+          "sha256sum": "9dade826203c7ee369881b5dc20d34298fa644c1f137568e09fbc4b9a0d3e817"
         },
         {
           "path": "v1-inference.yaml"
@@ -244,7 +251,8 @@
       "files": [
         {
           "path": "furry-diffusion.ckpt",
-          "md5sum": "f8ef45a295ef4966682f6e8fc2c6830d"
+          "md5sum": "f8ef45a295ef4966682f6e8fc2c6830d",
+          "sha256sum": "4160c57f98f1727f5a52cba8c844656fc9061311f9c37daf45e8e0ebe913c987"
         },
         {
           "path": "v1-inference.yaml"
@@ -277,7 +285,8 @@
       "files": [
         {
           "path": "yiffy.ckpt",
-          "md5sum": "dbe25794e24af183565dc45e9ec99713"
+          "md5sum": "dbe25794e24af183565dc45e9ec99713",
+          "sha256sum": "64e242ae67cb1fc85110a68242c936fa6f3e33077f2bfed48c4769959dff6c61"
         },
         {
           "path": "v1-inference.yaml"
@@ -309,7 +318,8 @@
       "files": [
         {
           "path": "Zack3D.ckpt",
-          "md5sum": "aa944b1ecdaac60113027a0fdcda4f1b"
+          "md5sum": "aa944b1ecdaac60113027a0fdcda4f1b",
+          "sha256sum": "3fd17af06c610990a957a801a1831f88ef5e45d9c3c8e551557b8b9c6c1fc2d5"
         },
         {
           "path": "v1-inference.yaml"
@@ -341,7 +351,8 @@
       "files": [
         {
           "path": "trinart.ckpt",
-          "md5sum": "c90995db630d8415fbf51d6b72e71e15"
+          "md5sum": "c90995db630d8415fbf51d6b72e71e15",
+          "sha256sum": "c1799d22a355ba25c9ceeb6e3c91fc61788c8e274b73508ae8a15877c5dbcf63"
         },
         {
           "path": "v1-inference.yaml"
@@ -377,7 +388,8 @@
       "files": [
         {
           "path": "colorbook.ckpt",
-          "md5sum": "c8fe9c392f08ab8b6269394038961509"
+          "md5sum": "c8fe9c392f08ab8b6269394038961509",
+          "sha256sum": "d8a3668c06007b2e6f8dc23e18efa1fc43e96c2a59de3e63f8ddecc2ad582150"
         },
         {
           "path": "v1-inference.yaml"
@@ -414,7 +426,8 @@
       "files": [
         {
           "path": "arcane_diffusion.ckpt",
-          "md5sum": "218055cf8b7f49559de4a6c939dec9ed"
+          "md5sum": "218055cf8b7f49559de4a6c939dec9ed",
+          "sha256sum": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b"
         },
         {
           "path": "v1-inference.yaml"
@@ -450,7 +463,8 @@
       "files": [
         {
           "path": "squishmallow_diffusion.ckpt",
-          "md5sum": "88495b1c5314f9430c56c86957f7e7dd"
+          "md5sum": "88495b1c5314f9430c56c86957f7e7dd",
+          "sha256sum": "82b7a26806b20f0a213496d006e51fbdf5723bf81e6eb75a2795fa139c9cc7df"
         },
         {
           "path": "v1-inference.yaml"
@@ -486,7 +500,8 @@
       "files": [
         {
           "path": "spider-verse_diffusion.ckpt",
-          "md5sum": "45315570874b90caf6dba1750eeb9ec8"
+          "md5sum": "45315570874b90caf6dba1750eeb9ec8",
+          "sha256sum": "dfe747d447b591a7e1e0076f34d1c3a284f81f4566610e1bceff0b3469aff53c"
         },
         {
           "path": "v1-inference.yaml"
@@ -522,7 +537,8 @@
       "files": [
         {
           "path": "archer_diffusion.ckpt",
-          "md5sum": "b54b3a2a05efe39380b056008105f34c"
+          "md5sum": "b54b3a2a05efe39380b056008105f34c",
+          "sha256sum": "c9798ee288f9a317e02f7c82067881a9468b1da85f9cc91351ce62db8000d3b2"
         },
         {
           "path": "v1-inference.yaml"
@@ -559,7 +575,8 @@
       "files": [
         {
           "path": "elden_ring_diffusion.ckpt",
-          "md5sum": "bcc5873b5278e6a383fb86665bc84468"
+          "md5sum": "bcc5873b5278e6a383fb86665bc84468",
+          "sha256sum": "9c6a0e1a7fba0fbfc5a9220f48a7f2f293af453245e8e4fd3db5a919534cec21"
         },
         {
           "path": "v1-inference.yaml"
@@ -595,7 +612,8 @@
       "files": [
         {
           "path": "robo_diffusion.ckpt",
-          "md5sum": "a43cbf2fc8a98652435c2f5a95f487ad"
+          "md5sum": "a43cbf2fc8a98652435c2f5a95f487ad",
+          "sha256sum": "244dbe0dcb55c761bde9c2ac0e9b46cc9705ebfe5f1f3a7cc46251573ea14e16"
         },
         {
           "path": "v1-inference.yaml"
@@ -631,7 +649,8 @@
       "files": [
         {
           "path": "mo-di-diffusion.ckpt",
-          "md5sum": "393f79603e5cab05307670d0f71a5193"
+          "md5sum": "393f79603e5cab05307670d0f71a5193",
+          "sha256sum": "8067368533bd74cbfb439ab829c0ef5ccede1e29ed5644e193410416f24cf976"
         },
         {
           "path": "v1-inference.yaml"
@@ -667,7 +686,8 @@
       "files": [
         {
           "path": "classic-anim-diffusion.ckpt",
-          "md5sum": "ef6f168e2cceedb104ca57f6a1da27fd"
+          "md5sum": "ef6f168e2cceedb104ca57f6a1da27fd",
+          "sha256sum": "93d27720391c3028ad1dd897a17468b1c993e14bfadebcebd103672c2ca62ea1"
         },
         {
           "path": "v1-inference.yaml"
@@ -703,7 +723,8 @@
       "files": [
         {
           "path": "xynthii_fp16.ckpt",
-          "md5sum": "97e5057d0901d160e76bc9032cd32852"
+          "md5sum": "97e5057d0901d160e76bc9032cd32852",
+          "sha256sum": "c97add52189d85f9568c61d286dceda20145af8fe2c46ebd5d939ca6a684aad0"
         },
         {
           "path": "v1-inference.yaml"
@@ -743,7 +764,8 @@
       "files": [
         {
           "path": "comic-diffusion-v2.ckpt",
-          "md5sum": "f5f797366a3684e56e1eefaf4ce57a0f"
+          "md5sum": "f5f797366a3684e56e1eefaf4ce57a0f",
+          "sha256sum": "d3c225cbc2e0ed3ac8032e05e6fabe5acfe81e2e3d18e23389e84b9cb5ce127f"
         },
         {
           "path": "v1-inference.yaml"
@@ -779,7 +801,8 @@
       "files": [
         {
           "path": "Tron-Legacy-Style-trnlgcy.ckpt",
-          "md5sum": "97cd368155eed1d0f71c064e3dcd8553"
+          "md5sum": "97cd368155eed1d0f71c064e3dcd8553",
+          "sha256sum": "dd92b39d030c5b493028ffb8c8de5a9334dcbedf596a0b91d491c37492702a84"
         },
         {
           "path": "v1-inference.yaml"
@@ -816,7 +839,8 @@
       "files": [
         {
           "path": "microworld_PublicPrompts.ckpt",
-          "md5sum": "8e674ab3b1478bcee60f1ca25bee088c"
+          "md5sum": "8e674ab3b1478bcee60f1ca25bee088c",
+          "sha256sum": "bfbfd3f27a0b0311594bdd50fcc36209be2a39e775125ad83b3138781bce7f38"
         },
         {
           "path": "v1-inference.yaml"
@@ -849,7 +873,8 @@
       "files": [
         {
           "path": "f222.ckpt",
-          "md5sum": "900436d0801d1804fd52f269257fce9f"
+          "md5sum": "900436d0801d1804fd52f269257fce9f",
+          "sha256sum": "9e2c6ceff3f6d6f65c6fb0e10d8e69d772871813be647fd2ea5d06e00db33c1f"
         },
         {
           "path": "v1-inference.yaml"
@@ -885,7 +910,8 @@
       "files": [
         {
           "path": "redshift.ckpt",
-          "md5sum": "ab2ae074f9ee9460d4244fb2cb1ade65"
+          "md5sum": "ab2ae074f9ee9460d4244fb2cb1ade65",
+          "sha256sum": "ed8c2ee43268932a420f5db00b105881770a19c0afd0d35876330e2bbdcce426"
         },
         {
           "path": "v1-inference.yaml"
@@ -922,7 +948,8 @@
       "files": [
         {
           "path": "borderlands.ckpt",
-          "md5sum": "bbea57acf5c527e47db649804e0d7a20"
+          "md5sum": "bbea57acf5c527e47db649804e0d7a20",
+          "sha256sum": "e094440ebbdbd8cad527c897b1b0125a2f525d40dcf87b70b9f2455e50ab07f5"
         },
         {
           "path": "v1-inference.yaml"
@@ -959,7 +986,8 @@
       "files": [
         {
           "path": "Cyberpunk-Anime-Diffusion.ckpt",
-          "md5sum": "12151c617aaadf6ba87d30997b0b7190"
+          "md5sum": "12151c617aaadf6ba87d30997b0b7190",
+          "sha256sum": "a8f7dcece7bc4a6273ed1efa427d481b03237a8f635f1bc44128dd48217a2947"
         },
         {
           "path": "v1-inference.yaml"
@@ -995,7 +1023,8 @@
       "files": [
         {
           "path": "mdjrny-v4.ckpt",
-          "md5sum": "241bfa51943fe0b52aa695bcaa142b3b"
+          "md5sum": "241bfa51943fe0b52aa695bcaa142b3b",
+          "sha256sum": "5d5ad06cc24170b32f25f0180a357e315848000c5f400ffda350e59142fabd68"
         },
         {
           "path": "v1-inference.yaml"
@@ -1031,7 +1060,8 @@
       "files": [
         {
           "path": "PaperCut_v1.ckpt",
-          "md5sum": "353d94ec1c790b12aa01c1077a70848c"
+          "md5sum": "353d94ec1c790b12aa01c1077a70848c",
+          "sha256sum": "8ee651e71263b685807a0cec700291843305f1e6778f94cba40d58f6f2cd663a"
         },
         {
           "path": "v1-inference.yaml"
@@ -1068,7 +1098,8 @@
       "files": [
         {
           "path": "AIO-Pixel-Art.ckpt",
-          "md5sum": "c00345a631cca93c5cc19fbeb59ea8fc"
+          "md5sum": "c00345a631cca93c5cc19fbeb59ea8fc",
+          "sha256sum": "d7fb6396ab39b73019f37040977e15ec76a2548372daa534f9ac44b61c3d9548"
         },
         {
           "path": "v1-inference.yaml"
@@ -1104,7 +1135,8 @@
       "files": [
         {
           "path": "JWST-Deep-Space.ckpt",
-          "md5sum": "609109e33a48306701a463e0497a7326"
+          "md5sum": "609109e33a48306701a463e0497a7326",
+          "sha256sum": "6f63189540752b5c5bc70c7bcf4a6facd332ee3ce891ee57a6cf01dd0421aada"
         },
         {
           "path": "v1-inference.yaml"
@@ -1140,7 +1172,8 @@
       "files": [
         {
           "path": "app-icon-diffusion-2k.ckpt",
-          "md5sum": "93ed6d6d23be0dde878223a13d6a715e"
+          "md5sum": "93ed6d6d23be0dde878223a13d6a715e",
+          "sha256sum": "8156fd9e6ffdfd3e3496e04c5ec9067297ee8fe82225a9591252c98954096b34"
         },
         {
           "path": "v1-inference.yaml"
@@ -1173,7 +1206,8 @@
       "files": [
         {
           "path": "mega-merge-diffusion-a.ckpt",
-          "md5sum": "8b4d66961604d1a64ca8f8bca3797dd6"
+          "md5sum": "8b4d66961604d1a64ca8f8bca3797dd6",
+          "sha256sum": "9fcbb5c2bad234f4cf67db1cce9d62a6e0328dfaeb117ac5632434243c6b2609"
         },
         {
           "path": "v1-inference.yaml"
@@ -1209,7 +1243,8 @@
       "files": [
         {
           "path": "VoxelArt_v1.ckpt",
-          "md5sum": "7c40e7f2c03a986b6037967eba8f5116"
+          "md5sum": "7c40e7f2c03a986b6037967eba8f5116",
+          "sha256sum": "dc46d56562ca5e157bb7c980193921556b06b02a050f55e7b7ecd0573aac9687"
         },
         {
           "path": "v1-inference.yaml"
@@ -1245,7 +1280,8 @@
       "files": [
         {
           "path": "Van-Gogh-Diffusion.ckpt",
-          "md5sum": "a23f0e980e921972be5f819cb33cf8fe"
+          "md5sum": "a23f0e980e921972be5f819cb33cf8fe",
+          "sha256sum": "60b41cc82a254ded70ccaa9a7806efd501b13080ce59e5c15b14e46a17ba0e55"
         },
         {
           "path": "v1-inference.yaml"
@@ -1280,7 +1316,8 @@
       "files": [
         {
           "path": "Anything-Diffusion.ckpt",
-          "md5sum": "01a4fdec28cdb58e26246913871ff4a8"
+          "md5sum": "01a4fdec28cdb58e26246913871ff4a8",
+          "sha256sum": "633c153d96230355efb4230da6ae2e3ba85b084b93c89eb88cb1118d6cc06cef"
         },
         {
           "path": "v1-inference.yaml"
@@ -1317,7 +1354,8 @@
       "files": [
         {
           "path": "bubblydubbly_7k.ckpt",
-          "md5sum": "fedc9d27158d97011c3d2ea7f1c46d9b"
+          "md5sum": "fedc9d27158d97011c3d2ea7f1c46d9b",
+          "sha256sum": "8fe30cee7d0f1c5f0359683775e07742ad374ae555d23a11f7a682b9c91b2219"
         },
         {
           "path": "v1-inference.yaml"
@@ -1351,7 +1389,8 @@
       "files": [
         {
           "path": "Dungeons-and-Diffusion.ckpt",
-          "md5sum": "e1ab002275d7f7340179f68a98b6fa0d"
+          "md5sum": "e1ab002275d7f7340179f68a98b6fa0d",
+          "sha256sum": "00f5bb5b294aede41a08402b2973ccf6c1663d0f2810580458f61c4c70e7bd4b"
         },
         {
           "path": "v1-inference.yaml"
@@ -1388,7 +1427,8 @@
       "files": [
         {
           "path": "clazy2600.ckpt",
-          "md5sum": "c1c647b006db1e4cedcf7601043fd50b"
+          "md5sum": "c1c647b006db1e4cedcf7601043fd50b",
+          "sha256sum": "ed2cf308d1f8a6e3373e121d755d4e191c3d3a0dad0220e82bff95c51eb84458"
         },
         {
           "path": "v1-inference.yaml"
@@ -1426,7 +1466,8 @@
       "files": [
         {
           "path": "nitroDiffusion.ckpt",
-          "md5sum": "d6ae2998981a595062e75d89c60b34f2"
+          "md5sum": "d6ae2998981a595062e75d89c60b34f2",
+          "sha256sum": "f0f1076e5e6070299d4ea300d595a803dd983de2fc62a74f72a8c11e8dded625"
         },
         {
           "path": "v1-inference.yaml"
@@ -1462,7 +1503,8 @@
       "files": [
         {
           "path": "samdoesarts_ultmerge.ckpt",
-          "md5sum": "c35c57f88b362bcc170d086805e4a677"
+          "md5sum": "c35c57f88b362bcc170d086805e4a677",
+          "sha256sum": "0df94974244397f242e535595b5cdd839f9fa94372c76edcfeaf0fd4e356c59a"
         },
         {
           "path": "v1-inference.yaml"
@@ -1498,7 +1540,8 @@
       "files": [
         {
           "path": "synthwave.ckpt",
-          "md5sum": "99d37805cab8f98fc07c741345ab9a56"
+          "md5sum": "99d37805cab8f98fc07c741345ab9a56",
+          "sha256sum": "b7edb13c6967e837110af9f473de4932d32e6bbc43b51124730b72948fc3c523"
         },
         {
           "path": "v1-inference.yaml"
@@ -1535,7 +1578,8 @@
       "files": [
         {
           "path": "Vectorartz.ckpt",
-          "md5sum": "9b19bb97a2d97ed099b21260ca5de02f"
+          "md5sum": "9b19bb97a2d97ed099b21260ca5de02f",
+          "sha256sum": "75fd827a64e9e9d076b40cdbae95b0b8cd0b6e8a4302c02756337084e7c2ce90"
         },
         {
           "path": "v1-inference.yaml"
@@ -1571,7 +1615,8 @@
       "files": [
         {
           "path": "ranma_diffusion.ckpt",
-          "md5sum": "20dc21ad6ed6b75b67cfa7e9afb7d9a5"
+          "md5sum": "20dc21ad6ed6b75b67cfa7e9afb7d9a5",
+          "sha256sum": "d8c0a013f0ce95379aeb0afae962a462d9b01b8b004ca7f9d1bdd2132eec40c7"
         },
         {
           "path": "v1-inference.yaml"
@@ -1607,7 +1652,8 @@
       "files": [
         {
           "path": "ghibli-diffusion.ckpt",
-          "md5sum": "5dbed361a8f1e583207ce869f245ca4d"
+          "md5sum": "5dbed361a8f1e583207ce869f245ca4d",
+          "sha256sum": "f886220c83f69e67456d45bc36875f065cf93f54aad60b9e60c6700409f64f3a"
         },
         {
           "path": "v1-inference.yaml"
@@ -1645,7 +1691,8 @@
       "files": [
         {
           "path": "hentai-diffusion.ckpt",
-          "md5sum": "a2e354439e785e48f31c4c5004ab2874"
+          "md5sum": "a2e354439e785e48f31c4c5004ab2874",
+          "sha256sum": "28e9a418c50eb31b78d190d34300f011b7f18702612cd8f3459d70b6b90a1563"
         },
         {
           "path": "v1-inference.yaml"
@@ -1682,7 +1729,8 @@
       "files": [
         {
           "path": "guohua-diffusion.ckpt",
-          "md5sum": "031f1e1bb108048028c55d729d1c26d7"
+          "md5sum": "031f1e1bb108048028c55d729d1c26d7",
+          "sha256sum": "1e8d9654c69e6c77b62c1748d891cf1e108eb73d9572e2beb300f7e47788c1ea"
         },
         {
           "path": "v1-inference.yaml"
@@ -1718,7 +1766,8 @@
       "files": [
         {
           "path": "inkpunk-diffusion.ckpt",
-          "md5sum": "6a802d2914a08393e656b336f837efc7"
+          "md5sum": "6a802d2914a08393e656b336f837efc7",
+          "sha256sum": "2182245415908822cbac065128a4c5144cc547d0701feb21241cb4e70bb5cf56"
         },
         {
           "path": "v1-inference.yaml"
@@ -1754,7 +1803,8 @@
       "files": [
         {
           "path": "fantasy-card-diffusion.ckpt",
-          "md5sum": "fb073a4b1103bd33a7bb636bb154475a"
+          "md5sum": "fb073a4b1103bd33a7bb636bb154475a",
+          "sha256sum": "55e74e95128f50033d0c1306fe8768cf319fc8d3436398b86b7e852ab58fcac6"
         },
         {
           "path": "v1-inference.yaml"
@@ -1792,7 +1842,8 @@
       "files": [
         {
           "path": "knollingcase.ckpt",
-          "md5sum": "b5be9d0a6f493ab0703ab3cbb28a3aa5"
+          "md5sum": "b5be9d0a6f493ab0703ab3cbb28a3aa5",
+          "sha256sum": "cf836e65a7ab8a7ef29395a3322f53a8b1dabe9a4aeffbf16ea49c68bb925033"
         },
         {
           "path": "v1-inference.yaml"
@@ -1829,7 +1880,8 @@
       "files": [
         {
           "path": "mdjrny-pntrt.ckpt",
-          "md5sum": "13b9ad05bfb5192f066c629f036e29d5"
+          "md5sum": "13b9ad05bfb5192f066c629f036e29d5",
+          "sha256sum": "c3a8bdee04d7f0b28c18dd5f1debb260a7069002b22e01f0c7d3ea8773397da5"
         },
         {
           "path": "v1-inference.yaml"
@@ -1862,7 +1914,8 @@
       "files": [
         {
           "path": "rpg.ckpt",
-          "md5sum": "ce167ae992935aca271b5eccc7b8b983"
+          "md5sum": "ce167ae992935aca271b5eccc7b8b983",
+          "sha256sum": "3baa5c18c3c41f7df1fcb4dd5a03dfac45e37a216d852407f2bb1118aeeececf"
         },
         {
           "path": "v1-inference.yaml"
@@ -1895,7 +1948,8 @@
       "files": [
         {
           "path": "poison.ckpt",
-          "md5sum": "6cd03a23653d7a22b119b3616f3bb725"
+          "md5sum": "6cd03a23653d7a22b119b3616f3bb725",
+          "sha256sum": "0b25c515b9d060cb5afc5d3f4a05b039d5255fb27f65b647f7a87d49601d55e5"
         },
         {
           "path": "v1-inference.yaml"
@@ -1928,7 +1982,8 @@
       "files": [
         {
           "path": "eimis_anime-diffusion.ckpt",
-          "md5sum": "15fb74cecd2767b99bed2676f9c19538"
+          "md5sum": "15fb74cecd2767b99bed2676f9c19538",
+          "sha256sum": "39ee30561fb851b682a081fd8a59a9db71aa33fff3db1d24632d6b68921d2d5b"
         },
         {
           "path": "v1-inference.yaml"
@@ -1964,7 +2019,8 @@
       "files": [
         {
           "path": "wavyfusion.ckpt",
-          "md5sum": "7c1976221a93f502042102c9d0d43470"
+          "md5sum": "7c1976221a93f502042102c9d0d43470",
+          "sha256sum": "3f7df165111091d34eb6019a46df6feb059bc88feaa0039b8a58a6b3c92c8699"
         },
         {
           "path": "v1-inference.yaml"
@@ -2000,7 +2056,8 @@
       "files": [
         {
           "path": "papercutcraft.ckpt",
-          "md5sum": "9f37ef2b28367a64272f3350a92031fe"
+          "md5sum": "9f37ef2b28367a64272f3350a92031fe",
+          "sha256sum": "ae10cd8b079179af13cbdc646585887c828676ea9e69e1179d3745d5ff8dff86"
         },
         {
           "path": "v1-inference.yaml"
@@ -2036,7 +2093,8 @@
       "files": [
         {
           "path": "kurzgesagt-style-v1.ckpt",
-          "md5sum": "f012a7cacd0727eb52978150aa09abbb"
+          "md5sum": "f012a7cacd0727eb52978150aa09abbb",
+          "sha256sum": "82430a1dc0b02a082172e7cf97d4564e91a91d36d50abfae7970d31e78f0c0de"
         },
         {
           "path": "v1-inference.yaml"
@@ -2072,7 +2130,8 @@
       "files": [
         {
           "path": "chromav5.ckpt",
-          "md5sum": "2fd4063028dacb05997dba772e002b04"
+          "md5sum": "2fd4063028dacb05997dba772e002b04",
+          "sha256sum": "ca620b55bdfcae8aa6659efddfc2cd13e6ce1f7c7ac63a9d94395bd7a4a44cd6"
         },
         {
           "path": "v1-inference.yaml"
@@ -2108,7 +2167,8 @@
       "files": [
         {
           "path": "dreamlike-diffusion.ckpt",
-          "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6"
+          "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6",
+          "sha256sum": "0aecbcfa2cbe01bb44f7c0e4f413022ab25b35057b85507d55ba15e2d5db35da"
         },
         {
           "path": "v1-inference.yaml"
@@ -2144,7 +2204,8 @@
       "files": [
         {
           "path": "analog-diffusion.ckpt",
-          "md5sum": "73e73310bf9360e8098c1b82975c8dae"
+          "md5sum": "73e73310bf9360e8098c1b82975c8dae",
+          "sha256sum": "a9a1c90893cc7892dfd7438004fa954696f94208c84773b1cabb434e5a856a0c"
         },
         {
           "path": "v1-inference.yaml"
@@ -2180,7 +2241,8 @@
       "files": [
         {
           "path": "asim-simpsons.ckpt",
-          "md5sum": "cac2a1fcff8f2b1bd1d6e4514e412006"
+          "md5sum": "cac2a1fcff8f2b1bd1d6e4514e412006",
+          "sha256sum": "fef47f1f047bff3d3a47beb4e1a5ad1d6ce7f408cefa358de84b8fb0d82320bb"
         },
         {
           "path": "v1-inference.yaml"
@@ -2216,7 +2278,8 @@
       "files": [
         {
           "path": "funko-diffusion.ckpt",
-          "md5sum": "d2a2a80a8f725d517422259ce16c38fb"
+          "md5sum": "d2a2a80a8f725d517422259ce16c38fb",
+          "sha256sum": "c5150eaeba0ccb86627e9007841dbc45d3b5b68fd084081f34c2a6b207befd48"
         },
         {
           "path": "v1-inference.yaml"
@@ -2252,7 +2315,8 @@
       "files": [
         {
           "path": "dublex-diffusion.ckpt",
-          "md5sum": "fb7dbe346c6390cf2b2f774e3048d424"
+          "md5sum": "fb7dbe346c6390cf2b2f774e3048d424",
+          "sha256sum": "a617570008118be201c1b96b80cd3f27f54a5541485436448f1418e374849f96"
         },
         {
           "path": "v1-inference.yaml"
@@ -2288,7 +2352,8 @@
       "files": [
         {
           "path": "microscopic-diffusion.ckpt",
-          "md5sum": "c10f35dd08f93b15ef3d346d6fa1b9cf"
+          "md5sum": "c10f35dd08f93b15ef3d346d6fa1b9cf",
+          "sha256sum": "ba4990be05a63125760976e2a6d6fb0b768eabef552e348d4e244821ad93994a"
         },
         {
           "path": "v1-inference.yaml"
@@ -2324,7 +2389,8 @@
       "files": [
         {
           "path": "balloonart-diffusion.ckpt",
-          "md5sum": "d2b965fc96600d464ae6094d9c8337e7"
+          "md5sum": "d2b965fc96600d464ae6094d9c8337e7",
+          "sha256sum": "7e9f32b2682afc7cd36b62fa48ddfec30ac55a01af3a91c79c332764d5fa748f"
         },
         {
           "path": "v1-inference.yaml"
@@ -2360,7 +2426,8 @@
       "files": [
         {
           "path": "future-diffusion.ckpt",
-          "md5sum": "985396d8ee97c1bad8bdbd9dd55b04ae"
+          "md5sum": "985396d8ee97c1bad8bdbd9dd55b04ae",
+          "sha256sum": "a41d2d0b20d2f8d12ef430eef12c56933c003670eeacba6ddbdc47b427851eee"
         },
         {
           "path": "v2-inference.yaml"
@@ -2393,7 +2460,8 @@
       "files": [
         {
           "path": "seek-art-mega.ckpt",
-          "md5sum": "6877d4bcade9febd181a126a7686d8f8"
+          "md5sum": "6877d4bcade9febd181a126a7686d8f8",
+          "sha256sum": "3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987"
         },
         {
           "path": "v1-inference.yaml"
@@ -2429,7 +2497,8 @@
       "files": [
         {
           "path": "valorant-diffusion.ckpt",
-          "md5sum": "7d5087fc1144057bf65cdcae079dd3d8"
+          "md5sum": "7d5087fc1144057bf65cdcae079dd3d8",
+          "sha256sum": "ace31214587fbfa88a25c957d7b55e30b25bc97996f559076fe780530d7d342b"
         },
         {
           "path": "v1-inference.yaml"
@@ -2463,7 +2532,8 @@
       "files": [
         {
           "path": "hassanblend.ckpt",
-          "md5sum": "071a44d5b076298a07227e34dad58d92"
+          "md5sum": "071a44d5b076298a07227e34dad58d92",
+          "sha256sum": "1bb3a2d7eb0e2f92c711248e11771866b8fd55f0920d2cc8d09d247933d0623d"
         },
         {
           "path": "v1-inference.yaml"
@@ -2497,7 +2567,8 @@
       "files": [
         {
           "path": "ACertainThing.ckpt",
-          "md5sum": "c7668ab28b54a52a86421785a17cef46"
+          "md5sum": "c7668ab28b54a52a86421785a17cef46",
+          "sha256sum": "866946217b513157b12ff9b1eae2279e98ae34ece178e34eac536f2e831c101c"
         },
         {
           "path": "v1-inference.yaml"
@@ -2533,7 +2604,8 @@
       "files": [
         {
           "path": "GTA5_Artwork_Diffusion.ckpt",
-          "md5sum": "8a430fbd33526ab4d8fc0065deeef9b4"
+          "md5sum": "8a430fbd33526ab4d8fc0065deeef9b4",
+          "sha256sum": "607aa02fb8a03d4d7f65c6554b7c48c48c2ba5e93721703ff29870536b838114"
         },
         {
           "path": "v1-inference.yaml"
@@ -2566,7 +2638,8 @@
       "files": [
         {
           "path": "Trinart_Characters.ckpt",
-          "md5sum": "7111688d1ef1572c8b656a8d9299b42c"
+          "md5sum": "7111688d1ef1572c8b656a8d9299b42c",
+          "sha256sum": "42d3f359b02c944cb2e8f666b10bda05015792f10bfd4e9deee44bb66969ce3d"
         },
         {
           "path": "v1-inference.yaml"
@@ -2602,7 +2675,8 @@
       "files": [
         {
           "path": "Smoke_Diffusion.ckpt",
-          "md5sum": "1ed41feadcf843a42f4d167b5a6350e7"
+          "md5sum": "1ed41feadcf843a42f4d167b5a6350e7",
+          "sha256sum": "fa2305a8c77875e51ce48b269771d690767ca895a56c79a1734ce5cfb9aa8d66"
         },
         {
           "path": "v1-inference.yaml"
@@ -2638,7 +2712,8 @@
       "files": [
         {
           "path": "Supermarionation.ckpt",
-          "md5sum": "321c36eac4e9a8f4d3903a8112ebfeed"
+          "md5sum": "321c36eac4e9a8f4d3903a8112ebfeed",
+          "sha256sum": "308d057218b91d3b7341c7e8e933252ac6df70f704253a8b4ebc34e7d06ea787"
         },
         {
           "path": "v1-inference.yaml"
@@ -2672,7 +2747,8 @@
       "files": [
         {
           "path": "Dreamlike_Photoreal.ckpt",
-          "md5sum": "f7bacaa513f5f54805d1fb5bfde7e658"
+          "md5sum": "f7bacaa513f5f54805d1fb5bfde7e658",
+          "sha256sum": "fc52756a74d5f371422ff99a7268cb6abb14bfc4a4de3569382cf0bd75e55d36"
         },
         {
           "path": "v1-inference.yaml"
@@ -2708,7 +2784,8 @@
       "files": [
         {
           "path": "PortraitPlus.ckpt",
-          "md5sum": "d25578c1fcb069c3f5613939d903ee84"
+          "md5sum": "d25578c1fcb069c3f5613939d903ee84",
+          "sha256sum": "345033419b5030bc7207879cfe0b080623c4bce85600cd8d406b989fbe777173"
         },
         {
           "path": "v1-inference.yaml"
@@ -2744,7 +2821,8 @@
       "files": [
         {
           "path": "Vintedois_Diffusion.ckpt",
-          "md5sum": "8beebe273bb4f360849d31efdd29fe27"
+          "md5sum": "8beebe273bb4f360849d31efdd29fe27",
+          "sha256sum": "fe2cf8a20b8846703961f4355a0df71e8f8c0a6f2d644c894a30f5f28c455b2a"
         },
         {
           "path": "v1-inference.yaml"
@@ -2780,7 +2858,8 @@
       "files": [
         {
           "path": "Darkest_Diffusion.ckpt",
-          "md5sum": "f67124451cf3ec0a3543a864e3008af7"
+          "md5sum": "f67124451cf3ec0a3543a864e3008af7",
+          "sha256sum": "c620847576a69a48536a61eb81d8ec91a3256ac5eb4f7e7392dd1445ac638d38"
         },
         {
           "path": "v1-inference.yaml"
@@ -2816,7 +2895,8 @@
       "files": [
         {
           "path": "Eternos.ckpt",
-          "md5sum": "d82d743c5531f42aacc80af491bb5124"
+          "md5sum": "d82d743c5531f42aacc80af491bb5124",
+          "sha256sum": "983a08dfa4f2e7c51391f1052746fdbe5ff40466fac181621407d5c824f49551"
         },
         {
           "path": "v1-inference.yaml"
@@ -2852,7 +2932,8 @@
       "files": [
         {
           "path": "MinIllustBackground_Diffusion.ckpt",
-          "md5sum": "cf5fb557635a5a707003fcfeb4934af6"
+          "md5sum": "cf5fb557635a5a707003fcfeb4934af6",
+          "sha256sum": "087c14338e131470775d85e3c6d7ff6984bddc514766929d6519afc6c2d930a5"
         },
         {
           "path": "v1-inference.yaml"
@@ -2888,7 +2969,8 @@
       "files": [
         {
           "path": "DarkVictorian_Diffusion.ckpt",
-          "md5sum": "29f6c1d379360859c6e3fcf4be2e5381"
+          "md5sum": "29f6c1d379360859c6e3fcf4be2e5381",
+          "sha256sum": "f878aaffe5eac79ac963b105ee665c665887b567ffbb2387571a2004088068f6"
         },
         {
           "path": "v1-inference.yaml"
@@ -2924,7 +3006,8 @@
       "files": [
         {
           "path": "DnDItem.ckpt",
-          "md5sum": "ecb05cd91feb21c4b7f12022e4a8da7c"
+          "md5sum": "ecb05cd91feb21c4b7f12022e4a8da7c",
+          "sha256sum": "ed44d16de7a187effe1dc0368250f81f92bd9f538f21a3ad23c636ab58f031c8"
         },
         {
           "path": "v1-inference.yaml"
@@ -2961,7 +3044,8 @@
       "files": [
         {
           "path": "ModernArt_Diffusion.ckpt",
-          "md5sum": "8fa2323f4fac81899c188ab25830e454"
+          "md5sum": "8fa2323f4fac81899c188ab25830e454",
+          "sha256sum": "9eb00d984c5c228651178eb8e025bef3d0be5d643851db9686083b5384d852da"
         },
         {
           "path": "v1-inference.yaml"
@@ -2994,7 +3078,8 @@
       "files": [
         {
           "path": "HASDX.ckpt",
-          "md5sum": "762f5780b54539a55e396f4c7c01f282"
+          "md5sum": "762f5780b54539a55e396f4c7c01f282",
+          "sha256sum": "8e52a8c83fa533ac096584bff094f72ab056ded0255fd9b5ad172e51f5803d69"
         },
         {
           "path": "v1-inference.yaml"
@@ -3027,7 +3112,8 @@
       "files": [
         {
           "path": "liberty.ckpt",
-          "md5sum": "bde75d7ae88cc7896c1cdfd2f5bd9ea7"
+          "md5sum": "bde75d7ae88cc7896c1cdfd2f5bd9ea7",
+          "sha256sum": "b59a47e81c6b110dc02b8141928b44f2396928469f999f9228bc0920eb89de10"
         },
         {
           "path": "v1-inference.yaml"
@@ -3060,7 +3146,8 @@
       "files": [
         {
           "path": "ProtoGen.ckpt",
-          "md5sum": "857dcdf1eb76e8a6f44ad181bbb277d4"
+          "md5sum": "857dcdf1eb76e8a6f44ad181bbb277d4",
+          "sha256sum": "f762cdef0235669136c16421e7f3affb47ab78e20890d5258347cf5ae571af76"
         },
         {
           "path": "v1-inference.yaml"
@@ -3094,7 +3181,8 @@
       "files": [
         {
           "path": "3DKX.ckpt",
-          "md5sum": "43501894669a781fd3e03ee865cc4ccc"
+          "md5sum": "43501894669a781fd3e03ee865cc4ccc",
+          "sha256sum": "522efa9a9b83dfe96aefaeecfb7e8c53222c5dde88ab9c37fd7bf0ea47655f14"
         },
         {
           "path": "v1-inference.yaml"
@@ -3127,7 +3215,8 @@
       "files": [
         {
           "path": "moedel.ckpt",
-          "md5sum": "63132423ae711d87c813bf0f0442b154"
+          "md5sum": "63132423ae711d87c813bf0f0442b154",
+          "sha256sum": "b2c2e471f84ad2581238719c7f49a2a6e5e87960fdaf2828696e7af8cae00f5d"
         },
         {
           "path": "v1-inference.yaml"
@@ -3165,7 +3254,8 @@
       "files": [
         {
           "path": "DreamLikeSamKuvshinov.ckpt",
-          "md5sum": "0e836fa9fe4ed5a91ec1251513358ea8"
+          "md5sum": "0e836fa9fe4ed5a91ec1251513358ea8",
+          "sha256sum": "d43a0899eb8be52939b612189e6e93d99722888fd74999baae214cfb78192188"
         },
         {
           "path": "v1-inference.yaml"
@@ -3198,7 +3288,8 @@
       "files": [
         {
           "path": "SygilDev_Diffusion.ckpt",
-          "md5sum": "e1b6ac369e2711e046ed12bc1d983a55"
+          "md5sum": "e1b6ac369e2711e046ed12bc1d983a55",
+          "sha256sum": "a1c7cedc67d4f7056fd6eef8e85913b3f66aaa21e139d90afe940d049e37b914"
         },
         {
           "path": "v1-inference.yaml"
@@ -3231,7 +3322,8 @@
       "files": [
         {
           "path": "MoistMix.ckpt",
-          "md5sum": "fe58cff02ec3c355d9d3abe925a775d5"
+          "md5sum": "fe58cff02ec3c355d9d3abe925a775d5",
+          "sha256sum": "a01de4dd971acbf013363b202cac71dc4db7d7cfa36ca63b99d662dd89c520c6"
         },
         {
           "path": "v1-inference.yaml"
@@ -3264,7 +3356,8 @@
       "files": [
         {
           "path": "Healys.ckpt",
-          "md5sum": "416566bada0313f4504857dcdbe530c6"
+          "md5sum": "416566bada0313f4504857dcdbe530c6",
+          "sha256sum": "8416edf88cf48cc59c6cd36aece35acd4ae465aea934b7ff1e29b3f1049e2161"
         },
         {
           "path": "v1-inference.yaml"
@@ -3297,7 +3390,8 @@
       "files": [
         {
           "path": "Elldreths_Lucid_Mix.ckpt",
-          "md5sum": "b2b73886b8d3cc040aea991f264acb56"
+          "md5sum": "b2b73886b8d3cc040aea991f264acb56",
+          "sha256sum": "d0cf7cf924c6a6f42eabed6729b8d6df3ef66ba2b4c35cb3d7e2f54a5d878166"
         },
         {
           "path": "v1-inference.yaml"
@@ -3327,7 +3421,8 @@
       "files": [
         {
           "path": "Sci-Fi_Diffusion.ckpt",
-          "md5sum": "64eb04eecdd6edd9af1b11d8972515a3"
+          "md5sum": "64eb04eecdd6edd9af1b11d8972515a3",
+          "sha256sum": "cd73c52cd00b9b40cad916cd1ea6f205146ece332dbeba21733902cc8c351f1b"
         },
         {
           "path": "v1-inference.yaml"
@@ -3363,7 +3458,8 @@
       "files": [
         {
           "path": "Ultraskin.ckpt",
-          "md5sum": "8e487864e56b73235c5ec304ed3a94a5"
+          "md5sum": "8e487864e56b73235c5ec304ed3a94a5",
+          "sha256sum": "be03ccbb0d58e5510acb9776aee48d42a4103b7c2418088ee9bdfe2d6309935e"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -3399,7 +3495,8 @@
       "files": [
         {
           "path": "Sonic_Diffusion.ckpt",
-          "md5sum": "6f0a9581fedf5971f502e29e82a81e20"
+          "md5sum": "6f0a9581fedf5971f502e29e82a81e20",
+          "sha256sum": "4b08d91ba6e4efb6317a272684ef821d91fa33bda1078d051964b7866ef6f8c1"
         },
         {
           "path": "v1-inference.yaml"
@@ -3431,7 +3528,8 @@
       "files": [
         {
           "path": "PPP.ckpt",
-          "md5sum": "0e9012fab5382c7c3e9f3365e474835e"
+          "md5sum": "0e9012fab5382c7c3e9f3365e474835e",
+          "sha256sum": "40c6475ecb9aacee74f19a92a43d36b4485f16dda90acbdff79801e9c1798bb4"
         },
         {
           "path": "v1-inference.yaml"
@@ -3464,7 +3562,8 @@
       "files": [
         {
           "path": "Anygen.ckpt",
-          "md5sum": "230a5ab427ad84f7380a27dd480e1530"
+          "md5sum": "230a5ab427ad84f7380a27dd480e1530",
+          "sha256sum": "4e1217801836a7daf6a38acfa74c21152887dafd788c5d9bfcec34ce71ecba16"
         },
         {
           "path": "v1-inference.yaml"
@@ -3497,7 +3596,8 @@
       "files": [
         {
           "path": "Protogen_Infinity.ckpt",
-          "md5sum": "ad3f0b5772327511c896e4a7741f1e4e"
+          "md5sum": "ad3f0b5772327511c896e4a7741f1e4e",
+          "sha256sum": "2e58b8bf117b26094e4730023db9298ac17e22ab183739cb90536324996d1cdf"
         },
         {
           "path": "v1-inference.yaml"
@@ -3530,7 +3630,8 @@
       "files": [
         {
           "path": "DucHaiten.ckpt",
-          "md5sum": "f60df3dea87b54ad45d87bc64278ddf6"
+          "md5sum": "f60df3dea87b54ad45d87bc64278ddf6",
+          "sha256sum": "6965ff319389af404f04bfe3a8d8dc5da742330b55fa5374095e317139f5e4f6"
         },
         {
           "path": "v1-inference.yaml"
@@ -3563,7 +3664,8 @@
       "files": [
         {
           "path": "Dreamshaper.ckpt",
-          "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b"
+          "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b",
+          "sha256sum": "002ad3913b0452e79c5d787304801c87aab1f6f3005329dc54413bd9dee94987"
         },
         {
           "path": "v1-inference.yaml"
@@ -3599,7 +3701,8 @@
       "files": [
         {
           "path": "zelda-botw.ckpt",
-          "md5sum": "e8b897c2c96885ad270ac38a5f2ff0e8"
+          "md5sum": "e8b897c2c96885ad270ac38a5f2ff0e8",
+          "sha256sum": "3399447072c16ec378235e87e24c7153e343c6eab2474f0f29ba9dc4ab503f67"
         },
         {
           "path": "v1-inference.yaml"
@@ -3635,7 +3738,8 @@
       "files": [
         {
           "path": "marvel-diffusion.ckpt",
-          "md5sum": "25efe8824d8553df4fea4ccff51ef2de"
+          "md5sum": "25efe8824d8553df4fea4ccff51ef2de",
+          "sha256sum": "2e051600d4429545826f9d70a570d551f0edd35930fbe751c3e71306a189541d"
         },
         {
           "path": "v1-inference.yaml"
@@ -3671,7 +3775,8 @@
       "files": [
         {
           "path": "t-shirt_diffusion.ckpt",
-          "md5sum": "37e58d85c8b0815f61526afa1c5d98e4"
+          "md5sum": "37e58d85c8b0815f61526afa1c5d98e4",
+          "sha256sum": "a7832ba06828551744094e7a80225bae233f0aac1cf579dff764b3d0e845da8e"
         },
         {
           "path": "v1-inference.yaml"
@@ -3704,7 +3809,8 @@
       "files": [
         {
           "path": "Lawlas-yiffmix.ckpt",
-          "md5sum": "42e450fe64b8b1af2539f1b545aba7f2"
+          "md5sum": "42e450fe64b8b1af2539f1b545aba7f2",
+          "sha256sum": "8fd838bac50f4df4ff0f5933cab36c06bd986dd6fd137a6aafa0045b8f499784"
         },
         {
           "path": "v1-inference.yaml"
@@ -3746,7 +3852,8 @@
       "files": [
         {
           "path": "DGSpitzer_art_diffusion.ckpt",
-          "md5sum": "3e3d3fae77f485343886d68551d79ec7"
+          "md5sum": "3e3d3fae77f485343886d68551d79ec7",
+          "sha256sum": "f30ba634c1998bb05c5016210a3f0fecb3ab19a4ff850a89e81fbe4cf8125f23"
         },
         {
           "path": "v1-inference.yaml"
@@ -3779,7 +3886,8 @@
       "files": [
         {
           "path": "RealisticVision.ckpt",
-          "md5sum": "8c41f9f090e4c924b2a05cf21608e6c0"
+          "md5sum": "8c41f9f090e4c924b2a05cf21608e6c0",
+          "sha256sum": "77e392958a6b2ce335fe6ed0cb8ebb9f5cfb48706bfde9c28d4721f4ce65619e"
         },
         {
           "path": "v1-inference.yaml"
@@ -3812,7 +3920,8 @@
       "files": [
         {
           "path": "DanMumford.ckpt",
-          "md5sum": "67183f6818d2e00592de91aabeffbf32"
+          "md5sum": "67183f6818d2e00592de91aabeffbf32",
+          "sha256sum": "15e6c6aeb24e5c64f4c7f419fb419caf2c7a294742e2982f49f65701a78b372e"
         },
         {
           "path": "v1-inference.yaml"
@@ -3845,7 +3954,8 @@
       "files": [
         {
           "path": "PFG.ckpt",
-          "md5sum": "07dc65f652bb400af4d03b0bf6a41b95"
+          "md5sum": "07dc65f652bb400af4d03b0bf6a41b95",
+          "sha256sum": "5a369d04a05862bdf83acb86fa9aa4ea65c9bcc4102badc01821e851f34cc1d7"
         },
         {
           "path": "v1-inference.yaml"
@@ -3878,7 +3988,8 @@
       "files": [
         {
           "path": "EpicDiffusion.ckpt",
-          "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a"
+          "md5sum": "db7bad70b29fa7ed613d30ced9e5f26a",
+          "sha256sum": "ee6266109f4060b9bf134bf670ea75e663ec356352db6140b86828917340b162"
         },
         {
           "path": "v1-inference.yaml"
@@ -3911,7 +4022,8 @@
       "files": [
         {
           "path": "Deliberate.ckpt",
-          "md5sum": "65621076b884a0debcae553aa142e935"
+          "md5sum": "65621076b884a0debcae553aa142e935",
+          "sha256sum": "b4391b7978d973427a4a2a3ed0e67b18ebe34e213904575043d6c9faec75c22d"
         },
         {
           "path": "v1-inference.yaml"
@@ -3947,7 +4059,8 @@
       "files": [
         {
           "path": "ConceptSheet.ckpt",
-          "md5sum": "4164e3765e41fc65d283360a1f406a51"
+          "md5sum": "4164e3765e41fc65d283360a1f406a51",
+          "sha256sum": "a938d435404da008edcb1a562cdf4f52363ac71fd7a7582839cc3cb068710ad2"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -3980,7 +4093,8 @@
       "files": [
         {
           "path": "GTM.ckpt",
-          "md5sum": "056847e46439d4afbaebceb268398b41"
+          "md5sum": "056847e46439d4afbaebceb268398b41",
+          "sha256sum": "712391dc4d2de460a6754b50daca8f1a8a9e1418c6f1640807da29ab29d19ab0"
         },
         {
           "path": "v1-inference.yaml"
@@ -4021,7 +4135,8 @@
       "files": [
         {
           "path": "CharHelper.ckpt",
-          "md5sum": "f4d86a86161cb403f334fe46c066a74e"
+          "md5sum": "f4d86a86161cb403f334fe46c066a74e",
+          "sha256sum": "860be76eb75fb77be5fc9547d11aaca363ffed9a47bc1e64a22171efa605b1c3"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -4059,7 +4174,8 @@
       "files": [
         {
           "path": "Pokemon3D.ckpt",
-          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f"
+          "md5sum": "3c84e35064fd5ca44f229a2bfd5e920f",
+          "sha256sum": "ab61440367cd64e2df9b6db78010b94eb81b3ff2ad4aed0658908d3f7e267b80"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -4094,7 +4210,8 @@
       "files": [
         {
           "path": "pix2pix.ckpt",
-          "md5sum": "f5b23f276ad1df6636fe5a94cb58c312"
+          "md5sum": "f5b23f276ad1df6636fe5a94cb58c312",
+          "sha256sum": "ffd280ddcfc8234e4d28b93641cb83169cebcb4d70998df9ee2eabb4d705374a"
         },
         {
           "path": "pix2pix.yaml"
@@ -4130,7 +4247,8 @@
       "files": [
         {
           "path": "VividWatercolors.ckpt",
-          "md5sum": "99c02bdc193671a876a282479d4c1d93"
+          "md5sum": "99c02bdc193671a876a282479d4c1d93",
+          "sha256sum": "c10e426cbd4b2e4c45d84938d60022d770befcaeb44ad376ef83771cbdd5aa78"
         },
         {
           "path": "v1-inference.yaml"
@@ -4163,7 +4281,8 @@
       "files": [
         {
           "path": "Counterfeit.ckpt",
-          "md5sum": "7d94a8c4e07643d50acda00fc6c90e45"
+          "md5sum": "7d94a8c4e07643d50acda00fc6c90e45",
+          "sha256sum": "6f4648e7a45d740da5bbdd44c39b9e74abe28b8684230c9a2c59f672f8da9b02"
         },
         {
           "path": "v1-inference.yaml"
@@ -4196,7 +4315,8 @@
       "files": [
         {
           "path": "OpenNiji.ckpt",
-          "md5sum": "2613cfe5c112694d1ad7612f03e79977"
+          "md5sum": "2613cfe5c112694d1ad7612f03e79977",
+          "sha256sum": "2051258d17c939a68b5b5c75a1662f58f0b93398f97b3df54227d6525946f4fe"
         },
         {
           "path": "v1-inference.yaml"
@@ -4229,7 +4349,8 @@
       "files": [
         {
           "path": "PastelMix.ckpt",
-          "md5sum": "a1b01acea65d2f67ceb6ca19400df8ad"
+          "md5sum": "a1b01acea65d2f67ceb6ca19400df8ad",
+          "sha256sum": "cfaf882b0a6dc34f392b12e9ee6c35f39ff794a98ef1a132eebd2873be1896ed"
         },
         {
           "path": "v1-inference.yaml"
@@ -4266,7 +4387,8 @@
       "files": [
         {
           "path": "pulp_vectorart.ckpt",
-          "md5sum": "f3427844a139d5be2c4b4cec2e67b2f1"
+          "md5sum": "f3427844a139d5be2c4b4cec2e67b2f1",
+          "sha256sum": "0c27deb0c848bc97330d17c6916f651ccc2bf154905d1e29f9dcdfc6d12ee1c5"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -4302,7 +4424,8 @@
       "files": [
         {
           "path": "rainbowpatch.ckpt",
-          "md5sum": "b082ad98aeedcd28b9164162a1ccf3e1"
+          "md5sum": "b082ad98aeedcd28b9164162a1ccf3e1",
+          "sha256sum": "d9d11a9ff2584632d40fd7b51821c4711ed98582937edbf0d96558ac09f97755"
         },
         {
           "path": "v1-inference.yaml"
@@ -4338,7 +4461,8 @@
       "files": [
         {
           "path": "vector_art.ckpt",
-          "md5sum": "218567e0a45db9139337c888a40285f1"
+          "md5sum": "218567e0a45db9139337c888a40285f1",
+          "sha256sum": "360d741263d05dd2fc3efe42c057a6e1faf84b30e634934fac5febfcd632f5d6"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -4374,7 +4498,8 @@
       "files": [
         {
           "path": "tshirt-print-designs.ckpt",
-          "md5sum": "d1f51ba806e29742df8adbf35169bd2c"
+          "md5sum": "d1f51ba806e29742df8adbf35169bd2c",
+          "sha256sum": "d7686e58ab3cd745515bcf6489a5bec812458b002482f5d3b955c393be95c4a7"
         },
         {
           "path": "v1-inference.yaml"
@@ -4407,7 +4532,8 @@
       "files": [
         {
           "path": "GorynichMix.ckpt",
-          "md5sum": "cfc68e163816bd431bf783ddb2916051"
+          "md5sum": "cfc68e163816bd431bf783ddb2916051",
+          "sha256sum": "1323505072bc604e333edc1b9a18954cfe878649f6a906fe436c9d206c190d69"
         },
         {
           "path": "v1-inference.yaml"
@@ -4440,7 +4566,8 @@
       "files": [
         {
           "path": "LNBPM.ckpt",
-          "md5sum": "e64e0f0467695bd6f1d1ffd0c755269b"
+          "md5sum": "e64e0f0467695bd6f1d1ffd0c755269b",
+          "sha256sum": "ce3dc5f56f8794fa78721833c62d18d96b54e8cb22046f97dd2b950e82775331"
         },
         {
           "path": "v1-inference.yaml"
@@ -4472,7 +4599,8 @@
       "files": [
         {
           "path": "URPM.ckpt",
-          "md5sum": "ada0906adbfc6b6aa24d8aa1adcde98e"
+          "md5sum": "ada0906adbfc6b6aa24d8aa1adcde98e",
+          "sha256sum": "b55d3b5206d3104ed23a1ce4db71f2b2c0b274668a59f5eddde706c935790455"
         },
         {
           "path": "v1-inference.yaml"
@@ -4505,7 +4633,8 @@
       "files": [
         {
           "path": "CDLandscapeMix.ckpt",
-          "md5sum": "73eae68e9dfae23c10d4aab2df183390"
+          "md5sum": "73eae68e9dfae23c10d4aab2df183390",
+          "sha256sum": "469820821518540111673d6ba590cf2010ea4bc4a758e47fcf2b1ae23408b016"
         },
         {
           "path": "v1-inference.yaml"
@@ -4541,7 +4670,8 @@
       "files": [
         {
           "path": "RachelWalkerWatercolor.ckpt",
-          "md5sum": "d60f473bce07d567fa335ad893b46b39"
+          "md5sum": "d60f473bce07d567fa335ad893b46b39",
+          "sha256sum": "54ded95d838121ddf3026d894fcb13a5d3fd1b950f174f374be651e2c3bfcb0f"
         },
         {
           "path": "v1-inference.yaml"
@@ -4571,7 +4701,8 @@
       "files": [
         {
           "path": "ProjectUnreal5.ckpt",
-          "md5sum": "427e4828e5f66aa79fd4998f8f318af8"
+          "md5sum": "427e4828e5f66aa79fd4998f8f318af8",
+          "sha256sum": "bb708df2be557a4abe252db8e1c67ab39b3477e1e63a833222348c6c584c1ccd"
         },
         {
           "path": "v1-inference.yaml"
@@ -4612,7 +4743,8 @@
       "files": [
         {
           "path": "unstableinkdream.ckpt",
-          "md5sum": "20cad084326b84a0080c014811cd9c61"
+          "md5sum": "20cad084326b84a0080c014811cd9c61",
+          "sha256sum": "264966bd6cef691b2ae89240ceae6a9b15f9d5207a91b3cb3aa93cf418fe95fb"
         },
         {
           "path": "v1-inference.yaml"
@@ -4642,7 +4774,8 @@
       "files": [
         {
           "path": "PRMJ.ckpt",
-          "md5sum": "44cd3e53b653288bab002c55200a3d6e"
+          "md5sum": "44cd3e53b653288bab002c55200a3d6e",
+          "sha256sum": "e40298941c61102383e4839649c47610fd7fe58d0e052b041767d6a321d8f83a"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -4681,7 +4814,8 @@
       "files": [
         {
           "path": "Elldreths_Retro_Mix.ckpt",
-          "md5sum": "613d7ac32ac59db04e5209605d9e79c1"
+          "md5sum": "613d7ac32ac59db04e5209605d9e79c1",
+          "sha256sum": "8c6da97f03576dde964f3e508ef5595a28f0898dcdb275f1601d410e1c8adc03"
         },
         {
           "path": "v1-inference.yaml"
@@ -4714,7 +4848,8 @@
       "files": [
         {
           "path": "VinteProtogenMix.ckpt",
-          "md5sum": "d5dc55479054c7d36fac397131fd9371"
+          "md5sum": "d5dc55479054c7d36fac397131fd9371",
+          "sha256sum": "99317952cf35c1df700fe855939f5956ad1d044e157e1d5ef706719cdc49f629"
         },
         {
           "path": "v1-inference.yaml"
@@ -4744,7 +4879,8 @@
       "files": [
         {
           "path": "RodentDiffusion.ckpt",
-          "md5sum": "f9c211fa366f10cb293958cd77f73944"
+          "md5sum": "f9c211fa366f10cb293958cd77f73944",
+          "sha256sum": "f376bbb90db369577a31f0c04d1b6a5a7748ba56fb88f5aa7225a62184f64cd8"
         },
         {
           "path": "v1-inference.yaml"
@@ -4777,7 +4913,8 @@
       "files": [
         {
           "path": "AnythingV3.ckpt",
-          "md5sum": "b5b6c32d8800b5bba2270692c71902e7"
+          "md5sum": "b5b6c32d8800b5bba2270692c71902e7",
+          "sha256sum": "786e34bf8ed2ce3c1d2dd2087089264f0cbc63748979048a9ecf7d75497788d6"
         },
         {
           "path": "v1-inference.yaml"
@@ -4807,7 +4944,8 @@
       "files": [
         {
           "path": "WoopWoop-Photo.ckpt",
-          "md5sum": "0db4e27daa69923de214a450120cb4e2"
+          "md5sum": "0db4e27daa69923de214a450120cb4e2",
+          "sha256sum": "9552600070809f08a84ce643e543b62b1d0d656362f5718037a161bcbb2ae9c6"
         },
         {
           "path": "v1-inference.yaml"
@@ -4840,7 +4978,8 @@
       "files": [
         {
           "path": "AbyssOrangeMix.ckpt",
-          "md5sum": "ead55bb67080f20e99131dcf669d4eba"
+          "md5sum": "ead55bb67080f20e99131dcf669d4eba",
+          "sha256sum": "587e4cedae0cd5549986a6774e2e9c7cdde32018d2d4fbe67d4b7236e07af39c"
         },
         {
           "path": "v1-inference.yaml"
@@ -4873,7 +5012,8 @@
       "files": [
         {
           "path": "CyriousMix.ckpt",
-          "md5sum": "e05ce494959d60053cbb09ff18882641"
+          "md5sum": "e05ce494959d60053cbb09ff18882641",
+          "sha256sum": "57315513b1369c95bab7cb00a51a9c6276a84b3a5ed1fe4b9dd2c81efeb51ee3"
         },
         {
           "path": "v1-inference.yaml"
@@ -4906,7 +5046,8 @@
       "files": [
         {
           "path": "Microcasing.ckpt",
-          "md5sum": "9e07e61f1db4df12bea787386c3581ce"
+          "md5sum": "9e07e61f1db4df12bea787386c3581ce",
+          "sha256sum": "49a165d67a5b17b941e5c8a29738792e0fc5a80b49b32be95e9a9a986fcdc88f"
         },
         {
           "path": "v1-inference.yaml"
@@ -4938,7 +5079,8 @@
       "files": [
         {
           "path": "ChilloutMix.ckpt",
-          "md5sum": "3c404ec36cda6034d064ce89ea6b3b91"
+          "md5sum": "3c404ec36cda6034d064ce89ea6b3b91",
+          "sha256sum": "84b2635c5693283986c2de52512638418f739742a46b970d1b6fc8ca6f410435"
         },
         {
           "path": "v1-inference.yaml"
@@ -4968,7 +5110,8 @@
       "files": [
         {
           "path": "Microchars.ckpt",
-          "md5sum": "2a22dfa47854573df87181118862511d"
+          "md5sum": "2a22dfa47854573df87181118862511d",
+          "sha256sum": "b49c20ef825220723e7ccb4cb229986fe994a8e99099c43611afe046c6569fe6"
         },
         {
           "path": "v1-inference.yaml"
@@ -4998,7 +5141,8 @@
       "files": [
         {
           "path": "Microcritters.ckpt",
-          "md5sum": "a96bbfba440016114582b9d60ff6cc4c"
+          "md5sum": "a96bbfba440016114582b9d60ff6cc4c",
+          "sha256sum": "da0fdd55916bf3d468b87fa6d41163bab69bf5011b29a5effa5a7f79c309b06e"
         },
         {
           "path": "v1-inference.yaml"
@@ -5027,7 +5171,8 @@
       "files": [
         {
           "path": "AbyssOrangeMix-AfterDark.ckpt",
-          "md5sum": "8d4595b81a874be75d7ad5247948eb60"
+          "md5sum": "8d4595b81a874be75d7ad5247948eb60",
+          "sha256sum": "c3273e9f899a8f910759e4ca70dcc244b436ed76e02ec0421d0b81218fca6627"
         },
         {
           "path": "v1-inference.yaml"
@@ -5060,7 +5205,8 @@
       "files": [
         {
           "path": "Grapefruit.ckpt",
-          "md5sum": "8583026f0b363c5e47ddda01fd1f048d"
+          "md5sum": "8583026f0b363c5e47ddda01fd1f048d",
+          "sha256sum": "16e5723194978c6f1c8ec6d8ee4611b99abed20afe6eb70fe14d71e6e809582d"
         },
         {
           "path": "v1-inference.yaml"
@@ -5093,7 +5239,8 @@
       "files": [
         {
           "path": "eXp.ckpt",
-          "md5sum": "8f138f7fdf64dafbe752c04c06bf1b7d"
+          "md5sum": "8f138f7fdf64dafbe752c04c06bf1b7d",
+          "sha256sum": "2380900718b034c6e9860e4b142c985e629304c920b9b00bbff525a00f1213d0"
         },
         {
           "path": "v1-inference.yaml"
@@ -5122,7 +5269,8 @@
       "files": [
         {
           "path": "WD-Beta.ckpt",
-          "md5sum": "45392b1add7dfb8b1b7955f576b4411b"
+          "md5sum": "45392b1add7dfb8b1b7955f576b4411b",
+          "sha256sum": "cc57fbfb37d831dda706be78320f3260992584a0e5c4f49e8188211f67f6137f"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -5151,7 +5299,8 @@
       "files": [
         {
           "path": "OJ-Beta.ckpt",
-          "md5sum": "806c9cffed24fdae534a0343bbe085e5"
+          "md5sum": "806c9cffed24fdae534a0343bbe085e5",
+          "sha256sum": "2fbe5ba6e2a842fa99f52500cd600ac33f510b6a76b58874fa92b39c72c5ad57"
         },
         {
           "path": "v1-inference.yaml"
@@ -5181,7 +5330,8 @@
       "files": [
         {
           "path": "Kenshi.ckpt",
-          "md5sum": "1019ba7f78c5cc6b1eb51451ce015d56"
+          "md5sum": "1019ba7f78c5cc6b1eb51451ce015d56",
+          "sha256sum": "065b8b5e17920980e6defdeba0b62ec4ee801b0546bf58e96337fba3498bf462"
         },
         {
           "path": "v1-inference.yaml"
@@ -5211,7 +5361,8 @@
       "files": [
         {
           "path": "DucHaiten_classic.ckpt",
-          "md5sum": "e7b1bc7494ff84774816e414e5a14dfb"
+          "md5sum": "e7b1bc7494ff84774816e414e5a14dfb",
+          "sha256sum": "95f931b25daa871edd0170887e9dd22a57ee449371a2ebb6dd6f622224a45b13"
         },
         {
           "path": "v1-inference.yaml"
@@ -5241,7 +5392,8 @@
       "files": [
         {
           "path": "Rev-animated.ckpt",
-          "md5sum": "6a18a674880db75b7b998fc9dbe9475a"
+          "md5sum": "6a18a674880db75b7b998fc9dbe9475a",
+          "sha256sum": "e09b87f86ff4e3c3380babcddc13086182686651542082501039c544fcc6d688"
         },
         {
           "path": "v1-inference.yaml"
@@ -5271,7 +5423,8 @@
       "files": [
         {
           "path": "A-to-z_zovya_rpg.ckpt",
-          "md5sum": "b74f35949a61f1b777947eb5dc519f8f"
+          "md5sum": "b74f35949a61f1b777947eb5dc519f8f",
+          "sha256sum": "5360ee218c4d3297cb79d940cad06c437ed72bca735bb63aa1c72c4bc9d78f09"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -5301,7 +5454,8 @@
       "files": [
         {
           "path": "colorful.ckpt",
-          "md5sum": "313e96a3877b01ecd3effb1ccfad116c"
+          "md5sum": "313e96a3877b01ecd3effb1ccfad116c",
+          "sha256sum": "e0c1c5d7543f16bea8a9ba61371b89b8bb280e7d5a9d91b0b8c506bebb8f87bd"
         },
         {
           "path": "v1-inference.yaml"
@@ -5331,7 +5485,8 @@
       "files": [
         {
           "path": "movie-diffusion.ckpt",
-          "md5sum": "6dd8835d5b2f9950c880124d2885a1b8"
+          "md5sum": "6dd8835d5b2f9950c880124d2885a1b8",
+          "sha256sum": "5a08f9d89c51cc5f0f43d27d6ff5c242679f5f1ada6e0f73a3aafe10c1cf4e1b"
         },
         {
           "path": "v1-inference.yaml"
@@ -5361,7 +5516,8 @@
       "files": [
         {
           "path": "GuoFeng.ckpt",
-          "md5sum": "99305b836778ca3a68970ff6dd1d5ae4"
+          "md5sum": "99305b836778ca3a68970ff6dd1d5ae4",
+          "sha256sum": "0bb33c70418b00de6d417b24e7cd8d31b4fa0146ff24e1218d0a789018a282b7"
         },
         {
           "path": "v1-inference.yaml"
@@ -5394,7 +5550,8 @@
       "files": [
         {
           "path": "AnimePencilArt.ckpt",
-          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90"
+          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90",
+          "sha256sum": "abdc6f106865726b5e9d4012fbf45a42ee565b796303c308d7e26a24c4f393a0"
         },
         {
           "path": "v1-inference.yaml"
@@ -5424,7 +5581,8 @@
       "files": [
         {
           "path": "BPModel.ckpt",
-          "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420"
+          "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420",
+          "sha256sum": "d5d6e1898fbc096237038661a5a09bdd25ea31f7a942b0df414d4bae36e9a124"
         },
         {
           "path": "v1-inference.yaml"
@@ -5454,7 +5612,8 @@
       "files": [
         {
           "path": "Olympus.ckpt",
-          "md5sum": "443cb4ecec74fdfb29544b0b7974c4a9"
+          "md5sum": "443cb4ecec74fdfb29544b0b7974c4a9",
+          "sha256sum": "6c153a7647880777f59b6098476597b81a45cc84fe7bb188f2284eafe0e27491"
         },
         {
           "path": "v1-inference.yaml"
@@ -5484,7 +5643,8 @@
       "files": [
         {
           "path": "HRL.ckpt",
-          "md5sum": "f9021c741c5b8370850835a5839e5d88"
+          "md5sum": "f9021c741c5b8370850835a5839e5d88",
+          "sha256sum": "26a224bead8388247525a6f0fe45507e92f04a5a5d6c517acf46697926be6f63"
         },
         {
           "path": "v1-inference.yaml"
@@ -5514,7 +5674,8 @@
       "files": [
         {
           "path": "Uhmami.ckpt",
-          "md5sum": "a3b9bd9c2b48f51b36a636a0465af86d"
+          "md5sum": "a3b9bd9c2b48f51b36a636a0465af86d",
+          "sha256sum": "4f7920438433320e2c56df045ba0ece1e603556bd8e4876477808b9cff634fd5"
         },
         {
           "path": "v1-inference.yaml"
@@ -5544,7 +5705,8 @@
       "files": [
         {
           "path": "NED.ckpt",
-          "md5sum": "58c75883da1e0680459ac400c55b251e"
+          "md5sum": "58c75883da1e0680459ac400c55b251e",
+          "sha256sum": "e433668e50381c5ef2f33372b0a698256d820adbac98c241ffb142c3864304e8"
         },
         {
           "path": "v1-inference.yaml"
@@ -5574,7 +5736,8 @@
       "files": [
         {
           "path": "Protogen_Anime.ckpt",
-          "md5sum": "4f2220296e0409c75f5752df05f843ca"
+          "md5sum": "4f2220296e0409c75f5752df05f843ca",
+          "sha256sum": "eea02a02bfa43a929306f4daddad7698d7163055ed35ead53e4302c941c87b76"
         },
         {
           "path": "v1-inference.yaml"
@@ -5604,7 +5767,8 @@
       "files": [
         {
           "path": "Synthpunk.ckpt",
-          "md5sum": "96b9822c6c38b156eb9b958748699164"
+          "md5sum": "96b9822c6c38b156eb9b958748699164",
+          "sha256sum": "dc4c67171e2eb64b1a79da7fde1cb3fcbef65364b12c8f5e30a0141fd8c88233"
         },
         {
           "path": "v1-inference.yaml"
@@ -5637,7 +5801,8 @@
       "files": [
         {
           "path": "graphic-art.ckpt",
-          "md5sum": "fe23f60ebb26bc8d2dfda9ed9363ce49"
+          "md5sum": "fe23f60ebb26bc8d2dfda9ed9363ce49",
+          "sha256sum": "72adf3e51f689cdc54cf0672a74a7a281d9f38e05bd6b2e730ea962c3a4014fa"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -5667,7 +5832,8 @@
       "files": [
         {
           "path": "Illuminati.ckpt",
-          "md5sum": "f9319c292efb474e950a5e2c5897fb56"
+          "md5sum": "f9319c292efb474e950a5e2c5897fb56",
+          "sha256sum": "1cd89acd67160b32dee7e61125d8c1f0221370bf18ba021c93b7a75b2af36856"
         },
         {
           "path": "v2-inference-v.yaml"
@@ -5697,7 +5863,8 @@
       "files": [
         {
           "path": "SD-Silicon.ckpt",
-          "md5sum": "ba36878c61ccabfed7bdf5c213666749"
+          "md5sum": "ba36878c61ccabfed7bdf5c213666749",
+          "sha256sum": "7288e03c24b76e91fea215b9fe64b87d8db44caedd4803656499c156ca3fe0a5"
         },
         {
           "path": "v1-inference.yaml"
