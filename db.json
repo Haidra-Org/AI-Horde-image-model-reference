@@ -1941,7 +1941,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/01_gigachad.webp",
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/03_muted001.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/03_gigachad.webp"
     ],
     "version": "1",
     "style": "isometric display case",
@@ -5256,9 +5256,6 @@
     "download_all": false,
     "requires": [
       "clip-vit-large-patch14"
-    ],
-    "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microcasing/01_microcasing.webp"
     ],
     "config": {
       "files": [
