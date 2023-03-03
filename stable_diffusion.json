@@ -4728,6 +4728,9 @@
 		"homepage": "https://civitai.com/models/8232/microcasing-merge",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microcasing/01_microcasing.webp"
+		  ],
 		"config": {
 		  "files": [
 			{
