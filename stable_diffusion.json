@@ -4472,6 +4472,9 @@
 		"homepage": "https://civitai.com/models/6465/prmj",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/prmj/01_prmj.webp"
+		  ],
 		"config": {
 		"files": [
 			{
