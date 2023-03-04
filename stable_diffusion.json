@@ -3219,7 +3219,8 @@
 		"type": "ckpt",
 		"description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
 		"showcases": [
-			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/ultraskin/01_voodoocode.webp"
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ultraskin/01_voodoocode.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ultraskin/02_gigachad.webp"
 		],
 		"version": "0.9",
 		"style": "portrait photography",
@@ -4472,6 +4473,9 @@
 		"homepage": "https://civitai.com/models/6465/prmj",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/prmj/01_prmj.webp"
+		  ],
 		"config": {
 		"files": [
 			{
