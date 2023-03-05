@@ -1,10 +1,24 @@
 {
-	"dblx": {
-		"EmbedName": "Double Exposure",
-		"FilePath": "/models/sd-concepts-library/dblx",
+	"bad_prompt": {
+		"EmbedName": "Bad Prompt",
+		"DownloadPath": "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/embeddings/ti/bad_prompt.ti.pt",
 		"baseline": "stable diffusion 2",
-		"Description": "Creates renders with the double exposure photo effect",
-		"triggers": ["dblx"],
+		"Description": "Trains a negative prompt into an embedding - works well on hands",
+		"showcase": ""
+	},
+	"EasyNegative": {
+		"EmbedName": "Easy Negative",
+		"DownloadPath": "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/embeddings/ti/EasyNegative.ti.pt",
+		"baseline": "stable diffusion 2",
+		"Description": "A simple negative embedding for the creation of better images - trained for Counterfeit but has success in other models",
+		"showcase": ""
+	},
+	"nfixer": {
+		"EmbedName": "nfixer",
+		"DownloadPath": "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/embeddings/ti/nfixer.ti.pt",
+		"baseline": "stable diffusion 2",
+		"Description": "This negative embedding is intended for use with Illuminati Diffusion v1.1, feel free to use it elsewhere but I can't guarantee your success.",
 		"showcase": ""
 	}
+	
 }
