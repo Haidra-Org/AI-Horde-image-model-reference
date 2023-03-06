@@ -4040,16 +4040,16 @@
 		"showcases": [
 			"https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/openniji/01_openniji.webp"
 		],
-		"version": "1.0",
+		"version": "2.0",
 		"style": "niji",
-		"homepage": "https://civitai.com/models/5143/openniji",
+		"homepage": "https://civitai.com/models/14479/openniji-v2",
 		"nsfw": false,
 		"download_all": false,
 		"config": {
 			"files": [
 				{
 					"path": "OpenNiji.ckpt",
-					"md5sum": "2613cfe5c112694d1ad7612f03e79977"
+					"md5sum": "25c552058855cb608398d990b615f314"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -4059,7 +4059,7 @@
 				{
 					"file_name": "OpenNiji.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/openniji_10.ckpt"
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/OpenNijiV2_inclVAE.ckpt"
 				}
 			]
 		},
