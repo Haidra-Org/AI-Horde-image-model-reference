@@ -5514,5 +5514,36 @@
         ]
       },
       "available": false
-    }
+    },
+	"FKing SciFi": {
+		"name": "FKing SciFi",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Trained on 666 images, hand captioned, general, but limited sci-fi model. It has been trained on armour concepts, futuristic backgrounds, androids and robots, as well as some fantasy stuff, like werecreatures.",
+		"version": "2",
+		"style": "fantasy",
+		"homepage": "https://civitai.com/models/2107/fkingscifiv2",
+		"trigger": ["fking_scifi_v2"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "fking-scifi.ckpt",
+			"md5sum": "4dc859cc201afb610c7a6f713d4acda2"
+		  },
+		  {
+			"path": "v2-inference-v.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "fking-scifi.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/fkingScifiV2_v21f.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  }
 }
