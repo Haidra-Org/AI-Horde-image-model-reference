@@ -5762,7 +5762,7 @@
       "baseline": "stable diffusion 1",
       "type": "ckpt",
       "description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
-      "version": "4",
+      "version": "5",
       "style": "anime pencil art",
       "trigger": ["anime pencil concept style"],
       "homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
@@ -5778,7 +5778,7 @@
         "files": [
         {
           "path": "models/custom/AnimePencilArt.ckpt",
-          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90"
+          "md5sum": "423013dff2100d48767399f65e7dfb05"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5788,7 +5788,7 @@
         {
           "file_name": "AnimePencilArt.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Crosstyan/BPModel/resolve/main/bp_1024_with_vae_te.ckpt"
+          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v5.ckpt"
         }
         ]
       },
