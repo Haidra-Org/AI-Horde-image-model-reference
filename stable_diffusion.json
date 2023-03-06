@@ -4881,7 +4881,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Grapefruit aims to be a hentai model with a bright and more softer anime style.",
-		"version": "4",
+		"version": "4.1",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
 		"nsfw": true,
@@ -4893,7 +4893,7 @@
 		  "files": [
 			{
 			  "path": "Grapefruit.ckpt",
-			  "md5sum": "8583026f0b363c5e47ddda01fd1f048d"
+			  "md5sum": "445ce1f08ad2d3055ea754c8c3eb990b"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -4903,7 +4903,7 @@
 			{
 			  "file_name": "Grapefruit.ckpt",
 			  "file_path": "",
-			  "file_url": "https://civitai.com/api/download/models/9000?type=Model&format=PickleTensor"
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/grapefruitHentaiModel_grapefruitv41.ckpt"
 			}
 		  ]
 		},
