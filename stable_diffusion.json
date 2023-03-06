@@ -15,7 +15,8 @@
 		"config": {
 			"files": [
 				{
-					"path": "model_2_1.ckpt"
+					"path": "model_2_1.ckpt",
+					"md5sum": "ce8ee5c53acb3a6540b44a71276c3d01"
 				},
 				{
 					"path": "v2-inference-v.yaml"
