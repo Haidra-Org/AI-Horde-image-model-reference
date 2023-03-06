@@ -4498,9 +4498,9 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "The Stable Diffusion model trained on Nijijourney images",
-    "version": "1.0",
+    "version": "2.0",
     "style": "niji",
-    "homepage": "https://civitai.com/models/5143/openniji",
+    "homepage": "https://civitai.com/models/14479/openniji-v2",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -4513,7 +4513,7 @@
       "files": [
         {
           "path": "models/custom/OpenNiji.ckpt",
-          "md5sum": "2613cfe5c112694d1ad7612f03e79977"
+          "md5sum": "25c552058855cb608398d990b615f314"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4523,7 +4523,7 @@
         {
           "file_name": "OpenNiji.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/openniji_10.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/OpenNijiV2_inclVAE.ckpt"
         }
       ]
     },
@@ -4790,7 +4790,7 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Model for creating photorealistic humans",
-    "version": "1.2",
+    "version": "1.3",
     "style": "boudoir photography",
     "nsfw": true,
     "download_all": false,
@@ -4804,7 +4804,7 @@
       "files": [
         {
           "path": "models/custom/URPM.ckpt",
-          "md5sum": "ada0906adbfc6b6aa24d8aa1adcde98e"
+          "md5sum": "15aa3ca9ab7ae6de04424bcafb556cc4"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -4814,7 +4814,7 @@
         {
           "file_name": "URPM.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/4971?type=Pruned%20Model&format=PickleTensor"
+          "file_url": "https://civitai.com/api/download/models/15640?type=Pruned%20Model&format=PickleTensor"
         }
       ]
     },
@@ -5330,6 +5330,11 @@
     "homepage": "https://civitai.com/models/8057/microchars-merge",
     "nsfw": false,
     "download_all": false,
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/01_people.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/02_chars.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/03_classes.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5423,7 +5428,7 @@
     "baseline": "stable diffusion 1",
     "type": "ckpt",
     "description": "Grapefruit aims to be a hentai model with a bright and more softer anime style.",
-    "version": "4",
+    "version": "4.1",
     "style": "anime",
     "homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
     "nsfw": true,
@@ -5438,7 +5443,7 @@
       "files": [
         {
           "path": "models/custom/Grapefruit.ckpt",
-          "md5sum": "8583026f0b363c5e47ddda01fd1f048d"
+          "md5sum": "445ce1f08ad2d3055ea754c8c3eb990b"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5448,7 +5453,7 @@
         {
           "file_name": "Grapefruit.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/9000?type=Model&format=PickleTensor"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/grapefruitHentaiModel_grapefruitv41.ckpt"
         }
       ]
     },
@@ -5517,38 +5522,6 @@
           "file_name": "WD-Beta.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/wd15-beta1-inclvae.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
-  "Open Journey Beta": {
-    "name": "Open Journey Beta",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "Midjourney v4 painting style",
-    "version": "2",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/OJ-Beta.ckpt",
-          "md5sum": "806c9cffed24fdae534a0343bbe085e5"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "OJ-Beta.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://huggingface.co/prompthero/openjourney-v2/resolve/main/openjourney-v2.ckpt"
         }
       ]
     },
@@ -5790,7 +5763,7 @@
       "baseline": "stable diffusion 1",
       "type": "ckpt",
       "description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
-      "version": "4",
+      "version": "5",
       "style": "anime pencil art",
       "trigger": ["anime pencil concept style"],
       "homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
@@ -5806,7 +5779,7 @@
         "files": [
         {
           "path": "models/custom/AnimePencilArt.ckpt",
-          "md5sum": "d2fb8b822d164a912aa0b1e9633c5c90"
+          "md5sum": "423013dff2100d48767399f65e7dfb05"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5816,7 +5789,7 @@
         {
           "file_name": "AnimePencilArt.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Crosstyan/BPModel/resolve/main/bp_1024_with_vae_te.ckpt"
+          "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v5.ckpt"
         }
         ]
       },
@@ -6114,6 +6087,40 @@
           "file_name": "SD-Silicon.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
+    "FKing SciFi": {
+      "name": "FKing SciFi",
+      "baseline": "stable diffusion 2",
+      "type": "ckpt",
+      "description": "Trained on 666 images, hand captioned, general, but limited sci-fi model. It has been trained on armour concepts, futuristic backgrounds, androids and robots, as well as some fantasy stuff, like werecreatures.",
+      "version": "2",
+      "style": "fantasy",
+      "homepage": "https://civitai.com/models/2107/fkingscifiv2",
+      "trigger": ["fking_scifi_v2"],
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/fking-scifi.ckpt",
+          "md5sum": "4dc859cc201afb610c7a6f713d4acda2"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "fking-scifi.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/fkingScifiV2_v21f.ckpt"
         }
         ]
       },
