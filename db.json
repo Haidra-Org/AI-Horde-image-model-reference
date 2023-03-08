@@ -5828,7 +5828,8 @@
       "nsfw": false,
       "download_all": false,
       "showcases": [
-        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp"
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/002_blank.webp"
       ],
       "requires": [
         "clip-vit-large-patch14"
