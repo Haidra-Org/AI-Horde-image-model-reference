@@ -5823,6 +5823,9 @@
       "homepage": "https://civitai.com/models/11193",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],

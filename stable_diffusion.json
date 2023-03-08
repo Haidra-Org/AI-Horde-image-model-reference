@@ -5296,6 +5296,9 @@
 		"nsfw": false,
 		"download_all": false,
 		"config": {
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp"
+		],
 		"files": [
 		  {
 			"path": "Illuminati.ckpt",
