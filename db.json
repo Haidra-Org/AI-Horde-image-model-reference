@@ -4272,42 +4272,6 @@
     },
     "available": false
   },
-  "GTM Ultimate Blend": {
-    "name": "GTM Ultimate Blend",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "GalaxyTimeMachine's GTM Ultimate Blend - a generalist model good at portraits, scenery with a fantasy vibe",
-    "version": "3",
-    "style": "fantasy",
-    "homepage": "https://civitai.com/models/4884/galaxytimemachines-gtmultimateblendv3",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gtmultimate/01_gtm.webp"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/custom/GTM.ckpt",
-          "md5sum": "056847e46439d4afbaebceb268398b41"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "GTM.ckpt",
-          "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/5618?type=Model&format=PickleTensor"
-        }
-      ]
-    },
-    "available": false
-  },
   "CharHelper": {
     "name": "CharHelper",
     "baseline": "stable diffusion 2",
