@@ -5004,7 +5004,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
-		"version": "1.0",
+		"version": "1.1",
 		"style": "realistic anime",
 		"homepage": "https://civitai.com/models/7371/rev-animated",
 		"nsfw": true,
@@ -5013,7 +5013,7 @@
 		  "files": [
 			{
 			  "path": "Rev-animated.ckpt",
-			  "md5sum": "6a18a674880db75b7b998fc9dbe9475a"
+			  "md5sum": "67fb60349b3b2fc98a7b7c6fa1d02e4a"
 			},
 			{
 			  "path": "v1-inference.yaml"
@@ -5023,7 +5023,7 @@
 			{
 			  "file_name": "Rev-animated.ckpt",
 			  "file_path": "",
-			  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Rev-animated.ckpt"
+			  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/RevAnimated_v11_inclVAE.ckpt"
 			}
 		  ]
 		},
@@ -5509,6 +5509,36 @@
 			"file_name": "fking-scifi.ckpt",
 			"file_path": "",
 			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/fkingScifiV2_v21f.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "RealBiter": {
+		"name": "RealBiter",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This blend model aims to achieve versatility in generating images that are almost realistic but with a touch of fantasy and a polished aesthetic. It performs well with both illustrations and simulated photographs, but it particularly excels with the latter",
+		"version": "29",
+		"style": "illustration, photorealistic",
+		"homepage": "https://civitai.com/models/16592/realbiter",
+		"nsfw": true,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "RealBiter.ckpt",
+			"md5sum": "15e64f4075f48d30abbd7776c5cc59ad"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "RealBiter.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/RealBiter_v10_inclVAE.ckpt"
 		  }
 		  ]
 		},
