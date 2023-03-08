@@ -5005,6 +5005,9 @@
 		"homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anime_pencil_diffusion/01_anipen.webp"
+		],
 		"config": {
 		  "files": [
 		  {
