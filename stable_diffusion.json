@@ -5390,6 +5390,9 @@
 		"homepage": "https://civitai.com/models/16592/realbiter",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realbiter/001_voodoocode.webp"
+		],
 		"config": {
 		  "files": [
 		  {
