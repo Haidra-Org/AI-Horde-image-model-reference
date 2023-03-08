@@ -4681,7 +4681,8 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/02_muted001.webp"
     ],
     "config": {
       "files": [
