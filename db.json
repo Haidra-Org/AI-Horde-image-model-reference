@@ -5890,6 +5890,10 @@
       "trigger": ["fking_scifi_v2"],
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/02_voodoocode.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
