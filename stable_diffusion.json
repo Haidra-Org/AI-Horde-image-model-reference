@@ -5279,66 +5279,66 @@
 		},
 		"available": false
 	},
-    "Illuminati Diffusion": {
-      "name": "Illuminati Diffusion",
-      "baseline": "stable diffusion 2",
-      "type": "ckpt",
-      "description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
-      "version": "1.1",
-      "style": "generalist",
-      "homepage": "https://civitai.com/models/11193",
-      "nsfw": false,
-      "download_all": false,
-      "config": {
-        "files": [
-        {
-          "path": "Illuminati.ckpt",
-          "md5sum": "f9319c292efb474e950a5e2c5897fb56"
-        },
-        {
-          "path": "v2-inference-v.yaml"
-        }
-        ],
-        "download": [
-        {
-          "file_name": "Illuminati.ckpt",
-          "file_path": "",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/illuminatiDiffusionV1_v11.ckpt"
-        }
-        ]
-      },
-      "available": false
-    },
-    "SD-Silicon": {
-      "name": "SD-Silicon",
-      "baseline": "stable diffusion 1",
-      "type": "ckpt",
-      "description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
-      "version": "29",
-      "style": "generalist",
-      "homepage": "https://huggingface.co/Xynon/SD-Silicon",
-      "nsfw": false,
-      "download_all": false,
-      "config": {
-        "files": [
-        {
-          "path": "SD-Silicon.ckpt",
-          "md5sum": "ba36878c61ccabfed7bdf5c213666749"
-        },
-        {
-          "path": "v1-inference.yaml"
-        }
-        ],
-        "download": [
-        {
-          "file_name": "SD-Silicon.ckpt",
-          "file_path": "",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
-        }
-        ]
-      },
-      "available": false
-    },
+	"Illuminati Diffusion": {
+		"name": "Illuminati Diffusion",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
+		"version": "1.1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/11193",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		"files": [
+		  {
+			"path": "Illuminati.ckpt",
+			"md5sum": "f9319c292efb474e950a5e2c5897fb56"
+		  },
+		  {
+			"path": "v2-inference-v.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Illuminati.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/illuminatiDiffusionV1_v11.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	},
+	"SD-Silicon": {
+		"name": "SD-Silicon",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
+		"version": "29",
+		"style": "generalist",
+		"homepage": "https://huggingface.co/Xynon/SD-Silicon",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "SD-Silicon.ckpt",
+			"md5sum": "ba36878c61ccabfed7bdf5c213666749"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "SD-Silicon.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	},
 	"FKing SciFi": {
 		"name": "FKing SciFi",
 		"baseline": "stable diffusion 2",
