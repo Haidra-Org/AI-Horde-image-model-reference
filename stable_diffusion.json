@@ -4862,6 +4862,9 @@
 		"homepage": "https://civitai.com/models/7371/rev-animated",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rev_animated/001_muted.webp"
+		],
 		"config": {
 		  "files": [
 			{
