@@ -4979,6 +4979,9 @@
 		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten_classic_anime/01_anon.webp"
+		],
 		"config": {
 		  "files": [
 			{
