@@ -5970,6 +5970,40 @@
       },
       "available": false
     },
+    "OrbAI": {
+      "name": "OrbAI",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "This model gives you the possibilty to have an orb and put awesome stuff inside of it like animals, universe, solarsystems, fractal images whatever you can think of",
+      "version": "1.0",
+      "style": "knollingcase",
+      "homepage": "https://civitai.com/models/14102/orbai",
+      "trigger": ["orbai"],
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/OrbAI.ckpt",
+          "md5sum": "1ed0a5f6efea5347e42d848a974c5829"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "OrbAI.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/16595?type=Model&format=PickleTensor"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",

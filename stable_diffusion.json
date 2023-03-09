@@ -5415,5 +5415,36 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "OrbAI": {
+		"name": "OrbAI",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This model gives you the possibilty to have an orb and put awesome stuff inside of it like animals, universe, solarsystems, fractal images whatever you can think of",
+		"version": "1.0",
+		"style": "knollingcase",
+		"homepage": "https://civitai.com/models/14102/orbai",
+		"trigger": ["orbai"],
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "OrbAI.ckpt",
+			"md5sum": "1ed0a5f6efea5347e42d848a974c5829"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "OrbAI.ckpt",
+			"file_path": "",
+			"file_url": "https://civitai.com/api/download/models/16595?type=Model&format=PickleTensor"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
