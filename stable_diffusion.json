@@ -5385,5 +5385,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "FaeTastic": {
+		"name": "FaeTastic",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "A beautiful mixed model (22 mixes) including Noise Offset to create a wide-range of images",
+		"version": "1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/14065",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "FaeTastic.ckpt",
+			"md5sum": "b4d7586012ae1702709adae7266c7566"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "FaeTastic.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Faetastic_inclVAE.ckpt"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
