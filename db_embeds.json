@@ -34,7 +34,7 @@
 	"HyperSmoke": {
 		"EmbedName": "HyperSmoke",
 		"EmbedType": "Textual Inversion",
-		"DownloadPath": "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/embeddings/ti/epiNoiseoffset_v2.lora.safetensors",
+		"DownloadPath": "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/embeddings/ti/HyperSmoke.ti.pt",
 		"Description": "HyperSmoke is a supplementive embedding that, just like HyperFluid, simply adds smoke to your scene. Whether that is a bust made out of smoke or a smoke bomb in a street, HyperSmoke is there for you",
 		"baseline": "stable diffusion 2",
 		"showcase": ""
