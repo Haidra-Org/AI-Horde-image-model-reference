@@ -5446,5 +5446,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Realism Engine": {
+		"name": "Realism Engine",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "This new model was fine-tuned using a vast collection of public domain images, ensuring that it can generate images across a wide range of contexts. While it may not be as strong in generating abstract or highly stylized images, it excels in generating images that are true to life, visually compelling and that accurately reflect the input textual description",
+		"version": "1.0",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/17277",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "RealismEngine.ckpt",
+			"md5sum": "5e388aedff18c7a3ec016f1815e46398"
+		  },
+		  {
+			"path": "v2-inference-v.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "RealismEngine.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/RealismEngine_incl84000.ckpt"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
