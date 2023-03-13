@@ -5481,7 +5481,7 @@
 		"name": "Jim Eidomode",
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
-		"description": "This new model was fine-tuned using a vast collection of public domain images, ensuring that it can generate images across a wide range of contexts. While it may not be as strong in generating abstract or highly stylized images, it excels in generating images that are true to life, visually compelling and that accurately reflect the input textual description",
+		"description": "I have created something amazing that creates very stylized images, especially digital art. The model is good at creating animals, women, men, fantastic landscapes and much more.",
 		"version": "1.0",
 		"style": "artistic",
 		"homepage": "https://civitai.com/models/10720/jim-eidomode",
