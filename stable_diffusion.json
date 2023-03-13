@@ -2492,17 +2492,17 @@
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
 		],
-		"version": "0.1",
+		"version": "0.2",
 		"style": "generalist",
 		"trigger": ["estilovintedois"],
-		"homepage": "https://huggingface.co/22h/vintedois-diffusion-v0-1",
+		"homepage": "https://huggingface.co/22h/vintedois-diffusion-v0-2",
 		"nsfw": false,
 		"download_all": false,
 		"config": {
 			"files": [
 				{
 					"path": "Vintedois_Diffusion.ckpt",
-					"md5sum": "8beebe273bb4f360849d31efdd29fe27"
+					"md5sum": "51c455f9aa22dd2d4ed5f60a4efaafd6"
 				},
 				{
 					"path": "v1-inference.yaml"
@@ -2512,7 +2512,7 @@
 				{
 					"file_name": "Vintedois_Diffusion.ckpt",
 					"file_path": "",
-					"file_url": "https://huggingface.co/22h/vintedois-diffusion-v0-1/resolve/main/model.ckpt"
+					"file_url": "https://huggingface.co/22h/vintedois-diffusion-v0-2/resolve/main/model.ckpt"
 				}
 			]
 		},
@@ -5562,6 +5562,96 @@
 			"file_name": "icomix.ckpt",
 			"file_path": "",
 			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/icomix.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "TrexMix": {
+		"name": "TrexMix",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This is an anime-centric model. It is a massive merge (20+ models) of SD 1.4 and 1.5-based checkpoints. The intent behind this model is to provide good anatomy, realistic lighting and extremely beautiful backgrounds",
+		"version": "1",
+		"style": "anime",
+		"homepage": "https://civitai.com/models/18801/trexmix",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "trexmix.ckpt",
+			"md5sum": "05e611b1d651317e20802ccb2b4f2be2"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "trexmix.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/TrexMix_inclWDVAE.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "Pretty 2.5D": {
+		"name": "Pretty 2.5D",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Realistic anime/cartoon styled drawings",
+		"version": "2",
+		"style": "artistic",
+		"homepage": "https://civitai.com/models/17579/pretty-25d-v2",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "pretty25D.ckpt",
+			"md5sum": "bb079df776f12e3f0ee299f449890bb1"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "pretty25D.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pretty25D_inclVAE.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	  },
+	  "ExpMix Line": {
+		"name": "ExpMix Line",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "Realistic anime styled drawings with extra emphasis on outlines",
+		"version": "2",
+		"style": "artistic",
+		"homepage": "https://civitai.com/models/12865/expmixline",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "expmix.ckpt",
+			"md5sum": "ffa22c28ed3ba4b2ff4c702201c04c9a"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "expmix.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/expmix_inclVAE.ckpt"
 		  }
 		  ]
 		},
