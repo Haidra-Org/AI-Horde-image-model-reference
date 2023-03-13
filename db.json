@@ -6070,6 +6070,39 @@
       },
       "available": false
     },
+    "Dungeons n Waifus": {
+      "name": "Dungeons n Waifus",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "A handpicked and curated merge of the best of the best in fantasy world, character & creature design. Should serve as a bit of a swiss army knife / multi-tool to create any and all fantasy art, character concepts, portraits, designs, locations, & even a bit of n00ds",
+      "version": "1.0",
+      "style": "artistic",
+      "homepage": "https://civitai.com/models/11718/dungeons-n-waifus",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/DnW.ckpt",
+          "md5sum": "1826c8d9fa9954cbbb1e67fc1a5220f0"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "DnW.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/dungeonsNWaifus_v22.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
