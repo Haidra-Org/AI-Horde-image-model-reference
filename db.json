@@ -6103,6 +6103,39 @@
       },
       "available": false
     },
+    "iCoMix": {
+      "name": "iCoMix",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "Comic style mix",
+      "version": "2",
+      "style": "cartoon",
+      "homepage": "https://civitai.com/models/16164/icomix",
+      "nsfw": false,
+      "download_all": false,
+      "requires": [
+        "clip-vit-large-patch14"
+      ],
+      "config": {
+        "files": [
+        {
+          "path": "models/custom/icomix.ckpt",
+          "md5sum": "91b7623e5b3aaf0520ab4d46b296df63"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "icomix.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/icomix.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
