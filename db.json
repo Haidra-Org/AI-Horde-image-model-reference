@@ -5689,7 +5689,7 @@
         "files": [
         {
           "path": "models/custom/Uhmami.ckpt",
-          "md5sum": "a3b9bd9c2b48f51b36a636a0465af86d"
+          "md5sum": "4eecb9e37c56b10ba1e1db2f00b291b9"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -5699,7 +5699,7 @@
         {
           "file_name": "Uhmami.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://civitai.com/api/download/models/10098?type=Model&format=PickleTensor"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/uhmami_inclVAE.ckpt"
         }
         ]
       },
