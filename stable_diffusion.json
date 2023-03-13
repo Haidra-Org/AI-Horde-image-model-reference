@@ -5476,5 +5476,35 @@
 		  ]
 		},
 		"available": false
+	  },
+	  "Jim Eidomode": {
+		"name": "Jim Eidomode",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "This new model was fine-tuned using a vast collection of public domain images, ensuring that it can generate images across a wide range of contexts. While it may not be as strong in generating abstract or highly stylized images, it excels in generating images that are true to life, visually compelling and that accurately reflect the input textual description",
+		"version": "1.0",
+		"style": "digital art",
+		"homepage": "https://civitai.com/models/10720/jim-eidomode",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "JimEidomode.ckpt",
+			"md5sum": "f08be7a2791b292f29d7cf7acc3d2247"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "JimEidomode.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/JimEIDOMODE.ckpt"
+		  }
+		  ]
+		},
+		"available": false
 	  }
 }
