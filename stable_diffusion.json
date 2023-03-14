@@ -71,6 +71,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Anime styled generations.",
+		"tags": ["anime"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/waifu_diffusion/01_jakeukalane.webp",
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/waifu_diffusion/02_gigachad.webp",
@@ -202,6 +203,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Manga styled generations.",
+		"tags": ["anime", "manga"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/trinart/01_monarch.webp"
 		],
@@ -787,6 +789,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Cyberpunk anime characters",
+		"tags": ["anime", "cyberpunk", "tv show"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/cyberpunk_anime_diffusion/01_bigdowg.webp"
 		],
@@ -1092,6 +1095,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Highly detailed Anime styled generations",
+		"tags": ["anime", "booru"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/01.webp",
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/02_gigachad.webp",
@@ -1368,6 +1372,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "imitates the style of late '80s early 90's anime, Anything v3 base",
+		"tags": ["anime", "retro"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ranma_diffusion/01_gigachad.webp"
 		],
@@ -1402,6 +1407,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "fine-tuned Stable Diffusion model trained on images from Studio Ghibli feature films",
+		"tags": ["anime", "retro"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ghibli_diffusion/01_bigdowg.webp"
 		],
@@ -1436,6 +1442,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
+		"tags": ["anime", "booru", "character", "hentai"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hentai_diffusion/01_bigdowg.webp"
 		],
@@ -1677,6 +1684,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Anything Diffusion fine-tuned to produce high-quality realistic anime styled images",
+		"tags": ["anime"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/poison/01_gigachad.webp"
 		],
@@ -1710,6 +1718,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is trained with high quality and detailed anime images",
+		"tags": ["anime"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/eimis_anime_diffusion/01_bigdawg.webp"
 		],
@@ -2252,6 +2261,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
+		"tags": ["anime", "scenes"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/acertainthing/01_juice.webp",
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/acertainthing/02_gigachad.webp"
@@ -2320,6 +2330,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Derrida (formerly TrinArt Characters v2) is a stable diffusion v1-based model that was further improved on the previous characters v1 model. While this is still a versatility and compositional variation anime/manga model like other TrinArt models, when compared to the v1 model, Derrida was focused on more anatomical stability and slightly less on variation due to further multi-epoch training and finetuning.",
+		"tags": ["anime", "character"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/trinart_characters/01_juice.webp"
 		],
@@ -2994,6 +3005,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This is a blend of some anime models mixed with 'realistic' stuff",
+		"tags": ["anime"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/healys_anime_blend/01_gigachad.webp"
 		],
@@ -3191,6 +3203,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A best of both worlds - merging the anime of Anything v3 with Protogens photorealism - VAE is included",
+		"tags": ["anime"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anygen/01_gigachad.webp"
 		],
@@ -3257,6 +3270,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "DucHaiten's character generation model",
+		"tags": ["anime", "character", "retro"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten/01_gigachad.webp"
 		],
@@ -3740,6 +3754,7 @@
 		"baseline": "stable diffusion 2",
 		"type": "ckpt",
 		"description": "This model was trained on Gen 1-8 Pokemon low poly renders",
+		"tags": ["anime", "low poly"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pokemon3d/01_pokemon.webp"
 		],
@@ -3843,6 +3858,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Counterfeit is anime style Stable Diffusion model",
+		"tags": ["anime"],
 		"version": "2.5",
 		"style": "anime",
 		"homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
@@ -3909,6 +3925,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
+		"tags": ["anime"],
 		"version": "1",
 		"style": "anime",
 		"homepage": "https://huggingface.co/andite/pastel-mix",
@@ -4111,6 +4128,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Awesome anime character/realism mix",
+		"tags": ["anime", "character"],
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
 		],
@@ -4437,6 +4455,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "The original horde Anything model with the VAE built in",
+		"tags": ["anime", "booru"],
 		"version": "3",
 		"style": "anime",
 		"homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
@@ -4500,6 +4519,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A model trained to create CG anime characters",
+		"tags": ["anime", "character", "cg"],
 		"version": "3",
 		"style": "anime",
 		"homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
@@ -4533,6 +4553,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Mostly NSFW, semi-realistic anime characters",
+		"tags": ["anime", "hentai", "character"],
 		"version": "1.4",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/6260/cyriousmix",
@@ -4691,6 +4712,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "AbyssOrangeMix trained for creating NSFW images",
+		"tags": ["anime", "hentai"],
 		"version": "2",
 		"style": "anime",
 		"nsfw": true,
@@ -4720,6 +4742,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Grapefruit aims to be a hentai model with a bright and more softer anime style.",
+		"tags": ["anime", "hentai"],
 		"version": "4.1",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/2583/grapefruit-hentai-model",
@@ -4786,6 +4809,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
+		"tags": ["anime"],
 		"version": "0.1.1",
 		"style": "anime",
 		"homepage": "https://huggingface.co/SweetLuna/Kenshi",
@@ -4816,6 +4840,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
+		"tags": ["anime", "retro"],
 		"version": "1.0",
 		"style": "anime",
 		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
@@ -4846,6 +4871,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
+		"tags": ["anime", "character"],
 		"version": "1.1",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/7371/rev-animated",
@@ -4996,6 +5022,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
+		"tags": ["anime", "sketch"],
 		"version": "5",
 		"style": "anime",
 		"trigger": ["anime pencil concept style"],
@@ -5027,6 +5054,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
+		"tags": ["anime", "high resolution"],
 		"version": "1024",
 		"style": "anime",
 		"homepage": "https://huggingface.co/Crosstyan/BPModel",
@@ -5057,6 +5085,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A model that generates extremely high quality landscapes, space battles, and fantasy settings. It can also generate very high quality anime characters, though that is not its primary purpose",
+		"tags": ["anime", "landscapes", "scenes"],
 		"version": "1.0",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/6077/umi-ai-mythology-and-babes-by-dutchalex",
@@ -5117,6 +5146,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "a blend of anime-focused models with a semi-realistic aesthetic, combining 3D digital imagery with photography. It allows the use of prompts based on booru tags, similar to the novelai model, resulting in high-quality semi-realistic images",
+		"tags": ["anime", "booru", "cg"],
 		"version": "1.0",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/8563/uhmami",
@@ -5177,6 +5207,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "A cocktail mix of a bit of everything",
+		"tags": ["anime"],
 		"version": "1.0",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/10028",
@@ -5572,6 +5603,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "This is an anime-centric model. It is a massive merge (20+ models) of SD 1.4 and 1.5-based checkpoints. The intent behind this model is to provide good anatomy, realistic lighting and extremely beautiful backgrounds",
+		"tags": ["anime"],
 		"version": "1",
 		"style": "anime",
 		"homepage": "https://civitai.com/models/18801/trexmix",
@@ -5602,6 +5634,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Realistic anime/cartoon styled drawings",
+		"tags": ["anime", "cartoon"],
 		"version": "2",
 		"style": "artistic",
 		"homepage": "https://civitai.com/models/17579/pretty-25d-v2",
@@ -5632,6 +5665,7 @@
 		"baseline": "stable diffusion 1",
 		"type": "ckpt",
 		"description": "Realistic anime styled drawings with extra emphasis on outlines",
+		"tags": ["anime"],
 		"version": "2",
 		"style": "artistic",
 		"homepage": "https://civitai.com/models/12865/expmixline",
