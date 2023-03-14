@@ -5726,7 +5726,8 @@
       "nsfw": false,
       "download_all": false,
       "showcases": [
-        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/01_anon.webp"
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/01_anon.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/02_muted001.webp"
       ],
       "requires": [
         "clip-vit-large-patch14"
