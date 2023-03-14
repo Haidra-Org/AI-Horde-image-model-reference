@@ -1,4 +1,166 @@
 {
+	"control_canny_sd2": {
+		"name": "control_canny_sd2",
+		"type": "control_canny",
+		"description": "control_canny for sd2.x",
+		"version": "0.1.0",
+		"style": "control_canny",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "diff_control_sd21_canny_fp16.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "diff_control_sd21_canny_fp16.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/canny-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_depth_sd2": {
+		"name": "control_depth_sd2",
+		"type": "control_depth",
+		"description": "control_depth for sd2.x",
+		"version": "0.1.0",
+		"style": "control_depth",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "diff_control_sd21_depth_fp16.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "diff_control_sd21_depth_fp16.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/depth-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_hed_v2": {
+		"name": "control_hed_v2",
+		"type": "control_hed",
+		"description": "control_hed for sd2.x",
+		"version": "0.1.0",
+		"style": "control_hed",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "diff_control_sd21_hed_fp16.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "diff_control_sd21_hed_fp16.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/hed-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_openpose_sd2": {
+		"name": "control_openpose_sd2",
+		"type": "control_openpose",
+		"description": "control_openpose for sd2.x",
+		"version": "0.1.0",
+		"style": "control_openpose",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "control_openpose_fp21.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "control_openpose_fp21.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/openpose-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_fakescribbles_sd2": {
+		"name": "control_fakescribbles_sd2",
+		"type": "control_fakescribbles",
+		"description": "control_fakescribbles",
+		"version": "0.1.0",
+		"style": "control_fakescribbles",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "control_scribble_fp21.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "control_scribble_fp21.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/scribble-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_scribble_sd2": {
+		"name": "control_scribble_sd2",
+		"type": "control_scribble",
+		"description": "control_scribble for sd2.x",
+		"version": "0.1.0",
+		"style": "control_scribble",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "control_scribble_fp21.safetensors"
+				},
+				{
+					"path": "cldm_v21.yaml"
+				}
+			],
+			"download": [
+				{
+					"file_name": "control_scribble_fp21.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/scribble-sd21-safe.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
 	"control_canny": {
 		"name": "control_canny",
 		"type": "control_canny",
