@@ -1583,7 +1583,7 @@
 		"showcases": [
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/01_gigachad.webp",
 			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
-			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/03_gigachad.webp"
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/03_muted001.webp"
 		],
 		"version": "1",
 		"style": "other",
@@ -4228,7 +4228,8 @@
 		"type": "ckpt",
 		"description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
 		"showcases": [
-			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/02_muted001.webp"
 		],
 		"version": "1.2",
 		"style": "artistic",
@@ -4266,6 +4267,9 @@
 		"homepage": "https://civitai.com/models/4752/project-unreal-engine-5",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/project_unreal_engine5/01_unreal.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4494,6 +4498,9 @@
 		"homepage": "https://civitai.com/models/4041/woopwoop-photo",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/woopwoop/001_muted001.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4657,6 +4664,11 @@
 		"homepage": "https://civitai.com/models/8057/microchars-merge",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/01_people.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/02_chars.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/03_classes.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4846,6 +4858,9 @@
 		"homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten_classic_anime/01_anon.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -4877,6 +4892,9 @@
 		"homepage": "https://civitai.com/models/7371/rev-animated",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rev_animated/001_muted.webp"
+		],
 		"config": {
 		  "files": [
 			{
@@ -5029,6 +5047,9 @@
 		"homepage": "https://huggingface.co/yehiaserag/anime-pencil-diffusion",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anime_pencil_diffusion/01_anipen.webp"
+		],
 		"config": {
 		  "files": [
 		  {
@@ -5183,6 +5204,10 @@
 		"homepage": "https://civitai.com/models/10028",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/01_anon.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/02_muted001.webp"
+		],
 		"config": {
 		  "files": [
 		  {
@@ -5297,66 +5322,70 @@
 		},
 		"available": false
 	},
-    "Illuminati Diffusion": {
-      "name": "Illuminati Diffusion",
-      "baseline": "stable diffusion 2",
-      "type": "ckpt",
-      "description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
-      "version": "1.1",
-      "style": "generalist",
-      "homepage": "https://civitai.com/models/11193",
-      "nsfw": false,
-      "download_all": false,
-      "config": {
-        "files": [
-        {
-          "path": "Illuminati.ckpt",
-          "md5sum": "f9319c292efb474e950a5e2c5897fb56"
-        },
-        {
-          "path": "v2-inference-v.yaml"
-        }
-        ],
-        "download": [
-        {
-          "file_name": "Illuminati.ckpt",
-          "file_path": "",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/illuminatiDiffusionV1_v11.ckpt"
-        }
-        ]
-      },
-      "available": false
-    },
-    "SD-Silicon": {
-      "name": "SD-Silicon",
-      "baseline": "stable diffusion 1",
-      "type": "ckpt",
-      "description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
-      "version": "29",
-      "style": "generalist",
-      "homepage": "https://huggingface.co/Xynon/SD-Silicon",
-      "nsfw": false,
-      "download_all": false,
-      "config": {
-        "files": [
-        {
-          "path": "SD-Silicon.ckpt",
-          "md5sum": "ba36878c61ccabfed7bdf5c213666749"
-        },
-        {
-          "path": "v1-inference.yaml"
-        }
-        ],
-        "download": [
-        {
-          "file_name": "SD-Silicon.ckpt",
-          "file_path": "",
-          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
-        }
-        ]
-      },
-      "available": false
-    },
+	"Illuminati Diffusion": {
+		"name": "Illuminati Diffusion",
+		"baseline": "stable diffusion 2",
+		"type": "ckpt",
+		"description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
+		"version": "1.1",
+		"style": "generalist",
+		"homepage": "https://civitai.com/models/11193",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/002_blank.webp"
+		],
+		"files": [
+		  {
+			"path": "Illuminati.ckpt",
+			"md5sum": "f9319c292efb474e950a5e2c5897fb56"
+		  },
+		  {
+			"path": "v2-inference-v.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "Illuminati.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/illuminatiDiffusionV1_v11.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	},
+	"SD-Silicon": {
+		"name": "SD-Silicon",
+		"baseline": "stable diffusion 1",
+		"type": "ckpt",
+		"description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
+		"version": "29",
+		"style": "generalist",
+		"homepage": "https://huggingface.co/Xynon/SD-Silicon",
+		"nsfw": false,
+		"download_all": false,
+		"config": {
+		  "files": [
+		  {
+			"path": "SD-Silicon.ckpt",
+			"md5sum": "ba36878c61ccabfed7bdf5c213666749"
+		  },
+		  {
+			"path": "v1-inference.yaml"
+		  }
+		  ],
+		  "download": [
+		  {
+			"file_name": "SD-Silicon.ckpt",
+			"file_path": "",
+			"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Silicon29.ckpt"
+		  }
+		  ]
+		},
+		"available": false
+	},
 	"FKing SciFi": {
 		"name": "FKing SciFi",
 		"baseline": "stable diffusion 2",
@@ -5368,6 +5397,10 @@
 		"trigger": ["fking_scifi_v2"],
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp",
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/02_voodoo.webp"
+		],
 		"config": {
 		  "files": [
 		  {
@@ -5398,6 +5431,9 @@
 		"homepage": "https://civitai.com/models/16592/realbiter",
 		"nsfw": true,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realbiter/001_voodoocode.webp"
+		],
 		"config": {
 		  "files": [
 		  {
@@ -5489,6 +5525,9 @@
 		"homepage": "https://civitai.com/models/17277",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realism_engine/001_muted001.webp"
+		],
 		"config": {
 		  "files": [
 		  {
@@ -5673,6 +5712,9 @@
 		"homepage": "https://civitai.com/models/12865/expmixline",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/expmix/01_muted001.webp"
+		],
 		"config": {
 		  "files": [
 		  {

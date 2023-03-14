@@ -4681,7 +4681,8 @@
       "clip-vit-large-patch14"
     ],
     "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp"
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp",
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/02_muted001.webp"
     ],
     "config": {
       "files": [
@@ -4964,6 +4965,9 @@
     "homepage": "https://civitai.com/models/4041/woopwoop-photo",
     "nsfw": false,
     "download_all": false,
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/woopwoop/001_muted001.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5348,6 +5352,9 @@
     "homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
     "nsfw": false,
     "download_all": false,
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten_classic_anime/01_anon.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5381,6 +5388,9 @@
     "homepage": "https://civitai.com/models/7371/rev-animated",
     "nsfw": true,
     "download_all": false,
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rev_animated/001_muted.webp"
+    ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5715,6 +5725,10 @@
       "homepage": "https://civitai.com/models/10028",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/01_anon.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/02_muted001.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -5814,6 +5828,10 @@
       "homepage": "https://civitai.com/models/11193",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/002_blank.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -5881,6 +5899,10 @@
       "trigger": ["fking_scifi_v2"],
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp",
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/02_voodoocode.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -5914,6 +5936,9 @@
       "homepage": "https://civitai.com/models/16592/realbiter",
       "nsfw": true,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realbiter/001_voodoocode.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -6014,6 +6039,9 @@
       "homepage": "https://civitai.com/models/17277",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realism_engine/001_muted001.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -6212,6 +6240,9 @@
       "homepage": "https://civitai.com/models/12865/expmixline",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/expmix/01_muted001.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
