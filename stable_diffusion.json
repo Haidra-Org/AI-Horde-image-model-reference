@@ -5493,6 +5493,9 @@
 		"homepage": "https://civitai.com/models/17277",
 		"nsfw": false,
 		"download_all": false,
+		"showcases": [
+			"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realism_engine/001_muted001.webp"
+		],
 		"config": {
 		  "files": [
 		  {
