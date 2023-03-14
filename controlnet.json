@@ -53,8 +53,8 @@
 		},
 		"available": false
 	},
-    "control_hed_v2": {
-		"name": "control_hed_v2",
+    "control_hed_sd2": {
+		"name": "control_hed_sd2",
 		"type": "control_hed",
 		"description": "control_hed for sd2.x",
 		"version": "0.1.0",
