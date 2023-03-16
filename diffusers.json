@@ -1,18 +1,18 @@
 {
-  	"stable_diffusion_inpainting": {
-	  "name": "stable_diffusion_inpainting",
+	"stable_diffusion_inpainting": {
+		"name": "stable_diffusion_inpainting",
 		"baseline": "stable diffusion 1",
-	  "type": "diffusers",
-	  "description": "Generalist model specialized for modifying areas of existing images",
-	  "version": "1.5",
-	  "style": "inpainting",
-	  "hf_path": "runwayml/stable-diffusion-inpainting",
-	  "hf_auth": false,
-	  "available": false
+		"type": "diffusers",
+		"description": "Generalist model specialized for modifying areas of existing images",
+		"version": "1.5",
+		"style": "inpainting",
+		"hf_path": "runwayml/stable-diffusion-inpainting",
+		"hf_auth": false,
+		"available": false
 	},
 	"deliberate_inpainting": {
 		"name": "deliberate_inpainting",
-		  "baseline": "stable diffusion 1",
+		"baseline": "stable diffusion 1",
 		"type": "diffusers",
 		"description": "Generalist model specialized for modifying areas of existing images",
 		"version": "1.5",
@@ -20,5 +20,16 @@
 		"hf_path": "wolfgangmeyers/stable-diffusion-inpainting-vae/Deliberate.inpainting.ckpt",
 		"hf_auth": false,
 		"available": false
-	  }
+	},
+	"stable_diffusion_2_inpainting": {
+		"name": "stable_diffusion_2_inpainting",
+		"baseline": "stable diffusion 2",
+		"type": "diffusers",
+		"description": "Generalist model specialized for modifying areas of existing images",
+		"version": "2.0",
+		"style": "inpainting",
+		"hf_path": "stabilityai/stable-diffusion-2-inpainting",
+		"hf_auth": false,
+		"available": false
+	}
 }
