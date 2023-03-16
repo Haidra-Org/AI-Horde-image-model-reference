@@ -10,14 +10,25 @@
 		"hf_auth": false,
 		"available": false
 	},
-	"deliberate_inpainting": {
-		"name": "deliberate_inpainting",
+	"realistic_vision_inpainting": {
+		"name": "realistic_vision_inpainting",
 		"baseline": "stable diffusion 1",
 		"type": "diffusers",
 		"description": "Generalist model specialized for modifying areas of existing images",
 		"version": "1.5",
 		"style": "inpainting",
-		"hf_path": "wolfgangmeyers/stable-diffusion-inpainting-vae/Deliberate.inpainting.ckpt",
+		"hf_path": "saik0s/realistic_vision_inpainting",
+		"hf_auth": false,
+		"available": false
+	},
+	"dreamlike_diffusion_inpainting": {
+		"name": "dreamlike_diffusion_inpainting",
+		"baseline": "stable diffusion 1",
+		"type": "diffusers",
+		"description": "Generalist model specialized for modifying areas of existing images",
+		"version": "1.5",
+		"style": "inpainting",
+		"hf_path": "parlance/dreamlike-diffusion-1.0-inpainting",
 		"hf_auth": false,
 		"available": false
 	},
