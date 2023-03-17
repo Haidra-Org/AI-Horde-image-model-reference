@@ -3950,7 +3950,7 @@
           "sha256sum": "2a0b8b7843137ab760c9640b7b4d85088f85a6c364524ab116a712fe4c5aa1df"
         },
         {
-          "path": "configs/stable-diffusion/v1-inpainting-inference.yaml"
+          "path": "v1-inpainting-inference.yaml"
         }
       ],
       "download": [
