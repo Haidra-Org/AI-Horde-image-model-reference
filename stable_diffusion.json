@@ -3929,6 +3929,40 @@
       },
       "available": false
   },
+  "Epic Diffusion Inpainting": {
+    "name": "Epic Diffusion Inpainting",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Epic Diffusion is a general purpose model based on Stable Diffusion 1.x intended to replace the official SD releases as your default model. It is focused on providing high quality output in a wide range of different styles, with support for NFSW content.",
+    "version": "1.1",
+    "style": "generalist",
+    "homepage": "https://civitai.com/models/3855/epic-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "showcases": [
+      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/epic_diffusion/01_epic.webp"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "EpicDiffusion.inpainting.ckpt",
+          "md5sum": "7e0c5aba8a0884a92a6470ff9143e345",
+          "sha256sum": "2a0b8b7843137ab760c9640b7b4d85088f85a6c364524ab116a712fe4c5aa1df"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inpainting-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "EpicDiffusion.inpainting.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/EpicDiffusion.inpainting.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "Deliberate": {
       "name": "Deliberate",
       "baseline": "stable diffusion 1",
@@ -3958,6 +3992,40 @@
                   "file_name": "Deliberate.ckpt",
                   "file_path": "",
                   "file_url": "https://civitai.com/api/download/models/15236?type=Model&format=PickleTensor"
+              }
+          ]
+      },
+      "available": false
+  },
+  "Deliberate Inpainting": {
+      "name": "Deliberate Inpainting",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "This model provides you the ability to create anything you want. The more power of prompt knowledges you have, the better results you'll get. It basically means that you'll never get a perfect result with just a few words. You have to fill out your prompt line extremely detailed",
+      "version": "2",
+      "style": "generalist",
+      "homepage": "https://civitai.com/models/4823/deliberate",
+      "nsfw": false,
+      "download_all": false,
+      "showcases": [
+          "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/deliberate/01_deliberate.webp"
+      ],
+      "config": {
+          "files": [
+              {
+                  "path": "Deliberate.inpainting.ckpt",
+                  "md5sum": "442a11f435cc2bb3bdd8acdb0bbcb00b",
+                  "sha256sum": "7dd7df46dd1392a511297784ed6f40e8fe3ee4e815143c51357955c2f5f33620"
+              },
+              {
+                  "path": "v1-inpainting-inference.yaml"
+              }
+          ],
+          "download": [
+              {
+                  "file_name": "Deliberate.inpainting.ckpt",
+                  "file_path": "",
+                  "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/deliberate-v2.inpainting.ckpt"
               }
           ]
       },
