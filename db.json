@@ -3689,7 +3689,7 @@
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
     ],
-    "version": "3.3",
+    "version": "4",
     "style": "realistic cartoon/anime/fantasy",
     "homepage": "https://civitai.com/models/4384/dreamshaper",
     "nsfw": false,
@@ -3835,7 +3835,7 @@
     "description": "Based on yiffy-e18 and Anything, produces sfw/nsfw furry anthro artworks of different styles with consistant quality, while maintaining details on stuff like clothes, background, etc. with simpler prompts.",
     "version": "1",
     "style": "furry",
-    "homepage": "https://civitai.com/models/4698/lawlass-yiff-mix",
+    "homepage": "https://civitai.com/models/12979/lawlass-yiffymix-20-furry-model",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -3848,7 +3848,7 @@
       "files": [
         {
           "path": "models/custom/Lawlas-yiffmix.ckpt",
-          "md5sum": "42e450fe64b8b1af2539f1b545aba7f2"
+          "md5sum": "c7ab23d3f485f7b109dc9a43738cf622"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3858,7 +3858,7 @@
         {
           "file_name": "Lawlas-yiffmix.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Airic/lawlas-yiff-mix/resolve/main/Lawlas-YiffMix-inclVae.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/LawlassYiffyMix_inclk8VAE.ckpt"
         }
       ]
     },

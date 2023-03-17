@@ -3721,9 +3721,9 @@
       "baseline": "stable diffusion 1",
       "type": "ckpt",
       "description": "Based on yiffy-e18 and Anything, produces sfw/nsfw furry anthro artworks of different styles with consistant quality, while maintaining details on stuff like clothes, background, etc. with simpler prompts.",
-      "version": "1",
+      "version": "2",
       "style": "furry",
-      "homepage": "https://civitai.com/models/4698/lawlass-yiff-mix",
+      "homepage": "https://civitai.com/models/12979/lawlass-yiffymix-20-furry-model",
       "nsfw": false,
       "download_all": false,
       "showcases": [
@@ -3733,8 +3733,8 @@
           "files": [
               {
                   "path": "Lawlas-yiffmix.ckpt",
-                  "md5sum": "42e450fe64b8b1af2539f1b545aba7f2",
-                  "sha256sum": "8fd838bac50f4df4ff0f5933cab36c06bd986dd6fd137a6aafa0045b8f499784"
+                  "md5sum": "c7ab23d3f485f7b109dc9a43738cf622",
+                  "sha256sum": "6c5b0a63903a1e1eef23f2eeb8202cdc60659f414b8e7456a28e916cd9cf601b"
               },
               {
                   "path": "v1-inference.yaml"
@@ -3744,7 +3744,7 @@
               {
                   "file_name": "Lawlas-yiffmix.ckpt",
                   "file_path": "",
-                  "file_url": "https://huggingface.co/Airic/lawlas-yiff-mix/resolve/main/Lawlas-YiffMix-inclVae.ckpt"
+                  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/LawlassYiffyMix_inclk8VAE.ckpt"
               }
           ]
       },
