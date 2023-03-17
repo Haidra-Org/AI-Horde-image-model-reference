@@ -3701,7 +3701,7 @@
       "files": [
         {
           "path": "models/custom/Dreamshaper.ckpt",
-          "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b"
+          "md5sum": "b70fb850249d59f254a2e532c17910d4"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -3711,7 +3711,7 @@
         {
           "file_name": "Dreamshaper.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Airic/Dreamshaper_33-vae/resolve/main/dreamshaper_33-inclVae.ckpt"
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Dreamshaper_v4.ckpt"
         }
       ]
     },

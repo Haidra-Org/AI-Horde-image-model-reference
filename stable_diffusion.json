@@ -3579,7 +3579,7 @@
       "showcases": [
           "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
       ],
-      "version": "3.3",
+      "version": "4",
       "style": "artistic",
       "homepage": "https://civitai.com/models/4384/dreamshaper",
       "nsfw": false,
@@ -3588,8 +3588,8 @@
           "files": [
               {
                   "path": "Dreamshaper.ckpt",
-                  "md5sum": "f49caa7a70ec0e238fc5ab5b4f44213b",
-                  "sha256sum": "002ad3913b0452e79c5d787304801c87aab1f6f3005329dc54413bd9dee94987"
+                  "md5sum": "b70fb850249d59f254a2e532c17910d4",
+                  "sha256sum": "437abd54cbfa4c60e9180e4994e9d47bccbc14b1b4ad34a1c385eb736528e3a9"
               },
               {
                   "path": "v1-inference.yaml"
@@ -3599,7 +3599,7 @@
               {
                   "file_name": "Dreamshaper.ckpt",
                   "file_path": "",
-                  "file_url": "https://huggingface.co/Airic/Dreamshaper_33-vae/resolve/main/dreamshaper_33-inclVae.ckpt"
+                  "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Dreamshaper_v4.ckpt"
               }
           ]
       },
