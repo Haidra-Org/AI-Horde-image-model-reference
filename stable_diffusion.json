@@ -2355,7 +2355,7 @@
       "showcases": [
           "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "style": "generalist",
       "homepage": "https://huggingface.co/coreco/seek.art_MEGA",
       "nsfw": false,
@@ -2364,8 +2364,8 @@
           "files": [
               {
                   "path": "seek-art-mega.ckpt",
-                  "md5sum": "6877d4bcade9febd181a126a7686d8f8",
-                  "sha256sum": "3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987"
+                  "md5sum": "a1ae126a2a57f47115082ada5f527cc5",
+                  "sha256sum": "5600db52c98225fcd410e43c2995c7ec2aaa34dd4dc94cad59ecddf240dbaf23"
               },
               {
                   "path": "v1-inference.yaml"
@@ -2375,7 +2375,7 @@
               {
                   "file_name": "seek-art-mega.ckpt",
                   "file_path": "",
-                  "file_url": "https://huggingface.co/coreco/seek.art_MEGA/resolve/main/seek_art_mega_v1.ckpt"
+                  "file_url": "https://civitai.com/api/download/models/22808?type=Model&format=PickleTensor"
               }
           ]
       },
