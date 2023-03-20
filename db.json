@@ -6332,6 +6332,39 @@
         },
         "available": false
       },
+    "PIXHELL": {
+        "name": "PIXHELL",
+        "baseline": "stable diffusion 2",
+        "type": "ckpt",
+        "description": "The model recreates Pixelart style but with more modern take on the 8bit style. This model is great for side scroller environments but it works great for characters when using controlnet for 2.1 for openpose and also it's great for props and other things",
+        "version": "1.0",
+        "style": "pixel art",
+        "homepage": "https://civitai.com/models/21276/pixhell",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/PIXHELL.ckpt",
+            "md5sum": "383058abdb9d3ac107af09e8ea888133"
+          },
+          {
+            "path": "configs/stable-diffusion/v2-inference-v.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "PIXHELL.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pixhell_v10.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",

@@ -6288,5 +6288,36 @@
           ]
         },
         "available": false
-      }
+      },
+      "PIXHELL": {
+          "name": "PIXHELL",
+          "baseline": "stable diffusion 2",
+          "type": "ckpt",
+          "description": "The model recreates Pixelart style but with more modern take on the 8bit style. This model is great for side scroller environments but it works great for characters when using controlnet for 2.1 for openpose and also it's great for props and other things",
+          "version": "1.0",
+          "style": "other",
+          "homepage": "https://civitai.com/models/21276/pixhell",
+          "nsfw": false,
+          "download_all": false,
+          "config": {
+            "files": [
+            {
+              "path": "PIXHELL.ckpt",
+              "md5sum": "383058abdb9d3ac107af09e8ea888133",
+              "sha256sum": "61128ac31f9145d3835dc8b2bc8497262b588c70cade4108d4c3b82ed7f1a506"
+            },
+            {
+              "path": "v2-inference-v.yaml"
+            }
+            ],
+            "download": [
+            {
+              "file_name": "PIXHELL.ckpt",
+              "file_path": "",
+              "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pixhell_v10.ckpt"
+            }
+            ]
+          },
+          "available": false
+        }
 }
