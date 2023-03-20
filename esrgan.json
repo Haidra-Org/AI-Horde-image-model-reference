@@ -74,12 +74,12 @@
 		"config": {
 			"files": [
 				{
-					"path": "NMKD-Siax.pth"
+					"path": "NMKD_Siax.pth"
 				}
 			],
 			"download": [
 				{
-					"file_name": "NMKD-Siax.pth",
+					"file_name": "NMKD_Siax.pth",
 					"file_path": "",
 					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/NKMD_Siax.pth"
 				}
