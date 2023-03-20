@@ -2355,7 +2355,7 @@
       "showcases": [
           "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "style": "generalist",
       "homepage": "https://huggingface.co/coreco/seek.art_MEGA",
       "nsfw": false,
@@ -2364,8 +2364,8 @@
           "files": [
               {
                   "path": "seek-art-mega.ckpt",
-                  "md5sum": "6877d4bcade9febd181a126a7686d8f8",
-                  "sha256sum": "3e777936f8c4500f46d0ad3674178d0e0879b8350f116a96c977af9813d72987"
+                  "md5sum": "a1ae126a2a57f47115082ada5f527cc5",
+                  "sha256sum": "5600db52c98225fcd410e43c2995c7ec2aaa34dd4dc94cad59ecddf240dbaf23"
               },
               {
                   "path": "v1-inference.yaml"
@@ -2375,7 +2375,7 @@
               {
                   "file_name": "seek-art-mega.ckpt",
                   "file_path": "",
-                  "file_url": "https://huggingface.co/coreco/seek.art_MEGA/resolve/main/seek_art_mega_v1.ckpt"
+                  "file_url": "https://civitai.com/api/download/models/22808?type=Model&format=PickleTensor"
               }
           ]
       },
@@ -6226,5 +6226,67 @@
           ]
       },
       "available": false
-  }
+  },
+  "Something": {
+      "name": "Something",
+      "baseline": "stable diffusion 1",
+      "type": "ckpt",
+      "description": "A lot of things are being discovered lately, such as a way to merge model using mbw automatically, offset noise to get much darker result, and even VAE tuning. This anime model is intended to use all of those features as the improvements",
+      "version": "2.2",
+      "style": "anime",
+      "homepage": "https://huggingface.co/NoCrypt/SomethingV2_2",
+      "nsfw": false,
+      "download_all": false,
+      "config": {
+        "files": [
+        {
+          "path": "Something.ckpt",
+          "md5sum": "c1e54c46ab021267745a34ce70f61621",
+          "sha256sum" : "6fa3590a5baf5881dc67084977ca6987f4aae367c59b3678988589234b9cd40f"
+        },
+        {
+          "path": "v1-inference.yaml"
+        }
+        ],
+        "download": [
+        {
+          "file_name": "Something.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/Something_v22_inclk8VAE.ckpt"
+        }
+        ]
+      },
+      "available": false
+    },
+    "RCNZ Dumb Monkey": {
+        "name": "RCNZ Dumb Monkey",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "They let the monkey loose at the 'Merge Model' tab, and smashed models together and this awesome generalist model came out!",
+        "version": "1.0",
+        "style": "cartoon/anime",
+        "homepage": "https://civitai.com/models/21695",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+          "files": [
+          {
+            "path": "DumbMonkey.ckpt",
+            "md5sum": "d08051e4d09d450de183e91b584476f2",
+            "sha256sum": "8869ba1cc1667df34b1bc08cee8fd3c9007db3c1122a1711ad2ebb11572016a2"
+          },
+          {
+            "path": "v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "DumbMonkey.ckpt",
+            "file_path": "",
+            "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/DumbMonkey.ckpt"
+          }
+          ]
+        },
+        "available": false
+      }
 }
