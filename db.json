@@ -6339,6 +6339,7 @@
         "description": "The model recreates Pixelart style but with more modern take on the 8bit style. This model is great for side scroller environments but it works great for characters when using controlnet for 2.1 for openpose and also it's great for props and other things",
         "version": "1.0",
         "style": "pixel art",
+        "trigger": ["pixelart"],
         "homepage": "https://civitai.com/models/21276/pixhell",
         "nsfw": false,
         "download_all": false,
