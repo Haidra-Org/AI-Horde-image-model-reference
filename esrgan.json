@@ -64,5 +64,49 @@
 			]
 		},
 		"available": false
+	},
+	"NMKD_Siax": {
+		"name": "NMKD_Siax",
+		"type": "esrgan",
+		"description": "Universal 4x upscaler for clean and slightly compressed images (JPEG quality 75 or better), based on CX loss + PatchGAN",
+		"version": "0.1.0",
+		"style": "generalist",
+		"config": {
+			"files": [
+				{
+					"path": "NMKD_Siax.pth"
+				}
+			],
+			"download": [
+				{
+					"file_name": "NMKD_Siax.pth",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/NKMD_Siax.pth"
+				}
+			]
+		},
+		"available": false
+	},
+	"4x_AnimeSharp": {
+		"name": "4x_AnimeSharp",
+		"type": "esrgan",
+		"description": "Specialised anime upscaler",
+		"version": "0.1.0",
+		"style": "anime",
+		"config": {
+			"files": [
+				{
+					"path": "4x_AnimeSharp.pth"
+				}
+			],
+			"download": [
+				{
+					"file_name": "4x_AnimeSharp.pth",
+					"file_path": "",
+					"file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/4x-AnimeSharp.pth"
+				}
+			]
+		},
+		"available": false
 	}
 }
