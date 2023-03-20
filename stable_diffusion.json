@@ -6257,5 +6257,36 @@
         ]
       },
       "available": false
-    }
+    },
+    "RCNZ Dumb Monkey": {
+        "name": "RCNZ Dumb Monkey",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "They let the monkey loose at the 'Merge Model' tab, and smashed models together and this awesome generalist model came out!",
+        "version": "1.0",
+        "style": "cartoon/anime",
+        "homepage": "https://civitai.com/models/21695",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+          "files": [
+          {
+            "path": "DumbMonkey.ckpt",
+            "md5sum": "d08051e4d09d450de183e91b584476f2",
+            "sha256sum": "8869ba1cc1667df34b1bc08cee8fd3c9007db3c1122a1711ad2ebb11572016a2"
+          },
+          {
+            "path": "v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "DumbMonkey.ckpt",
+            "file_path": "",
+            "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/DumbMonkey.ckpt"
+          }
+          ]
+        },
+        "available": false
+      }
 }
