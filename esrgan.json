@@ -65,9 +65,9 @@
 		},
 		"available": false
 	},
-	"NMKD-Siax": {
-		"name": "RealESRGAN_x2plus",
-		"type": "realesrgan",
+	"NMKD_Siax": {
+		"name": "NMKD_Siax",
+		"type": "esrgan",
 		"description": "Universal 4x upscaler for clean and slightly compressed images (JPEG quality 75 or better), based on CX loss + PatchGAN",
 		"version": "0.1.0",
 		"style": "generalist",
@@ -89,7 +89,7 @@
 	},
 	"4x_AnimeSharp": {
 		"name": "4x_AnimeSharp",
-		"type": "realesrgan",
+		"type": "esrgan",
 		"description": "Specialised anime upscaler",
 		"version": "0.1.0",
 		"style": "anime",
