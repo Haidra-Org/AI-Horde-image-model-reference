@@ -6354,6 +6354,7 @@
             "version": "3",
             "style": "other",
             "trigger": ["pvc", "figma", "nendoroid"],
+            "homepage": "https://huggingface.co/p1atdev/pvc-v3",
             "nsfw": false,
             "download_all": false,
             "config": {
@@ -6376,5 +6377,36 @@
               ]
             },
             "available": false
+        },
+        "Char": {
+          "name": "Char",
+          "baseline": "stable diffusion 1",
+          "type": "ckpt",
+          "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
+          "version": "3",
+          "style": "generalist",
+          "homepage": "https://civitai.com/models/20842",
+          "nsfw": false,
+          "download_all": false,
+          "config": {
+            "files": [
+            {
+              "path": "Char.ckpt",
+              "md5sum": "bc457a17eca7b57c0d7fa11489a5dab8",
+              "sha256sum": "20fd9992efbb5dab68d054932d228865a1bc11965a285e84f82cef667ad6e3c7"
+            },
+            {
+              "path": "v1-inference.yaml"
+            }
+            ],
+            "download": [
+            {
+              "file_name": "Char.ckpt",
+              "file_path": "",
+              "file_url": "https://civitai.com/api/download/models/24806?type=Pruned%20Model&format=PickleTensor"
+            }
+            ]
+          },
+          "available": false
         }
 }
