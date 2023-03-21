@@ -6361,6 +6361,38 @@
         },
         "available": false
       },
+    "Korestyle": {
+        "name": "Korestyle",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "A model for semi-realistic comic book style sketches",
+        "version": "1.0",
+        "style": "comic/anime",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/Korestyle.ckpt",
+            "md5sum": "a575e57f7239ce0570a4ef12bc1c45aa"
+          },
+          {
+            "path": "configs/stable-diffusion/v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "Korestyle.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/magicalgirl/korestyle1999/resolve/main/korestyle1999.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
