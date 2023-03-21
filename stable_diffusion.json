@@ -6408,5 +6408,36 @@
             ]
           },
           "available": false
+        },
+        "Perfect World": {
+          "name": "Perfect World",
+          "baseline": "stable diffusion 1",
+          "type": "ckpt",
+          "description": "The pursuit of perfect balance between realism and anime, a semi-realistic model aimed to achieve beautiful realistic faces with sexy hentai bodies.",
+          "version": "2",
+          "style": "anime nsfw",
+          "homepage": "https://civitai.com/models/8281/perfect-world",
+          "nsfw": true,
+          "download_all": false,
+          "config": {
+            "files": [
+            {
+              "path": "PerfectWorld.ckpt",
+              "md5sum": "955d60d2bc1055dc4d7ce472e663e679",
+              "sha256sum": "ba38c834f6eca6f4dfa81b531237e576f89a7403f5d7fa911ea181d0b2976a13"
+            },
+            {
+              "path": "v1-inference.yaml"
+            }
+            ],
+            "download": [
+            {
+              "file_name": "PerfectWorld.ckpt",
+              "file_path": "",
+              "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/PerfectWorld_incl840kVAE.ckpt"
+            }
+            ]
+          },
+          "available": false
         }
 }
