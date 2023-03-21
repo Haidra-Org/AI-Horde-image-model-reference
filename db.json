@@ -250,20 +250,15 @@
     },
     "available": false
   },
-  "colorbook": {
-    "name": "colorbook",
-    "baseline": "stable diffusion 1",
+  "Coloring Book": {
+    "name": "Coloring Book",
+    "baseline": "stable diffusion 2",
     "type": "ckpt",
     "description": "Minimalist coloring book style images",
-    "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/colorbook/01_gigachad.webp"
-    ],
-    "version": "1",
+    "version": "2",
     "style": "line art",
-    "trigger": [
-      "in VARPJ1 Coloring Book Art Style"
-    ],
-    "homepage": "https://huggingface.co/jvkape/ColoringBookSD",
+    "trigger": ["colr_001"],
+    "homepage": "https://civitai.com/models/5153/coloring-book",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -272,18 +267,18 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/colorbook.ckpt",
-          "md5sum": "c8fe9c392f08ab8b6269394038961509"
+          "path": "models/custom/coloringbook.ckpt",
+          "md5sum": "853cb408368331239034be64811095d1"
         },
         {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
+          "path": "configs/stable-diffusion/v2-inference-v.yaml"
         }
       ],
       "download": [
         {
-          "file_name": "colorbook.ckpt",
+          "file_name": "coloringbook.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/jvkape/ColoringBookSD/resolve/main/VARPJ1.ckpt"
+          "file_url": "https://civitai.com/api/download/models/5978?type=Model&format=PickleTensor"
         }
       ]
     },
@@ -6361,6 +6356,138 @@
             "file_name": "PIXHELL.ckpt",
             "file_path": "models/custom",
             "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/pixhell_v10.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
+    "Korestyle": {
+        "name": "Korestyle",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "A model for semi-realistic comic book style sketches",
+        "version": "1.0",
+        "style": "comic/anime",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/Korestyle.ckpt",
+            "md5sum": "a575e57f7239ce0570a4ef12bc1c45aa"
+          },
+          {
+            "path": "configs/stable-diffusion/v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "Korestyle.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/magicalgirl/korestyle1999/resolve/main/korestyle1999.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
+    "PVC": {
+        "name": "PVC",
+        "baseline": "stable diffusion 2",
+        "type": "ckpt",
+        "description": "This model is a latent diffusion model finetuned on Waifu Diffusion v1.5 beta 2 with PVC figure images. You can use Danbooru tags to generate images",
+        "version": "3",
+        "style": "other",
+        "trigger": ["pvc", "figma", "nendoroid"],
+        "homepage": "https://huggingface.co/p1atdev/pvc-v3",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/PVC.ckpt",
+            "md5sum": "c9da91b133f39d7ca82f43ad4bc30de1"
+          },
+          {
+            "path": "configs/stable-diffusion/v2-inference-v.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "PVC.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/p1atdev/pvc-v3/resolve/checkpoints/pvc-v3-fp16.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
+      "Char": {
+        "name": "Char",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
+        "version": "3",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/20842",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/Char.ckpt",
+            "md5sum": "bc457a17eca7b57c0d7fa11489a5dab8"
+          },
+          {
+            "path": "configs/stable-diffusion/v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "Char.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://civitai.com/api/download/models/24806?type=Pruned%20Model&format=PickleTensor"
+          }
+          ]
+        },
+        "available": false
+      },
+      "Perfect World": {
+        "name": "Perfect World",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "The pursuit of perfect balance between realism and anime, a semi-realistic model aimed to achieve beautiful realistic faces with sexy hentai bodies.",
+        "version": "2",
+        "style": "anime nsfw",
+        "homepage": "https://civitai.com/models/8281/perfect-world",
+        "nsfw": true,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/PerfectWorld.ckpt",
+            "md5sum": "955d60d2bc1055dc4d7ce472e663e679"
+          },
+          {
+            "path": "configs/stable-diffusion/v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "PerfectWorld.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/residentchiefnz/HordeVAEMergeModelsTest/resolve/main/PerfectWorld_incl840kVAE.ckpt"
           }
           ]
         },
