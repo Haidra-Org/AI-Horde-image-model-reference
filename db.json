@@ -6393,6 +6393,39 @@
         },
         "available": false
       },
+    "PVC": {
+        "name": "PVC",
+        "baseline": "stable diffusion 2",
+        "type": "ckpt",
+        "description": "This model is a latent diffusion model finetuned on Waifu Diffusion v1.5 beta 2 with PVC figure images. You can use Danbooru tags to generate images",
+        "version": "3",
+        "style": "other",
+        "trigger": ["pvc", "figma", "nendoroid"],
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/PVC.ckpt",
+            "md5sum": "c9da91b133f39d7ca82f43ad4bc30de1"
+          },
+          {
+            "path": "configs/stable-diffusion/v2-inference-v.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "PVC.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://huggingface.co/p1atdev/pvc-v3/resolve/checkpoints/pvc-v3-fp16.ckpt"
+          }
+          ]
+        },
+        "available": false
+      },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",

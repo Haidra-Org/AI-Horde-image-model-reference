@@ -6345,5 +6345,36 @@
               ]
             },
             "available": false
+        },
+        "PVC": {
+            "name": "PVC",
+            "baseline": "stable diffusion 2",
+            "type": "ckpt",
+            "description": "This model is a latent diffusion model finetuned on Waifu Diffusion v1.5 beta 2 with PVC figure images. You can use Danbooru tags to generate images",
+            "version": "3",
+            "style": "other",
+            "trigger": ["pvc", "figma", "nendoroid"],
+            "nsfw": false,
+            "download_all": false,
+            "config": {
+              "files": [
+              {
+                "path": "PVC.ckpt",
+                "md5sum": "c9da91b133f39d7ca82f43ad4bc30de1",
+                "sha256sum": "b207d9930d98d971f4a3baf30a08225211eb9573e081cea60db398ed3ea46d42"
+              },
+              {
+                "path": "v2-inference-v.yaml"
+              }
+              ],
+              "download": [
+              {
+                "file_name": "PVC.ckpt",
+                "file_path": "",
+                "file_url": "https://huggingface.co/p1atdev/pvc-v3/resolve/checkpoints/pvc-v3-fp16.ckpt"
+              }
+              ]
+            },
+            "available": false
         }
 }
