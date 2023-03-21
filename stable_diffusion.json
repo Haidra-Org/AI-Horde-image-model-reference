@@ -243,38 +243,33 @@
       },
       "available": false
   },
-  "colorbook": {
-      "name": "colorbook",
-      "baseline": "stable diffusion 1",
+  "Coloring Book": {
+      "name": "Coloring Book",
+      "baseline": "stable diffusion 2",
       "type": "ckpt",
       "description": "Minimalist coloring book style images",
-      "showcases": [
-          "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/colorbook/01_gigachad.webp"
-      ],
-      "version": "1",
+      "version": "2",
       "style": "artistic",
-      "trigger": [
-          "in VARPJ1 Coloring Book Art Style"
-      ],
-      "homepage": "https://huggingface.co/jvkape/ColoringBookSD",
+      "trigger": ["colr_001"],
+      "homepage": "https://civitai.com/models/5153/coloring-book",
       "nsfw": false,
       "download_all": false,
       "config": {
           "files": [
               {
-                  "path": "colorbook.ckpt",
-                  "md5sum": "c8fe9c392f08ab8b6269394038961509",
-                  "sha256sum": "d8a3668c06007b2e6f8dc23e18efa1fc43e96c2a59de3e63f8ddecc2ad582150"
+                  "path": "coloringbook.ckpt",
+                  "md5sum": "853cb408368331239034be64811095d1",
+                  "sha256sum": "ee10b26e6cd95370fdbd5f3a93684dc70ad67d505d9e21cc364552a7ca37a152"
               },
               {
-                  "path": "v1-inference.yaml"
+                  "path": "v2-inference-v.yaml"
               }
           ],
           "download": [
               {
-                  "file_name": "colorbook.ckpt",
+                  "file_name": "coloringbook.ckpt",
                   "file_path": "",
-                  "file_url": "https://huggingface.co/jvkape/ColoringBookSD/resolve/main/VARPJ1.ckpt"
+                  "file_url": "https://civitai.com/api/download/models/5978?type=Model&format=PickleTensor"
               }
           ]
       },
