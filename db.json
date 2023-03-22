@@ -6493,6 +6493,39 @@
         },
         "available": false
       },
+      "RCNZ Gorilla With A Brick": {
+        "name": "RCNZ Gorilla With A Brick",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This time its a Gorilla at the 'Merge Model' tab, and smashed photorealism models together and this awesome generalist model came out!",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/22747/rcnz-gorilla-with-a-brick",
+        "nsfw": false,
+        "download_all": false,
+        "requires": [
+          "clip-vit-large-patch14"
+        ],
+        "config": {
+          "files": [
+          {
+            "path": "models/custom/GorillaWithABrick.ckpt",
+            "md5sum": "b776e5a4dea9ba95c5eeceac34c567df"
+          },
+          {
+            "path": "configs/stable-diffusion/v1-inference.yaml"
+          }
+          ],
+          "download": [
+          {
+            "file_name": "GorillaWithABrick.ckpt",
+            "file_path": "models/custom",
+            "file_url": "https://civitai.com/api/download/models/27168?format=PickleTensor"
+          }
+          ]
+        },
+        "available": false
+      },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
