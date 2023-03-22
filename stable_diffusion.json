@@ -6455,7 +6455,7 @@
               {
                 "path": "GorillaWithABrick.ckpt",
                 "md5sum": "b776e5a4dea9ba95c5eeceac34c567df",
-                "sha256sum": "6320ECF58A2141D5074CDCDD9D463BEB1122775BEEAC92DFEA1574002850DA11"
+                "sha256sum": "6320ecf58a2141d5074cdcdd9d463beb1122775beeac92dfea1574002850da11"
               },
               {
                 "path": "v1-inference.yaml"
