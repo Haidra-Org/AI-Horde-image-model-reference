@@ -3940,6 +3940,11 @@
     "version": "2",
     "style": "digital art",
     "homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
+    "trigger": [
+        "by dan mumford",
+        "in the style of dan mumford",
+        "DanMumford Style"
+    ],
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -6261,6 +6266,40 @@
       },
       "available": false
     },
+  "Disco Elysium": {
+    "name": "Disco Elysium",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "Trained on the character portraits from the game Disco Elysium. Can also do great backgrounds, able to be used without a trigger",
+    "version": "1",
+    "style": "artistic",
+    "trigger": [
+      "discoelysium style"
+    ],
+    "homepage": "https://huggingface.co/nitrosocke/disco-elysium",
+    "nsfw": false,
+    "download_all": false,
+    "config": {
+      "files": [
+        {
+          "path": "discoElysium.ckpt",
+          "md5sum": "e6cd877a184d7d04ab9a9ec75ff9a3fb",
+          "sha256sum": "094f1e476f7703566955c2ba9ea6ec55e55929e82790b4646fd41d5f8632f5f5"
+        },
+        {
+          "path": "v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "discoElysium.ckpt",
+          "file_path": "",
+          "file_url": "https://huggingface.co/nitrosocke/disco-elysium/resolve/main/discoElysium-pruned.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "Something": {
       "name": "Something",
       "baseline": "stable diffusion 1",

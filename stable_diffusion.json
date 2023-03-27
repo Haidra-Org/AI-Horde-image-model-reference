@@ -3833,6 +3833,11 @@
       "version": "2",
       "style": "artistic",
       "homepage": "https://civitai.com/models/4567/v2-updated-flonixs-dan-mumford-style",
+      "trigger": [
+          "by dan mumford",
+          "in the style of dan mumford",
+          "DanMumford Style"
+      ],
       "nsfw": false,
       "download_all": false,
       "config": {
