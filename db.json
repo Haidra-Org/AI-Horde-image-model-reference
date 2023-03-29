@@ -6537,7 +6537,7 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "This time its a Gorilla at the 'Merge Model' tab, and smashed photorealism models together and this awesome generalist model came out!",
-        "version": "1.0",
+        "version": "2.0",
         "style": "generalist",
         "homepage": "https://civitai.com/models/22747/rcnz-gorilla-with-a-brick",
         "nsfw": false,
@@ -6549,7 +6549,7 @@
           "files": [
           {
             "path": "models/custom/GorillaWithABrick.ckpt",
-            "md5sum": "b776e5a4dea9ba95c5eeceac34c567df"
+            "md5sum": "5fa7112502991c450c3aa803fa0134db"
           },
           {
             "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -6559,7 +6559,7 @@
           {
             "file_name": "GorillaWithABrick.ckpt",
             "file_path": "models/custom",
-            "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/GorillaWithABrick.ckpt"
+            "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/rcnzGorillaWithA_v20.ckpt"
           }
           ]
         },
