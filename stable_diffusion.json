@@ -3957,7 +3957,7 @@
               {
                   "file_name": "Deliberate.ckpt",
                   "file_path": "",
-                  "file_url": "https://civitai.com/api/download/models/15236?type=Model&format=PickleTensor"
+                  "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Deliberate.ckpt"
               }
           ]
       },
