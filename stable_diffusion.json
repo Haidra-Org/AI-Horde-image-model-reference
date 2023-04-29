@@ -271,7 +271,8 @@
                 {
                     "file_name": "coloringbook.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5978?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5978?type=Model&format=PickleTensor&size=full&fp=fp16"
+
                 }
             ]
         },
@@ -2372,7 +2373,7 @@
                 {
                     "file_name": "seek-art-mega.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/22808?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/22808?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3032,7 +3033,7 @@
                 {
                     "file_name": "liberty.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6908?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/6908?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3135,7 +3136,7 @@
                 {
                     "file_name": "moedel.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3174,7 +3175,7 @@
                 {
                     "file_name": "DreamLikeSamKuvshinov.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1642"
+                    "file_url": "https://civitai.com/api/download/models/1642?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3242,7 +3243,7 @@
                 {
                     "file_name": "MoistMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5955?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5955?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3279,7 +3280,7 @@
                 {
                     "file_name": "Healys.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1498"
+                    "file_url": "https://huggingface.co/BlancOfficial/Healy_AnimeBlend/resolve/main/healySAnimeBlend_17.ckpt"
                 }
             ]
         },
@@ -3313,7 +3314,7 @@
                 {
                     "file_name": "Elldreths_Lucid_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3452,7 +3453,7 @@
                 {
                     "file_name": "PPP.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1304"
+                    "file_url": "https://civitai.com/api/download/models/1304?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3818,7 +3819,7 @@
                 {
                     "file_name": "RealisticVision.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6987?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/6987?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3891,7 +3892,7 @@
                 {
                     "file_name": "PFG.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1291"
+                    "file_url": "https://civitai.com/api/download/models/1291?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3925,7 +3926,7 @@
                 {
                     "file_name": "EpicDiffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -3996,7 +3997,7 @@
                 {
                     "file_name": "ConceptSheet.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4300,7 +4301,7 @@
                 {
                     "file_name": "pulp_vectorart.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4337,7 +4338,7 @@
                 {
                     "file_name": "rainbowpatch.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4374,7 +4375,7 @@
                 {
                     "file_name": "vector_art.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5265?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5265?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4411,7 +4412,7 @@
                 {
                     "file_name": "tshirt-print-designs.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6098?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/6098?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4516,7 +4517,7 @@
                 {
                     "file_name": "URPM.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/15640?type=Pruned%20Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/15640?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
                 }
             ]
         },
@@ -4550,7 +4551,7 @@
                 {
                     "file_name": "CDLandscapeMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/7304?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/7304?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4698,7 +4699,7 @@
                 {
                     "file_name": "PRMJ.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -4738,7 +4739,7 @@
                 {
                     "file_name": "Elldreths_Retro_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -5678,7 +5679,7 @@
                 {
                     "file_name": "Protogen_Anime.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/4007?type=Pruned%20Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/4007?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
                 }
             ]
         },
@@ -5709,7 +5710,7 @@
                 {
                     "file_name": "Synthpunk.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1144?format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/1144?type=Model&format=PickleTensor&size=pruned&fp=fp16"
                 }
             ]
         },
@@ -5743,7 +5744,7 @@
                 {
                     "file_name": "graphic-art.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/9297?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/9297?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -5946,7 +5947,7 @@
                 {
                     "file_name": "OrbAI.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/16595?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/16595?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -6416,7 +6417,7 @@
                 {
                     "file_name": "Char.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/24806?type=Pruned%20Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/24806?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
                 }
             ]
         },
