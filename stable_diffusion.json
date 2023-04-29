@@ -3708,7 +3708,7 @@
                 {
                     "file_name": "t-shirt_diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5365?type=Model&format=PickleTensor"
+                    "file_url": "https://civitai.com/api/download/models/5365?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
