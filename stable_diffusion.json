@@ -3963,7 +3963,38 @@
       },
       "available": false
   },
-  "Concept Sheet": {
+  "Edge Of Realism": {
+    "name": "Edge Of Realism",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "A spin off from Level4. Built to produce high quality photos. Sometimes photos will come out as uncanny as they are on the edge of realism.",
+    "version": "2",
+    "style": "realistic",
+    "homepage": "https://civitai.com/models/21813/edge-of-realism",
+    "nsfw": true,
+    "download_all": false,
+    "config": {
+        "files": [
+            {
+                "path": "edgeOfRealism.safetensors",
+                "md5sum": "bda9e9b98d88c27f9256623147523d64",
+                "sha256sum": "7f6146b8a9ad2a92b739954c1d5ef34e26fb0b65eef2d70ffd128e6046a3d0ab"
+            },
+            {
+                "path": "v1-inference.yaml"
+            }
+        ],
+        "download": [
+            {
+                "file_name": "edgeOfRealism.safetensors",
+                "file_path": "",
+                "file_url": "https://civitai.com/api/download/models/51913"
+            }
+        ]
+    },
+    "available": false
+},
+"Concept Sheet": {
       "name": "Concept Sheet",
       "baseline": "stable diffusion 2",
       "type": "ckpt",
