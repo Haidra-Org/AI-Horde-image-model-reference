@@ -5641,6 +5641,37 @@
       },
       "available": false
   },
+  "Neurogen": {
+    "name": "Neurogen",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "This model gives a very good detail of skin and textures. Great for close-up photorealistic portraits as well as various characters and models.",
+    "version": "1.1",
+    "style": "realistic",
+    "homepage": "https://civitai.com/models/21616/neurogen-v11",
+    "nsfw": true,
+    "download_all": false,
+    "config": {
+        "files": [
+            {
+                "path": "neurogen.safetensors",
+                "md5sum": "95ce431e83ae9d8488e9989b39a14724",
+                "sha256sum": "7ce537a0b7cca96f6862dda000b0d4054b8b996ae5859ddb2c196211447f99fc"
+            },
+            {
+                "path": "v1-inference.yaml"
+            }
+        ],
+        "download": [
+            {
+                "file_name": "neurogen.safetensors",
+                "file_path": "",
+                "file_url": "https://civitai.com/api/download/models/29681"
+            }
+        ]
+    },
+    "available": false
+  },
   "NeverEnding Dream": {
       "name": "NeverEnding Dream",
       "baseline": "stable diffusion 1",
