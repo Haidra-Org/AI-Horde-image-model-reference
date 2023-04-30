@@ -6586,6 +6586,36 @@
         },
         "available": false
     },
+    "CamelliaMix 2.5D": {
+        "name": "CamelliaMix 2.5D",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Semi-realistic model, Camellia Mix 2.5D V2",
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/44219",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "camelliamix25D.safetensors",
+                    "sha256sum": "ed4f26c284bc9baaeee63f10ad823486bcc0dd6fcc03c9472fd8c44e508889a1"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "camelliamix25D.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/48859"
+                }
+            ]
+        },
+        "available": false
+    },
     "Perfect World": {
         "name": "Perfect World",
         "baseline": "stable diffusion 1",
