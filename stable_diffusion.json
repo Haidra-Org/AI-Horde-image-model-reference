@@ -6520,6 +6520,41 @@
         },
         "available": false
     },
+    "Aurora": {
+        "name": "Aurora",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Aurora is a Stable Diffusion model, similar to its predecessor Kenshi, with the goal of capturing my own feelings towards the anime styles I desire.The name Aurora, which means 'dawn' in Latin, represents the idea of a new beginning and a fresh start.",
+        "version": "1.0",
+        "style": "anime",
+        "trigger": [
+            "sle",
+            "mksks style",
+            "detailed background"
+        ],
+        "homepage": "https://civitai.com/models/40199/aurora",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "aurora.safetensors",
+                    "sha256sum": "1b5f8211ec04926035ac81033518c802db9964e93630ab4698b6365b9811c7eb"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "aurora.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/45601"
+                }
+            ]
+        },
+        "available": false
+    },
     "Char": {
         "name": "Char",
         "baseline": "stable diffusion 1",
