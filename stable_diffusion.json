@@ -6647,6 +6647,40 @@
         },
         "available": false
     },
+    "JoMad Diffusion": {
+        "name": "JoMad Diffusion",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "SD 1.5 model trained on a sample of Joe Madureiras artwork, this model was combined with another anime style model to create the blend uploaded here.",
+        "version": "1.0",
+        "trigger": [
+            "style of joemadureira"
+        ],
+        "style": "anime",
+        "homepage": "https://civitai.com/models/1223/jomad-diffusion",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "jomadDiffusion.ckpt",
+                    "md5sum": "43aa66b9ef9b799b155cd5d905d6ef88",
+                    "sha256sum": "bfdb1bc07f86a37363bdf04b778e0d528d28f25d2b78becc66f5b725452e4e62"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "jomadDiffusion.ckpt",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1286?type=Model&format=PickleTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
     "RCNZ Gorilla With A Brick": {
         "name": "RCNZ Gorilla With A Brick",
         "baseline": "stable diffusion 1",
