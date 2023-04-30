@@ -3301,7 +3301,7 @@
         "config": {
             "files": [
                 {
-                    "path": "GuFeng.ckpt",
+                    "path": "GuFeng.safetensors",
                     "sha256sum": "1f4fd502679cdbddb168f36ca11de3787097497eeb0e4f85bd1102618178e332"
                 },
                 {
@@ -3310,7 +3310,7 @@
             ],
             "download": [
                 {
-                    "file_name": "GuFeng.ckpt",
+                    "file_name": "GuFeng.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/42796"
                 }
@@ -5368,6 +5368,40 @@
                     "file_name": "Rev-animated.ckpt",
                     "file_path": "",
                     "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/RevAnimated_v11_inclVAE.ckpt"
+                }
+            ]
+        },
+        "available": false
+    },
+    "526Mix-Animated": {
+        "name": "526Mix-Animated",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "The goal of this model was to anchor 526Mix's whimsical and artistic personality into anime. 526Mix can do a pretty cool anime style (and other 2D styles), but it can be a bit unreliable at times. This simple mix increases the reliability, depth, and nuance in 526Mix's anime and anime-esque capabilities.",
+        "tags": [
+            "anime",
+            "character"
+        ],
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/35893/526mix-animated",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "526mixAnimated.safetensors",
+                    "sha256sum": "5c0b94405672bff73bb16fc9f2b4335695021494de16ddb1709ea7ee0f2e1b74"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "526mixAnimated.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/42086"
                 }
             ]
         },
