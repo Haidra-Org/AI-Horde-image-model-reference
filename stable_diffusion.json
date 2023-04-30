@@ -3285,6 +3285,39 @@
         },
         "available": false
     },
+    "GuFeng": {
+        "name": "GuFeng",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This is a model of ancient Chinese style, and it also belongs to the model series with ink and water orientation",
+        "tags": [
+            "anime"
+        ],
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/12903/gufeng",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "GuFeng.ckpt",
+                    "sha256sum": "1f4fd502679cdbddb168f36ca11de3787097497eeb0e4f85bd1102618178e332"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "GuFeng.ckpt",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/42796"
+                }
+            ]
+        },
+        "available": false
+    },
     "Elldreth's Lucid Mix": {
         "name": "Elldreth's Lucid Mix",
         "baseline": "stable diffusion 1",
