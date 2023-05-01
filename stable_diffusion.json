@@ -6828,7 +6828,7 @@
                 {
                     "file_name": "braBeautifulRealistic.safetensors",
                     "file_path": "",
-                    "file_url": "hhttps://civitai.com/api/download/models/51395?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://civitai.com/api/download/models/51395?type=Model&format=SafeTensor&size=full&fp=fp32"
                 }
             ]
         },
