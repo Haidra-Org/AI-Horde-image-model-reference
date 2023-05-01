@@ -5344,9 +5344,9 @@
             "anime",
             "character"
         ],
-        "version": "1.1",
+        "version": "1.2.2",
         "style": "anime",
-        "homepage": "https://civitai.com/models/7371/rev-animated",
+        "homepage": "https://civitai.com/models/7371?modelVersionId=46846",
         "nsfw": true,
         "download_all": false,
         "showcases": [
@@ -5355,9 +5355,8 @@
         "config": {
             "files": [
                 {
-                    "path": "Rev-animated.ckpt",
-                    "md5sum": "67fb60349b3b2fc98a7b7c6fa1d02e4a",
-                    "sha256sum": "669b5c04f0ac98b225b2e8d53259748fdf07ef7a8d7e6ea7b6359783ced855e2"
+                    "path": "Rev-animated.safetensors",
+                    "sha256sum": "4199bcdd147e11328d5f3560301d5a7ab4ac7eeefbf49dc3eb663cb3e772b9ac"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5365,9 +5364,9 @@
             ],
             "download": [
                 {
-                    "file_name": "Rev-animated.ckpt",
+                    "file_name": "Rev-animated.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/RevAnimated_v11_inclVAE.ckpt"
+                    "file_url": "https://civitai.com/api/download/models/46846"
                 }
             ]
         },
@@ -6741,5 +6740,98 @@
             ]
         },
         "available": false
-    }    
+    },
+    "Lyriel": {
+        "name": "Lyriel",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This model is generally designed for portraits and full-length anime style photos. Fantastic landscapes are quite decent. And it doesn't require kilometer-long queries to get a high-quality result.",
+        "version": "1.5",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/22922/lyriel",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "lyriel.safetensors",
+                    "sha256sum": "4d91c4c2174557c2211ba32c54798b19a14c74d84f937d904a481f9b42a9e2ad"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "lyriel.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/50127"
+                }
+            ]
+        },
+        "available": false
+    },  
+    "DnD Map Generator": {
+        "name": "DnD Map Generator",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This model is trained on various D&D Battlemaps. Use the negative prompt: 'grid' to improve some maps, or use the gridless version. Try to experiment with the CFG scale, 10 can create some amazing results but to each their own.",
+        "version": "3.0",
+        "style": "other",
+        "trigger": [
+            "2d dnd battlemap"
+        ],
+        "homepage": "https://civitai.com/models/5012/dnd-map-generator",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "dndMapGenerator.safetensors",
+                    "sha256sum": "535d3a621d9ce06392cc554ac0d5ba1f0e68974a52902bf0c1f22eccf516ff28"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "dndMapGenerator.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/19517"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Beautiful Realistic Asians": {
+        "name": "Beautiful Realistic Asians",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Trained on countless pictures of Beautiful Asian women. (some nsfw images included)",
+        "version": "4.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/25494/brabeautiful-realistic-asians-v3",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "braBeautifulRealistic.safetensors",
+                    "sha256sum": "9c03252bea886e921a10f6b5f61b2d60565c32d02bbbb40cb59944c0218c5e90"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "braBeautifulRealistic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/51395"
+                }
+            ]
+        },
+        "available": false
+    }
 }
