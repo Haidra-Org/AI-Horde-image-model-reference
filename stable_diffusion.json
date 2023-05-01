@@ -5882,16 +5882,16 @@
         "baseline": "stable diffusion 2",
         "type": "ckpt",
         "description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/002_blank.webp"
+        ],
         "version": "1.1",
         "style": "generalist",
         "homepage": "https://civitai.com/models/11193",
         "nsfw": false,
         "download_all": false,
         "config": {
-            "showcases": [
-                "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
-                "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/002_blank.webp"
-            ],
             "files": [
                 {
                     "path": "Illuminati.ckpt",
@@ -6770,7 +6770,7 @@
             ]
         },
         "available": false
-    },  
+    },
     "DnD Map Generator": {
         "name": "DnD Map Generator",
         "baseline": "stable diffusion 1",
