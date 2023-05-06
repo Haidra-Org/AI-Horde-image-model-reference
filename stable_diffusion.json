@@ -6301,8 +6301,8 @@
             "files": [
                 {
                     "path": "expmix.ckpt",
-                    "md5sum": "ffa22c28ed3ba4b2ff4c702201c04c9a",
-                    "sha256sum": "4924272be3d1947eb8b049489e236f5c57da75ac87e5ef76302eb2722a1b91ee"
+                    "md5sum": "8f138f7fdf64dafbe752c04c06bf1b7d",
+                    "sha256sum": "2380900718b034c6e9860e4b142c985e629304c920b9b00bbff525a00f1213d0"
                 },
                 {
                     "path": "v1-inference.yaml"
