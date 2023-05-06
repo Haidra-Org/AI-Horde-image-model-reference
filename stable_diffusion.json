@@ -6834,7 +6834,7 @@
         "available": false
     },
     "MoonMix Fantasy": {
-        "name": "MoonMix",
+        "name": "MoonMix Fantasy",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "This model is the result of merging several checkpoint models. See homepage for details.",
