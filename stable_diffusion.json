@@ -3152,6 +3152,11 @@
         ],
         "version": "2",
         "style": "other",
+        "trigger": [
+            "masterpiece",
+            "best quality",
+            "mdjrny-v4"
+        ],
         "homepage": "https://civitai.com/models/2034/moedel",
         "nsfw": false,
         "download_all": false,
