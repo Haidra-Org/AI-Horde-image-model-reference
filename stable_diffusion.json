@@ -271,7 +271,7 @@
                 {
                     "file_name": "coloringbook.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5978?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/MrHup/coloring-book/resolve/main/COLR_001.ckpt"
                 }
             ]
         },
@@ -880,28 +880,27 @@
         },
         "available": false
     },
-    "Midjourney Diffusion": {
-        "name": "Midjourney Diffusion",
+    "OpenJourney Diffusion": {
+        "name": "OpenJourney Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "Stable Diffusion fine tuned on Midjourney v4 images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
         ],
-        "version": "1",
+        "version": "4",
         "style": "generalist",
         "trigger": [
             "mdjrny-v4 style"
         ],
-        "homepage": "https://huggingface.co/prompthero/openjourney",
+        "homepage": "https://huggingface.co/prompthero/openjourney-v4",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
                     "path": "mdjrny-v4.ckpt",
-                    "md5sum": "241bfa51943fe0b52aa695bcaa142b3b",
-                    "sha256sum": "5d5ad06cc24170b32f25f0180a357e315848000c5f400ffda350e59142fabd68"
+                    "sha256sum": "02e37aad9f74f574808ad456043b89e8c6b24e22828743fcf002168f76493d9b"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -911,7 +910,7 @@
                 {
                     "file_name": "mdjrny-v4.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/prompthero/openjourney/resolve/main/mdjrny-v4.ckpt"
+                    "file_url": "https://huggingface.co/prompthero/openjourney-v4/resolve/main/openjourney-v4.ckpt"
                 }
             ]
         },
@@ -3575,17 +3574,16 @@
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/duchaiten/01_gigachad.webp"
         ],
-        "version": "2",
+        "version": "4.5.3",
         "style": "anime",
-        "homepage": "https://huggingface.co/DucHaiten/DucHaitenAIart",
-        "nsfw": false,
+        "homepage": "https://civitai.com/models/3079?modelVersionId=50724",
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
                     "path": "DucHaiten.ckpt",
-                    "md5sum": "f60df3dea87b54ad45d87bc64278ddf6",
-                    "sha256sum": "6965ff319389af404f04bfe3a8d8dc5da742330b55fa5374095e317139f5e4f6"
+                    "sha256sum": "CE4D987A0E8BCF5253D2D0B045F9B12B1264DD440F4D4B05BE6B56F646995B0F"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -3595,7 +3593,7 @@
                 {
                     "file_name": "DucHaiten.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/DucHaiten/resolve/main/DucHaitenAIart_v2.ckpt"
+                    "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart-v4.5.3.safetensors"
                 }
             ]
         },
@@ -7068,6 +7066,66 @@
                     "file_name": "analogMadness.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/56498?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Henmix Real": {
+        "name": "Henmix Real",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "A realistic model, see homepage for details.",
+        "version": "3.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/20282",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "henmixReal.safetensors",
+                    "sha256sum": "9B213F38F8AAD6A3E8EF899EA264E13C8CA5FAB2690653BCCD47165C53A91985"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "henmixReal.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/58992?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Elysium Anime": {
+        "name": "Elysium Anime",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Anime version of Elysium, detailed versatile anime style.",
+        "version": "3.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/8602?modelVersionId=10500",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "Elysium_Anime.safetensors",
+                    "sha256sum": "4A812E9E90794F0C16A33DAF927D8BC1AB0DF9CFE4C8D7DC705F2D7B541E53EA"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "Elysium_Anime.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/hesw23168/SD-Elysium-Model/resolve/main/Elysium_Anime_V3.safetensors"
                 }
             ]
         },
