@@ -3515,7 +3515,19 @@
     "version": "0.9",
     "style": "portrait photography",
     "homepage": "https://huggingface.co/VegaKH/Ultraskin",
-    "trigger":["ultraskin"],
+    "trigger": [
+        "ultraskin",
+        "twenties",
+        "thirties",
+        "thirty year old",
+        "eighties",
+        "eighty year old",
+        "elderly",
+        "moles",
+        "freckles",
+        "scar",
+        "skin detail"
+    ],
     "nsfw": false,
     "download_all": false,
     "requires": [

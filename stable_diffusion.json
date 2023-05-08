@@ -3443,7 +3443,17 @@
         "version": "0.9",
         "style": "realistic",
         "trigger": [
-            "ultraskin"
+            "ultraskin",
+            "twenties",
+            "thirties",
+            "thirty year old",
+            "eighties",
+            "eighty year old",
+            "elderly",
+            "moles",
+            "freckles",
+            "scar",
+            "skin detail"
         ],
         "homepage": "https://huggingface.co/VegaKH/Ultraskin",
         "nsfw": false,
