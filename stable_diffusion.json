@@ -7115,7 +7115,7 @@
             "files": [
                 {
                     "path": "Elysium_Anime.safetensors",
-                    "sha256sum": "4A812E9E90794F0C16A33DAF927D8BC1AB0DF9CFE4C8D7DC705F2D7B541E53EA"
+                    "sha256sum": "50265e48dfa0b53c6fa242e66c10106c85d1d68f1f188109475f6b70043d5497"
                 },
                 {
                     "path": "v1-inference.yaml"
