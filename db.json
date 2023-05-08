@@ -1308,7 +1308,7 @@
     "name": "Dungeons and Diffusion",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "Generates D&D styled characters, trained on art commissions",
+    "description": "Generates D&D styled characters, trained on art commissions. *many* species and classes available, see homepage",
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
