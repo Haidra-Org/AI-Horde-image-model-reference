@@ -6568,7 +6568,7 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
-        "version": "3",
+        "version": "1",
         "style": "generalist",
         "homepage": "https://civitai.com/models/20842",
         "nsfw": false,
