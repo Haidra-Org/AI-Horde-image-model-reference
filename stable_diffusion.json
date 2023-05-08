@@ -3399,6 +3399,14 @@
         "description": "A Sci-Fi themed model trained on SD 1.5 with a 26K+ image dataset",
         "version": "1.0",
         "style": "generalist",
+        "trigger": [
+            "Sci-Fi",
+            "caspian Sci-Fi",
+            "Star Citizen",
+            "Star Atlas",
+            "Spaceship",
+            "Render"
+        ],
         "homepage": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion",
         "nsfw": false,
         "download_all": false,
