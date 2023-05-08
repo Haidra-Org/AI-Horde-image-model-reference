@@ -5308,6 +5308,10 @@
         ],
         "version": "1.0",
         "style": "anime",
+        "trigger": [
+            "(80s anime style)",
+            "(gtav style)"
+        ],
         "homepage": "https://huggingface.co/DucHaiten/DH_ClassicAnime",
         "nsfw": false,
         "download_all": false,

@@ -3650,6 +3650,10 @@
     ],
     "version": "2",
     "style": "cartoon/anime",
+    "trigger": [
+      "(80s anime style)",
+      "(gtav style)"
+    ],
     "homepage": "https://huggingface.co/DucHaiten/DucHaitenAIart",
     "nsfw": false,
     "download_all": false,
