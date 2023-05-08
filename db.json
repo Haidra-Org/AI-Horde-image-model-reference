@@ -1862,7 +1862,7 @@
     "name": "RPG",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "portraits of charecters in the style of the game Baldur's Gate",
+    "description": "portraits of charecters in the style of the game Baldur's Gate. check homepage for a massive prompt guide",
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rpg/01_gigachad.webp"
     ],
