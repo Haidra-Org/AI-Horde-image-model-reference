@@ -4758,7 +4758,10 @@
     "version": "1.2",
     "style": "watercolors",
     "homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
-    "trigger":["rachelwalker style"],
+    "trigger":[
+        "rachelwalker style",
+        "a watercolor painting with a white background rachelwalker style [your image subject]"
+    ],
     "nsfw": false,
     "download_all": false,
     "requires": [

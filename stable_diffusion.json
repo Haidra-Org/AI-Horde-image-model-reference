@@ -4711,7 +4711,8 @@
         "version": "1.2",
         "style": "artistic",
         "trigger": [
-            "rachelwalker style"
+            "rachelwalker style",
+            "a watercolor painting with a white background rachelwalker style [your image subject]"
         ],
         "homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
         "nsfw": false,
