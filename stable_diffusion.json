@@ -183,6 +183,7 @@
         ],
         "version": "1",
         "style": "furry",
+        "homepage": "https://huggingface.co/Zack3D/Zack3D_Kinky-v1",
         "nsfw": true,
         "download_all": true,
         "config": {
