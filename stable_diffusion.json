@@ -2653,6 +2653,9 @@
         ],
         "version": "2.0",
         "style": "realistic",
+        "trigger": [
+            "photo"
+        ],
         "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0",
         "nsfw": false,
         "download_all": false,
