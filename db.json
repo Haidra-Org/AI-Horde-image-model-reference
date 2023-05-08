@@ -3173,6 +3173,7 @@
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen/01_gigachad.webp"
     ],
     "version": "5.3",
+    "trigger": [ "modelshoot style" ],
     "style": "generalist",
     "homepage": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
     "nsfw": false,

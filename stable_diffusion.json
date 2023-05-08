@@ -3082,6 +3082,7 @@
         ],
         "version": "5.3",
         "style": "generalist",
+        "trigger": [ "modelshoot style" ],
         "homepage": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
         "nsfw": false,
         "download_all": false,
