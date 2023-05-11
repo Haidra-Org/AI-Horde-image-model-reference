@@ -6207,6 +6207,9 @@
       "homepage": "https://civitai.com/models/17579/pretty-25d-v2",
       "nsfw": false,
       "download_all": false,
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Pretty_2.5D/01.webp"
+      ],
       "requires": [
         "clip-vit-large-patch14"
       ],
