@@ -1265,7 +1265,7 @@
         "version": "3",
         "style": "artistic",
         "trigger": [
-            "D&D character", 
+            "D&D character"
         ],
         "homepage": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion",
         "nsfw": false,
@@ -3082,7 +3082,9 @@
         ],
         "version": "5.3",
         "style": "generalist",
-        "trigger": [ "modelshoot style" ],
+        "trigger": [
+            "modelshoot style"
+        ],
         "homepage": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
         "nsfw": false,
         "download_all": false,
@@ -3597,7 +3599,7 @@
         ],
         "version": "8.6",
         "style": "generalist",
-        "triggers": [
+        "trigger": [
             "modelshoot style",
             "mdjrny-v4 style",
             "nousr robot",
