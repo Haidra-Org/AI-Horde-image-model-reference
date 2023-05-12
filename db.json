@@ -190,6 +190,7 @@
     ],
     "version": "1",
     "style": "furry",
+    "homepage": "https://huggingface.co/Zack3D/Zack3D_Kinky-v1",
     "nsfw": true,
     "download_all": true,
     "requires": [
@@ -650,6 +651,7 @@
     "trigger": [
       "charliebo artstyle",
       "holliemengert artstyle",
+      "marioalberti artstyle",
       "pepelarraz artstyle",
       "andreasrocha artstyle",
       "jamesdaly artstyle"
@@ -733,7 +735,7 @@
     "trigger": [
       "microworld"
     ],
-    "homepage": "https://civitai.com/models/5434/microworlds-remake-notext",
+    "homepage": "https://civitai.com/models/19/microworlds",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -769,7 +771,7 @@
     ],
     "version": "222",
     "style": "f222, boudoir photography",
-    "homepage": "https://ai.zeipher.com/",
+    "homepage": "https://huggingface.co/Reachout/F222",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -1306,7 +1308,7 @@
     "name": "Dungeons and Diffusion",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "Generates D&D styled characters, trained on art commissions",
+    "description": "Generates D&D styled characters, trained on art commissions. *many* species and classes available, see homepage",
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/02_bigdowg.webp"
@@ -1860,7 +1862,7 @@
     "name": "RPG",
     "baseline": "stable diffusion 1",
     "type": "ckpt",
-    "description": "portraits of charecters in the style of the game Baldur's Gate",
+    "description": "portraits of charecters in the style of the game Baldur's Gate. check homepage for a massive prompt guide",
     "showcases": [
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rpg/01_gigachad.webp"
     ],
@@ -2737,6 +2739,9 @@
     ],
     "version": "2.0",
     "style": "photorealistic",
+    "trigger": [
+        "photo"
+    ],
     "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0",
     "nsfw": false,
     "download_all": false,
@@ -3106,6 +3111,33 @@
     ],
     "version": "1.0",
     "style": "photorealism",
+    "trigger": [
+        "erect penis",
+        "flaccid penis",
+        "wa-vy style",
+        "snthwve style",
+        "nvinkpunk",
+        "synthwave",
+        "sci-fi",
+        "caspian sci-fi",
+        "star atlas",
+        "star citizen",
+        "render",
+        "postapocalypse",
+        "wjqwizard",
+        "wjqknight",
+        "wjqtitan",
+        "wjqjester",
+        "wjqautoma",
+        "wjqdemon",
+        "knollingcase",
+        "elden ring style",
+        "cyborgdiffusion",
+        "cyborgdiffusion style",
+        "artificial-journey style",
+        "analog style",
+        "sks person"
+    ],
     "homepage": "https://civitai.com/models/5935/liberty",
     "nsfw": true,
     "download_all": false,
@@ -3141,6 +3173,7 @@
       "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen/01_gigachad.webp"
     ],
     "version": "5.3",
+    "trigger": [ "modelshoot style" ],
     "style": "generalist",
     "homepage": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release",
     "nsfw": false,
@@ -3212,7 +3245,11 @@
     "description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
     "version": "2",
     "style": "characters",
-    "homepage": "https://civitai.com/models/2034/moedel",
+    "trigger": [
+        "masterpiece",
+        "best quality",
+        "mdjrny-v4"
+    ],    "homepage": "https://civitai.com/models/2034/moedel",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -3429,6 +3466,14 @@
     "description": "A Sci-Fi themed model trained on SD 1.5 with a 26K+ image dataset",
     "version": "1.0",
     "style": "sci-fi",
+    "trigger": [
+        "Sci-Fi",
+        "caspian Sci-Fi",
+        "Star Citizen",
+        "Star Atlas",
+        "Spaceship",
+        "Render"
+    ],
     "homepage": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion",
     "nsfw": false,
     "download_all": false,
@@ -3470,7 +3515,19 @@
     "version": "0.9",
     "style": "portrait photography",
     "homepage": "https://huggingface.co/VegaKH/Ultraskin",
-    "trigger":["ultraskin"],
+    "trigger": [
+        "ultraskin",
+        "twenties",
+        "thirties",
+        "thirty year old",
+        "eighties",
+        "eighty year old",
+        "elderly",
+        "moles",
+        "freckles",
+        "scar",
+        "skin detail"
+    ],
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -3543,6 +3600,7 @@
     ],
     "version": "1.0",
     "style": "boudoir photography",
+    "homepage": "https://civitai.com/models/1235",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -3614,6 +3672,27 @@
     ],
     "version": "8.6",
     "style": "generalist",
+    "triggers": [
+        "modelshoot style",
+        "mdjrny-v4 style",
+        "nousr robot",
+        "dreamlikeart",
+        "nvinkpunk",
+        "snthwve style",
+        "charliebo artstyle",
+        "holliemengert artstyle",
+        "marioalberti artstyle",
+        "pepelarraz artstyle",
+        "andreasrocha artstyle",
+        "jamesdaly artstyle",
+        "elden ring style",
+        "postapocalypse",
+        "analog style",
+        "knollingcase",
+        "swpunk",
+        "synthwave",
+        "cyborgdiffusion"
+    ],
     "homepage": "https://civitai.com/models/4398/protogen-infinity-official-release",
     "nsfw": false,
     "download_all": false,
@@ -3650,6 +3729,10 @@
     ],
     "version": "2",
     "style": "cartoon/anime",
+    "trigger": [
+      "(80s anime style)",
+      "(gtav style)"
+    ],
     "homepage": "https://huggingface.co/DucHaiten/DucHaitenAIart",
     "nsfw": false,
     "download_all": false,
@@ -4602,6 +4685,7 @@
     "description": "Model for creating photorealistic humans",
     "version": "1.3",
     "style": "boudoir photography",
+    "homepage": "https://civitai.com/models/2661/uber-realistic-porn-merge-urpm",
     "nsfw": true,
     "download_all": false,
     "requires": [
@@ -4674,7 +4758,10 @@
     "version": "1.2",
     "style": "watercolors",
     "homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
-    "trigger":["rachelwalker style"],
+    "trigger":[
+        "rachelwalker style",
+        "a watercolor painting with a white background rachelwalker style [your image subject]"
+    ],
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -6483,7 +6570,7 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
-        "version": "3",
+        "version": "1",
         "style": "generalist",
         "homepage": "https://civitai.com/models/20842",
         "nsfw": false,
