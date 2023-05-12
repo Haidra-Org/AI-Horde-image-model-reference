@@ -5526,6 +5526,9 @@
       "requires": [
         "clip-vit-large-patch14"
       ],
+      "showcases": [
+        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
+        ],
       "config": {
         "files": [
         {
