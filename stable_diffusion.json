@@ -3665,7 +3665,7 @@
         "config": {
             "files": [
                 {
-                    "path": "DucHaiten.ckpt",
+                    "path": "DucHaiten.safetensors",
                     "sha256sum": "CE4D987A0E8BCF5253D2D0B045F9B12B1264DD440F4D4B05BE6B56F646995B0F"
                 },
                 {
@@ -3674,7 +3674,7 @@
             ],
             "download": [
                 {
-                    "file_name": "DucHaiten.ckpt",
+                    "file_name": "DucHaiten.safetensors",
                     "file_path": "",
                     "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart-v4.5.3.safetensors"
                 }
