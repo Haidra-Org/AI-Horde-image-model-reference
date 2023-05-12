@@ -5595,6 +5595,9 @@
         "homepage": "https://huggingface.co/xiaolxl/GuoFeng3",
         "nsfw": false,
         "download_all": false,
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
+            ],
         "config": {
             "files": [
                 {
@@ -6145,6 +6148,9 @@
         "homepage": "https://civitai.com/models/14102/orbai",
         "nsfw": false,
         "download_all": false,
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/OrbAI/01.webp"
+            ],
         "config": {
             "files": [
                 {
@@ -6347,6 +6353,9 @@
         "homepage": "https://civitai.com/models/17579/pretty-25d-v2",
         "nsfw": false,
         "download_all": false,
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Pretty_2.5D/01.webp"
+          ],
         "config": {
             "files": [
                 {
@@ -6484,6 +6493,9 @@
         "homepage": "https://civitai.com/models/21695",
         "nsfw": false,
         "download_all": false,
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rcnz_dumb_monkey/01.webp"
+            ],
         "config": {
             "files": [
                 {

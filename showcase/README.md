@@ -39,6 +39,8 @@ shadow:
 
 ## Link showcase to Json
 [AI-Horde-image-model-reference/db.json](../db.json)
+and
+[AI-Horde-image-model-reference/stable_diffusion.json](../stable_diffusion.json)
 
 ```json
 "Anything Diffusion": {
