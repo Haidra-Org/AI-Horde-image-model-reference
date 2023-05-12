@@ -7195,6 +7195,9 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "Anime version of Elysium, detailed versatile anime style.",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elysium_anime/01_anon.webp"
+        ],
         "version": "3.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/8602?modelVersionId=10500",
