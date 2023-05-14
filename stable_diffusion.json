@@ -5875,7 +5875,7 @@
         "tags": [
             "anime"
         ],
-        "version": "1.0",
+        "version": "2.2",
         "style": "anime",
         "homepage": "https://civitai.com/models/3627/protogen-v22-anime-official-release",
         "nsfw": false,
@@ -5883,9 +5883,8 @@
         "config": {
             "files": [
                 {
-                    "path": "Protogen_Anime.ckpt",
-                    "md5sum": "4f2220296e0409c75f5752df05f843ca",
-                    "sha256sum": "eea02a02bfa43a929306f4daddad7698d7163055ed35ead53e4302c941c87b76"
+                    "path": "Protogen_Anime.safetensors",
+                    "sha256sum": "b4d453442af7124bb12832a4450f4f120452f479c0212e0924d34cfbe580ba42"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5893,9 +5892,9 @@
             ],
             "download": [
                 {
-                    "file_name": "Protogen_Anime.ckpt",
+                    "file_name": "Protogen_Anime.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/4007?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2-pruned-fp16.safetensors"
                 }
             ]
         },
