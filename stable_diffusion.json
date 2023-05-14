@@ -5884,7 +5884,7 @@
             "files": [
                 {
                     "path": "Protogen_Anime.safetensors",
-                    "sha256sum": "b4d453442af7124bb12832a4450f4f120452f479c0212e0924d34cfbe580ba42"
+                    "sha256sum": "125410396648d4b622b7d3aa38d95f7d67ea44ee5669bc31c12f344a10f73ca9"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5894,7 +5894,7 @@
                 {
                     "file_name": "Protogen_Anime.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2-pruned-fp16.safetensors"
+                    "file_url": "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.safetensors"
                 }
             ]
         },
