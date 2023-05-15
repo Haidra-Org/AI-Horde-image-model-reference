@@ -5590,14 +5590,14 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "This is a Chinese gorgeous antique style model, which can also be said to be an antique game character model with a 2.5D texture",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
+        ],
         "version": "3.2",
         "style": "artistic",
         "homepage": "https://huggingface.co/xiaolxl/GuoFeng3",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -6139,6 +6139,9 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "This model gives you the possibilty to have an orb and put awesome stuff inside of it like animals, universe, solarsystems, fractal images whatever you can think of",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/OrbAI/01.webp"
+        ],
         "version": "1.0",
         "style": "other",
         "trigger": [
@@ -6147,9 +6150,6 @@
         "homepage": "https://civitai.com/models/14102/orbai",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/OrbAI/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -6347,14 +6347,14 @@
             "anime",
             "cartoon"
         ],
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Pretty_2.5D/01.webp"
+        ],
         "version": "2",
         "style": "artistic",
         "homepage": "https://civitai.com/models/17579/pretty-25d-v2",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Pretty_2.5D/01.webp"
-          ],
         "config": {
             "files": [
                 {
@@ -6487,14 +6487,14 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "They let the monkey loose at the 'Merge Model' tab, and smashed models together and this awesome generalist model came out!",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rcnz_dumb_monkey/01.webp"
+        ],
         "version": "1.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/21695",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rcnz_dumb_monkey/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -7229,6 +7229,66 @@
                     "file_name": "Elysium_Anime.safetensors",
                     "file_path": "",
                     "file_url": "https://huggingface.co/hesw23168/SD-Elysium-Model/resolve/main/Elysium_Anime_V3.safetensors"
+                }
+            ]
+        },
+        "available": false
+    },
+    "majicMIX realistic": {
+        "name": "majicMIX realistic",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "A good looking model, suitable for NSFW and dark scene.",
+        "version": "4.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/43331/majicmix-realistic",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "majicmixRealistic.safetensors",
+                    "sha256sum": "d819c8be6bc2a15307640a7eb069fa92e4c69c84289d8309273760ee7394e5f0"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "majicmixRealistic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/55911?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "GhostMix": {
+        "name": "GhostMix",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This Checkpoint works well on both SFW and NSFW",
+        "version": "1.2",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/36520/ghostmix",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "ghostmix.safetensors",
+                    "sha256sum": "d7465e52e17ef26f6c2c77be64f569afbd849dcf111fa78cc6c577ec9c159e1d"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ghostmix.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/59685?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
