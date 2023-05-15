@@ -7293,5 +7293,95 @@
             ]
         },
         "available": false
+    },
+    "Hassaku": {
+        "name": "Hassaku",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Hassaku aims to be a model with a bright, clear anime style. Model focus are nsfw images, but also with a high emphasis for good looking sfw images as well.",
+        "version": "1.2",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/2583/hassaku-hentai-model",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "hassakuHentaiModel.safetensors",
+                    "sha256sum": "D3CD6AC55AE99C4848AF5BDE90B47306B17EE0A3A7B1AFF4A7187284D3CDBF0E"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "hassakuHentaiModel.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/62528?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Dark Sushi Mix": {
+        "name": "Dark Sushi Mix",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "This model has good light effects, can generate darker images, and also has good light and shadow performance on normal brightness images.",
+        "version": "Colorful",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/24779/dark-sushi-mix-mix",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "darkSushiMix.safetensors",
+                    "sha256sum": "969673AD74A431348739CFC8B94FDFB1098DCC95127DAD3E7EDCE706A5AA22AB"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "darkSushiMix.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/56071?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "CyberRealistic": {
+        "name": "CyberRealistic",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "description": "Versatile photorealistic model - the result of a rigorous testing process that blends various models to achieve the desired output.",
+        "version": "2.1",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/15003/cyberrealistic",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "cyberrealistic.safetensors",
+                    "sha256sum": "FF6411D7E33138CB156A9EAF9B07271947FE2ECB9D926D6533758FA9FF8AE6DB"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "cyberrealistic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/63401?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
     }
 }
