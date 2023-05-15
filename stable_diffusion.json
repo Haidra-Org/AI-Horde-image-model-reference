@@ -3911,17 +3911,16 @@
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
         ],
-        "version": "1.3",
+        "version": "2.0",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/4201/realistic-vision-v13",
+        "homepage": "https://civitai.com/models/4201?modelVersionId=29460",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
                     "path": "RealisticVision.ckpt",
-                    "md5sum": "8c41f9f090e4c924b2a05cf21608e6c0",
-                    "sha256sum": "77e392958a6b2ce335fe6ed0cb8ebb9f5cfb48706bfde9c28d4721f4ce65619e"
+                    "sha256sum": "b77330f1249a789035d15c088aa9476180ef898afe04fd1040c22c9eb61d848a"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -3931,7 +3930,7 @@
                 {
                     "file_name": "RealisticVision.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6987?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/SG161222/Realistic_Vision_V2.0/resolve/main/Realistic_Vision_V2.0-fp16-no-ema-inpainting.ckpt"
                 }
             ]
         },
