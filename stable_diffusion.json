@@ -6966,16 +6966,16 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "Following on from Gorilla With A Brick, merged in 10 more photorealistic models at various weights, and some more noise offset to create something that when prompted for photorealism will make you go 'I Can't Believe It's Not Photography'. It will happily create CGI characters and awesome landscapes as well.",
-        "version": "4.0",
+        "version": "6.0",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/28059/icbinp-i-cant-believe-its-not-photography",
+        "homepage": "https://civitai.com/models/28059?modelVersionId=70910",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
                     "path": "icbinp.ckpt",
-                    "sha256sum": "1d5fad85a8b0c3c63ce0e25f5b5cfb4beed18e9dbae093866125ea97f1413482"
+                    "sha256sum": "7DA4C82DF09378E05CB4B34946FB5059C95F2DF2A3F4C901FA300FC13C616A6D"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -6985,7 +6985,7 @@
                 {
                     "file_name": "icbinp.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/60899?type=Model&format=PickleTensor&size=pruned&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/70910?type=Model&format=PickleTensor&size=pruned&fp=fp16"
                 }
             ]
         },
