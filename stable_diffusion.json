@@ -1,4 +1,3 @@
-
 {
     "stable_diffusion_2.1": {
         "name": "stable_diffusion_2.1",
@@ -7388,6 +7387,7 @@
         "name": "Realistic Vision Inpainting",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": true,
         "description": "The inpainting version of Realistic Vision",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
@@ -7421,6 +7421,7 @@
         "name": "Deliberate Inpainting",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": true,
         "description": "The inpainting version of Deliberate",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/deliberate/01_deliberate.webp"
@@ -7454,6 +7455,7 @@
         "name": "stable_diffusion_inpainting",
         "baseline": "stable diffusion inpainting",
         "type": "ckpt",
+        "inpainting": true,
         "description": "Generalist model specialized for modifying areas of existing images",
         "showcases": [],
         "version": "1.5",
