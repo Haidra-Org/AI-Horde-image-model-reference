@@ -3,6 +3,7 @@
         "name": "stable_diffusion_2.1",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generalist AI image generating model. The baseline for all finetuned models.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion_2.1/01_juice.webp",
@@ -37,6 +38,7 @@
         "name": "stable_diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generalist AI image generating model. The baseline for all finetuned models.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/stable_diffusion/01_racebannin.webp",
@@ -72,6 +74,7 @@
         "name": "waifu_diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Anime styled generations.",
         "tags": [
             "anime"
@@ -110,6 +113,7 @@
         "name": "Furry Epoch",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Furry styled generations.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/furry_epoch/01_gigachad.webp"
@@ -143,6 +147,7 @@
         "name": "Yiffy",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Furry styled generations.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/yiffy/01_pika.webp",
@@ -177,6 +182,7 @@
         "name": "Zack3D",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Kink/NSFW oriented furry styled generations.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zack3d/01_gigachad.webp"
@@ -211,6 +217,7 @@
         "name": "trinart",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Manga styled generations.",
         "tags": [
             "anime",
@@ -248,6 +255,7 @@
         "name": "Coloring Book",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Minimalist coloring book style images",
         "version": "2",
         "style": "artistic",
@@ -282,6 +290,7 @@
         "name": "Arcane Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on the Arcane TV show",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/arcane/01_bigdowg.jpg",
@@ -320,6 +329,7 @@
         "name": "Squishmallow Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Squishmallows",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/squishmallow_diffusion/01_bigdawg.webp"
@@ -357,6 +367,7 @@
         "name": "Spider-Verse Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on the Into the Spider-Verse movie's animation style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/spider_verse_diffusion/01_bigdowg.webp"
@@ -394,6 +405,7 @@
         "name": "Archer Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on the Archer's TV show animation style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
@@ -431,6 +443,7 @@
         "name": "Elden Ring Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on the Elden Ring video game style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp",
@@ -469,6 +482,7 @@
         "name": "Robo-Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Robot oriented drawing style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/robo_diffusion/01_bigdowg.webp"
@@ -506,6 +520,7 @@
         "name": "mo-di-diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Popular animation studio modern style generations.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
@@ -543,6 +558,7 @@
         "name": "Classic Animation Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Popular animation studio classic style generations.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/classic_animation_diffusion/01_bigdowg.jpg"
@@ -580,6 +596,7 @@
         "name": "Xynthii-Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Xynthii-Diffusion (cyclops monster girls)",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/xynthii_diffusion/01_bigdowg.webp"
@@ -617,6 +634,7 @@
         "name": "Comic-Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Western Comic book style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/comic_diffusion/01_gigachad.webp"
@@ -659,6 +677,7 @@
         "name": "Tron Legacy Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Tron Legacy movie style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/tron_legacy_diffusion/01_gigachad.webp"
@@ -696,6 +715,7 @@
         "name": "Microworlds",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
@@ -734,6 +754,7 @@
         "name": "Zeipher Female Model",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "For creating images of nude solo women. Also known as f222",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zeipher_female_model/01_bigdowg.webp"
@@ -768,6 +789,7 @@
         "name": "Redshift Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreambooth model trained on high resolution 3D artworks",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/redshift/01_bigdowg.jpg"
@@ -805,6 +827,7 @@
         "name": "Borderlands",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on Borderlands video game style, trained on characters and scenes",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/borderlands/01_gigachad.webp",
@@ -843,6 +866,7 @@
         "name": "Cyberpunk Anime Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Cyberpunk anime characters",
         "tags": [
             "anime",
@@ -886,6 +910,7 @@
         "name": "OpenJourney Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine tuned on Midjourney v4 images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
@@ -922,6 +947,7 @@
         "name": "Papercut Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine tuned on Paper cut images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/papercut/01_bigdowg.jpg"
@@ -959,6 +985,7 @@
         "name": "AIO Pixel Art",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine tuned on pixel art sprites and scenes",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/aio_pixel_art/01_monarch.webp"
@@ -997,6 +1024,7 @@
         "name": "JWST Deep Space Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine tuned on JWST imagery",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/jwst_deep_space_diffusion/01_bigdowg.webp"
@@ -1034,6 +1062,7 @@
         "name": "App Icon Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreambooth model fine tuned on mobile app icons",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/app_icon_diffusion/01_bigdowg.webp"
@@ -1071,6 +1100,7 @@
         "name": "Mega Merge Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "SD 1.5 merged with 17 other models",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/mega_merge_diffusion/01_gigachad.webp"
@@ -1105,6 +1135,7 @@
         "name": "Voxel Art Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine-tuned on voxel art style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/voxel_art_diffusion/01_dethinhfil.webp"
@@ -1142,6 +1173,7 @@
         "name": "Van Gogh Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
@@ -1179,6 +1211,7 @@
         "name": "Anything Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Highly detailed Anime styled generations",
         "tags": [
             "anime",
@@ -1219,6 +1252,7 @@
         "name": "BubblyDubbly",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreamy sketched/painted portraits",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/bubblydubbly/01_bigdowg.webp",
@@ -1257,6 +1291,7 @@
         "name": "Dungeons and Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generates D&D styled characters, trained on art commissions. *many* species and classes available, see homepage",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dungeons_and_diffusion/01_bigdowg.webp",
@@ -1295,6 +1330,7 @@
         "name": "Clazy",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generates clay-like figures",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/clazy/01_bigdowg.webp",
@@ -1333,6 +1369,7 @@
         "name": "Nitro Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Multi-Style model trained on Arcane, Archer and Mo-Di",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/nitro_diffusion/01_gigachad.webp"
@@ -1372,6 +1409,7 @@
         "name": "Samdoesarts Ultmerge",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Portraits in the style of Sam Yang, merged with chewtoy and orange code's models",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/samdoesarts_ultmerge/01_bigdowg.webp"
@@ -1409,6 +1447,7 @@
         "name": "Synthwave",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion model to create images in Synthwave/outrun style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/synthwave/01_bigdowg.webp"
@@ -1446,6 +1485,7 @@
         "name": "vectorartz",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generate beautiful vector illustration",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vectorartz/01.webp",
@@ -1484,6 +1524,7 @@
         "name": "Ranma Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "imitates the style of late '80s early 90's anime, Anything v3 base",
         "tags": [
             "anime",
@@ -1525,6 +1566,7 @@
         "name": "Ghibli Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "fine-tuned Stable Diffusion model trained on images from Studio Ghibli feature films",
         "tags": [
             "anime",
@@ -1566,6 +1608,7 @@
         "name": "Hentai Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Anime focused model with better hands, obscure poses/camera angles and consistent style",
         "tags": [
             "anime",
@@ -1611,6 +1654,7 @@
         "name": "Guohua Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/guohua_diffusion/01_ghostdragon11.webp",
@@ -1649,6 +1693,7 @@
         "name": "Inkpunk Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "inspired by Gorillaz art, FLCL and Yoji Shinkawa. Trained on images generated from Midjourney",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/inkpunk_diffusion/01_bigdowg.webp"
@@ -1686,6 +1731,7 @@
         "name": "Fantasy Card Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "fantasy trading card style art, trained on all currently available Magic: the Gathering card art",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/fantasy_card_diffusion/01_gigachad.webp"
@@ -1723,6 +1769,7 @@
         "name": "Knollingcase",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/knollingcase/01_gigachad.webp",
@@ -1762,6 +1809,7 @@
         "name": "Midjourney PaintArt",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Midjourney v4 painting style",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/midjourney_paintart/01_gigachad.webp",
@@ -1800,6 +1848,7 @@
         "name": "RPG",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "portraits of charecters in the style of the game Baldur's Gate. check homepage for a massive prompt guide",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rpg/01_gigachad.webp"
@@ -1834,6 +1883,7 @@
         "name": "Poison",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Anything Diffusion fine-tuned to produce high-quality realistic anime styled images",
         "tags": [
             "anime"
@@ -1871,6 +1921,7 @@
         "name": "Eimis Anime Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is trained with high quality and detailed anime images",
         "tags": [
             "anime"
@@ -1908,6 +1959,7 @@
         "name": "Wavyfusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "dreambooth model trained on a very diverse dataset ranging from photographs to paintings",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/wavyfusion/01_gigachad.webp"
@@ -1945,6 +1997,7 @@
         "name": "Papercutcraft",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/papercutcraft/01_gigachad.webp"
@@ -1982,6 +2035,7 @@
         "name": "kurzgesagt",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/kurzgesagt/01_gigachad.webp"
@@ -2019,6 +2073,7 @@
         "name": "ChromaV5",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "generates metalic/chrome looking images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/chromav5/01_gigachad.webp"
@@ -2056,6 +2111,7 @@
         "name": "Dreamlike Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamlike_diffusion/01_gigachad.webp"
@@ -2093,6 +2149,7 @@
         "name": "Analog Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A dreambooth model trained on a diverse set of analog photographs",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/analog_diffusion/01_gigachad.webp"
@@ -2130,6 +2187,7 @@
         "name": "Asim Simpsons",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The Simpsons dreambooth model",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/asim_simpsons/01_gigachad.webp"
@@ -2167,6 +2225,7 @@
         "name": "Funko Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/funko_diffusion/01_gigachad.webp"
@@ -2204,6 +2263,7 @@
         "name": "Double Exposure Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/double_exposure_diffusion/01_gigachad.webp"
@@ -2241,6 +2301,7 @@
         "name": "Microscopic",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microscopic/01_gigachad.webp"
@@ -2278,6 +2339,7 @@
         "name": "Balloon Art",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/balloon_art/01_gigachad.webp"
@@ -2315,6 +2377,7 @@
         "name": "Future Diffusion",
         "baseline": "stable diffusion 2 512",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/future_diffusion/01_gigachad.webp"
@@ -2352,6 +2415,7 @@
         "name": "Seek.art MEGA",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Seek.art MEGA is a general use 'anything' model that significantly improves on 1.5 across dozens of styles. Created by Coreco at seek.art",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/seek_art_mega/01_gigachad.webp"
@@ -2386,6 +2450,7 @@
         "name": "Valorant Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was trained on the Valorant agents splash arts, and some extra arts on the official website",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/valorant_diffusion/01_gigachad.webp"
@@ -2423,6 +2488,7 @@
         "name": "Hassanblend",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was for creating people",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hassanblend/01_gigachad.webp",
@@ -2458,6 +2524,7 @@
         "name": "ACertainThing",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "An improved version of Anything v3 made with ACertainThing, focusing on scenes rather than characters",
         "tags": [
             "anime",
@@ -2497,6 +2564,7 @@
         "name": "GTA5 Artwork Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was trained on the loading screens, gta storymode, and gta online DLCs artworks. Which includes characters, background, chop, and some objects. The model can do people and portrait pretty easily, as well as cars, and houses. For some reasons, the model stills automatically include in some game footage, so landscapes tend to look a bit more game-like.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gta5_artwork_diffusion/01_bettername.webp"
@@ -2534,6 +2602,7 @@
         "name": "Trinart Characters",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Derrida (formerly TrinArt Characters v2) is a stable diffusion v1-based model that was further improved on the previous characters v1 model. While this is still a versatility and compositional variation anime/manga model like other TrinArt models, when compared to the v1 model, Derrida was focused on more anatomical stability and slightly less on variation due to further multi-epoch training and finetuning.",
         "tags": [
             "anime",
@@ -2572,6 +2641,7 @@
         "name": "Smoke Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is the fine-tuned Stable Diffusion model trained on images of smoke",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/smoke_diffusion/01_voodoocode.webp"
@@ -2609,6 +2679,7 @@
         "name": "Supermarionation",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a fine-tuned Stable Diffusion model (based on v1.5) trained on screenshots from Gerry Anderson Supermarionation stop motion animation movie, basically from Thunderbirds tv series",
         "showcases": [
             "https://huggingface.co/tuwonga/supermarionation/resolve/main/supermarionation_v2_prev1.jpg"
@@ -2646,6 +2717,7 @@
         "name": "Dreamlike Photoreal",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreamlike Photoreal 1.0 is a photorealistic Stable Diffusion 1.5 model fine tuned on high quality photos, made by dreamlike.art.",
         "showcases": [
             "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/preview1.jpg",
@@ -2684,6 +2756,7 @@
         "name": "PortraitPlus",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/portraitplus/01_gigachad.webp"
@@ -2721,6 +2794,7 @@
         "name": "Vintedois Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
@@ -2758,6 +2832,7 @@
         "name": "Darkest Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A free and open source Stable Diffusion model created by AI-Characters, trained on the artstyle of the game 'Darkest Dungeon'",
         "showcases": [
             "https://huggingface.co/ai-characters/Darkest-Diffusion/resolve/main/gandr-collage.jpg"
@@ -2795,6 +2870,7 @@
         "name": "Eternos",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A surrealist / Minimalist model",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/eternos/01_eternos.webp"
@@ -2832,6 +2908,7 @@
         "name": "Min Illust Background",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/min_illust_background/01_min.webp"
@@ -2869,6 +2946,7 @@
         "name": "Dark Victorian Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "finetuned on dark, moody, victorian imagery",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
@@ -2906,6 +2984,7 @@
         "name": "DnD Item",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a model (dnditem) for creating magic items, for the game Dungeons and Dragons! It was trained to be very similar to the official results that are available here: https://www.dndbeyond.com/magic-items",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dnd_item/01_voodoocode.webp"
@@ -2943,6 +3022,7 @@
         "name": "ModernArt Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "You can use this model to generate modernart style images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/modernart_diffusion/01_voodoocode.webp",
@@ -2981,6 +3061,7 @@
         "name": "HASDX",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "He merged a few checkpoints and got something buttery and amazing. Does great with things other then people too. It can do anything really. It doesn't need crazy prompts either. Keep it simple. No need for all the artist names and trending on whatever.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/hasdx/01_gigachad.webp"
@@ -3015,6 +3096,7 @@
         "name": "Liberty",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A merge with over 23 other models with a methodical, careful and genuine approach. Freedom of prompting art or photo or both, landscapes or backgrounds or interiors, people or entities or scenes, stiff poses or movement or even mouth and facial emotions.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/liberty/01_liberty.webp"
@@ -3076,6 +3158,7 @@
         "name": "ProtoGen",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "One Step Closer to Reality",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen/01_gigachad.webp"
@@ -3113,6 +3196,7 @@
         "name": "3DKX",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/3dkx/01_airic.webp",
@@ -3148,6 +3232,7 @@
         "name": "Moedel",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/moedel/01_moedel.webp"
@@ -3187,6 +3272,7 @@
         "name": "DreamLikeSamKuvshinov",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A mixture of Dreamlike Diffusion 1.0, SamDoesArt V3 and Kuvshinov style models.  Created mostly for exploring different character concepts with a focus on drawings, but the mix happened to be pretty good at realistic-ish images, all thanks to wonderful models that it uses.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamlikesamkuvshinov/01_gigachad.webp"
@@ -3226,6 +3312,7 @@
         "name": "Sygil-Dev Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
@@ -3260,6 +3347,7 @@
         "name": "MoistMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A do (almost) anything model",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/moistmix/01_gigachad.webp"
@@ -3294,6 +3382,7 @@
         "name": "Healy's Anime Blend",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a blend of some anime models mixed with 'realistic' stuff",
         "tags": [
             "anime"
@@ -3331,6 +3420,7 @@
         "name": "GuFeng",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a model of ancient Chinese style, and it also belongs to the model series with ink and water orientation",
         "tags": [
             "anime"
@@ -3364,6 +3454,7 @@
         "name": "Elldreth's Lucid Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "It's an all-around easy-to-prompt general purpose semi-realistic to realistic model that cranks out some really nice images. No trigger words required",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
@@ -3398,6 +3489,7 @@
         "name": "Sci-Fi Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A Sci-Fi themed model trained on SD 1.5 with a 26K+ image dataset",
         "version": "1.0",
         "style": "generalist",
@@ -3437,6 +3529,7 @@
         "name": "Ultraskin",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ultraskin/01_voodoocode.webp",
@@ -3485,6 +3578,7 @@
         "name": "Sonic Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
@@ -3522,6 +3616,7 @@
         "name": "PPP",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "PPP is a realistic model merge, tested and tweaked for human females. Mostly based on NSFW models",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/ppp/01_gigachad.webp"
@@ -3556,6 +3651,7 @@
         "name": "Anygen",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A best of both worlds - merging the anime of Anything v3 with Protogens photorealism - VAE is included",
         "tags": [
             "anime"
@@ -3593,6 +3689,7 @@
         "name": "Protogen Infinity",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
@@ -3648,6 +3745,7 @@
         "name": "DucHaiten",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "DucHaiten's character generation model",
         "tags": [
             "anime",
@@ -3686,6 +3784,7 @@
         "name": "Dreamshaper",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Merged model mix of Midnight mixer, roboEtics, f222, elldrethSLucidMix, Seek.ART Mega, rpg, hassanBlend, modelshoot and roboDiffusion",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
@@ -3719,6 +3818,7 @@
         "name": "Zelda BOTW",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "based off work of great artworks from Legend of Zelda: Breath of The Wild",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
@@ -3756,6 +3856,7 @@
         "name": "Marvel Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
@@ -3793,6 +3894,7 @@
         "name": "T-Shirt Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Generates t-shirt logos, base model is vintedois-diffusion with additional training on t-shirt logos size 640x640px",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
@@ -3830,6 +3932,7 @@
         "name": "Lawlas's yiff mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Based on yiffy-e18 and Anything, produces sfw/nsfw furry anthro artworks of different styles with consistant quality, while maintaining details on stuff like clothes, background, etc. with simpler prompts.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/lawlas/01_lawlas.webp"
@@ -3864,6 +3967,7 @@
         "name": "DGSpitzer Art Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Dreambooth model based on Vintedois, trained on a dataset of DGSpitzer art. Styles included are outline, sketch, anime, painting and landscape",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dgspitzer_art_diffusion/01_dgs.webp"
@@ -3907,6 +4011,7 @@
         "name": "Realistic Vision",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Model for creating photorealistic humans",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
@@ -3940,6 +4045,7 @@
         "name": "Dan Mumford Style",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Model trained with a dataset of DanMumford Style images, courtesy of Flonix",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dan_mumford_style/01_dan.webp"
@@ -3979,6 +4085,7 @@
         "name": "PFG",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "NSFW Model for realistic and Hentai images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pfg/01_pfg.webp"
@@ -4013,6 +4120,7 @@
         "name": "Epic Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Epic Diffusion is a general purpose model based on Stable Diffusion 1.x intended to replace the official SD releases as your default model. It is focused on providing high quality output in a wide range of different styles, with support for NFSW content.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/epic_diffusion/01_epic.webp"
@@ -4047,6 +4155,7 @@
         "name": "Deliberate",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model provides you the ability to create anything you want. The more power of prompt knowledges you have, the better results you'll get. It basically means that you'll never get a perfect result with just a few words. You have to fill out your prompt line extremely detailed",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/deliberate/01_deliberate.webp"
@@ -4081,6 +4190,7 @@
         "name": "Edge Of Realism",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A spin off from Level4. Built to produce high quality photos. Sometimes photos will come out as uncanny as they are on the edge of realism.",
         "version": "2",
         "style": "realistic",
@@ -4112,6 +4222,7 @@
         "name": "Concept Sheet",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is just the first dreambooth iteration for concept-sheet/old-books style. Based on SD 2.1",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/conceptsheet/01_concept.webp"
@@ -4149,6 +4260,7 @@
         "name": "CharHelper",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/charhelper/01_charhelper.webp"
@@ -4191,6 +4303,7 @@
         "name": "Pokemon3D",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model was trained on Gen 1-8 Pokemon low poly renders",
         "tags": [
             "anime",
@@ -4234,6 +4347,7 @@
         "name": "pix2pix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Model specifically trained for pix2pix use",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
@@ -4270,6 +4384,7 @@
         "name": "Vivid Watercolors",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vividwatercolors/01_vivid.webp"
@@ -4307,6 +4422,7 @@
         "name": "Counterfeit",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Counterfeit is anime style Stable Diffusion model",
         "tags": [
             "anime"
@@ -4344,6 +4460,7 @@
         "name": "Openniji",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The Stable Diffusion model trained on Nijijourney images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/openniji/01_openniji.webp"
@@ -4378,6 +4495,7 @@
         "name": "Pastel Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
         "tags": [
             "anime"
@@ -4415,6 +4533,7 @@
         "name": "Pulp Vector Art",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
@@ -4453,6 +4572,7 @@
         "name": "Rainbowpatch",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Rainbowpatch is a fine-tuned model specifically trained to generate high-quality stylized images, this model doesn't require complicated detailed text prompts.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rainbowpatch/01_rainbow.webp"
@@ -4490,6 +4610,7 @@
         "name": "Vector Art",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a style model for Stable Diffusion 2.1 mimicking vector style.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vectorart/01_vectorart.webp"
@@ -4527,6 +4648,7 @@
         "name": "T-Shirt Print Designs",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a style model for creating prints for tshirts",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
@@ -4564,6 +4686,7 @@
         "name": "GorynichMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Model mix based on any4.5, Elysium, Dreamlike and few more models",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/gorynichmix/01_gory.webp"
@@ -4598,6 +4721,7 @@
         "name": "Laolei New Berry Protogen Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Awesome anime character/realism mix",
         "tags": [
             "anime",
@@ -4636,6 +4760,7 @@
         "name": "URPM",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Model for creating photorealistic humans",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/urpm/01_urpm.webp"
@@ -4670,6 +4795,7 @@
         "name": "Cheese Daddys Landscape Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is tweak and more merges mainly intended for landscapes, but works decent for people",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/cheese_daddys_landscape_mix/01_landscape.webp"
@@ -4704,6 +4830,7 @@
         "name": "Rachel Walker Watercolors",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp",
@@ -4743,6 +4870,7 @@
         "name": "Project Unreal Engine 5",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This checkpoint is trained to look like Unreal Engine 5 renders",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/project_unreal_engine5/01_unreal.webp"
@@ -4777,6 +4905,7 @@
         "name": "Unstable Ink Dream",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Create a variety of styles including realistic photos, realistic drawings, and animations like last three fig",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/unstableinkdream/01_inkdream.webp"
@@ -4819,6 +4948,7 @@
         "name": "PRMJ",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Custom built SD2.1 generalist model from 28k SFW images ",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/prmj/01_prmj.webp"
@@ -4853,6 +4983,7 @@
         "name": "Elldreths Retro Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A retro twist on Elldreths other models",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
@@ -4893,6 +5024,7 @@
         "name": "VinteProtogenMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
@@ -4927,6 +5059,7 @@
         "name": "Rodent Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A model created by Youtuber 'Nerdy Rodent' for creating great images with almost any prompt",
         "version": "1",
         "style": "generalist",
@@ -4958,6 +5091,7 @@
         "name": "Anything v3",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The original horde Anything model with the VAE built in",
         "tags": [
             "anime",
@@ -4996,6 +5130,7 @@
         "name": "Woop-Woop Photo",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A model trained to make detailed, anatomically-accurate (hands, faces, genitals, etc) illustrations of humans and non-humans alike",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/woopwoop/001_muted001.webp"
@@ -5030,6 +5165,7 @@
         "name": "Abyss OrangeMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A model trained to create CG anime characters",
         "tags": [
             "anime",
@@ -5069,6 +5205,7 @@
         "name": "CyriousMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Mostly NSFW, semi-realistic anime characters",
         "tags": [
             "anime",
@@ -5108,6 +5245,7 @@
         "name": "Microcasing",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A cross of knollingcase and microworlds, for creating tiny worlds in a case",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microcasing/01_microcasing.webp"
@@ -5142,6 +5280,7 @@
         "name": "ChilloutMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "For creating images of nude solo women",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
@@ -5175,6 +5314,7 @@
         "name": "Microchars",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A cross of Cute Rich Style and microworlds, for creating tiny 3d figurines",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/microchars/01_people.webp",
@@ -5211,6 +5351,7 @@
         "name": "Microcritters",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A cross of Jak's Creepy Critter and microworlds, for creating tiny 3d monsters",
         "version": "1.0",
         "style": "other",
@@ -5242,6 +5383,7 @@
         "name": "AbyssOrangeMix-AfterDark",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "AbyssOrangeMix trained for creating NSFW images",
         "tags": [
             "anime",
@@ -5276,6 +5418,7 @@
         "name": "Grapefruit Hentai",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Grapefruit aims to be a hentai model with a bright and more softer anime style.",
         "tags": [
             "anime",
@@ -5314,6 +5457,7 @@
         "name": "Experience",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A generalist model with a slight leaning towards science-fiction and 3d renders",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/experience/01_experience.webp"
@@ -5348,6 +5492,7 @@
         "name": "Kenshi",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
         "tags": [
             "anime"
@@ -5382,6 +5527,7 @@
         "name": "DucHaiten Classic Anime",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "DucHaiten's classic anime charecter model, similar to 80's/90's artwork",
         "tags": [
             "anime",
@@ -5424,6 +5570,7 @@
         "name": "Rev Animated",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is mainly intended for Portraits and Full Body Anime-like pictures. Fantasy landscapes are decent.",
         "tags": [
             "anime",
@@ -5461,6 +5608,7 @@
         "name": "526Mix-Animated",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The goal of this model was to anchor 526Mix's whimsical and artistic personality into anime. 526Mix can do a pretty cool anime style (and other 2D styles), but it can be a bit unreliable at times. This simple mix increases the reliability, depth, and nuance in 526Mix's anime and anime-esque capabilities.",
         "tags": [
             "anime",
@@ -5495,6 +5643,7 @@
         "name": "A to Zovya RPG",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
         "version": "1.0",
         "style": "artistic",
@@ -5526,6 +5675,7 @@
         "name": "Colorful",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
         "version": "2.0",
         "style": "artistic",
@@ -5557,6 +5707,7 @@
         "name": "Movie Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Movie Diffusion is SD 1.5 trained on 35mm film stills from popular movies.",
         "version": "1.2",
         "style": "realistic",
@@ -5588,6 +5739,7 @@
         "name": "GuoFeng",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a Chinese gorgeous antique style model, which can also be said to be an antique game character model with a 2.5D texture",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
@@ -5622,6 +5774,7 @@
         "name": "Anime Pencil Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A dreambooth finetune of stable diffusion 1.5 model that will output stuff in anime pencil concept drawing style.",
         "tags": [
             "anime",
@@ -5663,6 +5816,7 @@
         "name": "BPModel",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
         "tags": [
             "anime",
@@ -5698,6 +5852,7 @@
         "name": "UMI Olympus",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A model that generates extremely high quality landscapes, space battles, and fantasy settings. It can also generate very high quality anime characters, though that is not its primary purpose",
         "tags": [
             "anime",
@@ -5734,6 +5889,7 @@
         "name": "HRL",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Hyper Realistic Looking",
         "version": "3.1",
         "style": "realistic",
@@ -5765,6 +5921,7 @@
         "name": "Uhmami",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "a blend of anime-focused models with a semi-realistic aesthetic, combining 3D digital imagery with photography. It allows the use of prompts based on booru tags, similar to the novelai model, resulting in high-quality semi-realistic images",
         "tags": [
             "anime",
@@ -5801,6 +5958,7 @@
         "name": "Neurogen",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model gives a very good detail of skin and textures. Great for close-up photorealistic portraits as well as various characters and models.",
         "version": "1.1",
         "style": "realistic",
@@ -5832,6 +5990,7 @@
         "name": "NeverEnding Dream",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is a dream that you will never want to wake up from. A NeverEnding Dream.  Similar to Dreamshaper, but able to use danbooru tags",
         "tags": [
             "booru"
@@ -5870,6 +6029,7 @@
         "name": "Protogen Anime",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A cocktail mix of a bit of everything",
         "tags": [
             "anime"
@@ -5903,6 +6063,7 @@
         "name": "SynthwavePunk",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A mix of synthwave and inkpunk",
         "version": "1.0",
         "style": "artistic",
@@ -5934,6 +6095,7 @@
         "name": "Graphic-Art",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Style model for Stable Diffusion. Mainly focusing on graphic design.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/graphic_art/01_graphicart.webp"
@@ -5968,6 +6130,7 @@
         "name": "Illuminati Diffusion",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Illuminati Diffusion is a latent text-to-image diffusion model that has been conditioned on high aesthetic synthetic images through fine-tuning. It was trained on 82,000 images locally with a single 3090ti, taking over 100 hours.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/illuminati/001_muted001.webp",
@@ -6003,6 +6166,7 @@
         "name": "SD-Silicon",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "SD-Silicon: A series of general-purpose models based off the experimental automerger, autoMBW.",
         "version": "29",
         "style": "generalist",
@@ -6034,6 +6198,7 @@
         "name": "FKing SciFi",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Trained on 666 images, hand captioned, general, but limited sci-fi model. It has been trained on armour concepts, futuristic backgrounds, androids and robots, as well as some fantasy stuff, like werecreatures.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp",
@@ -6072,6 +6237,7 @@
         "name": "RealBiter",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This blend model aims to achieve versatility in generating images that are almost realistic but with a touch of fantasy and a polished aesthetic. It performs well with both illustrations and simulated photographs, but it particularly excels with the latter",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realbiter/001_voodoocode.webp"
@@ -6106,6 +6272,7 @@
         "name": "FaeTastic",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A beautiful mixed model (22 mixes) including Noise Offset to create a wide-range of images",
         "version": "1",
         "style": "generalist",
@@ -6137,6 +6304,7 @@
         "name": "OrbAI",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model gives you the possibilty to have an orb and put awesome stuff inside of it like animals, universe, solarsystems, fractal images whatever you can think of",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/OrbAI/01.webp"
@@ -6174,6 +6342,7 @@
         "name": "Realism Engine",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This new model was fine-tuned using a vast collection of public domain images, ensuring that it can generate images across a wide range of contexts. While it may not be as strong in generating abstract or highly stylized images, it excels in generating images that are true to life, visually compelling and that accurately reflect the input textual description",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realism_engine/001_muted001.webp"
@@ -6208,6 +6377,7 @@
         "name": "Jim Eidomode",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "I have created something amazing that creates very stylized images, especially digital art. The model is good at creating animals, women, men, fantastic landscapes and much more.",
         "version": "1.0",
         "style": "artistic",
@@ -6239,6 +6409,7 @@
         "name": "Dungeons n Waifus",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A handpicked and curated merge of the best of the best in fantasy world, character & creature design. Should serve as a bit of a swiss army knife / multi-tool to create any and all fantasy art, character concepts, portraits, designs, locations, & even a bit of n00ds",
         "version": "1.0",
         "style": "artistic",
@@ -6270,6 +6441,7 @@
         "name": "iCoMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Comic style mix",
         "tags": [
             "comic",
@@ -6306,6 +6478,7 @@
         "name": "TrexMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is an anime-centric model. It is a massive merge (20+ models) of SD 1.4 and 1.5-based checkpoints. The intent behind this model is to provide good anatomy, realistic lighting and extremely beautiful backgrounds",
         "tags": [
             "anime",
@@ -6341,6 +6514,7 @@
         "name": "Pretty 2.5D",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Realistic anime/cartoon styled drawings",
         "tags": [
             "anime",
@@ -6379,6 +6553,7 @@
         "name": "ExpMix Line",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Realistic anime styled drawings with extra emphasis on outlines",
         "tags": [
             "anime"
@@ -6416,6 +6591,7 @@
         "name": "Disco Elysium",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Trained on the character portraits from the game Disco Elysium. Can also do great backgrounds, able to be used without a trigger",
         "tags": [
             "painting",
@@ -6454,6 +6630,7 @@
         "name": "Something",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A lot of things are being discovered lately, such as a way to merge model using mbw automatically, offset noise to get much darker result, and even VAE tuning. This anime model is intended to use all of those features as the improvements",
         "version": "2.2",
         "style": "anime",
@@ -6485,6 +6662,7 @@
         "name": "RCNZ Dumb Monkey",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "They let the monkey loose at the 'Merge Model' tab, and smashed models together and this awesome generalist model came out!",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/rcnz_dumb_monkey/01.webp"
@@ -6519,6 +6697,7 @@
         "name": "PIXHELL",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The model recreates Pixelart style but with more modern take on the 8bit style. This model is great for side scroller environments but it works great for characters when using controlnet for 2.1 for openpose and also it's great for props and other things",
         "version": "1.0",
         "style": "other",
@@ -6553,6 +6732,7 @@
         "name": "Korestyle",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A model for semi-realistic comic book style sketches",
         "version": "1.0",
         "style": "anime",
@@ -6583,6 +6763,7 @@
         "name": "PVC",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is a latent diffusion model finetuned on Waifu Diffusion v1.5 beta 2 with PVC figure images. You can use Danbooru tags to generate images",
         "version": "3",
         "style": "other",
@@ -6619,6 +6800,7 @@
         "name": "Aurora",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Aurora is a Stable Diffusion model, similar to its predecessor Kenshi, with the goal of capturing my own feelings towards the anime styles I desire.The name Aurora, which means 'dawn' in Latin, represents the idea of a new beginning and a fresh start.",
         "version": "1.0",
         "style": "anime",
@@ -6654,6 +6836,7 @@
         "name": "Char",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
         "version": "1",
         "style": "generalist",
@@ -6685,6 +6868,7 @@
         "name": "CamelliaMix 2.5D",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Semi-realistic model, Camellia Mix 2.5D V2",
         "version": "2.0",
         "style": "anime",
@@ -6715,6 +6899,7 @@
         "name": "Perfect World",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The pursuit of perfect balance between realism and anime, a semi-realistic model aimed to achieve beautiful realistic faces with sexy hentai bodies.",
         "version": "2",
         "style": "anime",
@@ -6746,6 +6931,7 @@
         "name": "JoMad Diffusion",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "SD 1.5 model trained on a sample of Joe Madureiras artwork, this model was combined with another anime style model to create the blend uploaded here.",
         "version": "1.0",
         "style": "anime",
@@ -6780,6 +6966,7 @@
         "name": "RCNZ Gorilla With A Brick",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This time its a Gorilla at the 'Merge Model' tab, and smashed photorealism models together and this awesome generalist model came out!",
         "version": "2.0",
         "style": "generalist",
@@ -6811,6 +6998,7 @@
         "name": "Ether Real Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Ether Real Mix is a realistic to semi-realistic anime style model tuned with the flexibility for general purpose use (hopefully). It still has some shortcomings inherit to anime models such as biases in generating females and humans.",
         "version": "1.1",
         "style": "other",
@@ -6841,6 +7029,7 @@
         "name": "Lyriel",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is generally designed for portraits and full-length anime style photos. Fantastic landscapes are quite decent. And it doesn't require kilometer-long queries to get a high-quality result.",
         "version": "1.5",
         "style": "artistic",
@@ -6871,6 +7060,7 @@
         "name": "DnD Map Generator",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is trained on various D&D Battlemaps. Use the negative prompt: 'grid' to improve some maps, or use the gridless version. Try to experiment with the CFG scale, 10 can create some amazing results but to each their own.",
         "version": "3.0",
         "style": "other",
@@ -6904,6 +7094,7 @@
         "name": "Beautiful Realistic Asians",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Trained on countless pictures of Beautiful Asian women. (some nsfw images included)",
         "version": "4.0",
         "style": "realistic",
@@ -6934,6 +7125,7 @@
         "name": "MoonMix Fantasy",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is the result of merging several checkpoint models. See homepage for details.",
         "version": "2.0",
         "style": "other",
@@ -6964,6 +7156,7 @@
         "name": "ICBINP - I Can't Believe It's Not Photography",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Following on from Gorilla With A Brick, merged in 10 more photorealistic models at various weights, and some more noise offset to create something that when prompted for photorealism will make you go 'I Can't Believe It's Not Photography'. It will happily create CGI characters and awesome landscapes as well.",
         "version": "6.0",
         "style": "realistic",
@@ -6994,6 +7187,7 @@
         "name": "BB95 Furry Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model is a mix of various furry models.",
         "version": "4.1",
         "style": "furry",
@@ -7024,6 +7218,7 @@
         "name": "MeinaMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "MeinaMix objective is to be able to do good art with little prompting.",
         "version": "9.0",
         "style": "artistic",
@@ -7054,6 +7249,7 @@
         "name": "Mistoon Amethyst",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "It creates realistic and expressive characters with a disney twist.",
         "version": "2.0",
         "style": "anime",
@@ -7084,6 +7280,7 @@
         "name": "Art Of Mtg",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Experimenal model, based on ~5000 arts for cards from Magic: the Gathering game on top of SD1.5 model. Large variety of cards from 2014 to 2022 was used. Logos, guild/clan icons and mana symbols were not part of training set as Fan Content Policy explicitly prohibits their use.",
         "version": "1.0",
         "style": "other",
@@ -7114,6 +7311,7 @@
         "name": "Galena Redux",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This is an NSFW prone model. It is meant to generate primarily women and NSFW scenarios. This was made with the new base model merged together, alongside several style LoRA's.",
         "version": "1.0",
         "style": "anime",
@@ -7144,6 +7342,7 @@
         "name": "Analog Madness",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A very versatile model, the more powerfull prompts you give, the better results. Capable of creating both NSFW and SFW images but also great scenery, both in landscape and portrait.",
         "version": "4.0",
         "style": "realistic",
@@ -7174,6 +7373,7 @@
         "name": "Henmix Real",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A realistic model, see homepage for details.",
         "version": "3.0",
         "style": "realistic",
@@ -7204,6 +7404,7 @@
         "name": "Elysium Anime",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Anime version of Elysium, detailed versatile anime style.",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/elysium_anime/01_anon.webp"
@@ -7237,6 +7438,7 @@
         "name": "majicMIX realistic",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "A good looking model, suitable for NSFW and dark scene.",
         "version": "4.0",
         "style": "realistic",
@@ -7267,6 +7469,7 @@
         "name": "GhostMix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This Checkpoint works well on both SFW and NSFW",
         "version": "1.2",
         "style": "anime",
@@ -7297,6 +7500,7 @@
         "name": "Hassaku",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Hassaku aims to be a model with a bright, clear anime style. Model focus are nsfw images, but also with a high emphasis for good looking sfw images as well.",
         "version": "1.2",
         "style": "anime",
@@ -7327,6 +7531,7 @@
         "name": "Dark Sushi Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "This model has good light effects, can generate darker images, and also has good light and shadow performance on normal brightness images.",
         "version": "Colorful",
         "style": "anime",
@@ -7357,6 +7562,7 @@
         "name": "CyberRealistic",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": false,
         "description": "Versatile photorealistic model - the result of a rigorous testing process that blends various models to achieve the desired output.",
         "version": "2.1",
         "style": "realistic",
@@ -7387,6 +7593,7 @@
         "name": "Realistic Vision Inpainting",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": true,
         "description": "The inpainting version of Realistic Vision",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/realisticvision/01_realisticvision.webp"
@@ -7420,6 +7627,7 @@
         "name": "Deliberate Inpainting",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
+        "inpainting": true,
         "description": "The inpainting version of Deliberate",
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/deliberate/01_deliberate.webp"
