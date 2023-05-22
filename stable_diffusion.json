@@ -7686,5 +7686,80 @@
             ]
         },
         "available": false
+    },
+    "Disney Pixar Cartoon Type A": {
+        "name": "Disney Pixar Cartoon Type A",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "From the creator: There's no good pixar disney looking cartoon model yet so i decided to make one. This is a merge of Pixar Style Model with my own Loras to create a generic 3d looking western cartoon. In the examples I Use hires. fix, upscale latent, denoising 0.5, hires steps 20, upscale by 2 . Clip skip 2.",
+        "version": "1",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/65203/disney-pixar-cartoon-type-a",
+        "nsfw": false,
+        "download_all": true,
+        "config": {
+            "files": [
+                {
+                    "path": "disneyPixarCartoon.safetensors",
+                    "sha256sum": "d6548414b4947186d0573d1a9f151fa1f1ca0e7c5fbe9e626a5e6f5532f7e654"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "disneyPixarCartoon.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/69832?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Babes": {
+        "name": "Babes",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Trained on 1600 images from a few styles(see trigger words), with an enhanced realistic style, in 4 cycles of training. Trained on 576px and 960px, 80+ hours of successful training, and countless hours of failed training. Mix ratio: 25% Realistic, 10% Spicy, 14% Stylistic, 30% Anime, 9.5% Furry, the rest is core training that was reinforced to 96% of the original training.",
+        "version": "2.0",
+        "style": "artistic",
+        "trigger": [
+            "verism style",
+            "samdoesart style",
+            "thepit style",
+            "owler style",
+            "cherrmous style",
+            "arosen style",
+            "uodenim style",
+            "stanleylau style",
+            "puffy lips",
+            "hoop earrings",
+            "thick eyebrows"
+        ],
+        "homepage": "https://civitai.com/models/2220/babes",
+        "nsfw": false,
+        "download_all": true,
+        "config": {
+            "files": [
+                {
+                    "path": "babes.safetensors",
+                    "sha256sum": "d319cb2188b7beb32d3fb69b560ca1fdb65fa9ca4468dfe51e5bec6166526f0d"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "babes.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/61372?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
     }
 }
