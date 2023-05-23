@@ -257,6 +257,9 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Minimalist coloring book style images",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Coloring_Book/01.webp"
+        ],
         "version": "2",
         "style": "artistic",
         "trigger": [
@@ -265,9 +268,6 @@
         "homepage": "https://civitai.com/models/5153/coloring-book",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Coloring_Book/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -5356,14 +5356,14 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "A cross of Jak's Creepy Critter and microworlds, for creating tiny 3d monsters",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Microcritters/01.webp"
+        ],
         "version": "1.0",
         "style": "other",
         "homepage": "https://civitai.com/models/8026/micro-critters-merge",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Microcritters/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -6385,14 +6385,14 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "I have created something amazing that creates very stylized images, especially digital art. The model is good at creating animals, women, men, fantastic landscapes and much more.",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Jim_Eidomode/01.webp"
+        ],
         "version": "1.0",
         "style": "artistic",
         "homepage": "https://civitai.com/models/10720/jim-eidomode",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Jim_Eidomode/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -6457,14 +6457,14 @@
             "anime",
             "hentai"
         ],
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/iCoMix/01.webp"
+        ],
         "version": "2",
         "style": "artistic",
         "homepage": "https://civitai.com/models/16164/icomix",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/iCoMix/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -6644,14 +6644,14 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "A lot of things are being discovered lately, such as a way to merge model using mbw automatically, offset noise to get much darker result, and even VAE tuning. This anime model is intended to use all of those features as the improvements",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Something/01.webp"
+        ],
         "version": "2.2",
         "style": "anime",
         "homepage": "https://huggingface.co/NoCrypt/SomethingV2_2",
         "nsfw": false,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Something/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -7111,14 +7111,14 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Trained on countless pictures of Beautiful Asian women. (some nsfw images included)",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Beautiful_Realistic_Asians/01.webp"
+        ],
         "version": "4.0",
         "style": "realistic",
         "homepage": "https://civitai.com/models/25494/brabeautiful-realistic-asians-v3",
         "nsfw": true,
         "download_all": false,
-        "showcases": [
-            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Beautiful_Realistic_Asians/01.webp"
-            ],
         "config": {
             "files": [
                 {
@@ -7775,6 +7775,68 @@
                     "file_name": "babes.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/61372?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "DreamShaper Inpainting": {
+        "name": "DreamShaper Inpainting",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": true,
+        "description": "The inpainting version of DreamShaper",
+        "version": "5",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/4384?modelVersionId=51767",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "dreamshaper_inpainting.safetensors",
+                    "sha256sum": "498c18f2a52a34bb41dd2072101787d037c6507d26ba28c2a589b90884dc6e0e"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "dreamshaper_inpainting.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/51767?type=Model&format=SafeTensor&size=full&fp=fp32"
+                }
+            ]
+        },
+        "available": false
+    },
+    "A-Zovya RPG Inpainting": {
+        "name": "A-Zovya RPG Inpainting",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": true,
+        "description": "The inpainting version of A-Zovya RPG",
+        "version": "2",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/8124?modelVersionId=45840",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "aZovyaRPG_Inpainting.safetensors",
+                    "sha256sum": "c17488cd32a4ab151980f72b35ffe237f8ffb5b5958a4af8db6702b3017d14b4"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "aZovyaRPG_Inpainting.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/45840?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
