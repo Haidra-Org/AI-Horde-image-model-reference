@@ -4433,17 +4433,16 @@
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/counterfeit/01_counterfeit.webp"
         ],
-        "version": "2.5",
+        "version": "3",
         "style": "anime",
-        "homepage": "https://huggingface.co/gsdf/Counterfeit-V2.0",
+        "homepage": "https://civitai.com/models/4468/counterfeit-v30",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "Counterfeit.ckpt",
-                    "md5sum": "7d94a8c4e07643d50acda00fc6c90e45",
-                    "sha256sum": "6f4648e7a45d740da5bbdd44c39b9e74abe28b8684230c9a2c59f672f8da9b02"
+                    "path": "Counterfeit.safetensors",
+                    "sha256sum": "cbfba64e662370f59d4aa2aa69bf16749fce93846ccce20506aee5df01169859"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -4451,9 +4450,9 @@
             ],
             "download": [
                 {
-                    "file_name": "Counterfeit.ckpt",
+                    "file_name": "Counterfeit.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/Counterfeit/resolve/main/Counterfeit-V2.5-inclVae.ckpt"
+                    "file_url": "https://civitai.com/api/download/models/57618?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
@@ -5750,17 +5749,16 @@
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
         ],
-        "version": "3.2",
+        "version": "3.3",
         "style": "artistic",
-        "homepage": "https://huggingface.co/xiaolxl/GuoFeng3",
+        "homepage": "https://civitai.com/models/10415/3-guofeng3",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "GuoFeng.ckpt",
-                    "md5sum": "99305b836778ca3a68970ff6dd1d5ae4",
-                    "sha256sum": "0bb33c70418b00de6d417b24e7cd8d31b4fa0146ff24e1218d0a789018a282b7"
+                    "path": "GuoFeng.safetensors",
+                    "sha256sum": "4078eb4174eea1dd75e03d437f5104f36d7587db31ebdfadc534599f61920119"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5768,9 +5766,9 @@
             ],
             "download": [
                 {
-                    "file_name": "GuoFeng.ckpt",
+                    "file_name": "GuoFeng.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/xiaolxl/GuoFeng3/resolve/main/GuoFeng3.2.ckpt"
+                    "file_url": "https://civitai.com/api/download/models/36644?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -6005,17 +6003,16 @@
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/01_anon.webp",
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/neverending_dream/02_muted001.webp"
         ],
-        "version": "1.0",
+        "version": "1.22",
         "style": "artistic",
-        "homepage": "https://civitai.com/models/10028",
+        "homepage": "https://civitai.com/models/10028/neverending-dream-ned",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "NED.ckpt",
-                    "md5sum": "58c75883da1e0680459ac400c55b251e",
-                    "sha256sum": "e433668e50381c5ef2f33372b0a698256d820adbac98c241ffb142c3864304e8"
+                    "path": "neverendingDream.safetensors",
+                    "sha256sum": "ecefb796ffcb7e4099df12f6419dffad671caa88780ff84fac9d680947173a0f"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -6023,9 +6020,9 @@
             ],
             "download": [
                 {
-                    "file_name": "NED.ckpt",
+                    "file_name": "neverendingDream.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/neverendingDreamNED_bakedVae.ckpt"
+                    "file_url": "https://civitai.com/api/download/models/64094?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -7868,6 +7865,37 @@
                     "file_name": "bweshmix.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/69868?type=Model&format=SafeTensor&size=full&fp=fp32"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Cetus-Mix": {
+        "name": "Cetus-Mix",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "A popular anime model",
+        "version": "4",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/6755/cetus-mix",
+        "nsfw": false,
+        "download_all": true,
+        "config": {
+            "files": [
+                {
+                    "path": "cetusMix.safetensors",
+                    "sha256sum": "b42b09ff12ca9cd70d78aa8210f8d4577ec513fc1484a68615385b8076292639"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "cetusMix.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/78676?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
