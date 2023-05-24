@@ -48,12 +48,12 @@ and
     "type": "ckpt",
     "description": "Highly detailed Anime styled generations",
     "showcases": [
-	"https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/anything_diffusion/01.webp"
+	"https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/anything_diffusion/01.webp"
 	],
     "version": "3",
     "style": "anime",
 ```
 ## Example Image
 Anything Diffusion
-![alt text](https://github.com/db0/AI-Horde-image-model-reference/blob/main/showcase/anything_diffusion/01.webp "Anything Diffusion")
+![alt text](https://github.com/Haidra-Org/AI-Horde-image-model-reference/blob/main/showcase/anything_diffusion/01.webp "Anything Diffusion")
 
