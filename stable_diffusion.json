@@ -7043,7 +7043,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "This model is generally designed for portraits and full-length anime style photos. Fantastic landscapes are quite decent. And it doesn't require kilometer-long queries to get a high-quality result.",
-        "version": "1.5",
+        "version": "1.6",
         "style": "artistic",
         "homepage": "https://civitai.com/models/22922/lyriel",
         "nsfw": true,
@@ -7052,7 +7052,7 @@
             "files": [
                 {
                     "path": "lyriel.safetensors",
-                    "sha256sum": "4d91c4c2174557c2211ba32c54798b19a14c74d84f937d904a481f9b42a9e2ad"
+                    "sha256sum": "ec6f68ea6388951d53d6c8178c22aecfd1b4fedfe31f5a5814ddd7638c4eff37"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -7062,7 +7062,7 @@
                 {
                     "file_name": "lyriel.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/50127?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/72396?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -7102,8 +7102,8 @@
         },
         "available": false
     },
-    "Beautiful Realistic Asians": {
-        "name": "Beautiful Realistic Asians",
+    "BRA": {
+        "name": "BRA",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "inpainting": false,
@@ -7111,16 +7111,16 @@
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/Beautiful_Realistic_Asians/01.webp"
         ],
-        "version": "4.0",
+        "version": "5.0",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/25494/brabeautiful-realistic-asians-v3",
+        "homepage": "https://civitai.com/models/25494/bra",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
                     "path": "braBeautifulRealistic.safetensors",
-                    "sha256sum": "9c03252bea886e921a10f6b5f61b2d60565c32d02bbbb40cb59944c0218c5e90"
+                    "sha256sum": "ac68270450051ac4da9577c622cd45774d19d2c1adf2bda339515daee141e5bc"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -7130,7 +7130,7 @@
                 {
                     "file_name": "braBeautifulRealistic.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/51395?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://civitai.com/api/download/models/63786?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
@@ -7896,6 +7896,68 @@
                     "file_name": "cetusMix.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/78676?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Real Dos Mix": {
+        "name": "Real Dos Mix",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "As it is a semi-realistic model, we do not recommend inappropriate exposure.",
+        "version": "1",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/6925/realdosmix",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "realdosmix.safetensors",
+                    "sha256sum": "0d27c62ffac6d300014245995cee2355dc0963fc8fbad79f79586cf3ba0abd5d"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "realdosmix.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/8137?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Realisian": {
+        "name": "Realisian",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "A realistic model.",
+        "version": "4",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/47130/realisian",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "realisian.safetensors",
+                    "sha256sum": "fba9027fa4bc3156dbdbf3b72c0fc2c8b379d48e2569432509cfaacaa770e6ab"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "realisian.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/70157?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
