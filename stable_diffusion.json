@@ -3792,7 +3792,7 @@
         "showcases": [
             "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
         ],
-        "version": "5",
+        "version": "6",
         "style": "artistic",
         "homepage": "https://civitai.com/models/4384/dreamshaper",
         "nsfw": false,
@@ -3800,8 +3800,8 @@
         "config": {
             "files": [
                 {
-                    "path": "Dreamshaper.ckpt",
-                    "sha256sum": "ffad8f3da766de2a56343e388df43941ee27143a03c596e0b8f06976d4fa52e9"
+                    "path": "Dreamshaper.safetensors",
+                    "sha256sum": "b76cc78ad9e2f001603f200d4e26153ce565a6ac3c179ada73d2e4a4071d4eac"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -3809,9 +3809,9 @@
             ],
             "download": [
                 {
-                    "file_name": "Dreamshaper.ckpt",
+                    "file_name": "Dreamshaper.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/43888?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/78164?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
