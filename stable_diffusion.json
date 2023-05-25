@@ -8001,7 +8001,7 @@
         "name": "Anything Diffusion Inpainting",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
-        "inpainting": false,
+        "inpainting": true,
         "description": "The inpainting version of Anything Diffusion",
         "tags": [
             "anime",
