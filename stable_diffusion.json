@@ -7680,7 +7680,7 @@
         "description": "Generalist model specialized for modifying areas of existing images",
         "showcases": [],
         "version": "1.5",
-        "style": "diffusers",
+        "style": "generalist",
         "nsfw": false,
         "download_all": true,
         "config": {
