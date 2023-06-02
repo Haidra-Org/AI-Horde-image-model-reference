@@ -7674,7 +7674,7 @@
     },
     "stable_diffusion_inpainting": {
         "name": "stable_diffusion_inpainting",
-        "baseline": "stable diffusion 1",        
+        "baseline": "stable diffusion 1",
         "type": "ckpt",
         "inpainting": true,
         "description": "Generalist model specialized for modifying areas of existing images",
