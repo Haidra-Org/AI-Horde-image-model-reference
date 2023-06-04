@@ -8139,7 +8139,7 @@
         "inpainting": false,
         "description": "Reliberate is not a new version of Deliberate. I separate both evolutions / elaborations from each other, and made Reliberate model for those who need to work with photographic style. Yes, you can still create artwork, but it will look more like real artwork than digital.",
         "version": "1.0",
-        "style": "generalist",
+        "style": "realistic",
         "homepage": "https://civitai.com/models/79754/reliberate",
         "nsfw": true,
         "download_all": false,
