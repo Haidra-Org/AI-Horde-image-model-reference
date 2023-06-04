@@ -7204,7 +7204,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "This model is a mix of various furry models.",
-        "version": "4.1",
+        "version": "7.0",
         "style": "furry",
         "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
         "nsfw": true,
@@ -7213,7 +7213,7 @@
             "files": [
                 {
                     "path": "bb95FurryMix.safetensors",
-                    "sha256sum": "3ff38a9cc3cbaab56c4e8be0908920e95ce0f16b5b456c2ec99113a8aa9ffb05"
+                    "sha256sum": "5A8BFCFDD17C96AC2B2EE68D8A916E88BF03C426475F5524D13EB0959C66BCDE"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -7223,7 +7223,7 @@
                 {
                     "file_name": "bb95FurryMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/53885?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://civitai.com/api/download/models/82523?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
@@ -8158,6 +8158,138 @@
                     "file_name": "reliberate.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/84576?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "SweetBoys 2D": {
+        "name": "SweetBoys 2D",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SweetBoys 2D is a model that can make slender and cute boy characters. Fall into the very fantastic and delicate world of beautiful boys! This model tends to ignore Prompt in Clip skip 1 and draws an abstract illustrations. Clip skip 2 or higher is recommended.",
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/46809/sweetboys2d",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "sweetboys2d.safetensors",
+                    "sha256sum": "737A639910C53CC3FDE1C39D8477CDA7B0638FFE8BF4A51F35B5303B11BEFC72"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "sweetboys2d.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/69283?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "iCoMix Inpainting": {
+        "name": "iCoMix Inpainting",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": true,
+        "description": "The inpainting version of iCoMix",
+        "tags": [
+            "comic",
+            "anime",
+            "hentai"
+        ],
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/iCoMix/01.webp"
+        ],
+        "version": "2",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/16164/icomix",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "icomix_Inpainting.safetensors",
+                    "sha256sum": "210ec372214be0098258bee5d588cd840a98a9b2ada41fa9e39935d9efc72a32"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "icomix_Inpainting.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/com-adm/iCoMix-inpainting/resolve/main/iCoMix-inpainting.safetensors"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Samaritan 3d Cartoon": {
+        "name": "Samaritan 3d Cartoon",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "A merge with loras trained on hundreds of midjourney niji expressive images with variety of emotions, doesn't look as good but it's allright. Add 'toothy expression' for more pronounced teeth but it's hard to get it right. Can only make humans and humanoids at the moment.",
+        "version": "1.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/81270/samaritan-3d-cartoon",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "samaritan3dCartoon.safetensors",
+                    "sha256sum": "D43CE53B9B671FFFB4E636D56FB01EA19F246EB321620411EA33B43369233A9E"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "samaritan3dCartoon.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/86224?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "available": false
+    },
+    "AnyLoRA": {
+        "name": "AnyLoRA",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "This is good for inference (again, especially with styles) even if I made it mainly for training. It ended up being super good for generating pics and it's now my go-to anime model. It also eats very little vram.",
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/23900?modelVersionId=29792",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "anylora.safetensors",
+                    "sha256sum": "8a952cafe958f5033a3b436804e2268281c13b5f72aa2d98cd8c599cace809ed"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "anylora.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/29792?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
