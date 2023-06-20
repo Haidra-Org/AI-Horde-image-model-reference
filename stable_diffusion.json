@@ -8294,5 +8294,38 @@
             ]
         },
         "available": false
+    },
+    "Western Animation Diffusion": {
+        "name": "Western Animation Diffusion",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Comicbook and Western Animation Style Model",
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/western_animation_diffusion/01.webp"
+        ],
+        "version": "1.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/86546/western-animation-diffusion",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "westernAnimationDiffusion.safetensors",
+                    "sha256sum": "670E89364D3005E6F8215EFD82CE420F0F0D3BCB7C0503982D1DD7C8120C449E"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "westernAnimationDiffusion.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/92044"
+                }
+            ]
+        }
     }
 }
