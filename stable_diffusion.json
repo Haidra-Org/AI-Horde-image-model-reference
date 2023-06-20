@@ -7285,7 +7285,7 @@
                 {
                     "file_name": "mistoonAmethyst.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/raw/main/mistoonAmethyst_v20_Grapefruit_vae.safetensors"
+                    "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/mistoonAmethyst_v20_Grapefruit_vae.safetensors"
                 }
             ]
         },
