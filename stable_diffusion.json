@@ -8313,7 +8313,7 @@
             "files": [
                 {
                     "path": "westernAnimationDiffusion.safetensors",
-                    "sha256sum": "670E89364D3005E6F8215EFD82CE420F0F0D3BCB7C0503982D1DD7C8120C449E"
+                    "sha256sum": "d20bc9d543b7d7d46a3ed7d91edc1880d8423f1a8a77dcf378801b5dbe211c3b"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -8323,7 +8323,7 @@
                 {
                     "file_name": "westernAnimationDiffusion.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/92044"
+                    "file_url": "https://civitai.com/api/download/models/92044?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         }
