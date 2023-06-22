@@ -8323,7 +8323,7 @@
                 {
                     "file_name": "westernAnimationDiffusion.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/92044?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/92044?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         }
