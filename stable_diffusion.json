@@ -4525,7 +4525,7 @@
                 {
                     "file_name": "PastelMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/andite/pastel-mix/resolve/main/pastelmix-better-vae-fp16.ckpt"
+                    "file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/pastelmix-better-vae-fp16.ckpt"
                 }
             ]
         },
