@@ -7686,7 +7686,8 @@
         "config": {
             "files": [
                 {
-                    "path": "sd-v1-5-inpainting.ckpt"
+                    "path": "sd-v1-5-inpainting.ckpt",
+                    "sha256sum": "c6bbc15e3224e6973459ba78de4998b80b50112b0ae5b5c67113d56b4e366b19"
                 },
                 {
                     "path": "v1-inpainting-inference.yaml"
