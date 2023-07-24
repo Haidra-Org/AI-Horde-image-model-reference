@@ -7014,6 +7014,9 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "This model is a mix of various furry models.",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/bb95_furry_mix/image-grid.webp"
+        ],
         "version": "4.1",
         "style": "furry",
         "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
