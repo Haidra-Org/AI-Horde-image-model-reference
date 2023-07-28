@@ -6984,6 +6984,9 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "Following on from Gorilla With A Brick, merged in 10 more photorealistic models at various weights, and some more noise offset to create something that when prompted for photorealism will make you go 'I Can't Believe It's Not Photography'. It will happily create CGI characters and awesome landscapes as well.",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/icbinp-i-cant-believe-its-not-photography/image-grid.webp"
+        ],
         "version": "4.0",
         "style": "realistic",
         "homepage": "https://civitai.com/models/28059/icbinp-i-cant-believe-its-not-photography",
