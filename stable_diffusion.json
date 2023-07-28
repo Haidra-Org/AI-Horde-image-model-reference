@@ -6702,6 +6702,9 @@
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "description": "Semi-realistic model, Camellia Mix 2.5D V2",
+        "showcases": [
+            "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/CamelliaMix_2.5D/image-grid.webp"
+        ],
         "version": "2.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/44219",
