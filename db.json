@@ -262,9 +262,6 @@
     "homepage": "https://civitai.com/models/5153/coloring-book",
     "nsfw": false,
     "download_all": false,
-    "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Coloring_Book/01.webp"
-      ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -5272,9 +5269,6 @@
     "homepage": "https://civitai.com/models/8026/micro-critters-merge",
     "nsfw": false,
     "download_all": false,
-    "showcases": [
-      "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Microcritters/01.webp"
-      ],
     "requires": [
       "clip-vit-large-patch14"
     ],
@@ -6174,9 +6168,6 @@
       "homepage": "https://civitai.com/models/10720/jim-eidomode",
       "nsfw": false,
       "download_all": false,
-      "showcases": [
-        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Jim_Eidomode/01.webp"
-        ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -6243,9 +6234,6 @@
       "homepage": "https://civitai.com/models/16164/icomix",
       "nsfw": false,
       "download_all": false,
-      "showcases": [
-        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/iCoMix/01.webp"
-        ],
       "requires": [
         "clip-vit-large-patch14"
       ],
@@ -6418,9 +6406,6 @@
       "homepage": "https://huggingface.co/NoCrypt/SomethingV2_2",
       "nsfw": false,
       "download_all": false,
-      "showcases": [
-        "https://raw.githubusercontent.com/db0/AI-Horde-image-model-reference/main/showcase/Something/01.webp"
-        ],
       "requires": [
         "clip-vit-large-patch14"
       ],
