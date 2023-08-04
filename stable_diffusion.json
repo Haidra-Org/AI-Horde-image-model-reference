@@ -6882,6 +6882,9 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Semi-realistic model, Camellia Mix 2.5D V2",
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/CamelliaMix_2.5D/image-grid.webp"
+        ],
         "version": "2.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/44219",
@@ -7173,6 +7176,9 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Following on from Gorilla With A Brick, merged in 10 more photorealistic models at various weights, and some more noise offset to create something that when prompted for photorealism will make you go 'I Can't Believe It's Not Photography'. It will happily create CGI characters and awesome landscapes as well.",
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/icbinp-i-cant-believe-its-not-photography/image-grid.webp"
+        ],
         "version": "8.0",
         "style": "realistic",
         "homepage": "https://civitai.com/models/28059?modelVersionId=70910",
@@ -7204,6 +7210,9 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "This model is a mix of various furry models.",
+        "showcases": [
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bb95_furry_mix/image-grid.webp"
+        ],
         "version": "7.0",
         "style": "furry",
         "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
