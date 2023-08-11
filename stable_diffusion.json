@@ -3811,7 +3811,7 @@
                 {
                     "file_name": "Dreamshaper.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/78164?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/dreamshaper_6BakedVae.safetensors"
                 }
             ]
         },
