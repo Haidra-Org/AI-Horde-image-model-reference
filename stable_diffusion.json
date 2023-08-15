@@ -7175,7 +7175,7 @@
         "description": "Following on from Gorilla With A Brick, merged in 10 more photorealistic models at various weights, and some more noise offset to create something that when prompted for photorealism will make you go 'I Can't Believe It's Not Photography'. It will happily create CGI characters and awesome landscapes as well.",
         "version": "8.0",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/28059?modelVersionId=70910",
+        "homepage": "https://civitai.com/models/28059?modelVersionId=83527",
         "nsfw": false,
         "download_all": false,
         "config": {
@@ -7192,7 +7192,7 @@
                 {
                     "file_name": "icbinp.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/83527?type=Model&format=PickleTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/icbinpICantBelieveIts_v8.ckpt"
                 }
             ]
         },
