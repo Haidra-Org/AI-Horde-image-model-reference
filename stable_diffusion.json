@@ -7254,7 +7254,7 @@
                 {
                     "file_name": "meinamix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/80511?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/meinamix_meinaV10.safetensors"
                 }
             ]
         },
