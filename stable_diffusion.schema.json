@@ -1,0 +1,265 @@
+{
+    "$defs": {
+        "FEATURE_SUPPORTED": {
+            "description": "A feature supported by a model.",
+            "enum": [
+                "hires_fix",
+                "loras",
+                "inpainting",
+                "controlnet"
+            ],
+            "title": "FEATURE_SUPPORTED",
+            "type": "string"
+        },
+        "DownloadRecord": {
+            "description": "An entry in the `config` field of a `StableDiffusionModelRecord`.",
+            "properties": {
+                "file_name": {
+                    "title": "File Name",
+                    "type": "string"
+                },
+                "file_path": {
+                    "title": "File Path",
+                    "type": "string"
+                },
+                "file_url": {
+                    "title": "File Url",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "file_name",
+                "file_path",
+                "file_url"
+            ],
+            "title": "DownloadRecord",
+            "type": "object"
+        },
+        "FileRecord": {
+            "description": "An entry in the `config` field of a `StableDiffusionModelRecord`.",
+            "properties": {
+                "path": {
+                    "title": "Path",
+                    "type": "string"
+                },
+                "md5sum": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Md5Sum"
+                },
+                "sha256sum": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Sha256Sum"
+                }
+            },
+            "required": [
+                "path"
+            ],
+            "title": "FileRecord",
+            "type": "object"
+        },
+        "StableDiffusionModelRecord": {
+            "additionalProperties": false,
+            "description": "A model entry in the legacy model reference.",
+            "properties": {
+                "name": {
+                    "title": "Name",
+                    "type": "string"
+                },
+                "baseline": {
+                    "title": "Baseline",
+                    "type": "string"
+                },
+                "type": {
+                    "title": "Type",
+                    "type": "string"
+                },
+                "inpainting": {
+                    "title": "Inpainting",
+                    "type": "boolean"
+                },
+                "description": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Description"
+                },
+                "tags": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Tags"
+                },
+                "showcases": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Showcases"
+                },
+                "min_bridge_version": {
+                    "anyOf": [
+                        {
+                            "type": "integer"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Min Bridge Version"
+                },
+                "version": {
+                    "title": "Version",
+                    "type": "string"
+                },
+                "style": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Style"
+                },
+                "trigger": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "type": "string"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Trigger"
+                },
+                "homepage": {
+                    "anyOf": [
+                        {
+                            "type": "string"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Homepage"
+                },
+                "nsfw": {
+                    "title": "Nsfw",
+                    "type": "boolean"
+                },
+                "download_all": {
+                    "title": "Download All",
+                    "type": "boolean"
+                },
+                "config": {
+                    "additionalProperties": {
+                        "items": {
+                            "anyOf": [
+                                {
+                                    "$ref": "#/$defs/FileRecord"
+                                },
+                                {
+                                    "$ref": "#/$defs/DownloadRecord"
+                                }
+                            ]
+                        },
+                        "type": "array"
+                    },
+                    "title": "Config",
+                    "type": "object"
+                },
+                "available": {
+                    "anyOf": [
+                        {
+                            "type": "boolean"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Available"
+                },
+                "features_not_supported": {
+                    "anyOf": [
+                        {
+                            "items": {
+                                "$ref": "#/$defs/FEATURE_SUPPORTED"
+                            },
+                            "type": "array"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "default": null,
+                    "title": "Features Not Supported"
+                }
+            },
+            "required": [
+                "name",
+                "baseline",
+                "type",
+                "inpainting",
+                "version",
+                "nsfw",
+                "download_all",
+                "config"
+            ],
+            "title": "StableDiffusionModelRecord",
+            "type": "object"
+        }
+    },
+    "additionalProperties": {
+        "$ref": "#/$defs/StableDiffusionModelRecord"
+    },
+    "title": "StableDiffusionModelReference",
+    "type": "object"
+}
