@@ -1,14 +1,14 @@
 {
     "$defs": {
-        "FEATURE_SUPPORTED": {
-            "description": "A feature supported by a model.",
+        "FEATURE": {
+            "description": "A feature provided by the horde.",
             "enum": [
                 "hires_fix",
                 "loras",
                 "inpainting",
                 "controlnet"
             ],
-            "title": "FEATURE_SUPPORTED",
+            "title": "FEATURE",
             "type": "string"
         },
         "DownloadRecord": {
@@ -231,7 +231,7 @@
                     "anyOf": [
                         {
                             "items": {
-                                "$ref": "#/$defs/FEATURE_SUPPORTED"
+                                "$ref": "#/$defs/FEATURE"
                             },
                             "type": "array"
                         },
