@@ -21,7 +21,7 @@
 				{
 					"file_name": "diff_control_sd21_canny_fp16.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/canny-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/diff_control_sd21_canny_fp16.safetensors"
 				}
 			]
 		},
@@ -49,7 +49,7 @@
 				{
 					"file_name": "diff_control_sd21_depth_fp16.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/depth-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/diff_control_sd21_depth_fp16.safetensors"
 				}
 			]
 		},
@@ -77,7 +77,7 @@
 				{
 					"file_name": "diff_control_sd21_hed_fp16.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/hed-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/diff_control_sd21_hed_fp16.safetensors"
 				}
 			]
 		},
@@ -105,7 +105,7 @@
 				{
 					"file_name": "control_openpose_fp21.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/openpose-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/control_openpose_fp21.safetensors"
 				}
 			]
 		},
@@ -133,7 +133,7 @@
 				{
 					"file_name": "control_scribble_fp21.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/scribble-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/control_scribble_fp21.safetensors"
 				}
 			]
 		},
@@ -161,7 +161,7 @@
 				{
 					"file_name": "control_scribble_fp21.safetensors",
 					"file_path": "",
-					"file_url": "https://huggingface.co/thibaud/controlnet-sd21/resolve/main/scribble-sd21-safe.safetensors"
+					"file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/control_scribble_fp21.safetensors"
 				}
 			]
 		},
