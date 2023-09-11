@@ -13,7 +13,6 @@ on:
       - '.pre-commit-config.yaml'
       - 'scripts/requirements.txt'
       - 'scripts/requirements.dev.txt'
-      - 'scripts/requirements.docs.txt'
 jobs:
   build:
     env:

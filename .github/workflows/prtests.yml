@@ -13,11 +13,9 @@ on:
       - 'tox.ini'
       - '.github/workflows/maintests.yml'
       - '.github/workflows/prtests.yml'
-      - '.github/workflows/release.yml'
       - '.pre-commit-config.yaml'
-      - 'requirements.txt'
-      - 'requirements.dev.txt'
-      - 'requirements.docs.txt'
+      - 'scripts/requirements.txt'
+      - 'scripts/requirements.dev.txt'
 jobs:
   build:
     env:
@@ -42,4 +40,4 @@ jobs:
       - name: Run pre-commit
         uses: pre-commit/action@v3.0.0
       - name: Run unit tests
-        run: tox -e tests
+        run: tox -e validate-sd
