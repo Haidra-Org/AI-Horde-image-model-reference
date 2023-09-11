@@ -15,8 +15,6 @@ on:
       - 'scripts/requirements.dev.txt'
 jobs:
   build:
-    env:
-      AIWORKER_CACHE_HOME: ${{ github.workspace }}/.cache
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -31,7 +29,7 @@ jobs:
       - name: Install tox and any other packages
         run: |
           python -m pip install --upgrade pip
-          pip install --upgrade -r requirements.dev.txt
+          pip install --upgrade -r scripts/requirements.dev.txt
       - name: Run pre-commit
         uses: pre-commit/action@v3.0.0
       - name: Run validation
