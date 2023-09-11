@@ -1,5 +1,5 @@
 {
-    "stable_diffusion_2.1": 
+    "stable_diffusion_2.1": {
         "name": "stable_diffusion_2.1",
         "baseline": "stable diffusion 2",
         "type": "ckpt",
@@ -8328,5 +8328,5 @@
                 }
             ]
         }
-    }
+    },
 }
