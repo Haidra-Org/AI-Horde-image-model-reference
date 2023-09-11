@@ -56,4 +56,3 @@ and
 ## Example Image
 Anything Diffusion
 ![alt text](https://github.com/Haidra-Org/AI-Horde-image-model-reference/blob/main/showcase/anything_diffusion/01.webp "Anything Diffusion")
-
