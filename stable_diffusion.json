@@ -8308,7 +8308,6 @@
         "version": "1.0",
         "style": "artistic",
         "homepage": "https://civitai.com/models/86546/western-animation-diffusion",
-        "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
@@ -8328,5 +8327,5 @@
                 }
             ]
         }
-    },
+    }
 }
