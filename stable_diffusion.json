@@ -6870,7 +6870,7 @@
                 {
                     "file_name": "Char.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/24806?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Char.ckpt"
                 }
             ]
         },
