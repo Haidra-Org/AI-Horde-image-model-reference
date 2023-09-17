@@ -3265,7 +3265,7 @@
                 {
                     "file_name": "moedel.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Moedel.ckpt"
                 }
             ]
         },
@@ -3482,7 +3482,7 @@
                 {
                     "file_name": "Elldreths_Lucid_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Lucid_Mix.ckpt"
                 }
             ]
         },
@@ -5016,7 +5016,7 @@
                 {
                     "file_name": "Elldreths_Retro_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Retro_Mix.ckpt"
                 }
             ]
         },
