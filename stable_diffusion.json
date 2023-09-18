@@ -8365,7 +8365,7 @@
                 }
             ]
         }
-    },    
+    },
     "SDXL 1.0": {
         "name": "SDXL 1.0",
         "baseline": "stable_diffusion_xl",
