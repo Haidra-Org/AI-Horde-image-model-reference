@@ -342,7 +342,6 @@
         "trigger": [
             "Squishmallow"
         ],
-        "homepage": "https://huggingface.co/hlky/squishmallow",
         "nsfw": false,
         "download_all": false,
         "config": {
@@ -360,7 +359,7 @@
                 {
                     "file_name": "squishmallow_diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/hlky/squishmallow/resolve/main/squishmallow_diffusion.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/squishmallow_diffusion.ckpt"
                 }
             ]
         },
@@ -609,7 +608,6 @@
         "trigger": [
             "xynthii"
         ],
-        "homepage": "https://huggingface.co/hlky/xynthii-diffusion",
         "nsfw": false,
         "download_all": false,
         "config": {
@@ -627,7 +625,7 @@
                 {
                     "file_name": "xynthii_fp16.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/hlky/xynthii-diffusion/resolve/main/xynthii_epoch48_fp16.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/xynthii_fp16.ckpt"
                 }
             ]
         },
@@ -3265,7 +3263,7 @@
                 {
                     "file_name": "moedel.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2410?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Moedel.ckpt"
                 }
             ]
         },
@@ -3464,7 +3462,6 @@
         ],
         "version": "1.0",
         "style": "generalist",
-        "homepage": "https://civitai.com/models/1366/elldreths-lucid-mix",
         "nsfw": false,
         "download_all": false,
         "config": {
@@ -3482,7 +3479,7 @@
                 {
                     "file_name": "Elldreths_Lucid_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1450?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Lucid_Mix.ckpt"
                 }
             ]
         },
@@ -4998,7 +4995,6 @@
             "robert maguire",
             "gil elvgren"
         ],
-        "homepage": "https://civitai.com/models/1474/elldreths-retro-mix",
         "nsfw": false,
         "download_all": false,
         "config": {
@@ -5016,7 +5012,7 @@
                 {
                     "file_name": "Elldreths_Retro_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1575?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Retro_Mix.ckpt"
                 }
             ]
         },
@@ -6852,7 +6848,6 @@
         "description": "A 1024 res SD v1.5 trained (not merged) resolution model for various high-quality artstyles. NOTE: There are 42 different possible triggers depending on what you want to create, please see the homepage for the full list",
         "version": "1",
         "style": "generalist",
-        "homepage": "https://civitai.com/models/20842",
         "nsfw": false,
         "download_all": false,
         "config": {
