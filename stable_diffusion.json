@@ -8365,35 +8365,32 @@
                 }
             ]
         }
-    },
+    },    
     "SDXL 1.0": {
         "name": "SDXL 1.0",
+        "baseline": "stable_diffusion_xl",
         "type": "ckpt",
+        "inpainting": false,
         "description": "The base SDXL 1.0 model.",
         "version": "1.0",
         "style": "generalist",
+        "homepage": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
         "nsfw": false,
         "download_all": false,
         "config": {
+            "files": [
+                {
+                    "path": "sd_xl_base_1.0.safetensors",
+                    "sha256sum": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+                }
+            ],
             "download": [
                 {
                     "file_name": "sd_xl_base_1.0.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors",
-                    "sha256sum": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
                 }
             ]
-        },
-        "purpose": "image_generation",
-        "features_not_supported": [
-            "hires_fix",
-            "loras",
-            "inpainting",
-            "controlnet"
-        ],
-        "inpainting": false,
-        "baseline": "stable_diffusion_xl",
-        "homepage": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-        "size_on_disk_bytes": 6938078334
+        }
     }
 }
