@@ -8340,7 +8340,7 @@
         "inpainting": false,
         "description": "Based on the already popular model Deliberate, this model is a more refined version of it.",
         "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/deliberate3/001_efreak.webp"
+            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/deliberate3/01_efreak.webp"
         ],
         "version": "3.0",
         "style": "generalist",
