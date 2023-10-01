@@ -32,7 +32,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5214865159
     },
     "stable_diffusion": {
         "name": "stable_diffusion",
@@ -68,7 +69,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265380512
     },
     "waifu_diffusion": {
         "name": "waifu_diffusion",
@@ -107,7 +109,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265384157
     },
     "Furry Epoch": {
         "name": "Furry Epoch",
@@ -141,7 +144,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3852166639
     },
     "Yiffy": {
         "name": "Yiffy",
@@ -176,7 +180,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3852165745
     },
     "Zack3D": {
         "name": "Zack3D",
@@ -211,7 +216,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3852165937
     },
     "trinart": {
         "name": "trinart",
@@ -249,7 +255,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132888288
     },
     "Coloring Book": {
         "name": "Coloring Book",
@@ -287,7 +294,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607612059
     },
     "Arcane Diffusion": {
         "name": "Arcane Diffusion",
@@ -326,7 +334,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Squishmallow Diffusion": {
         "name": "Squishmallow Diffusion",
@@ -363,7 +372,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132887776
     },
     "Spider-Verse Diffusion": {
         "name": "Spider-Verse Diffusion",
@@ -401,7 +411,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Archer Diffusion": {
         "name": "Archer Diffusion",
@@ -439,7 +450,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Elden Ring Diffusion": {
         "name": "Elden Ring Diffusion",
@@ -478,7 +490,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Robo-Diffusion": {
         "name": "Robo-Diffusion",
@@ -516,7 +529,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265477985
     },
     "mo-di-diffusion": {
         "name": "mo-di-diffusion",
@@ -554,7 +568,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Classic Animation Diffusion": {
         "name": "Classic Animation Diffusion",
@@ -592,7 +607,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Xynthii-Diffusion": {
         "name": "Xynthii-Diffusion",
@@ -629,7 +645,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132866262
     },
     "Comic-Diffusion": {
         "name": "Comic-Diffusion",
@@ -672,7 +689,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132887713
     },
     "Tron Legacy Diffusion": {
         "name": "Tron Legacy Diffusion",
@@ -710,7 +728,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Microworlds": {
         "name": "Microworlds",
@@ -749,7 +768,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132862927
     },
     "Zeipher Female Model": {
         "name": "Zeipher Female Model",
@@ -784,7 +804,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327916
     },
     "Redshift Diffusion": {
         "name": "Redshift Diffusion",
@@ -822,7 +843,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Borderlands": {
         "name": "Borderlands",
@@ -861,7 +883,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Cyberpunk Anime Diffusion": {
         "name": "Cyberpunk Anime Diffusion",
@@ -905,7 +928,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132884897
     },
     "OpenJourney Diffusion": {
         "name": "OpenJourney Diffusion",
@@ -942,7 +966,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132910209
     },
     "Papercut Diffusion": {
         "name": "Papercut Diffusion",
@@ -980,7 +1005,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265531936
     },
     "AIO Pixel Art": {
         "name": "AIO Pixel Art",
@@ -1019,7 +1045,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "JWST Deep Space Diffusion": {
         "name": "JWST Deep Space Diffusion",
@@ -1057,7 +1084,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "App Icon Diffusion": {
         "name": "App Icon Diffusion",
@@ -1095,7 +1123,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Mega Merge Diffusion": {
         "name": "Mega Merge Diffusion",
@@ -1130,7 +1159,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265380128
     },
     "Voxel Art Diffusion": {
         "name": "Voxel Art Diffusion",
@@ -1168,7 +1198,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265531936
     },
     "Van Gogh Diffusion": {
         "name": "Van Gogh Diffusion",
@@ -1206,7 +1237,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Anything Diffusion": {
         "name": "Anything Diffusion",
@@ -1247,7 +1279,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "BubblyDubbly": {
         "name": "BubblyDubbly",
@@ -1286,7 +1319,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300165614
     },
     "Dungeons and Diffusion": {
         "name": "Dungeons and Diffusion",
@@ -1325,7 +1359,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132893519
     },
     "Clazy": {
         "name": "Clazy",
@@ -1364,7 +1399,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Nitro Diffusion": {
         "name": "Nitro Diffusion",
@@ -1404,7 +1440,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Samdoesarts Ultmerge": {
         "name": "Samdoesarts Ultmerge",
@@ -1442,7 +1479,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Synthwave": {
         "name": "Synthwave",
@@ -1480,7 +1518,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "vectorartz": {
         "name": "vectorartz",
@@ -1519,7 +1558,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Ranma Diffusion": {
         "name": "Ranma Diffusion",
@@ -1561,7 +1601,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Ghibli Diffusion": {
         "name": "Ghibli Diffusion",
@@ -1603,7 +1644,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Hentai Diffusion": {
         "name": "Hentai Diffusion",
@@ -1649,7 +1691,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132981728
     },
     "Guohua Diffusion": {
         "name": "Guohua Diffusion",
@@ -1688,7 +1731,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327726
     },
     "Inkpunk Diffusion": {
         "name": "Inkpunk Diffusion",
@@ -1726,7 +1770,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Fantasy Card Diffusion": {
         "name": "Fantasy Card Diffusion",
@@ -1764,7 +1809,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4098020782
     },
     "Knollingcase": {
         "name": "Knollingcase",
@@ -1804,7 +1850,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Midjourney PaintArt": {
         "name": "Midjourney PaintArt",
@@ -1843,7 +1890,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132824329
     },
     "RPG": {
         "name": "RPG",
@@ -1878,7 +1926,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300174645
     },
     "Poison": {
         "name": "Poison",
@@ -1916,7 +1965,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 7703657858
     },
     "Eimis Anime Diffusion": {
         "name": "Eimis Anime Diffusion",
@@ -1954,7 +2004,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Wavyfusion": {
         "name": "Wavyfusion",
@@ -1992,7 +2043,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Papercutcraft": {
         "name": "Papercutcraft",
@@ -2030,7 +2082,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132875454
     },
     "kurzgesagt": {
         "name": "kurzgesagt",
@@ -2068,7 +2121,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "ChromaV5": {
         "name": "ChromaV5",
@@ -2106,7 +2160,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Dreamlike Diffusion": {
         "name": "Dreamlike Diffusion",
@@ -2144,7 +2199,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "Analog Diffusion": {
         "name": "Analog Diffusion",
@@ -2182,7 +2238,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Asim Simpsons": {
         "name": "Asim Simpsons",
@@ -2220,7 +2277,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "Funko Diffusion": {
         "name": "Funko Diffusion",
@@ -2258,7 +2316,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Double Exposure Diffusion": {
         "name": "Double Exposure Diffusion",
@@ -2296,7 +2355,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Microscopic": {
         "name": "Microscopic",
@@ -2334,7 +2394,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265531936
     },
     "Balloon Art": {
         "name": "Balloon Art",
@@ -2372,7 +2433,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Future Diffusion": {
         "name": "Future Diffusion",
@@ -2410,7 +2472,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2580316378
     },
     "Seek.art MEGA": {
         "name": "Seek.art MEGA",
@@ -2445,7 +2508,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Valorant Diffusion": {
         "name": "Valorant Diffusion",
@@ -2483,7 +2547,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132903585
     },
     "Hassanblend": {
         "name": "Hassanblend",
@@ -2519,7 +2584,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132885216
     },
     "ACertainThing": {
         "name": "ACertainThing",
@@ -2559,7 +2625,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265335100
     },
     "GTA5 Artwork Diffusion": {
         "name": "GTA5 Artwork Diffusion",
@@ -2597,7 +2664,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132903585
     },
     "Trinart Characters": {
         "name": "Trinart Characters",
@@ -2636,7 +2704,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265481056
     },
     "Smoke Diffusion": {
         "name": "Smoke Diffusion",
@@ -2674,7 +2743,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Supermarionation": {
         "name": "Supermarionation",
@@ -2712,7 +2782,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Dreamlike Photoreal": {
         "name": "Dreamlike Photoreal",
@@ -2751,7 +2822,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "PortraitPlus": {
         "name": "PortraitPlus",
@@ -2789,7 +2861,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Vintedois Diffusion": {
         "name": "Vintedois Diffusion",
@@ -2827,7 +2900,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132791892
     },
     "Darkest Diffusion": {
         "name": "Darkest Diffusion",
@@ -2865,7 +2939,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132911689
     },
     "Eternos": {
         "name": "Eternos",
@@ -2903,7 +2978,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Min Illust Background": {
         "name": "Min Illust Background",
@@ -2941,7 +3017,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327726
     },
     "Dark Victorian Diffusion": {
         "name": "Dark Victorian Diffusion",
@@ -2979,7 +3056,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132903585
     },
     "DnD Item": {
         "name": "DnD Item",
@@ -3017,7 +3095,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327726
     },
     "ModernArt Diffusion": {
         "name": "ModernArt Diffusion",
@@ -3056,7 +3135,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265335100
     },
     "HASDX": {
         "name": "HASDX",
@@ -3091,7 +3171,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 7703807158
     },
     "Liberty": {
         "name": "Liberty",
@@ -3153,7 +3234,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300165614
     },
     "ProtoGen": {
         "name": "ProtoGen",
@@ -3191,7 +3273,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327916
     },
     "3DKX": {
         "name": "3DKX",
@@ -3227,7 +3310,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300165166
     },
     "Moedel": {
         "name": "Moedel",
@@ -3307,7 +3391,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327916
     },
     "Sygil-Dev Diffusion": {
         "name": "Sygil-Dev Diffusion",
@@ -3342,7 +3427,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327726
     },
     "MoistMix": {
         "name": "MoistMix",
@@ -3377,7 +3463,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 7949867729
     },
     "Healy's Anime Blend": {
         "name": "Healy's Anime Blend",
@@ -3415,7 +3502,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327916
     },
     "GuFeng": {
         "name": "GuFeng",
@@ -3449,7 +3537,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244097744
     },
     "Elldreth's Lucid Mix": {
         "name": "Elldreth's Lucid Mix",
@@ -3523,7 +3612,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132910547
     },
     "Ultraskin": {
         "name": "Ultraskin",
@@ -3572,7 +3662,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607613289
     },
     "Sonic Diffusion": {
         "name": "Sonic Diffusion",
@@ -3610,7 +3701,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "PPP": {
         "name": "PPP",
@@ -3645,7 +3737,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4098378733
     },
     "Anygen": {
         "name": "Anygen",
@@ -3683,7 +3776,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5984636185
     },
     "Protogen Infinity": {
         "name": "Protogen Infinity",
@@ -3739,7 +3833,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857836
     },
     "DucHaiten": {
         "name": "DucHaiten",
@@ -3778,7 +3873,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5672744666
     },
     "Dreamshaper": {
         "name": "Dreamshaper",
@@ -3812,7 +3908,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5963234267
     },
     "Zelda BOTW": {
         "name": "Zelda BOTW",
@@ -3850,7 +3947,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132791380
     },
     "Marvel Diffusion": {
         "name": "Marvel Diffusion",
@@ -3888,7 +3986,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132903521
     },
     "T-Shirt Diffusion": {
         "name": "T-Shirt Diffusion",
@@ -3926,7 +4025,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4098020782
     },
     "Lawlas's yiff mix": {
         "name": "Lawlas's yiff mix",
@@ -3961,7 +4061,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132885216
     },
     "DGSpitzer Art Diffusion": {
         "name": "DGSpitzer Art Diffusion",
@@ -4005,7 +4106,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Realistic Vision": {
         "name": "Realistic Vision",
@@ -4039,7 +4141,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132914476
     },
     "Dan Mumford Style": {
         "name": "Dan Mumford Style",
@@ -4079,7 +4182,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327278
     },
     "PFG": {
         "name": "PFG",
@@ -4114,7 +4218,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 7703710054
     },
     "Epic Diffusion": {
         "name": "Epic Diffusion",
@@ -4149,7 +4254,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132863996
     },
     "Deliberate": {
         "name": "Deliberate",
@@ -4184,7 +4290,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132780730
     },
     "Edge Of Realism": {
         "name": "Edge Of Realism",
@@ -4216,7 +4323,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625438
     },
     "Concept Sheet": {
         "name": "Concept Sheet",
@@ -4254,7 +4362,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "CharHelper": {
         "name": "CharHelper",
@@ -4297,7 +4406,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "Pokemon3D": {
         "name": "Pokemon3D",
@@ -4341,7 +4451,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4992919226
     },
     "pix2pix": {
         "name": "pix2pix",
@@ -4378,7 +4489,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 7703927910
     },
     "Vivid Watercolors": {
         "name": "Vivid Watercolors",
@@ -4416,7 +4528,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Counterfeit": {
         "name": "Counterfeit",
@@ -4453,7 +4566,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244124028
     },
     "Openniji": {
         "name": "Openniji",
@@ -4488,7 +4602,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "Pastel Mix": {
         "name": "Pastel Mix",
@@ -4526,7 +4641,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132878842
     },
     "Pulp Vector Art": {
         "name": "Pulp Vector Art",
@@ -4565,7 +4681,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "Rainbowpatch": {
         "name": "Rainbowpatch",
@@ -4603,7 +4720,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132874321
     },
     "Vector Art": {
         "name": "Vector Art",
@@ -4641,7 +4759,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607614519
     },
     "T-Shirt Print Designs": {
         "name": "T-Shirt Print Designs",
@@ -4679,7 +4798,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132873124
     },
     "GorynichMix": {
         "name": "GorynichMix",
@@ -4714,7 +4834,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300189464
     },
     "Laolei New Berry Protogen Mix": {
         "name": "Laolei New Berry Protogen Mix",
@@ -4753,7 +4874,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 6476961219
     },
     "URPM": {
         "name": "URPM",
@@ -4788,7 +4910,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132867300
     },
     "Cheese Daddys Landscape Mix": {
         "name": "Cheese Daddys Landscape Mix",
@@ -4823,7 +4946,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132898217
     },
     "Rachel Walker Watercolors": {
         "name": "Rachel Walker Watercolors",
@@ -4863,7 +4987,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132862863
     },
     "Project Unreal Engine 5": {
         "name": "Project Unreal Engine 5",
@@ -4898,7 +5023,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265678851
     },
     "Unstable Ink Dream": {
         "name": "Unstable Ink Dream",
@@ -4941,7 +5067,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4098327353
     },
     "PRMJ": {
         "name": "PRMJ",
@@ -4976,7 +5103,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2580316378
     },
     "Elldreths Retro Mix": {
         "name": "Elldreths Retro Mix",
@@ -5016,7 +5144,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265379168
     },
     "VinteProtogenMix": {
         "name": "VinteProtogenMix",
@@ -5051,7 +5180,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265482326
     },
     "Rodent Diffusion": {
         "name": "Rodent Diffusion",
@@ -5083,7 +5213,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "Anything v3": {
         "name": "Anything v3",
@@ -5122,7 +5253,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857198
     },
     "Woop-Woop Photo": {
         "name": "Woop-Woop Photo",
@@ -5157,7 +5289,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2546382637
     },
     "Abyss OrangeMix": {
         "name": "Abyss OrangeMix",
@@ -5197,7 +5330,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "CyriousMix": {
         "name": "CyriousMix",
@@ -5237,7 +5371,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "Microcasing": {
         "name": "Microcasing",
@@ -5272,7 +5407,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132910587
     },
     "ChilloutMix": {
         "name": "ChilloutMix",
@@ -5306,7 +5442,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857708
     },
     "Microchars": {
         "name": "Microchars",
@@ -5343,7 +5480,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132926641
     },
     "Microcritters": {
         "name": "Microcritters",
@@ -5378,7 +5516,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132915183
     },
     "AbyssOrangeMix-AfterDark": {
         "name": "AbyssOrangeMix-AfterDark",
@@ -5413,7 +5552,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300204411
     },
     "Grapefruit Hentai": {
         "name": "Grapefruit Hentai",
@@ -5452,7 +5592,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857708
     },
     "Experience": {
         "name": "Experience",
@@ -5487,7 +5628,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265327980
     },
     "Kenshi": {
         "name": "Kenshi",
@@ -5522,7 +5664,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132885216
     },
     "DucHaiten Classic Anime": {
         "name": "DucHaiten Classic Anime",
@@ -5565,7 +5708,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3852169453
     },
     "Rev Animated": {
         "name": "Rev Animated",
@@ -5603,7 +5747,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5505437736
     },
     "526Mix-Animated": {
         "name": "526Mix-Animated",
@@ -5638,7 +5783,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625431
     },
     "A to Zovya RPG": {
         "name": "A to Zovya RPG",
@@ -5670,7 +5816,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2580315867
     },
     "Colorful": {
         "name": "Colorful",
@@ -5702,7 +5849,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132858331
     },
     "Movie Diffusion": {
         "name": "Movie Diffusion",
@@ -5734,7 +5882,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132860661
     },
     "GuoFeng": {
         "name": "GuoFeng",
@@ -5768,7 +5917,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244098026
     },
     "Anime Pencil Diffusion": {
         "name": "Anime Pencil Diffusion",
@@ -5810,7 +5960,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4098041880
     },
     "BPModel": {
         "name": "BPModel",
@@ -5846,7 +5997,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2300165102
     },
     "UMI Olympus": {
         "name": "UMI Olympus",
@@ -5883,7 +6035,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857708
     },
     "HRL": {
         "name": "HRL",
@@ -5915,7 +6068,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856686
     },
     "Uhmami": {
         "name": "Uhmami",
@@ -5952,7 +6106,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "Neurogen": {
         "name": "Neurogen",
@@ -5984,7 +6139,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625431
     },
     "NeverEnding Dream": {
         "name": "NeverEnding Dream",
@@ -6022,7 +6178,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3455797598
     },
     "Protogen Anime": {
         "name": "Protogen Anime",
@@ -6056,7 +6213,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265096902
     },
     "SynthwavePunk": {
         "name": "SynthwavePunk",
@@ -6088,7 +6246,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Graphic-Art": {
         "name": "Graphic-Art",
@@ -6123,7 +6282,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "Illuminati Diffusion": {
         "name": "Illuminati Diffusion",
@@ -6159,7 +6319,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "SD-Silicon": {
         "name": "SD-Silicon",
@@ -6191,7 +6352,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857708
     },
     "FKing SciFi": {
         "name": "FKing SciFi",
@@ -6230,7 +6392,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2580316314
     },
     "RealBiter": {
         "name": "RealBiter",
@@ -6265,7 +6428,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857198
     },
     "FaeTastic": {
         "name": "FaeTastic",
@@ -6297,7 +6461,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "OrbAI": {
         "name": "OrbAI",
@@ -6335,7 +6500,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132866326
     },
     "Realism Engine": {
         "name": "Realism Engine",
@@ -6370,7 +6536,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610253
     },
     "Jim Eidomode": {
         "name": "Jim Eidomode",
@@ -6405,7 +6572,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857262
     },
     "Dungeons n Waifus": {
         "name": "Dungeons n Waifus",
@@ -6437,7 +6605,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244356832
     },
     "iCoMix": {
         "name": "iCoMix",
@@ -6477,7 +6646,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857836
     },
     "TrexMix": {
         "name": "TrexMix",
@@ -6513,7 +6683,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "Pretty 2.5D": {
         "name": "Pretty 2.5D",
@@ -6552,7 +6723,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132884642
     },
     "ExpMix Line": {
         "name": "ExpMix Line",
@@ -6590,7 +6762,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857198
     },
     "Disco Elysium": {
         "name": "Disco Elysium",
@@ -6629,7 +6802,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Something": {
         "name": "Something",
@@ -6664,7 +6838,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857772
     },
     "RCNZ Dumb Monkey": {
         "name": "RCNZ Dumb Monkey",
@@ -6699,7 +6874,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244329260
     },
     "PIXHELL": {
         "name": "PIXHELL",
@@ -6734,7 +6910,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2607610189
     },
     "Korestyle": {
         "name": "Korestyle",
@@ -6765,7 +6942,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132863996
     },
     "PVC": {
         "name": "PVC",
@@ -6802,7 +6980,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2580315995
     },
     "Aurora": {
         "name": "Aurora",
@@ -6838,7 +7017,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132651163
     },
     "Char": {
         "name": "Char",
@@ -6869,7 +7049,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132919212
     },
     "CamelliaMix 2.5D": {
         "name": "CamelliaMix 2.5D",
@@ -6903,7 +7084,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625431
     },
     "Perfect World": {
         "name": "Perfect World",
@@ -6935,7 +7117,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857262
     },
     "JoMad Diffusion": {
         "name": "JoMad Diffusion",
@@ -6970,7 +7153,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132908576
     },
     "RCNZ Gorilla With A Brick": {
         "name": "RCNZ Gorilla With A Brick",
@@ -7002,7 +7186,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857134
     },
     "Ether Real Mix": {
         "name": "Ether Real Mix",
@@ -7033,7 +7218,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132626102
     },
     "Lyriel": {
         "name": "Lyriel",
@@ -7064,7 +7250,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625432
     },
     "DnD Map Generator": {
         "name": "DnD Map Generator",
@@ -7098,7 +7285,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2378834088
     },
     "BRA": {
         "name": "BRA",
@@ -7132,7 +7320,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3851752514
     },
     "MoonMix Fantasy": {
         "name": "MoonMix Fantasy",
@@ -7163,7 +7352,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5570803596
     },
     "ICBINP - I Can't Believe It's Not Photography": {
         "name": "ICBINP - I Can't Believe It's Not Photography",
@@ -7197,7 +7387,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132857262
     },
     "BB95 Furry Mix": {
         "name": "BB95 Furry Mix",
@@ -7231,7 +7422,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5672748956
     },
     "MeinaMix": {
         "name": "MeinaMix",
@@ -7262,7 +7454,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3526112242
     },
     "Mistoon Amethyst": {
         "name": "Mistoon Amethyst",
@@ -7293,7 +7486,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2369875248
     },
     "Art Of Mtg": {
         "name": "Art Of Mtg",
@@ -7324,7 +7518,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132856622
     },
     "Galena Redux": {
         "name": "Galena Redux",
@@ -7355,7 +7550,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625438
     },
     "Analog Madness": {
         "name": "Analog Madness",
@@ -7386,7 +7582,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132626102
     },
     "Henmix Real": {
         "name": "Henmix Real",
@@ -7417,7 +7614,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2400040296
     },
     "Elysium Anime": {
         "name": "Elysium Anime",
@@ -7451,7 +7649,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265096871
     },
     "majicMIX realistic": {
         "name": "majicMIX realistic",
@@ -7482,7 +7681,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2400040296
     },
     "GhostMix": {
         "name": "GhostMix",
@@ -7513,7 +7713,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132650526
     },
     "Hassaku": {
         "name": "Hassaku",
@@ -7544,7 +7745,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625893
     },
     "Dark Sushi Mix": {
         "name": "Dark Sushi Mix",
@@ -7575,7 +7777,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625438
     },
     "CyberRealistic": {
         "name": "CyberRealistic",
@@ -7606,7 +7809,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132651162
     },
     "Realistic Vision Inpainting": {
         "name": "Realistic Vision Inpainting",
@@ -7640,7 +7844,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132679323
     },
     "Deliberate Inpainting": {
         "name": "Deliberate Inpainting",
@@ -7674,7 +7879,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132704000
     },
     "stable_diffusion_inpainting": {
         "name": "stable_diffusion_inpainting",
@@ -7705,7 +7911,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265437280
     },
     "Disney Pixar Cartoon Type A": {
         "name": "Disney Pixar Cartoon Type A",
@@ -7736,7 +7943,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244098204
     },
     "Babes": {
         "name": "Babes",
@@ -7780,7 +7988,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625468
     },
     "DreamShaper Inpainting": {
         "name": "DreamShaper Inpainting",
@@ -7811,7 +8020,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5672852006
     },
     "A-Zovya RPG Inpainting": {
         "name": "A-Zovya RPG Inpainting",
@@ -7842,7 +8052,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 5672852404
     },
     "BweshMix": {
         "name": "BweshMix",
@@ -7873,7 +8084,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2299935566
     },
     "Cetus-Mix": {
         "name": "Cetus-Mix",
@@ -7904,7 +8116,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3894258133
     },
     "Real Dos Mix": {
         "name": "Real Dos Mix",
@@ -7935,7 +8148,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625431
     },
     "Realisian": {
         "name": "Realisian",
@@ -7966,7 +8180,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625614
     },
     "Epic Diffusion Inpainting": {
         "name": "Epic Diffusion Inpainting",
@@ -8000,7 +8215,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265205180
     },
     "Anything Diffusion Inpainting": {
         "name": "Anything Diffusion Inpainting",
@@ -8040,7 +8256,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265205180
     },
     "Fluffusion": {
         "name": "Fluffusion",
@@ -8070,7 +8287,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625431
     },
     "Anything v5": {
         "name": "Anything v5",
@@ -8101,7 +8319,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132626102
     },
     "ToonYou": {
         "name": "ToonYou",
@@ -8135,7 +8354,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132626252
     },
     "Reliberate": {
         "name": "Reliberate",
@@ -8166,7 +8386,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2132625894
     },
     "SweetBoys 2D": {
         "name": "SweetBoys 2D",
@@ -8197,7 +8418,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 2400040320
     },
     "iCoMix Inpainting": {
         "name": "iCoMix Inpainting",
@@ -8236,7 +8458,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4265204948
     },
     "Samaritan 3d Cartoon": {
         "name": "Samaritan 3d Cartoon",
@@ -8267,7 +8490,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 4244100738
     },
     "AnyLoRA": {
         "name": "AnyLoRA",
@@ -8298,7 +8522,8 @@
                 }
             ]
         },
-        "available": false
+        "available": false,
+        "size_on_disk_bytes": 3455823176
     },
     "Western Animation Diffusion": {
         "name": "Western Animation Diffusion",
@@ -8331,7 +8556,8 @@
                     "file_url": "https://civitai.com/api/download/models/92044?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
-        }
+        },
+        "size_on_disk_bytes": 2132650982
     },
     "Deliberate 3.0": {
         "name": "Deliberate 3.0",
@@ -8362,6 +8588,33 @@
                     "file_name": "deliberate_v3.safetensors",
                     "file_path": "",
                     "file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/deliberate_v3.safetensors"
+                }
+            ]
+        }
+    },
+    "SDXL 1.0": {
+        "name": "SDXL 1.0",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "The base SDXL 1.0 model.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "sd_xl_base_1.0.safetensors",
+                    "sha256sum": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "sd_xl_base_1.0.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
                 }
             ]
         }
