@@ -8617,6 +8617,14 @@
                     "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
                 }
             ]
-        }
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "loras",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938078334
+
     }
 }
