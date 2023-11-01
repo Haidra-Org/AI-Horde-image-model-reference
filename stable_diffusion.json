@@ -8382,7 +8382,7 @@
                 {
                     "file_name": "reliberate.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/84576?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/reliberate.safetensors"
                 }
             ]
         },
