@@ -4040,7 +4040,7 @@
         "version": "2",
         "style": "furry",
         "homepage": "https://civitai.com/models/12979/lawlass-yiffymix-20-furry-model",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
