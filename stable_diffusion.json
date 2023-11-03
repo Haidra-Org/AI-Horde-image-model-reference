@@ -5309,7 +5309,7 @@
         "version": "3",
         "style": "anime",
         "homepage": "https://huggingface.co/WarriorMama777/OrangeMixs",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
