@@ -5268,7 +5268,7 @@
         "version": "1.2",
         "style": "realistic",
         "homepage": "https://civitai.com/models/4041/woopwoop-photo",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
