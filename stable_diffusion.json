@@ -7546,7 +7546,7 @@
                 {
                     "file_name": "galenaREDUX.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/57724?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/galenaREDUX.safetensors?download=true"
                 }
             ]
         },
