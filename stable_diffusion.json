@@ -8620,7 +8620,6 @@
         },
         "features_not_supported": [
             "hires_fix",
-            "loras",
             "inpainting",
             "controlnet"
         ],
