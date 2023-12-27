@@ -8625,39 +8625,5 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938078334
-    },
-    "SDXL Refiner 1.0": {
-        "name": "SDXL Refiner 1.0",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "The Refiner SDXL 1.0 model.",
-        "version": "1.0",
-        "style": "generalist",
-        "homepage": "hhttps://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "sd_xl_refiner_1.0.safetensors",
-                    "sha256sum": "7440042bbdc8a24813002c09b6b69b64dc90fded4472613437b7f55f9b7d9c5f"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "sd_xl_refiner_1.0.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/blob/main/sd_xl_refiner_1.0.safetensors"
-                }
-            ]
-        },
-        "features_not_supported": [
-            "hires_fix",
-            "loras",
-            "inpainting",
-            "controlnet"
-        ],
-        "size_on_disk_bytes": 6075981930
     }
 }
