@@ -8631,7 +8631,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "SDXL Model that doesn't require a refiner.",
-        "version": "1.3",
+        "version": "2.0",
         "style": "generalist",
         "homepage": "https://civitai.com/models/140737/albedobase-xl",
         "nsfw": false,
@@ -8639,15 +8639,15 @@
         "config": {
             "files": [
                 {
-                    "path": "albedo_base_1.3.safetensors",
-                    "sha256sum": "a40d817f46acc25c88ee0b6f6efa474004cea3fa1868e09a13192342c5bf4df9"
+                    "path": "albedo_base_2.0.safetensors",
+                    "sha256sum": "a928fee35b39103cdf87a5059cae6bad66b30de2cc17f739e1c3b8d88181c22b"
                 }
             ],
             "download": [
                 {
-                    "file_name": "albedo_base_1.3.safetensors",
+                    "file_name": "albedo_base_2.0.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/238308?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/281176?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
