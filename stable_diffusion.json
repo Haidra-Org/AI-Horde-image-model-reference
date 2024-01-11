@@ -219,280 +219,6 @@
         "available": false,
         "size_on_disk_bytes": 3852165937
     },
-    "trinart": {
-        "name": "trinart",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Manga styled generations.",
-        "tags": [
-            "anime",
-            "manga"
-        ],
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/trinart/01_monarch.webp"
-        ],
-        "version": "1",
-        "style": "anime",
-        "nsfw": false,
-        "download_all": true,
-        "config": {
-            "files": [
-                {
-                    "path": "trinart.ckpt",
-                    "md5sum": "c90995db630d8415fbf51d6b72e71e15",
-                    "sha256sum": "c1799d22a355ba25c9ceeb6e3c91fc61788c8e274b73508ae8a15877c5dbcf63"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "trinart.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/naclbit/trinart_stable_diffusion_v2/resolve/main/trinart2_step95000.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132888288
-    },
-    "Coloring Book": {
-        "name": "Coloring Book",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Minimalist coloring book style images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/Coloring_Book/01.webp"
-        ],
-        "version": "2",
-        "style": "artistic",
-        "trigger": [
-            "colr_001"
-        ],
-        "homepage": "https://civitai.com/models/5153/coloring-book",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "coloringbook.ckpt",
-                    "md5sum": "853cb408368331239034be64811095d1",
-                    "sha256sum": "ee10b26e6cd95370fdbd5f3a93684dc70ad67d505d9e21cc364552a7ca37a152"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "coloringbook.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/MrHup/coloring-book/resolve/main/COLR_001.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607612059
-    },
-    "Arcane Diffusion": {
-        "name": "Arcane Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Based on the Arcane TV show",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/arcane/01_bigdowg.jpg",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/arcane/02_bigdowg.jpg"
-        ],
-        "version": "3",
-        "style": "artistic",
-        "trigger": [
-            "arcane style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/arcane-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "arcane_diffusion.ckpt",
-                    "md5sum": "218055cf8b7f49559de4a6c939dec9ed",
-                    "sha256sum": "7dd0e6760f5a6778bebbbdaedd96aa1038ca76c349194f0c1b5c28311e10a78b"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "arcane_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/Arcane-Diffusion/resolve/main/arcane-diffusion-v3.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Squishmallow Diffusion": {
-        "name": "Squishmallow Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Squishmallows",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/squishmallow_diffusion/01_bigdawg.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "Squishmallow"
-        ],
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "squishmallow_diffusion.ckpt",
-                    "md5sum": "88495b1c5314f9430c56c86957f7e7dd",
-                    "sha256sum": "82b7a26806b20f0a213496d006e51fbdf5723bf81e6eb75a2795fa139c9cc7df"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "squishmallow_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/squishmallow_diffusion.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132887776
-    },
-    "Spider-Verse Diffusion": {
-        "name": "Spider-Verse Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Based on the Into the Spider-Verse movie's animation style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/spider_verse_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "spiderverse style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/spider-verse-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "spider-verse_diffusion.ckpt",
-                    "md5sum": "45315570874b90caf6dba1750eeb9ec8",
-                    "sha256sum": "dfe747d447b591a7e1e0076f34d1c3a284f81f4566610e1bceff0b3469aff53c"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "spider-verse_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/spider-verse-diffusion/resolve/main/spiderverse-v1-pruned.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Archer Diffusion": {
-        "name": "Archer Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Based on the Archer's TV show animation style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/archer_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "archer style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/archer-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "archer_diffusion.ckpt",
-                    "md5sum": "b54b3a2a05efe39380b056008105f34c",
-                    "sha256sum": "c9798ee288f9a317e02f7c82067881a9468b1da85f9cc91351ce62db8000d3b2"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "archer_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/archer-diffusion/resolve/main/archer-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Elden Ring Diffusion": {
-        "name": "Elden Ring Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Based on the Elden Ring video game style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/elden_ring_diffusion/01_dethinhfil.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/elden_ring_diffusion/02_gigachad.webp"
-        ],
-        "version": "2",
-        "style": "artistic",
-        "trigger": [
-            "elden ring style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/elden-ring-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "elden_ring_diffusion.ckpt",
-                    "md5sum": "bcc5873b5278e6a383fb86665bc84468",
-                    "sha256sum": "9c6a0e1a7fba0fbfc5a9220f48a7f2f293af453245e8e4fd3db5a919534cec21"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "elden_ring_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/elden-ring-diffusion/resolve/main/eldenRing-v3-pruned.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Robo-Diffusion": {
         "name": "Robo-Diffusion",
         "baseline": "stable diffusion 1",
@@ -532,45 +258,6 @@
         "available": false,
         "size_on_disk_bytes": 4265477985
     },
-    "mo-di-diffusion": {
-        "name": "mo-di-diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Popular animation studio modern style generations.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/mo_di_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "modern disney style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/mo-di-diffusion",
-        "nsfw": false,
-        "download_all": true,
-        "config": {
-            "files": [
-                {
-                    "path": "mo-di-diffusion.ckpt",
-                    "md5sum": "393f79603e5cab05307670d0f71a5193",
-                    "sha256sum": "8067368533bd74cbfb439ab829c0ef5ccede1e29ed5644e193410416f24cf976"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "mo-di-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/mo-di-diffusion/resolve/main/moDi-v1-pruned.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Classic Animation Diffusion": {
         "name": "Classic Animation Diffusion",
         "baseline": "stable diffusion 1",
@@ -609,44 +296,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132856622
-    },
-    "Xynthii-Diffusion": {
-        "name": "Xynthii-Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Xynthii-Diffusion (cyclops monster girls)",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/xynthii_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "xynthii"
-        ],
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "xynthii_fp16.ckpt",
-                    "md5sum": "97e5057d0901d160e76bc9032cd32852",
-                    "sha256sum": "c97add52189d85f9568c61d286dceda20145af8fe2c46ebd5d939ca6a684aad0"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "xynthii_fp16.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/xynthii_fp16.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132866262
     },
     "Comic-Diffusion": {
         "name": "Comic-Diffusion",
@@ -806,130 +455,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265327916
-    },
-    "Redshift Diffusion": {
-        "name": "Redshift Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Dreambooth model trained on high resolution 3D artworks",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/redshift/01_bigdowg.jpg"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "redshift style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/redshift-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "redshift.ckpt",
-                    "md5sum": "ab2ae074f9ee9460d4244fb2cb1ade65",
-                    "sha256sum": "ed8c2ee43268932a420f5db00b105881770a19c0afd0d35876330e2bbdcce426"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "redshift.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/redshift-diffusion/resolve/main/redshift-diffusion-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Borderlands": {
-        "name": "Borderlands",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Based on Borderlands video game style, trained on characters and scenes",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/borderlands/01_gigachad.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/borderlands/02_jakeukalane.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "borderlands"
-        ],
-        "homepage": "https://huggingface.co/PublicPrompts/borderlands",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "borderlands.ckpt",
-                    "md5sum": "bbea57acf5c527e47db649804e0d7a20",
-                    "sha256sum": "e094440ebbdbd8cad527c897b1b0125a2f525d40dcf87b70b9f2455e50ab07f5"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "borderlands.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/PublicPrompts/borderlands/resolve/main/borderlands.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Cyberpunk Anime Diffusion": {
-        "name": "Cyberpunk Anime Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Cyberpunk anime characters",
-        "tags": [
-            "anime",
-            "cyberpunk",
-            "tv show"
-        ],
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/cyberpunk_anime_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "anime",
-        "trigger": [
-            "dgs",
-            "illustration style"
-        ],
-        "homepage": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Cyberpunk-Anime-Diffusion.ckpt",
-                    "md5sum": "12151c617aaadf6ba87d30997b0b7190",
-                    "sha256sum": "a8f7dcece7bc4a6273ed1efa427d481b03237a8f635f1bc44128dd48217a2947"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Cyberpunk-Anime-Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/DGSpitzer/Cyberpunk-Anime-Diffusion/resolve/main/Cyberpunk-Anime-Diffusion.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132884897
     },
     "OpenJourney Diffusion": {
         "name": "OpenJourney Diffusion",
@@ -1162,84 +687,6 @@
         "available": false,
         "size_on_disk_bytes": 4265380128
     },
-    "Voxel Art Diffusion": {
-        "name": "Voxel Art Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Stable Diffusion fine-tuned on voxel art style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/voxel_art_diffusion/01_dethinhfil.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "VoxelArt"
-        ],
-        "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_VoxelArt_Model",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "VoxelArt_v1.ckpt",
-                    "md5sum": "7c40e7f2c03a986b6037967eba8f5116",
-                    "sha256sum": "dc46d56562ca5e157bb7c980193921556b06b02a050f55e7b7ecd0573aac9687"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "VoxelArt_v1.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_VoxelArt_Model/resolve/main/VoxelArt_v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265531936
-    },
-    "Van Gogh Diffusion": {
-        "name": "Van Gogh Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Stable Diffusion model trained on screenshots from the film Loving Vincent, best results with k_euler sampler",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/van_gogh_diffusion/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "lvngvncnt"
-        ],
-        "homepage": "https://huggingface.co/dallinmackay/Van-Gogh-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Van-Gogh-Diffusion.ckpt",
-                    "md5sum": "a23f0e980e921972be5f819cb33cf8fe",
-                    "sha256sum": "60b41cc82a254ded70ccaa9a7806efd501b13080ce59e5c15b14e46a17ba0e55"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Van-Gogh-Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/dallinmackay/Van-Gogh-diffusion/resolve/main/Van-Gogh-Style-lvngvncnt-v2.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Anything Diffusion": {
         "name": "Anything Diffusion",
         "baseline": "stable diffusion 1",
@@ -1282,46 +729,6 @@
         "available": false,
         "size_on_disk_bytes": 2132857772
     },
-    "BubblyDubbly": {
-        "name": "BubblyDubbly",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Dreamy sketched/painted portraits",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bubblydubbly/01_bigdowg.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bubblydubbly/02_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "art by bubblydubbly"
-        ],
-        "homepage": "https://huggingface.co/Marre-Barre/bubblydubbly",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "bubblydubbly_7k.ckpt",
-                    "md5sum": "fedc9d27158d97011c3d2ea7f1c46d9b",
-                    "sha256sum": "8fe30cee7d0f1c5f0359683775e07742ad374ae555d23a11f7a682b9c91b2219"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "bubblydubbly_7k.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Marre-Barre/bubblydubbly/resolve/main/bubblydubbly_7k.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2300165614
-    },
     "Dungeons and Diffusion": {
         "name": "Dungeons and Diffusion",
         "baseline": "stable diffusion 1",
@@ -1362,46 +769,6 @@
         "available": false,
         "size_on_disk_bytes": 2132893519
     },
-    "Clazy": {
-        "name": "Clazy",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Generates clay-like figures",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/clazy/01_bigdowg.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/clazy/02_bigdowg.jpg"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "clazy style"
-        ],
-        "homepage": "https://huggingface.co/Signorlimone/Clazy",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "clazy2600.ckpt",
-                    "md5sum": "c1c647b006db1e4cedcf7601043fd50b",
-                    "sha256sum": "ed2cf308d1f8a6e3373e121d755d4e191c3d3a0dad0220e82bff95c51eb84458"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "clazy2600.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Signorlimone/Clazy/resolve/main/clazy2600.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Nitro Diffusion": {
         "name": "Nitro Diffusion",
         "baseline": "stable diffusion 1",
@@ -1437,84 +804,6 @@
                     "file_name": "nitroDiffusion.ckpt",
                     "file_path": "",
                     "file_url": "https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitroDiffusion-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Samdoesarts Ultmerge": {
-        "name": "Samdoesarts Ultmerge",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Portraits in the style of Sam Yang, merged with chewtoy and orange code's models",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/samdoesarts_ultmerge/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "samdoesarts style"
-        ],
-        "homepage": "https://civitai.com/models/68",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "samdoesarts_ultmerge.ckpt",
-                    "md5sum": "c35c57f88b362bcc170d086805e4a677",
-                    "sha256sum": "0df94974244397f242e535595b5cdd839f9fa94372c76edcfeaf0fd4e356c59a"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "samdoesarts_ultmerge.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/jinofcoolnes/sammod/resolve/main/samdoartsultmerge.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Synthwave": {
-        "name": "Synthwave",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Stable Diffusion model to create images in Synthwave/outrun style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/synthwave/01_bigdowg.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "snthwve style"
-        ],
-        "homepage": "https://huggingface.co/PublicPrompts/Synthwave",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "synthwave.ckpt",
-                    "md5sum": "99d37805cab8f98fc07c741345ab9a56",
-                    "sha256sum": "b7edb13c6967e837110af9f473de4932d32e6bbc43b51124730b72948fc3c523"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "synthwave.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/PublicPrompts/Synthwave/resolve/main/snthwve%20style.ckpt"
                 }
             ]
         },
@@ -1694,46 +983,6 @@
         "available": false,
         "size_on_disk_bytes": 2132981728
     },
-    "Guohua Diffusion": {
-        "name": "Guohua Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "fine-tuned Stable Diffusion model trained on traditional Chinese paintings",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/guohua_diffusion/01_ghostdragon11.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/guohua_diffusion/02_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "guohua style"
-        ],
-        "homepage": "https://huggingface.co/Langboat/Guohua-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "guohua-diffusion.ckpt",
-                    "md5sum": "031f1e1bb108048028c55d729d1c26d7",
-                    "sha256sum": "1e8d9654c69e6c77b62c1748d891cf1e108eb73d9572e2beb300f7e47788c1ea"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "guohua-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Langboat/Guohua-Diffusion/resolve/main/guohua.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265327726
-    },
     "Inkpunk Diffusion": {
         "name": "Inkpunk Diffusion",
         "baseline": "stable diffusion 1",
@@ -1811,47 +1060,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4098020782
-    },
-    "Knollingcase": {
-        "name": "Knollingcase",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "generates a glass display case with objects inside, inspired by Sean Preston. Trained on Midjourney images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/knollingcase/01_gigachad.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/knollingcase/02_ghostdragon11.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/knollingcase/03_muted001.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "knollingcase"
-        ],
-        "homepage": "https://huggingface.co/Aybeeceedee/knollingcase",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "knollingcase.ckpt",
-                    "md5sum": "b5be9d0a6f493ab0703ab3cbb28a3aa5",
-                    "sha256sum": "cf836e65a7ab8a7ef29395a3322f53a8b1dabe9a4aeffbf16ea49c68bb925033"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "knollingcase.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Aybeeceedee/knollingcase/resolve/main/knollingcase.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
     },
     "Midjourney PaintArt": {
         "name": "Midjourney PaintArt",
@@ -2007,123 +1215,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Wavyfusion": {
-        "name": "Wavyfusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "dreambooth model trained on a very diverse dataset ranging from photographs to paintings",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/wavyfusion/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "trigger": [
-            "wa-vy style"
-        ],
-        "homepage": "https://huggingface.co/wavymulder/wavyfusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "wavyfusion.ckpt",
-                    "md5sum": "7c1976221a93f502042102c9d0d43470",
-                    "sha256sum": "3f7df165111091d34eb6019a46df6feb059bc88feaa0039b8a58a6b3c92c8699"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "wavyfusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/wavymulder/wavyfusion/resolve/main/wa-vy-fusion_1.0.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Papercutcraft": {
-        "name": "Papercutcraft",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Paper Cut Craft is a fine tuned Stable Diffusion model trained on Midjourney images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/papercutcraft/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "papercutcraft style"
-        ],
-        "homepage": "https://huggingface.co/OlafII/papercutcraft-v1",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "papercutcraft.ckpt",
-                    "md5sum": "9f37ef2b28367a64272f3350a92031fe",
-                    "sha256sum": "ae10cd8b079179af13cbdc646585887c828676ea9e69e1179d3745d5ff8dff86"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "papercutcraft.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/OlafII/papercutcraft-v1/resolve/main/papercutcraft-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132875454
-    },
-    "kurzgesagt": {
-        "name": "kurzgesagt",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A DreamBooth finetune of Stable Diffusion v1.5 model trained on a bunch of stills from Kurzgesagt videos",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/kurzgesagt/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "kurzgesagt style"
-        ],
-        "homepage": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "kurzgesagt-style-v1.ckpt",
-                    "md5sum": "f012a7cacd0727eb52978150aa09abbb",
-                    "sha256sum": "82430a1dc0b02a082172e7cf97d4564e91a91d36d50abfae7970d31e78f0c0de"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "kurzgesagt-style-v1.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune/resolve/main/kurzgesagt-style-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "ChromaV5": {
         "name": "ChromaV5",
         "baseline": "stable diffusion 1",
@@ -2241,45 +1332,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Asim Simpsons": {
-        "name": "Asim Simpsons",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "The Simpsons dreambooth model",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/asim_simpsons/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "asim style"
-        ],
-        "homepage": "https://huggingface.co/PiyarSquare/sd_asim_simpsons",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "asim-simpsons.ckpt",
-                    "md5sum": "cac2a1fcff8f2b1bd1d6e4514e412006",
-                    "sha256sum": "fef47f1f047bff3d3a47beb4e1a5ad1d6ce7f408cefa358de84b8fb0d82320bb"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "asim-simpsons.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/PiyarSquare/sd_asim_simpsons/resolve/main/asim_v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856686
-    },
     "Funko Diffusion": {
         "name": "Funko Diffusion",
         "baseline": "stable diffusion 1",
@@ -2358,123 +1410,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Microscopic": {
-        "name": "Microscopic",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is the fine-tuned Stable Diffusion model trained on microscopic images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microscopic/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "trigger": [
-            "microscopic"
-        ],
-        "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_Microscopic_model",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "microscopic-diffusion.ckpt",
-                    "md5sum": "c10f35dd08f93b15ef3d346d6fa1b9cf",
-                    "sha256sum": "ba4990be05a63125760976e2a6d6fb0b768eabef552e348d4e244821ad93994a"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "microscopic-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_Microscopic_model/resolve/main/Microscopic_v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265531936
-    },
-    "Balloon Art": {
-        "name": "Balloon Art",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is the fine-tuned Stable Diffusion model trained on Twisted Balloon images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/balloon_art/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "trigger": [
-            "BalloonArt"
-        ],
-        "homepage": "https://huggingface.co/Fictiverse/Stable_Diffusion_BalloonArt_Model",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "balloonart-diffusion.ckpt",
-                    "md5sum": "d2b965fc96600d464ae6094d9c8337e7",
-                    "sha256sum": "7e9f32b2682afc7cd36b62fa48ddfec30ac55a01af3a91c79c332764d5fa748f"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "balloonart-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_BalloonArt_Model/resolve/main/BalloonArt_v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Future Diffusion": {
-        "name": "Future Diffusion",
-        "baseline": "stable diffusion 2 512",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This creates high quality 3D images with a futuristic Sci-Fi theme",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/future_diffusion/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "future style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/Future-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "future-diffusion.ckpt",
-                    "md5sum": "985396d8ee97c1bad8bdbd9dd55b04ae",
-                    "sha256sum": "a41d2d0b20d2f8d12ef430eef12c56933c003670eeacba6ddbdc47b427851eee"
-                },
-                {
-                    "path": "v2-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "future-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/Future-Diffusion/resolve/main/future-diffusion-v1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2580316378
-    },
     "Seek.art MEGA": {
         "name": "Seek.art MEGA",
         "baseline": "stable diffusion 1",
@@ -2510,45 +1445,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132856622
-    },
-    "Valorant Diffusion": {
-        "name": "Valorant Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model was trained on the Valorant agents splash arts, and some extra arts on the official website",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/valorant_diffusion/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "valorant style"
-        ],
-        "homepage": "https://huggingface.co/ItsJayQz/Valorant_Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "valorant-diffusion.ckpt",
-                    "md5sum": "7d5087fc1144057bf65cdcae079dd3d8",
-                    "sha256sum": "ace31214587fbfa88a25c957d7b55e30b25bc97996f559076fe780530d7d342b"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "valorant-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/ItsJayQz/Valorant_Diffusion/resolve/main/Valorant_Diffusion_valorant_style.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132903585
     },
     "Hassanblend": {
         "name": "Hassanblend",
@@ -2707,84 +1603,6 @@
         "available": false,
         "size_on_disk_bytes": 4265481056
     },
-    "Smoke Diffusion": {
-        "name": "Smoke Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is the fine-tuned Stable Diffusion model trained on images of smoke",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/smoke_diffusion/01_voodoocode.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "trigger": [
-            "ssmoky"
-        ],
-        "homepage": "https://huggingface.co/guumaster/smoke-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Smoke_Diffusion.ckpt",
-                    "md5sum": "1ed41feadcf843a42f4d167b5a6350e7",
-                    "sha256sum": "fa2305a8c77875e51ce48b269771d690767ca895a56c79a1734ce5cfb9aa8d66"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Smoke_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/guumaster/smoke-diffusion/resolve/main/ssmoky1.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Supermarionation": {
-        "name": "Supermarionation",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is a fine-tuned Stable Diffusion model (based on v1.5) trained on screenshots from Gerry Anderson Supermarionation stop motion animation movie, basically from Thunderbirds tv series",
-        "showcases": [
-            "https://huggingface.co/tuwonga/supermarionation/resolve/main/supermarionation_v2_prev1.jpg"
-        ],
-        "version": "2.0",
-        "style": "artistic",
-        "trigger": [
-            "supermarionation"
-        ],
-        "homepage": "https://huggingface.co/tuwonga/supermarionation",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Supermarionation.ckpt",
-                    "md5sum": "321c36eac4e9a8f4d3903a8112ebfeed",
-                    "sha256sum": "308d057218b91d3b7341c7e8e933252ac6df70f704253a8b4ebc34e7d06ea787"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Supermarionation.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/tuwonga/supermarionation/resolve/main/supermarionation_v2.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Dreamlike Photoreal": {
         "name": "Dreamlike Photoreal",
         "baseline": "stable diffusion 1",
@@ -2863,162 +1681,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132856622
-    },
-    "Vintedois Diffusion": {
-        "name": "Vintedois Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Vintedois (22h) Diffusion model trained by Predogl and piEsposito with open weights, configs and prompts (as it should be).  This model was trained on a large amount of high quality images with simple prompts to generate beautiful images without a lot of prompt engineering.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/vintedois_diffusion/01_juice.webp"
-        ],
-        "version": "0.2",
-        "style": "generalist",
-        "trigger": [
-            "estilovintedois"
-        ],
-        "homepage": "https://huggingface.co/22h/vintedois-diffusion-v0-2",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Vintedois_Diffusion.ckpt",
-                    "md5sum": "51c455f9aa22dd2d4ed5f60a4efaafd6",
-                    "sha256sum": "3429c0b0eb0e74342a85b60ea5ca79662c3631cf5cec56b5b9789383444fd7ad"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Vintedois_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/22h/vintedois-diffusion-v0-2/resolve/main/model.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132791892
-    },
-    "Darkest Diffusion": {
-        "name": "Darkest Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A free and open source Stable Diffusion model created by AI-Characters, trained on the artstyle of the game 'Darkest Dungeon'",
-        "showcases": [
-            "https://huggingface.co/ai-characters/Darkest-Diffusion/resolve/main/gandr-collage.jpg"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "in the artstyle of dd"
-        ],
-        "homepage": "https://huggingface.co/ai-characters/Darkest-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Darkest_Diffusion.ckpt",
-                    "md5sum": "f67124451cf3ec0a3543a864e3008af7",
-                    "sha256sum": "c620847576a69a48536a61eb81d8ec91a3256ac5eb4f7e7392dd1445ac638d38"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Darkest_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/Darkest_Diffusion.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132911689
-    },
-    "Eternos": {
-        "name": "Eternos",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A surrealist / Minimalist model",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/eternos/01_eternos.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "romerorzeternos"
-        ],
-        "homepage": "https://huggingface.co/RomeroRZ/style-eternos",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Eternos.ckpt",
-                    "md5sum": "d82d743c5531f42aacc80af491bb5124",
-                    "sha256sum": "983a08dfa4f2e7c51391f1052746fdbe5ff40466fac181621407d5c824f49551"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Eternos.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/RomeroRZ/style-eternos/resolve/main/romerorz-eternos-512.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "Min Illust Background": {
-        "name": "Min Illust Background",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This fine-tuned Stable Diffusion v1.5 model was trained on a selection of artistic works by Sin Jong Hun",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/min_illust_background/01_min.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "sjh style"
-        ],
-        "homepage": "https://huggingface.co/ProGamerGov/Min-Illust-Background-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "MinIllustBackground_Diffusion.ckpt",
-                    "md5sum": "cf5fb557635a5a707003fcfeb4934af6",
-                    "sha256sum": "087c14338e131470775d85e3c6d7ff6984bddc514766929d6519afc6c2d930a5"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "MinIllustBackground_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/ProGamerGov/Min-Illust-Background-Diffusion/resolve/main/sjh_style_v1_iter2250.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265327726
     },
     "Dark Victorian Diffusion": {
         "name": "Dark Victorian Diffusion",
@@ -3394,42 +2056,6 @@
         "available": false,
         "size_on_disk_bytes": 4265327916
     },
-    "Sygil-Dev Diffusion": {
-        "name": "Sygil-Dev Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model is a Stable Diffusion v1.5 fine-tune trained on the Imaginary Network Expanded Dataset. It is an advanced version of Stable Diffusion and can generate nearly all kinds of images, no matter humans, reflections, cities, architecture, fantasy, digital arts, landscapes, or nature views.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/sygildev_diffusion/01_sygil.webp"
-        ],
-        "version": "0.4",
-        "style": "generalist",
-        "homepage": "https://huggingface.co/Sygil/Sygil-Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "SygilDev_Diffusion.ckpt",
-                    "md5sum": "e1b6ac369e2711e046ed12bc1d983a55",
-                    "sha256sum": "a1c7cedc67d4f7056fd6eef8e85913b3f66aaa21e139d90afe940d049e37b914"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "SygilDev_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Sygil/Sygil-Diffusion/resolve/main/sygil-diffusion-v0.4.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265327726
-    },
     "MoistMix": {
         "name": "MoistMix",
         "baseline": "stable diffusion 1",
@@ -3665,45 +2291,6 @@
         "available": false,
         "size_on_disk_bytes": 2607613289
     },
-    "Sonic Diffusion": {
-        "name": "Sonic Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/sonic_diffusion/01_gigachad.webp"
-        ],
-        "version": "2",
-        "style": "other",
-        "trigger": [
-            "mobian"
-        ],
-        "homepage": "https://huggingface.co/Metal079/SonicDiffusionV2",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Sonic_Diffusion.ckpt",
-                    "md5sum": "6f0a9581fedf5971f502e29e82a81e20",
-                    "sha256sum": "4b08d91ba6e4efb6317a272684ef821d91fa33bda1078d051964b7866ef6f8c1"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Sonic_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856686
-    },
     "PPP": {
         "name": "PPP",
         "baseline": "stable diffusion 1",
@@ -3885,7 +2472,7 @@
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
         ],
-        "version": "6",
+        "version": "8",
         "style": "artistic",
         "homepage": "https://civitai.com/models/4384/dreamshaper",
         "nsfw": false,
@@ -3894,7 +2481,7 @@
             "files": [
                 {
                     "path": "Dreamshaper.safetensors",
-                    "sha256sum": "b76cc78ad9e2f001603f200d4e26153ce565a6ac3c179ada73d2e4a4071d4eac"
+                    "sha256sum": "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -3904,129 +2491,12 @@
                 {
                     "file_name": "Dreamshaper.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/dreamshaper_6BakedVae.safetensors"
+                    "file_url": "https://civitai.com/api/download/models/128713?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 5963234267
-    },
-    "Zelda BOTW": {
-        "name": "Zelda BOTW",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "based off work of great artworks from Legend of Zelda: Breath of The Wild",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/zelda_botw/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "botw style"
-        ],
-        "homepage": "https://huggingface.co/s3nh/zelda-botw-stable-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "zelda-botw.ckpt",
-                    "md5sum": "e8b897c2c96885ad270ac38a5f2ff0e8",
-                    "sha256sum": "3399447072c16ec378235e87e24c7153e343c6eab2474f0f29ba9dc4ab503f67"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "zelda-botw.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/s3nh/zelda-botw-stable-diffusion/resolve/main/model.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132791380
-    },
-    "Marvel Diffusion": {
-        "name": "Marvel Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model was trained on images from the animated Marvel Disney+ show What If, which includes characters, background, and some objects",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/marvel_diffusion/01_gigachad.webp"
-        ],
-        "version": "2",
-        "style": "artistic",
-        "trigger": [
-            "whatif style"
-        ],
-        "homepage": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "marvel-diffusion.ckpt",
-                    "md5sum": "25efe8824d8553df4fea4ccff51ef2de",
-                    "sha256sum": "2e051600d4429545826f9d70a570d551f0edd35930fbe751c3e71306a189541d"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "marvel-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/ItsJayQz/Marvel_WhatIf_Diffusion/resolve/main/Marvel_WhatIf_DiffusionV2_whatif_style.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132903521
-    },
-    "T-Shirt Diffusion": {
-        "name": "T-Shirt Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Generates t-shirt logos, base model is vintedois-diffusion with additional training on t-shirt logos size 640x640px",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/t-shirt_diffusion/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "other",
-        "trigger": [
-            "as a t-shirt logo in the style of <MAGIFACTORY> art"
-        ],
-        "homepage": "https://civitai.com/models/4694/lessmagifactorygreater-t-shirt-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "t-shirt_diffusion.ckpt",
-                    "md5sum": "37e58d85c8b0815f61526afa1c5d98e4",
-                    "sha256sum": "a7832ba06828551744094e7a80225bae233f0aac1cf579dff764b3d0e845da8e"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "t-shirt_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5365?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4098020782
+        "size_on_disk_bytes": 2082642474
     },
     "Lawlas's yiff mix": {
         "name": "Lawlas's yiff mix",
@@ -4326,45 +2796,6 @@
         "available": false,
         "size_on_disk_bytes": 2132625438
     },
-    "Concept Sheet": {
-        "name": "Concept Sheet",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model is just the first dreambooth iteration for concept-sheet/old-books style. Based on SD 2.1",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/conceptsheet/01_concept.webp"
-        ],
-        "version": "alpha",
-        "style": "artistic",
-        "trigger": [
-            "concept-art"
-        ],
-        "homepage": "https://civitai.com/models/4897/concept-sheet",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "ConceptSheet.ckpt",
-                    "md5sum": "4164e3765e41fc65d283360a1f406a51",
-                    "sha256sum": "a938d435404da008edcb1a562cdf4f52363ac71fd7a7582839cc3cb068710ad2"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "ConceptSheet.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5635?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
-    },
     "CharHelper": {
         "name": "CharHelper",
         "baseline": "stable diffusion 2",
@@ -4491,45 +2922,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 7703927910
-    },
-    "Vivid Watercolors": {
-        "name": "Vivid Watercolors",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "The model is trained with beautiful, artist-agnostic watercolor images using the midjourney method",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/vividwatercolors/01_vivid.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "wtrcolor style"
-        ],
-        "homepage": "https://huggingface.co/Evel/VividWatercolors",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "VividWatercolors.ckpt",
-                    "md5sum": "99c02bdc193671a876a282479d4c1d93",
-                    "sha256sum": "c10e426cbd4b2e4c45d84938d60022d770befcaeb44ad376ef83771cbdd5aa78"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "VividWatercolors.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Evel/VividWatercolors/resolve/main/VividWatercolors_5000.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
     },
     "Counterfeit": {
         "name": "Counterfeit",
@@ -4684,45 +3076,6 @@
         "available": false,
         "size_on_disk_bytes": 2607610189
     },
-    "Rainbowpatch": {
-        "name": "Rainbowpatch",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Rainbowpatch is a fine-tuned model specifically trained to generate high-quality stylized images, this model doesn't require complicated detailed text prompts.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/rainbowpatch/01_rainbow.webp"
-        ],
-        "version": "1.2",
-        "style": "artistic",
-        "trigger": [
-            "rainbowpatch"
-        ],
-        "homepage": "https://civitai.com/models/5528/rainbowpatch-12",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "rainbowpatch.ckpt",
-                    "md5sum": "b082ad98aeedcd28b9164162a1ccf3e1",
-                    "sha256sum": "d9d11a9ff2584632d40fd7b51821c4711ed98582937edbf0d96558ac09f97755"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "rainbowpatch.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6432?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132874321
-    },
     "Vector Art": {
         "name": "Vector Art",
         "baseline": "stable diffusion 2",
@@ -4761,45 +3114,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2607614519
-    },
-    "T-Shirt Print Designs": {
-        "name": "T-Shirt Print Designs",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is a style model for creating prints for tshirts",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/tshirt_print_designs/01_tshirt.webp"
-        ],
-        "version": "0.1",
-        "style": "other",
-        "trigger": [
-            "printdesign"
-        ],
-        "homepage": "https://civitai.com/models/5256/t-shirt-print-designs-test-model",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "tshirt-print-designs.ckpt",
-                    "md5sum": "d1f51ba806e29742df8adbf35169bd2c",
-                    "sha256sum": "d7686e58ab3cd745515bcf6489a5bec812458b002482f5d3b955c393be95c4a7"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "tshirt-print-designs.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6098?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132873124
     },
     "GorynichMix": {
         "name": "GorynichMix",
@@ -4949,47 +3263,6 @@
         "available": false,
         "size_on_disk_bytes": 2132898217
     },
-    "Rachel Walker Watercolors": {
-        "name": "Rachel Walker Watercolors",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This checkpoint is trained on the art of Rachel Walker, a New Zealand artist who paints beautiful watercolors.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/01_rachel.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/rachel_walker_watercolors/02_muted001.webp"
-        ],
-        "version": "1.2",
-        "style": "artistic",
-        "trigger": [
-            "rachelwalker style",
-            "a watercolor painting with a white background rachelwalker style [your image subject]"
-        ],
-        "homepage": "https://civitai.com/models/1122/rachel-walker-style-watercolor",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "RachelWalkerWatercolor.ckpt",
-                    "md5sum": "d60f473bce07d567fa335ad893b46b39",
-                    "sha256sum": "54ded95d838121ddf3026d894fcb13a5d3fd1b950f174f374be651e2c3bfcb0f"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "RachelWalkerWatercolor.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1135"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132862863
-    },
     "Project Unreal Engine 5": {
         "name": "Project Unreal Engine 5",
         "baseline": "stable diffusion 1",
@@ -5070,83 +3343,6 @@
         "available": false,
         "size_on_disk_bytes": 4098327353
     },
-    "PRMJ": {
-        "name": "PRMJ",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Custom built SD2.1 generalist model from 28k SFW images ",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/prmj/01_prmj.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/6465/prmj",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "PRMJ.ckpt",
-                    "md5sum": "44cd3e53b653288bab002c55200a3d6e",
-                    "sha256sum": "e40298941c61102383e4839649c47610fd7fe58d0e052b041767d6a321d8f83a"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "PRMJ.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/7592?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2580316378
-    },
-    "Elldreths Retro Mix": {
-        "name": "Elldreths Retro Mix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A retro twist on Elldreths other models",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/elldreths_retro_mix/01_elldreth.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "trigger": [
-            "glen orbik",
-            "earle bergey",
-            "robert maguire",
-            "gil elvgren"
-        ],
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Elldreths_Retro_Mix.ckpt",
-                    "md5sum": "613d7ac32ac59db04e5209605d9e79c1",
-                    "sha256sum": "8c6da97f03576dde964f3e508ef5595a28f0898dcdb275f1601d410e1c8adc03"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Elldreths_Retro_Mix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Retro_Mix.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265379168
-    },
     "VinteProtogenMix": {
         "name": "VinteProtogenMix",
         "baseline": "stable diffusion 1",
@@ -5182,39 +3378,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265482326
-    },
-    "Rodent Diffusion": {
-        "name": "Rodent Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A model created by Youtuber 'Nerdy Rodent' for creating great images with almost any prompt",
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://huggingface.co/NerdyRodent/rodent-diffusion-1-5",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "RodentDiffusion.ckpt",
-                    "md5sum": "f9c211fa366f10cb293958cd77f73944",
-                    "sha256sum": "f376bbb90db369577a31f0c04d1b6a5a7748ba56fb88f5aa7225a62184f64cd8"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "RodentDiffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/rodent-diffusion-1.5.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856686
     },
     "Anything v3": {
         "name": "Anything v3",
@@ -5374,42 +3537,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856686
     },
-    "Microcasing": {
-        "name": "Microcasing",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A cross of knollingcase and microworlds, for creating tiny worlds in a case",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microcasing/01_microcasing.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "homepage": "https://civitai.com/models/8232/microcasing-merge",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Microcasing.ckpt",
-                    "md5sum": "9e07e61f1db4df12bea787386c3581ce",
-                    "sha256sum": "49a165d67a5b17b941e5c8a29738792e0fc5a80b49b32be95e9a9a986fcdc88f"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Microcasing.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microcasing.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132910587
-    },
     "ChilloutMix": {
         "name": "ChilloutMix",
         "baseline": "stable diffusion 1",
@@ -5444,44 +3571,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132857708
-    },
-    "Microchars": {
-        "name": "Microchars",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A cross of Cute Rich Style and microworlds, for creating tiny 3d figurines",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microchars/01_people.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microchars/02_chars.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microchars/03_classes.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "homepage": "https://civitai.com/models/8057/microchars-merge",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Microchars.ckpt",
-                    "md5sum": "2a22dfa47854573df87181118862511d",
-                    "sha256sum": "b49c20ef825220723e7ccb4cb229986fe994a8e99099c43611afe046c6569fe6"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Microchars.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microchars.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132926641
     },
     "Microcritters": {
         "name": "Microcritters",
@@ -6216,39 +4305,6 @@
         "available": false,
         "size_on_disk_bytes": 4265096902
     },
-    "SynthwavePunk": {
-        "name": "SynthwavePunk",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A mix of synthwave and inkpunk",
-        "version": "1.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/1102/synthwavepunk",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Synthpunk.ckpt",
-                    "md5sum": "96b9822c6c38b156eb9b958748699164",
-                    "sha256sum": "dc4c67171e2eb64b1a79da7fde1cb3fcbef65364b12c8f5e30a0141fd8c88233"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Synthpunk.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1144?type=Model&format=PickleTensor&size=pruned&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Graphic-Art": {
         "name": "Graphic-Art",
         "baseline": "stable diffusion 2",
@@ -6355,46 +4411,6 @@
         "available": false,
         "size_on_disk_bytes": 2132857708
     },
-    "FKing SciFi": {
-        "name": "FKing SciFi",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Trained on 666 images, hand captioned, general, but limited sci-fi model. It has been trained on armour concepts, futuristic backgrounds, androids and robots, as well as some fantasy stuff, like werecreatures.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/01_scifi.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/scifi_diffusion/02_voodoo.webp"
-        ],
-        "version": "2",
-        "style": "artistic",
-        "trigger": [
-            "fking_scifi_v2"
-        ],
-        "homepage": "https://civitai.com/models/2107/fkingscifiv2",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "fking-scifi.ckpt",
-                    "md5sum": "4dc859cc201afb610c7a6f713d4acda2",
-                    "sha256sum": "ef2df28723a080d2019d214e8c7d907d6eaa8522415529aa764259ff657e3f06"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "fking-scifi.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/fkingScifiV2_v21f.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2580316314
-    },
     "RealBiter": {
         "name": "RealBiter",
         "baseline": "stable diffusion 1",
@@ -6463,45 +4479,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132857772
-    },
-    "OrbAI": {
-        "name": "OrbAI",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model gives you the possibilty to have an orb and put awesome stuff inside of it like animals, universe, solarsystems, fractal images whatever you can think of",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/OrbAI/01.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "trigger": [
-            "orbai"
-        ],
-        "homepage": "https://civitai.com/models/14102/orbai",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "OrbAI.ckpt",
-                    "md5sum": "1ed0a5f6efea5347e42d848a974c5829",
-                    "sha256sum": "47563c68cf1aff6cd970dbeb4db0233f706ce264e8f8eb168d5f7aceeea8d549"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "OrbAI.ckpt",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/16595?type=Model&format=PickleTensor&size=full&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132866326
     },
     "Realism Engine": {
         "name": "Realism Engine",
@@ -6648,43 +4625,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132857836
-    },
-    "TrexMix": {
-        "name": "TrexMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is an anime-centric model. It is a massive merge (20+ models) of SD 1.4 and 1.5-based checkpoints. The intent behind this model is to provide good anatomy, realistic lighting and extremely beautiful backgrounds",
-        "tags": [
-            "anime",
-            "landscapes"
-        ],
-        "version": "1",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/18801/trexmix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "trexmix.ckpt",
-                    "md5sum": "05e611b1d651317e20802ccb2b4f2be2",
-                    "sha256sum": "929cc0b103d77e9b24d3ace7b9891e677ad3f3c7acc80103683481ccec77beb2"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "trexmix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/TrexMix_inclWDVAE.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132857772
     },
     "Pretty 2.5D": {
         "name": "Pretty 2.5D",
@@ -6876,112 +4816,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4244329260
-    },
-    "PIXHELL": {
-        "name": "PIXHELL",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "The model recreates Pixelart style but with more modern take on the 8bit style. This model is great for side scroller environments but it works great for characters when using controlnet for 2.1 for openpose and also it's great for props and other things",
-        "version": "1.0",
-        "style": "other",
-        "trigger": [
-            "pixelart"
-        ],
-        "homepage": "https://civitai.com/models/21276/pixhell",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "PIXHELL.ckpt",
-                    "md5sum": "383058abdb9d3ac107af09e8ea888133",
-                    "sha256sum": "61128ac31f9145d3835dc8b2bc8497262b588c70cade4108d4c3b82ed7f1a506"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "PIXHELL.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/pixhell_v10.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
-    },
-    "Korestyle": {
-        "name": "Korestyle",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A model for semi-realistic comic book style sketches",
-        "version": "1.0",
-        "style": "anime",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Korestyle.ckpt",
-                    "md5sum": "a575e57f7239ce0570a4ef12bc1c45aa",
-                    "sha256sum": "b0cf5c6c109fbf555cafedb033928b6eccd32939dd43e32aa55f9b5693b2b7ac"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Korestyle.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/magicalgirl/korestyle1999/resolve/main/korestyle1999.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132863996
-    },
-    "PVC": {
-        "name": "PVC",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model is a latent diffusion model finetuned on Waifu Diffusion v1.5 beta 2 with PVC figure images. You can use Danbooru tags to generate images",
-        "version": "3",
-        "style": "other",
-        "trigger": [
-            "pvc",
-            "figma",
-            "nendoroid"
-        ],
-        "homepage": "https://huggingface.co/p1atdev/pvc-v3",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "PVC.ckpt",
-                    "md5sum": "c9da91b133f39d7ca82f43ad4bc30de1",
-                    "sha256sum": "b207d9930d98d971f4a3baf30a08225211eb9573e081cea60db398ed3ea46d42"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "PVC.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/p1atdev/pvc-v3/resolve/checkpoints/pvc-v3-fp16.ckpt"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2580315995
     },
     "Aurora": {
         "name": "Aurora",
@@ -8624,6 +6458,72 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938078334
+    },
+    "Fustercluck": {
+        "name": "Fustercluck",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for cartoony style. If it's not cartoony enough, you may need to add 'anime, cartoon' to the front of the positive prompt to push the image in the right direction",
+        "version": "1.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/230880/fustercluck",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "fustercluck.safetensors",
+                    "sha256sum": "10f5129f6448cc76a011384aeab2b1bc2a204e8f7ac345a1e51fe23485a929f9"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "fustercluck.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/260567?type=Model&format=PickleTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775469337
+    },
+    "ICBINP XL": {
+        "name": "ICBINP XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for cartoony style. If it's not cartoony enough, you may need to add 'anime, cartoon' to the front of the positive prompt to push the image in the right direction",
+        "version": "2.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/229002/icbinp-xl",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "icbinp_xl.safetensors",
+                    "sha256sum": "45754998aa05473ddab610876b25f8a8447ced421dc59989109892b1515dde9f"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "icbinp_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/292964?type=Model&format=PickleTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775430376
     },
     "AlbedoBase XL (SDXL)": {
         "name": "AlbedoBase XL (SDXL)",
