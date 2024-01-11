@@ -2472,7 +2472,7 @@
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/dreamshaper/01_gigachad.webp"
         ],
-        "version": "6",
+        "version": "8",
         "style": "artistic",
         "homepage": "https://civitai.com/models/4384/dreamshaper",
         "nsfw": false,
@@ -2481,7 +2481,7 @@
             "files": [
                 {
                     "path": "Dreamshaper.safetensors",
-                    "sha256sum": "b76cc78ad9e2f001603f200d4e26153ce565a6ac3c179ada73d2e4a4071d4eac"
+                    "sha256sum": "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -2491,12 +2491,12 @@
                 {
                     "file_name": "Dreamshaper.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/dreamshaper_6BakedVae.safetensors"
+                    "file_url": "https://civitai.com/api/download/models/128713?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 5963234267
+        "size_on_disk_bytes": 2082642474
     },
     "Lawlas's yiff mix": {
         "name": "Lawlas's yiff mix",
@@ -6458,6 +6458,72 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938078334
+    },
+    "Fustercluck": {
+        "name": "Fustercluck",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for cartoony style. If it's not cartoony enough, you may need to add 'anime, cartoon' to the front of the positive prompt to push the image in the right direction",
+        "version": "1.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/230880/fustercluck",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "fustercluck.safetensors",
+                    "sha256sum": "10f5129f6448cc76a011384aeab2b1bc2a204e8f7ac345a1e51fe23485a929f9"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "fustercluck.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/260567?type=Model&format=PickleTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775469337
+    },
+    "ICBINP XL": {
+        "name": "ICBINP XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for cartoony style. If it's not cartoony enough, you may need to add 'anime, cartoon' to the front of the positive prompt to push the image in the right direction",
+        "version": "2.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/229002/icbinp-xl",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "icbinp_xl.safetensors",
+                    "sha256sum": "45754998aa05473ddab610876b25f8a8447ced421dc59989109892b1515dde9f"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "icbinp_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/292964?type=Model&format=PickleTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775430376
     },
     "AlbedoBase XL (SDXL)": {
         "name": "AlbedoBase XL (SDXL)",
