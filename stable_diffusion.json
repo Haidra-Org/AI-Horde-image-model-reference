@@ -6465,7 +6465,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "SDXL Model for cartoony style. If it's not cartoony enough, you may need to add 'anime, cartoon' to the front of the positive prompt to push the image in the right direction",
-        "version": "1.0",
+        "version": "2.0",
         "style": "artistic",
         "homepage": "https://civitai.com/models/230880/fustercluck",
         "nsfw": false,
@@ -6474,14 +6474,14 @@
             "files": [
                 {
                     "path": "fustercluck.safetensors",
-                    "sha256sum": "10f5129f6448cc76a011384aeab2b1bc2a204e8f7ac345a1e51fe23485a929f9"
+                    "sha256sum": "4a200332e753f71e0b432c9e32a2d1899c15d681c83f094eab00dfbd93c64421"
                 }
             ],
             "download": [
                 {
                     "file_name": "fustercluck.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/260567?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/295904?type=Model&format=PickleTensor&size=full&fp=fp16"
                 }
             ]
         },
