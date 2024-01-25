@@ -2491,7 +2491,7 @@
                 {
                     "file_name": "Dreamshaper.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/128713?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Dreamshaper.safetensors?download=true"
                 }
             ]
         },
@@ -5252,7 +5252,7 @@
                 {
                     "file_name": "bb95FurryMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/82523?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/bb95FurryMix.safetensors?download=true"
                 }
             ]
         },
