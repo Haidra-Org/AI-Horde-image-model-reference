@@ -28,7 +28,7 @@
                 {
                     "file_name": "model_2_1.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/model_2_1.ckpt?download=true"
                 }
             ]
         },
@@ -65,7 +65,7 @@
                 {
                     "file_name": "model_1_5.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/model_1_5.ckpt?download=true"
                 }
             ]
         },
@@ -105,7 +105,7 @@
                 {
                     "file_name": "waifu-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/hakurei/waifu-diffusion-v1-3/resolve/main/wd-v1-3-float32.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/waifu-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -140,7 +140,7 @@
                 {
                     "file_name": "furry-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://sexy.canine.wf/file/furry-ckpt/furry_epoch4.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/furry-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -176,7 +176,7 @@
                 {
                     "file_name": "yiffy.ckpt",
                     "file_path": "",
-                    "file_url": "https://sexy.canine.wf/file/yiffy-ckpt/yiffy-e18.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/yiffy.ckpt?download=true"
                 }
             ]
         },
@@ -212,7 +212,7 @@
                 {
                     "file_name": "Zack3D.ckpt",
                     "file_path": "",
-                    "file_url": "https://sexy.canine.wf/file/furry-ckpt/Zack3D_Kinky-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Zack3D.ckpt?download=true"
                 }
             ]
         },
@@ -251,7 +251,7 @@
                 {
                     "file_name": "robo_diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/nousr/robo-diffusion/resolve/main/models/robo-diffusion-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/robo_diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -290,7 +290,7 @@
                 {
                     "file_name": "classic-anim-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/classic-anim-diffusion/resolve/main/classicAnim-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/classic-anim-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -334,7 +334,7 @@
                 {
                     "file_name": "comic-diffusion-v2.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/ogkalu/Comic-Diffusion/resolve/main/comic-diffusion-V2.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/comic-diffusion-v2.ckpt?download=true"
                 }
             ]
         },
@@ -373,7 +373,7 @@
                 {
                     "file_name": "Tron-Legacy-Style-trnlgcy.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/db0/tron-legacy-copy/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt?download=true"
                 }
             ]
         },
@@ -413,7 +413,7 @@
                 {
                     "file_name": "microworld_PublicPrompts.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/microworld_PublicPrompts.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/microworld_PublicPrompts.ckpt?download=true"
                 }
             ]
         },
@@ -449,7 +449,7 @@
                 {
                     "file_name": "f222.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Reachout/F222/resolve/main/f222.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/f222.ckpt?download=true"
                 }
             ]
         },
@@ -487,7 +487,7 @@
                 {
                     "file_name": "mdjrny-v4.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/prompthero/openjourney-v4/resolve/main/openjourney-v4.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mdjrny-v4.ckpt?download=true"
                 }
             ]
         },
@@ -526,7 +526,7 @@
                 {
                     "file_name": "PaperCut_v1.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Fictiverse/Stable_Diffusion_PaperCut_Model/resolve/main/PaperCut_v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PaperCut_v1.ckpt?download=true"
                 }
             ]
         },
@@ -566,7 +566,7 @@
                 {
                     "file_name": "AIO-Pixel-Art.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/PublicPrompts/All-In-One-Pixel-Model/resolve/main/Public-Prompts-Pixel-Model.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AIO-Pixel-Art.ckpt?download=true"
                 }
             ]
         },
@@ -605,7 +605,7 @@
                 {
                     "file_name": "JWST-Deep-Space.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/dallinmackay/JWST-Deep-Space-diffusion/resolve/main/JWST-Deep-Space.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/JWST-Deep-Space.ckpt?download=true"
                 }
             ]
         },
@@ -644,7 +644,7 @@
                 {
                     "file_name": "app-icon-diffusion-2k.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/jvkape/IconsMI-AppIconsModelforSD/resolve/main/IconsMi_step_2000.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/app-icon-diffusion-2k.ckpt?download=true"
                 }
             ]
         },
@@ -680,7 +680,7 @@
                 {
                     "file_name": "mega-merge-diffusion-a.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/ShinCore/MMDv1-18/resolve/main/MMD%20V1-18%20MODEL%20MERGE%20ALPHA.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mega-merge-diffusion-a.ckpt?download=true"
                 }
             ]
         },
@@ -722,7 +722,7 @@
                 {
                     "file_name": "Anything-Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Anything-Diffusion.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Anything-Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -762,7 +762,7 @@
                 {
                     "file_name": "Dungeons-and-Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/0xJustin/Dungeons-and-Diffusion/resolve/main/D%26Diffusion3.0_Protogen.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Dungeons-and-Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -803,7 +803,7 @@
                 {
                     "file_name": "nitroDiffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/Nitro-Diffusion/resolve/main/nitroDiffusion-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/nitroDiffusion.ckpt?download=true"
                 }
             ]
         },
@@ -843,7 +843,7 @@
                 {
                     "file_name": "Vectorartz.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/coder119/Vectorartz_Diffusion/resolve/main/Vectorartz.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Vectorartz.ckpt?download=true"
                 }
             ]
         },
@@ -886,7 +886,7 @@
                 {
                     "file_name": "ranma_diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/tashachan28/ranma_diffusion/resolve/main/80s_anime_test_5_anythingmodel.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ranma_diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -929,7 +929,7 @@
                 {
                     "file_name": "ghibli-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/Ghibli-Diffusion/resolve/main/ghibli-diffusion-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ghibli-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -976,7 +976,7 @@
                 {
                     "file_name": "hentai-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/HD-22_inclvae-pruned.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/hentai-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1015,7 +1015,7 @@
                 {
                     "file_name": "inkpunk-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Envvi/Inkpunk-Diffusion/resolve/main/Inkpunk-Diffusion-v2.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/inkpunk-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1054,7 +1054,7 @@
                 {
                     "file_name": "fantasy-card-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/volrath50/fantasy-card-diffusion/resolve/main/fantasycarddiffusion_140000.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/fantasy-card-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1094,7 +1094,7 @@
                 {
                     "file_name": "mdjrny-pntrt.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/ShadoWxShinigamI/Midjourney-v4-PaintArt/resolve/main/mdjrny-pntrt.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mdjrny-pntrt.ckpt?download=true"
                 }
             ]
         },
@@ -1130,7 +1130,7 @@
                 {
                     "file_name": "rpg.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/rpg/resolve/main/RPG-v4-inclVae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/rpg.ckpt?download=true"
                 }
             ]
         },
@@ -1169,7 +1169,7 @@
                 {
                     "file_name": "poison.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Fansy/poison/resolve/main/poison.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/poison.ckpt?download=true"
                 }
             ]
         },
@@ -1208,7 +1208,7 @@
                 {
                     "file_name": "eimis_anime-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/eimiss/EimisAnimeDiffusion_1.0v/resolve/main/EimisAnimeDiffusion_1-0v.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/eimis_anime-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1247,7 +1247,7 @@
                 {
                     "file_name": "chromav5.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/SomaMythos/ChromaV5/resolve/main/ChromaV5.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/chromav5.ckpt?download=true"
                 }
             ]
         },
@@ -1286,7 +1286,7 @@
                 {
                     "file_name": "dreamlike-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0/resolve/main/dreamlike-diffusion-1.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/dreamlike-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1325,7 +1325,7 @@
                 {
                     "file_name": "analog-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/analog-diffusion-1.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/analog-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1364,7 +1364,7 @@
                 {
                     "file_name": "funko-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/prompthero/funko-diffusion/resolve/main/funko.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/funko-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1403,7 +1403,7 @@
                 {
                     "file_name": "dublex-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion/resolve/main/Double_Exposure_v2.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/dublex-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1439,7 +1439,7 @@
                 {
                     "file_name": "seek-art-mega.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/22808?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/seek-art-mega.ckpt?download=true"
                 }
             ]
         },
@@ -1476,7 +1476,7 @@
                 {
                     "file_name": "hassanblend.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/hassanblend.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/hassanblend.ckpt?download=true"
                 }
             ]
         },
@@ -1517,7 +1517,7 @@
                 {
                     "file_name": "ACertainThing.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/JosephusCheung/ACertainThing/resolve/main/ACertainThing.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ACertainThing.ckpt?download=true"
                 }
             ]
         },
@@ -1556,7 +1556,7 @@
                 {
                     "file_name": "GTA5_Artwork_Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/ItsJayQz/GTA5_Artwork_Diffusion/resolve/main/GTA5_Artwork_Diffusion_gtav_style.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GTA5_Artwork_Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1596,7 +1596,7 @@
                 {
                     "file_name": "Trinart_Characters.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/naclbit/trinart_derrida_characters_v2_stable_diffusion/resolve/main/derrida_final.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Trinart_Characters.ckpt?download=true"
                 }
             ]
         },
@@ -1636,7 +1636,7 @@
                 {
                     "file_name": "Dreamlike_Photoreal.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/dreamlike-photoreal-2.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Dreamlike_Photoreal.ckpt?download=true"
                 }
             ]
         },
@@ -1675,7 +1675,7 @@
                 {
                     "file_name": "PortraitPlus.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/wavymulder/portraitplus/resolve/main/portrait%2B1.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PortraitPlus.ckpt?download=true"
                 }
             ]
         },
@@ -1714,7 +1714,7 @@
                 {
                     "file_name": "DarkVictorian_Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/proxima/darkvictorian_artstyle/resolve/main/darkvictorian_artstyle_v2.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DarkVictorian_Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1753,7 +1753,7 @@
                 {
                     "file_name": "DnDItem.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stale2000/sd-dnditem/resolve/main/dnditem-v1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DnDItem.ckpt?download=true"
                 }
             ]
         },
@@ -1793,7 +1793,7 @@
                 {
                     "file_name": "ModernArt_Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/theintuitiveye/modernartstyle/resolve/main/modernartstv1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ModernArt_Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -1829,7 +1829,7 @@
                 {
                     "file_name": "HASDX.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/BestJammer/HASDX/resolve/main/ckptSXDHAS.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/HASDX.ckpt?download=true"
                 }
             ]
         },
@@ -1892,7 +1892,7 @@
                 {
                     "file_name": "liberty.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6908?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/liberty.ckpt?download=true"
                 }
             ]
         },
@@ -1931,7 +1931,7 @@
                 {
                     "file_name": "ProtoGen.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/darkstorm2150/Protogen_v5.3_Official_Release/resolve/main/ProtoGen_X5.3.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ProtoGen.ckpt?download=true"
                 }
             ]
         },
@@ -1968,7 +1968,7 @@
                 {
                     "file_name": "3DKX.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/HavoAloe/3DKX_1.0b/resolve/main/3DKX_v1.1.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/3DKX.ckpt?download=true"
                 }
             ]
         },
@@ -2009,7 +2009,7 @@
                 {
                     "file_name": "moedel.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Moedel.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/moedel.ckpt?download=true"
                 }
             ]
         },
@@ -2049,7 +2049,7 @@
                 {
                     "file_name": "DreamLikeSamKuvshinov.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1642?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DreamLikeSamKuvshinov.ckpt?download=true"
                 }
             ]
         },
@@ -2085,7 +2085,7 @@
                 {
                     "file_name": "MoistMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5955?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/MoistMix.ckpt?download=true"
                 }
             ]
         },
@@ -2124,7 +2124,7 @@
                 {
                     "file_name": "Healys.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/BlancOfficial/Healy_AnimeBlend/resolve/main/healySAnimeBlend_17.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Healys.ckpt?download=true"
                 }
             ]
         },
@@ -2159,7 +2159,7 @@
                 {
                     "file_name": "GuFeng.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/42796?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GuFeng.safetensors?download=true"
                 }
             ]
         },
@@ -2194,7 +2194,7 @@
                 {
                     "file_name": "Elldreths_Lucid_Mix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Elldreths_Lucid_Mix.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Elldreths_Lucid_Mix.ckpt?download=true"
                 }
             ]
         },
@@ -2234,7 +2234,7 @@
                 {
                     "file_name": "Sci-Fi_Diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Corruptlake/Sci-Fi-Diffusion/resolve/main/Sci-Fi_Diffusion_1.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Sci-Fi_Diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -2284,7 +2284,7 @@
                 {
                     "file_name": "Ultraskin.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/VegaKH/Ultraskin/resolve/main/ultraskin.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Ultraskin.ckpt?download=true"
                 }
             ]
         },
@@ -2320,7 +2320,7 @@
                 {
                     "file_name": "PPP.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1304?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PPP.ckpt?download=true"
                 }
             ]
         },
@@ -2359,7 +2359,7 @@
                 {
                     "file_name": "Anygen.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/anygen_v37_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Anygen.ckpt?download=true"
                 }
             ]
         },
@@ -2416,7 +2416,7 @@
                 {
                     "file_name": "Protogen_Infinity.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Protogen_Infinity.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Protogen_Infinity.ckpt?download=true"
                 }
             ]
         },
@@ -2456,7 +2456,7 @@
                 {
                     "file_name": "DucHaiten.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/DucHaiten/DucHaitenAIart/resolve/main/DucHaitenAIart-v4.5.3.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DucHaiten.safetensors?download=true"
                 }
             ]
         },
@@ -2527,7 +2527,7 @@
                 {
                     "file_name": "Lawlas-yiffmix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/LawlassYiffyMix_inclk8VAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Lawlas-yiffmix.ckpt?download=true"
                 }
             ]
         },
@@ -2572,7 +2572,7 @@
                 {
                     "file_name": "DGSpitzer_art_diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/DGSpitzer/DGSpitzer-Art-Diffusion/resolve/main/DGSpitzer-Art-Diffusion.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DGSpitzer_art_diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -2607,7 +2607,7 @@
                 {
                     "file_name": "RealisticVision.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/SG161222/Realistic_Vision_V2.0/resolve/main/Realistic_Vision_V2.0-fp16-no-ema.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/RealisticVision.ckpt?download=true"
                 }
             ]
         },
@@ -2648,7 +2648,7 @@
                 {
                     "file_name": "DanMumford.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/v2UpdatedFlonixsDan_flonixsDanMumford.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DanMumford.ckpt?download=true"
                 }
             ]
         },
@@ -2684,7 +2684,7 @@
                 {
                     "file_name": "PFG.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1291?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PFG.ckpt?download=true"
                 }
             ]
         },
@@ -2720,7 +2720,7 @@
                 {
                     "file_name": "EpicDiffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5677?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/EpicDiffusion.ckpt?download=true"
                 }
             ]
         },
@@ -2756,7 +2756,7 @@
                 {
                     "file_name": "Deliberate.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Deliberate.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Deliberate.ckpt?download=true"
                 }
             ]
         },
@@ -2789,7 +2789,7 @@
                 {
                     "file_name": "edgeOfRealism.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/51913?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/edgeOfRealism.safetensors?download=true"
                 }
             ]
         },
@@ -2833,7 +2833,7 @@
                 {
                     "file_name": "CharHelper.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/CharHelperV4.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/CharHelper.ckpt?download=true"
                 }
             ]
         },
@@ -2878,7 +2878,7 @@
                 {
                     "file_name": "Pokemon3D.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Timmahw/SD2.1_Pokemon3D/resolve/main/Pokedex3D.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Pokemon3D.ckpt?download=true"
                 }
             ]
         },
@@ -2916,7 +2916,7 @@
                 {
                     "file_name": "pix2pix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/pix2pix.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pix2pix.ckpt?download=true"
                 }
             ]
         },
@@ -2954,7 +2954,7 @@
                 {
                     "file_name": "Counterfeit.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/57618?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Counterfeit.safetensors?download=true"
                 }
             ]
         },
@@ -2990,7 +2990,7 @@
                 {
                     "file_name": "OpenNiji.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/OpenNijiV2_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/OpenNiji.ckpt?download=true"
                 }
             ]
         },
@@ -3029,7 +3029,7 @@
                 {
                     "file_name": "PastelMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/pastelmix-better-vae-fp16.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PastelMix.ckpt?download=true"
                 }
             ]
         },
@@ -3069,7 +3069,7 @@
                 {
                     "file_name": "pulp_vectorart.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5859?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pulp_vectorart.ckpt?download=true"
                 }
             ]
         },
@@ -3108,7 +3108,7 @@
                 {
                     "file_name": "vector_art.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/5265?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/vector_art.ckpt?download=true"
                 }
             ]
         },
@@ -3144,7 +3144,7 @@
                 {
                     "file_name": "GorynichMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/gorynich_v12-pruned_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GorynichMix.ckpt?download=true"
                 }
             ]
         },
@@ -3184,7 +3184,7 @@
                 {
                     "file_name": "LNBPM.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/LaoLeiNewBerry_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/LNBPM.ckpt?download=true"
                 }
             ]
         },
@@ -3220,7 +3220,7 @@
                 {
                     "file_name": "URPM.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/15640?type=Pruned%20Model&format=PickleTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/URPM.ckpt?download=true"
                 }
             ]
         },
@@ -3256,7 +3256,7 @@
                 {
                     "file_name": "CDLandscapeMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/7304?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/CDLandscapeMix.ckpt?download=true"
                 }
             ]
         },
@@ -3292,7 +3292,7 @@
                 {
                     "file_name": "ProjectUnreal5.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/ProjectUnrealEngine5_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ProjectUnreal5.ckpt?download=true"
                 }
             ]
         },
@@ -3336,7 +3336,7 @@
                 {
                     "file_name": "unstableinkdream.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/unstableinkdream/resolve/main/unstableinkdream_v6.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/unstableinkdream.ckpt?download=true"
                 }
             ]
         },
@@ -3372,7 +3372,7 @@
                 {
                     "file_name": "VinteProtogenMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/6582?type=Model&format=PickleTensor"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/VinteProtogenMix.ckpt?download=true"
                 }
             ]
         },
@@ -3412,7 +3412,7 @@
                 {
                     "file_name": "AnythingV3.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/AnythingV3_inclKenshiVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AnythingV3.ckpt?download=true"
                 }
             ]
         },
@@ -3448,7 +3448,7 @@
                 {
                     "file_name": "WoopWoop-Photo.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/woop-woop-photo12_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/WoopWoop-Photo.ckpt?download=true"
                 }
             ]
         },
@@ -3489,7 +3489,7 @@
                 {
                     "file_name": "AbyssOrangeMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/AOM3_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AbyssOrangeMix.ckpt?download=true"
                 }
             ]
         },
@@ -3530,7 +3530,7 @@
                 {
                     "file_name": "CyriousMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/cyriousmix_14.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/CyriousMix.ckpt?download=true"
                 }
             ]
         },
@@ -3565,7 +3565,7 @@
                 {
                     "file_name": "ChilloutMix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/chilloutmix_NiPrunedFp16.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ChilloutMix.ckpt?download=true"
                 }
             ]
         },
@@ -3601,7 +3601,7 @@
                 {
                     "file_name": "Microcritters.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Microcritters.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Microcritters.ckpt?download=true"
                 }
             ]
         },
@@ -3637,7 +3637,7 @@
                 {
                     "file_name": "AbyssOrangeMix-AfterDark.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/AbyssOrangeMix2_AfterDark_pruned_inclvae.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AbyssOrangeMix-AfterDark.ckpt?download=true"
                 }
             ]
         },
@@ -3677,7 +3677,7 @@
                 {
                     "file_name": "Grapefruit.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/grapefruitHentaiModel_grapefruitv41.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Grapefruit.ckpt?download=true"
                 }
             ]
         },
@@ -3713,7 +3713,7 @@
                 {
                     "file_name": "eXp.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/7078?type=Model&format=PickleTensor"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/eXp.ckpt?download=true"
                 }
             ]
         },
@@ -3749,7 +3749,7 @@
                 {
                     "file_name": "Kenshi.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/kenshi_inclvae2.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Kenshi.ckpt?download=true"
                 }
             ]
         },
@@ -3793,7 +3793,7 @@
                 {
                     "file_name": "DucHaiten_classic.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DH_Royle_Temperament_v1.0.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DucHaiten_classic.ckpt?download=true"
                 }
             ]
         },
@@ -3832,7 +3832,7 @@
                 {
                     "file_name": "Rev-animated.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/46846?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Rev-animated.safetensors?download=true"
                 }
             ]
         },
@@ -3901,7 +3901,7 @@
                 {
                     "file_name": "A-to-z_zovya_rpg.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/aToZovyaRPGArtistsTools_sd21.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/A-to-z_zovya_rpg.ckpt?download=true"
                 }
             ]
         },
@@ -3934,7 +3934,7 @@
                 {
                     "file_name": "colorful.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/13196?type=Model&format=PickleTensor"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/colorful.ckpt?download=true"
                 }
             ]
         },
@@ -3967,7 +3967,7 @@
                 {
                     "file_name": "movie-diffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/9953"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/movie-diffusion.ckpt?download=true"
                 }
             ]
         },
@@ -4002,7 +4002,7 @@
                 {
                     "file_name": "GuoFeng.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/36644?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GuoFeng.safetensors?download=true"
                 }
             ]
         },
@@ -4045,7 +4045,7 @@
                 {
                     "file_name": "AnimePencilArt.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/yehiaserag/anime-pencil-diffusion/resolve/main/anime-pencil-diffusion-v5.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AnimePencilArt.ckpt?download=true"
                 }
             ]
         },
@@ -4082,7 +4082,7 @@
                 {
                     "file_name": "BPModel.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Crosstyan/BPModel/resolve/main/bp_1024_with_vae_te.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/BPModel.ckpt?download=true"
                 }
             ]
         },
@@ -4120,7 +4120,7 @@
                 {
                     "file_name": "Olympus.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/umiAIMythologyAndBabes_olympusLandscapesV10.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Olympus.ckpt?download=true"
                 }
             ]
         },
@@ -4153,7 +4153,7 @@
                 {
                     "file_name": "HRL.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/hrl31_hrl31.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/HRL.ckpt?download=true"
                 }
             ]
         },
@@ -4191,7 +4191,7 @@
                 {
                     "file_name": "Uhmami.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/uhmami_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Uhmami.ckpt?download=true"
                 }
             ]
         },
@@ -4224,7 +4224,7 @@
                 {
                     "file_name": "neurogen.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/29681?type=Pruned%20Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/neurogen.safetensors?download=true"
                 }
             ]
         },
@@ -4263,7 +4263,7 @@
                 {
                     "file_name": "neverendingDream.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/64094?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/neverendingDream.safetensors?download=true"
                 }
             ]
         },
@@ -4298,7 +4298,7 @@
                 {
                     "file_name": "Protogen_Anime.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Protogen_Anime.safetensors?download=true"
                 }
             ]
         },
@@ -4334,7 +4334,7 @@
                 {
                     "file_name": "graphic-art.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/9297?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/graphic-art.ckpt?download=true"
                 }
             ]
         },
@@ -4371,7 +4371,7 @@
                 {
                     "file_name": "Illuminati.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/illuminatiDiffusionV1_v11.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Illuminati.ckpt?download=true"
                 }
             ]
         },
@@ -4404,7 +4404,7 @@
                 {
                     "file_name": "SD-Silicon.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Silicon29.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/SD-Silicon.ckpt?download=true"
                 }
             ]
         },
@@ -4440,7 +4440,7 @@
                 {
                     "file_name": "RealBiter.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/RealBiter_v10_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/RealBiter.ckpt?download=true"
                 }
             ]
         },
@@ -4473,7 +4473,7 @@
                 {
                     "file_name": "FaeTastic.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Faetastic_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/FaeTastic.ckpt?download=true"
                 }
             ]
         },
@@ -4509,7 +4509,7 @@
                 {
                     "file_name": "RealismEngine.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/RealismEngine_incl84000.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/RealismEngine.ckpt?download=true"
                 }
             ]
         },
@@ -4545,7 +4545,7 @@
                 {
                     "file_name": "JimEidomode.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/JimEIDOMODE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/JimEidomode.ckpt?download=true"
                 }
             ]
         },
@@ -4578,7 +4578,7 @@
                 {
                     "file_name": "DnW.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/dungeonsNWaifus_v22.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DnW.ckpt?download=true"
                 }
             ]
         },
@@ -4619,7 +4619,7 @@
                 {
                     "file_name": "icomix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/icomix.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icomix.ckpt?download=true"
                 }
             ]
         },
@@ -4659,7 +4659,7 @@
                 {
                     "file_name": "pretty25D.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/pretty25D_inclVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pretty25D.ckpt?download=true"
                 }
             ]
         },
@@ -4698,7 +4698,7 @@
                 {
                     "file_name": "expmix.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/jug-dev/mirror/resolve/main/expmix.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/expmix.ckpt?download=true"
                 }
             ]
         },
@@ -4738,7 +4738,7 @@
                 {
                     "file_name": "discoElysium.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/nitrosocke/disco-elysium/resolve/main/discoElysium-pruned.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/discoElysium.ckpt?download=true"
                 }
             ]
         },
@@ -4774,7 +4774,7 @@
                 {
                     "file_name": "Something.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/Something_v22_inclk8VAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Something.ckpt?download=true"
                 }
             ]
         },
@@ -4810,7 +4810,7 @@
                 {
                     "file_name": "DumbMonkey.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/DumbMonkey.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DumbMonkey.ckpt?download=true"
                 }
             ]
         },
@@ -4847,7 +4847,7 @@
                 {
                     "file_name": "aurora.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/45601?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/aurora.safetensors?download=true"
                 }
             ]
         },
@@ -4879,7 +4879,7 @@
                 {
                     "file_name": "Char.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/Char.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Char.ckpt?download=true"
                 }
             ]
         },
@@ -4914,7 +4914,7 @@
                 {
                     "file_name": "camelliamix25D.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/48859?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/camelliamix25D.safetensors?download=true"
                 }
             ]
         },
@@ -4947,7 +4947,7 @@
                 {
                     "file_name": "PerfectWorld.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/PerfectWorld_incl840kVAE.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PerfectWorld.ckpt?download=true"
                 }
             ]
         },
@@ -4983,7 +4983,7 @@
                 {
                     "file_name": "jomadDiffusion.ckpt",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1286?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/jomadDiffusion.ckpt?download=true"
                 }
             ]
         },
@@ -5016,7 +5016,7 @@
                 {
                     "file_name": "GorillaWithABrick.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Airic/mirrors/resolve/main/rcnzGorillaWithA_v20.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GorillaWithABrick.ckpt?download=true"
                 }
             ]
         },
@@ -5048,7 +5048,7 @@
                 {
                     "file_name": "etherRealMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/23036?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/etherRealMix.safetensors?download=true"
                 }
             ]
         },
@@ -5080,7 +5080,7 @@
                 {
                     "file_name": "lyriel.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/72396?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/lyriel.safetensors?download=true"
                 }
             ]
         },
@@ -5115,7 +5115,7 @@
                 {
                     "file_name": "dndMapGenerator.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/19517?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/dndMapGenerator.safetensors?download=true"
                 }
             ]
         },
@@ -5150,7 +5150,7 @@
                 {
                     "file_name": "braBeautifulRealistic.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/63786?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/braBeautifulRealistic.safetensors?download=true"
                 }
             ]
         },
@@ -5182,7 +5182,7 @@
                 {
                     "file_name": "moonmix_fantasy.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/51550?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/moonmix_fantasy.safetensors?download=true"
                 }
             ]
         },
@@ -5217,7 +5217,7 @@
                 {
                     "file_name": "icbinp.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/icbinpICantBelieveIts_v8.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinp.ckpt?download=true"
                 }
             ]
         },
@@ -5284,7 +5284,7 @@
                 {
                     "file_name": "meinamix.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/civitai_mirror/resolve/main/models/Stable-diffusion/meinamix_meinaV10.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/meinamix.safetensors?download=true"
                 }
             ]
         },
@@ -5316,7 +5316,7 @@
                 {
                     "file_name": "mistoonAmethyst.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/mistoonAmethyst_v20_Grapefruit_vae.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mistoonAmethyst.safetensors?download=true"
                 }
             ]
         },
@@ -5348,7 +5348,7 @@
                 {
                     "file_name": "ArtOfMtg.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/TopdeckingLands/ArtOfMtg_V1/resolve/main/ArtOfMtg_V1_16.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ArtOfMtg.ckpt?download=true"
                 }
             ]
         },
@@ -5412,7 +5412,7 @@
                 {
                     "file_name": "analogMadness.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/56498?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/analogMadness.safetensors?download=true"
                 }
             ]
         },
@@ -5444,7 +5444,7 @@
                 {
                     "file_name": "henmixReal.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/58992?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/henmixReal.safetensors?download=true"
                 }
             ]
         },
@@ -5479,7 +5479,7 @@
                 {
                     "file_name": "Elysium_Anime.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/hesw23168/SD-Elysium-Model/resolve/main/Elysium_Anime_V3.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Elysium_Anime.safetensors?download=true"
                 }
             ]
         },
@@ -5511,7 +5511,7 @@
                 {
                     "file_name": "majicmixRealistic.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/55911?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/majicmixRealistic.safetensors?download=true"
                 }
             ]
         },
@@ -5543,7 +5543,7 @@
                 {
                     "file_name": "ghostmix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/59685?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ghostmix.safetensors?download=true"
                 }
             ]
         },
@@ -5575,7 +5575,7 @@
                 {
                     "file_name": "hassakuHentaiModel.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/62528?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/hassakuHentaiModel.safetensors?download=true"
                 }
             ]
         },
@@ -5607,7 +5607,7 @@
                 {
                     "file_name": "darkSushiMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/56071?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/darkSushiMix.safetensors?download=true"
                 }
             ]
         },
@@ -5639,7 +5639,7 @@
                 {
                     "file_name": "cyberrealistic.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/63401?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/cyberrealistic.safetensors?download=true"
                 }
             ]
         },
@@ -5674,7 +5674,7 @@
                 {
                     "file_name": "RealisticVision_Inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/SG161222/Realistic_Vision_V2.0/resolve/main/Realistic_Vision_V2.0-fp16-no-ema-inpainting.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/RealisticVision_Inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -5741,7 +5741,7 @@
                 {
                     "file_name": "sd-v1-5-inpainting.ckpt",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/sd-v1-5-inpainting.ckpt?download=true"
                 }
             ]
         },
@@ -5773,7 +5773,7 @@
                 {
                     "file_name": "disneyPixarCartoon.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/69832?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/disneyPixarCartoon.safetensors?download=true"
                 }
             ]
         },
@@ -5818,7 +5818,7 @@
                 {
                     "file_name": "babes.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/61372?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/babes.safetensors?download=true"
                 }
             ]
         },
@@ -5850,7 +5850,7 @@
                 {
                     "file_name": "dreamshaper_inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/51767?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/dreamshaper_inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -5882,7 +5882,7 @@
                 {
                     "file_name": "aZovyaRPG_Inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/45840?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/aZovyaRPG_Inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -5914,7 +5914,7 @@
                 {
                     "file_name": "bweshmix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/69868?type=Model&format=SafeTensor&size=full&fp=fp32"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/bweshmix.safetensors?download=true"
                 }
             ]
         },
@@ -5946,7 +5946,7 @@
                 {
                     "file_name": "cetusMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/78676?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/cetusMix.safetensors?download=true"
                 }
             ]
         },
@@ -5978,7 +5978,7 @@
                 {
                     "file_name": "realdosmix.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/8137?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/realdosmix.safetensors?download=true"
                 }
             ]
         },
@@ -6010,7 +6010,7 @@
                 {
                     "file_name": "realisian.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/70157?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/realisian.safetensors?download=true"
                 }
             ]
         },
@@ -6045,7 +6045,7 @@
                 {
                     "file_name": "EpicDiffusion_Inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/epic-diffusion-inpainting.inpainting.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/EpicDiffusion_Inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -6086,7 +6086,7 @@
                 {
                     "file_name": "Anything-Diffusion_Inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/spaces/wolfgangmeyers/stable-diffusion-inpainting-vae/resolve/main/anything-v4_5-inpainting.inpainting.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Anything-Diffusion_Inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -6117,7 +6117,7 @@
                 {
                     "file_name": "fluffusion.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/80182?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/fluffusion.safetensors?download=true"
                 }
             ]
         },
@@ -6149,7 +6149,7 @@
                 {
                     "file_name": "AnythingV5.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/30163?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/AnythingV5.safetensors?download=true"
                 }
             ]
         },
@@ -6184,7 +6184,7 @@
                 {
                     "file_name": "toonyou.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/78775?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/toonyou.safetensors?download=true"
                 }
             ]
         },
@@ -6216,7 +6216,7 @@
                 {
                     "file_name": "reliberate.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/reliberate.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/reliberate.safetensors?download=true"
                 }
             ]
         },
@@ -6248,7 +6248,7 @@
                 {
                     "file_name": "sweetboys2d.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/69283?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/sweetboys2d.safetensors?download=true"
                 }
             ]
         },
@@ -6288,7 +6288,7 @@
                 {
                     "file_name": "icomix_Inpainting.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/com-adm/iCoMix-inpainting/resolve/main/iCoMix-inpainting.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icomix_Inpainting.safetensors?download=true"
                 }
             ]
         },
@@ -6320,7 +6320,7 @@
                 {
                     "file_name": "samaritan3dCartoon.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/86224?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/samaritan3dCartoon.safetensors?download=true"
                 }
             ]
         },
@@ -6352,7 +6352,7 @@
                 {
                     "file_name": "anylora.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/29792?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/anylora.safetensors?download=true"
                 }
             ]
         },
@@ -6387,7 +6387,7 @@
                 {
                     "file_name": "westernAnimationDiffusion.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/92044?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/westernAnimationDiffusion.safetensors?download=true"
                 }
             ]
         },
@@ -6421,7 +6421,7 @@
                 {
                     "file_name": "deliberate_v3.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Haidra-Org/horde-fallback-image-models/resolve/main/deliberate_v3.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/deliberate_v3.safetensors?download=true"
                 }
             ]
         }
@@ -6448,7 +6448,7 @@
                 {
                     "file_name": "sd_xl_base_1.0.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/sd_xl_base_1.0.safetensors?download=true"
                 }
             ]
         },
@@ -6481,7 +6481,7 @@
                 {
                     "file_name": "fustercluck.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/295904?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/fustercluck.safetensors?download=true"
                 }
             ]
         },
@@ -6514,7 +6514,7 @@
                 {
                     "file_name": "icbinp_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/292964?type=Model&format=PickleTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinp_xl.safetensors?download=true"
                 }
             ]
         },
