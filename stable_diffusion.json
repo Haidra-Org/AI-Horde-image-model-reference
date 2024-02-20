@@ -6573,25 +6573,25 @@
             "files": [
                 {
                     "path": "stable_cascade_stage_b.safetensors",
-                    "sha256sum": "6c218dc948575e3b14b03dffe2014d7870ac505005770ce3abdc28e920a03c05"
+                    "sha256sum": "6c218dc948575e3b14b03dffe2014d7870ac505005770ce3abdc28e920a03c05",
+                    "file_type": "stable_cascade_stage_b"
                 },
                 {
                     "path": "stable_cascade_stage_c.safetensors",
-                    "sha256sum": "088ddf1e444abf399007b2da2bac87791df165c69f477994f6b3c745a20904b0"
+                    "sha256sum": "088ddf1e444abf399007b2da2bac87791df165c69f477994f6b3c745a20904b0",
+                    "file_type": "stable_cascade_stage_c"
                 }
             ],
             "download": [
                 {
                     "file_name": "stable_cascade_stage_b.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true",
-                    "file_type": "stable_cascade_stage_b"
+                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true"
                 },
                 {
                     "file_name": "stable_cascade_stage_c.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true",
-                    "file_type": "stable_cascade_stage_c"
+                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true"
                 }
             ]
         },
