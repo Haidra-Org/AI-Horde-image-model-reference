@@ -6584,12 +6584,14 @@
                 {
                     "file_name": "stable_cascade_stage_b.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true"
+                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_b.safetensors?download=true",
+                    "file_type": "stable_cascade_stage_b"
                 },
                 {
                     "file_name": "stable_cascade_stage_c.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true"
+                    "file_url": "https://huggingface.co/stabilityai/stable-cascade/resolve/main/comfyui_checkpoints/stable_cascade_stage_c.safetensors?download=true",
+                    "file_type": "stable_cascade_stage_c"
                 }
             ]
         },
