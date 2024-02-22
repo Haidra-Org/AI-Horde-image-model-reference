@@ -6563,7 +6563,7 @@
         "baseline": "stable_cascade",
         "type": "ckpt",
         "inpainting": false,
-        "description": "This model is built upon the Würstchen architecture and its main difference to other models like Stable Diffusion is that it is working at a much smaller latent space.",
+        "description": "This model is built upon the Wurstchen architecture and its main difference to other models like Stable Diffusion is that it is working at a much smaller latent space.",
         "version": "1.0",
         "style": "generalist",
         "homepage": "https://github.com/Stability-AI/StableCascade",
