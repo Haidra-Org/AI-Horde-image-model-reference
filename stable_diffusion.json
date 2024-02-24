@@ -6531,7 +6531,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "SDXL Model that doesn't require a refiner.",
-        "version": "2.0",
+        "version": "2.1",
         "style": "generalist",
         "homepage": "https://civitai.com/models/140737/albedobase-xl",
         "nsfw": false,
@@ -6539,15 +6539,181 @@
         "config": {
             "files": [
                 {
-                    "path": "albedo_base_2.0.safetensors",
-                    "sha256sum": "a928fee35b39103cdf87a5059cae6bad66b30de2cc17f739e1c3b8d88181c22b"
+                    "path": "albedo_base_xl.safetensors",
+                    "sha256sum": "1718B5BB2DA1EF4815FEE8AF8A7FC2FA8AB8F467B279EDED4D991EA0CCE59A6D"
                 }
             ],
             "download": [
                 {
-                    "file_name": "albedo_base_2.0.safetensors",
+                    "file_name": "albedo_base_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/albedo_base_2.0.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/329420?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "Pony Diffusion XL": {
+        "name": "Pony Diffusion XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Pony Diffusion V6 is a versatile SDXL finetune capable of producing stunning SFW and NSFW visuals of various anthro, feral, or humanoids species and their interactions based on simple natural language prompts.",
+        "version": "6.0",
+        "style": "furry",
+        "homepage": "https://civitai.com/models/257749/pony-diffusion-v6-xl",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "pony_diffusion_xl.safetensors",
+                    "sha256sum": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "pony_diffusion_xl.0.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/290640?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "Anime Illust Diffusion XL": {
+        "name": "Anime Illust Diffusion XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime Illustration Design XL, or AIDXL, is a model dedicated to generating stylized anime illustrations. It has over 800 (with more and more updates) built-in illustration styles, which are triggered by specific trigger words (see Appendix A). Please use AIDXL negative embedding model to boost generation quality (see Suggested Resources).",
+        "version": "0.71",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/124189",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "anime_illust_diffusion_xl.safetensors",
+                    "sha256sum": "1813371DE528253288EB8DE8B2CC3674C79B6FC854EC7370583BD528706646D1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "anime_illust_diffusion_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/318932?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "Juggernaut XL": {
+        "name": "Juggernaut XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Very popular realistic model",
+        "version": "9.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/133005?modelVersionId=348913",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "juggernaut_xl.safetensors",
+                    "sha256sum": "C9E3E68F89B8E38689E1097D4BE4573CF308DE4E3FD044C64CA697BDB4AA8BCA"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "juggernaut_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/348913?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938816589
+    },
+    "Animagine XL": {
+        "name": "Animagine XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Animagine XL is the sophisticated open-source anime text-to-image model, building upon the capabilities of its predecessor, Animagine XL 2.0. Developed based on Stable Diffusion XL, this iteration boasts superior image generation with notable improvements in hand anatomy, efficient tag ordering, and enhanced knowledge about anime concepts. Unlike the previous iteration, we focused to make the model learn concepts rather than aesthetic.",
+        "version": "3.0",
+        "style": "anime",
+        "homepage": "https://huggingface.co/cagliostrolab/animagine-xl-3.0",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "animagine_xl.safetensors",
+                    "sha256sum": "1449e5b0b9de87b0f414c5f29cb11ce3b3dc61fa2b320e784c9441720bf7b766"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "animagine_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/cagliostrolab/animagine-xl-3.0/resolve/main/animagine-xl-3.0.safetensors?download=true"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "DreamShaper XL": {
+        "name": "DreamShaper XL",
+        "baseline": "stable_diffusion_xl",
+        "optimization": "lightning",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "",
+        "version": "3.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/112902",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "dreamshaper_xl.safetensors",
+                    "sha256sum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "dreamshaper_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/351306?format=SafeTensor"
                 }
             ]
         },
