@@ -6693,7 +6693,6 @@
     "DreamShaper XL": {
         "name": "DreamShaper XL",
         "baseline": "stable_diffusion_xl",
-        "optimization": "lightning",
         "type": "ckpt",
         "inpainting": false,
         "description": "",
