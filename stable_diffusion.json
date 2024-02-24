@@ -6573,7 +6573,7 @@
             "files": [
                 {
                     "path": "pony_diffusion_xl.safetensors",
-                    "sha256sum": "67AB2FD8EC439A89B3FEDB15CC65F54336AF163C7EB5E4F2ACC98F090A29B0B3"
+                    "sha256sum": "67ab2fd8ec439a89b3fedb15cc65f54336af163c7eb5e4f2acc98f090a29b0b3"
                 }
             ],
             "download": [
@@ -6606,7 +6606,7 @@
             "files": [
                 {
                     "path": "anime_illust_diffusion_xl.safetensors",
-                    "sha256sum": "1813371DE528253288EB8DE8B2CC3674C79B6FC854EC7370583BD528706646D1"
+                    "sha256sum": "1813371de528253288eb8de8b2cc3674c79b6fc854ec7370583bd528706646d1"
                 }
             ],
             "download": [
@@ -6639,7 +6639,7 @@
             "files": [
                 {
                     "path": "juggernaut_xl.safetensors",
-                    "sha256sum": "C9E3E68F89B8E38689E1097D4BE4573CF308DE4E3FD044C64CA697BDB4AA8BCA"
+                    "sha256sum": "c9e3e68f89b8e38689e1097d4be4573cf308de4e3fd044c64ca697bdb4aa8bca"
                 }
             ],
             "download": [
@@ -6705,7 +6705,7 @@
             "files": [
                 {
                     "path": "dreamshaper_xl.safetensors",
-                    "sha256sum": "4496B36D48BFD7CFE4E5DBCE3485DB567BCEFA2BEF7238D290DBD45612125083"
+                    "sha256sum": "4496b36d48bfd7cfe4e5dbce3485db567bcefa2bef7238d290dbd45612125083"
                 }
             ],
             "download": [
