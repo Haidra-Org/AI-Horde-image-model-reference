@@ -6578,7 +6578,7 @@
             ],
             "download": [
                 {
-                    "file_name": "pony_diffusion_xl.0.safetensors",
+                    "file_name": "pony_diffusion_xl.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/290640?format=SafeTensor"
                 }
