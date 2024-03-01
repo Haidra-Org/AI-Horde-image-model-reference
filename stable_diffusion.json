@@ -6547,7 +6547,7 @@
                 {
                     "file_name": "albedo_base_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/329420?format=SafeTensor"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/albedo_base_xl.safetensors?download=true"
                 }
             ]
         },
