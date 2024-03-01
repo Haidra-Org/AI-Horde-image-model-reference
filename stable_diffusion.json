@@ -6569,6 +6569,9 @@
         "homepage": "https://civitai.com/models/257749/pony-diffusion-v6-xl",
         "nsfw": true,
         "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
         "config": {
             "files": [
                 {
@@ -6693,6 +6696,7 @@
     "DreamShaper XL": {
         "name": "DreamShaper XL",
         "baseline": "stable_diffusion_xl",
+        "optimization": "lightning",
         "type": "ckpt",
         "inpainting": false,
         "description": "DreamShaper is a general purpose SD model that aims at doing everything well, photos, art, anime, manga. It's designed to go against other general purpose models and pipelines like Midjourney and DALL-E.",
@@ -6701,6 +6705,13 @@
         "homepage": "https://civitai.com/models/112902",
         "nsfw": true,
         "download_all": false,
+        "requirements": {
+            "min_steps": 3,
+            "max_steps": 6,
+            "cfg_scale": 2,
+            "samplers": ["k_dpmpp_sde"],
+            "schedulers": ["karras"]
+        },
         "config": {
             "files": [
                 {
@@ -6712,7 +6723,7 @@
                 {
                     "file_name": "dreamshaper_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/351306?format=SafeTensor"
+                    "file_url": "https://civitai.com/api/download/models/354657?format=SafeTensor"
                 }
             ]
         },
