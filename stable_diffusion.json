@@ -6695,11 +6695,11 @@
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "",
+        "description": "DreamShaper is a general purpose SD model that aims at doing everything well, photos, art, anime, manga. It's designed to go against other general purpose models and pipelines like Midjourney and DALL-E.",
         "version": "3.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/112902",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
