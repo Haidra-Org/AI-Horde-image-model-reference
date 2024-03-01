@@ -6569,9 +6569,6 @@
         "homepage": "https://civitai.com/models/257749/pony-diffusion-v6-xl",
         "nsfw": true,
         "download_all": false,
-        "requirements": {
-            "clip_skip": 2
-        },
         "config": {
             "files": [
                 {
@@ -6592,7 +6589,10 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6776583201
+        "size_on_disk_bytes": 6776583201,
+        "requirements": {
+            "clip_skip": 2
+        }
     },
     "Anime Illust Diffusion XL": {
         "name": "Anime Illust Diffusion XL",
@@ -6696,7 +6696,6 @@
     "DreamShaper XL": {
         "name": "DreamShaper XL",
         "baseline": "stable_diffusion_xl",
-        "optimization": "lightning",
         "type": "ckpt",
         "inpainting": false,
         "description": "DreamShaper is a general purpose SD model that aims at doing everything well, photos, art, anime, manga. It's designed to go against other general purpose models and pipelines like Midjourney and DALL-E.",
@@ -6705,13 +6704,6 @@
         "homepage": "https://civitai.com/models/112902",
         "nsfw": true,
         "download_all": false,
-        "requirements": {
-            "min_steps": 3,
-            "max_steps": 6,
-            "cfg_scale": 2,
-            "samplers": ["k_dpmpp_sde"],
-            "schedulers": ["karras"]
-        },
         "config": {
             "files": [
                 {
@@ -6732,7 +6724,19 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6776583201
+        "size_on_disk_bytes": 6776583201,
+        "optimization": "lightning",
+        "requirements": {
+            "min_steps": 3,
+            "max_steps": 6,
+            "cfg_scale": 2,
+            "samplers": [
+                "k_dpmpp_sde"
+            ],
+            "schedulers": [
+                "karras"
+            ]
+        }
     },
     "Stable Cascade 1.0": {
         "name": "Stable Cascade 1.0",
