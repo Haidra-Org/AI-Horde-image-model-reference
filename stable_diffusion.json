@@ -6738,6 +6738,72 @@
             ]
         }
     },
+    "Cheyenne": {
+        "name": "Cheyenne",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "A model for European Comic lovers",
+        "version": "1.6",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/198051?modelVersionId=369370",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "cheyenne.safetensors",
+                    "sha256sum": "7804aacc0bc8f6fb9fe15e382adacdd433aae7c459f24d44c821712f25fbb882"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "cheyenne.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/369370?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775433578
+    },
+    "Unstable Diffusers XL": {
+        "name": "Unstable Diffusers XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "the unstable models are a collection of checkpoints where limitations cease to exist and creativity knows no limits. This checkpoint defies restrictions and empowers you to generate anything your imagination desires",
+        "version": "11",
+        "style": "artistic",
+        "homepage": "https://huggingface.co/Yamer-AI/SDXL_Unstable_Diffusers",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "unstable_diffusers_xl.safetensors",
+                    "sha256sum": "dda8c0514ca0b28bb4285385cc8696871f6fa1fa31aa49ca5fd83fa17c35e87b"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "unstable_diffusers_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Yamer-AI/SDXL_Unstable_Diffusers/resolve/main/Unstable%20Diffusers%20V11%20%2B%20RunDiffusion.safetensors?download=true"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6775433578
+    },
     "Stable Cascade 1.0": {
         "name": "Stable Cascade 1.0",
         "baseline": "stable_cascade",
