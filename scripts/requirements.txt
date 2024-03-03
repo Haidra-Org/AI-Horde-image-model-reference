@@ -1,1 +1,1 @@
-horde_model_reference~=0.6.2
+horde_model_reference~=0.6.3
