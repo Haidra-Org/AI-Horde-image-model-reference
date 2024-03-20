@@ -5138,7 +5138,7 @@
             "files": [
                 {
                     "path": "icbinp.ckpt",
-                    "sha256sum": "6D3331C3D87B4F1B17ADC37AAC2FDBB5DA1E61714E1DC4B19B7D16012F438C03"
+                    "sha256sum": "6d3331c3d87b4f1b17adc37aac2fdbb5da1e61714e1dc4b19b7d16012f438c03"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -6438,7 +6438,7 @@
             "files": [
                 {
                     "path": "icbinp_xl.safetensors",
-                    "sha256sum": "392DC8678959F5BEE1CBFD1E139920A033B66FA571B8DCE188DE605F4117CD48"
+                    "sha256sum": "392dc8678959f5bee1cbfd1e139920a033b66fa571b8dce188de605f4117cd48"
                 }
             ],
             "download": [
