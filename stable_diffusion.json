@@ -5137,7 +5137,7 @@
         "config": {
             "files": [
                 {
-                    "path": "icbinp.ckpt",
+                    "path": "icbinp.safetensors",
                     "sha256sum": "6d3331c3d87b4f1b17adc37aac2fdbb5da1e61714e1dc4b19b7d16012f438c03"
                 },
                 {
@@ -5146,7 +5146,7 @@
             ],
             "download": [
                 {
-                    "file_name": "icbinp.ckpt",
+                    "file_name": "icbinp.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/306898"
                 }
