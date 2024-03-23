@@ -2885,44 +2885,6 @@
         "available": false,
         "size_on_disk_bytes": 4992919226
     },
-    "pix2pix": {
-        "name": "pix2pix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Model specifically trained for pix2pix use",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/pix2pix/01_pix2pix.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/pix2pix/02_pix2pix.webp"
-        ],
-        "min_bridge_version": 12,
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://github.com/timothybrooks/instruct-pix2pix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "pix2pix.ckpt",
-                    "md5sum": "f5b23f276ad1df6636fe5a94cb58c312",
-                    "sha256sum": "ffd280ddcfc8234e4d28b93641cb83169cebcb4d70998df9ee2eabb4d705374a"
-                },
-                {
-                    "path": "pix2pix.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "pix2pix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pix2pix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 7703927910
-    },
     "Counterfeit": {
         "name": "Counterfeit",
         "baseline": "stable diffusion 1",
@@ -3874,39 +3836,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132625431
-    },
-    "A to Zovya RPG": {
-        "name": "A to Zovya RPG",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "encompass all things RPG Fantasy Art generation related. From landscapes, ruins, castles to characters and monster concepts",
-        "version": "1.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/8124/a-to-zovya-rpg-artists-tools-15-and-21",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "A-to-z_zovya_rpg.ckpt",
-                    "md5sum": "b74f35949a61f1b777947eb5dc519f8f",
-                    "sha256sum": "5360ee218c4d3297cb79d940cad06c437ed72bca735bb63aa1c72c4bc9d78f09"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "A-to-z_zovya_rpg.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/A-to-z_zovya_rpg.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2580315867
     },
     "Colorful": {
         "name": "Colorful",
@@ -6445,7 +6374,7 @@
                 {
                     "file_name": "icbinp_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/397839"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinpXL_v4.safetensors?download=true"
                 }
             ]
         },
