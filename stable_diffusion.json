@@ -5093,7 +5093,7 @@
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bb95_furry_mix/image-grid.webp"
         ],
-        "version": "7.0",
+        "version": "13.0",
         "style": "furry",
         "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
         "nsfw": true,
@@ -5102,7 +5102,7 @@
             "files": [
                 {
                     "path": "bb95FurryMix.safetensors",
-                    "sha256sum": "5A8BFCFDD17C96AC2B2EE68D8A916E88BF03C426475F5524D13EB0959C66BCDE"
+                    "sha256sum": "1EF8F0A04581B57C86B8CFAAD1DD46B475B5C455DFD86F0619E0CBFBF1ABED96"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5112,7 +5112,7 @@
                 {
                     "file_name": "bb95FurryMix.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/bb95FurryMix.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/236094?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
