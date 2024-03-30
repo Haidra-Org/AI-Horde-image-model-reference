@@ -6696,6 +6696,39 @@
         ],
         "size_on_disk_bytes": 6775433578
     },
+    "AAM XL": {
+        "name": "AAM XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime screencap model, brought to you by the creator of DreamShaper",
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/269232?modelVersionId=303526",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "aam_xl.safetensors",
+                    "sha256sum": "D48C2391E04F7DBC83D8538B71BE8A30991F3E4E2FF1A8A757B849381F769A8B"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "aam_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/303526?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6939226112
+    },
     "Stable Cascade 1.0": {
         "name": "Stable Cascade 1.0",
         "baseline": "stable_cascade",
