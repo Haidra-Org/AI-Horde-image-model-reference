@@ -5093,41 +5093,6 @@
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bb95_furry_mix/image-grid.webp"
         ],
-        "version": "13.0",
-        "style": "furry",
-        "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "bb95FurryMix_v13.safetensors",
-                    "sha256sum": "1EF8F0A04581B57C86B8CFAAD1DD46B475B5C455DFD86F0619E0CBFBF1ABED96"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "bb93FurryMix_v13.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/236094?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132631552
-    },
-    "BB95 Furry Mix v7": {
-        "name": "BB95 Furry Mix v7",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model is a mix of various furry models.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/bb95_furry_mix/image-grid.webp"
-        ],
         "version": "7.0",
         "style": "furry",
         "homepage": "https://civitai.com/models/17649/bb95-furry-mix",
