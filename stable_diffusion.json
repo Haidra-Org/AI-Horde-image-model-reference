@@ -6684,7 +6684,7 @@
                 {
                     "file_name": "cheyenne.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/369370?format=SafeTensor"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/cheyenne.safetensors?download=true"
                 }
             ]
         },
