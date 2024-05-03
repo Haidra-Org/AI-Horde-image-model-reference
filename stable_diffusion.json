@@ -6518,6 +6518,42 @@
         ],
         "size_on_disk_bytes": 6776583201
     },
+    "SwamPonyXL": {
+        "name": "SwamPonyXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Realistic finetune of Pony Diffusion V6, with an emphasis on asian likeness.",
+        "version": "1.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/416417/swamponyxl",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "swamponyxl.safetensors",
+                    "sha256sum": "674FCB56695A3D4208548DB4326FCFC22A93CB4BF1816EC88D5B4B8900F369E3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "swamponyxl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/463958?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
     "Anime Illust Diffusion XL": {
         "name": "Anime Illust Diffusion XL",
         "baseline": "stable_diffusion_xl",
