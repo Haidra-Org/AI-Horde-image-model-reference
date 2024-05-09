@@ -6819,7 +6819,7 @@
                 {
                     "file_name": "qg_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/375465?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/375465?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
