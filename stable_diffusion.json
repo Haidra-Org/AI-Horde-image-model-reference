@@ -6527,7 +6527,7 @@
         "version": "1.0",
         "style": "realistic",
         "homepage": "https://civitai.com/models/416417/swamponyxl",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "requirements": {
             "clip_skip": 2
