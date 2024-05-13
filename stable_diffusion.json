@@ -6422,7 +6422,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "The SDXL follow up to ICBINP, now with higher resolution and better realism",
-        "version": "4.0",
+        "version": "5a",
         "style": "realistic",
         "homepage": "https://civitai.com/models/229002/icbinp-xl",
         "nsfw": false,
@@ -6431,14 +6431,14 @@
             "files": [
                 {
                     "path": "icbinp_xl.safetensors",
-                    "sha256sum": "392dc8678959f5bee1cbfd1e139920a033b66fa571b8dce188de605f4117cd48"
+                    "sha256sum": "905be5013eb1551c89cc424d65c069bff797f582f2e52bd9f83983ebee88ec36"
                 }
             ],
             "download": [
                 {
                     "file_name": "icbinp_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinpXL_v4.safetensors?download=true"
+                    "file_url": "https://huggingface.co/residentchiefnz/Testing/resolve/main/ICBINP_XL_v5a.safetensors"
                 }
             ]
         },
@@ -6544,6 +6544,78 @@
                     "file_name": "swamponyxl.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/463958?format=SafeTensor"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "AMPonyXL": {
+        "name": "AMPonyXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime model based on Pony Diffusion XL - remember to use the score prompts to get this to go properly",
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/288584?modelVersionId=324619",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "amponyxl.safetensors",
+                    "sha256sum": "821aa5537f8ddafdbf963827551865c31c5bbfab1abe7925cb5f006c8f71e485"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "amponyxl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/324619"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
+    "Blank Canvas XL": {
+        "name": "Blank Canvas XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Another model from RCNZ, this one is a true generalist, able to do realism, anime, and cartoons",
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/280195/blank-canvas-xl",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "blank_canvas_xl.safetensors",
+                    "sha256sum": "3e8f641d333b9df9629a2124103f2e58331eccd79c0220ee43cac4f81dc4f64e"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "blank_canvas_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/315557"
                 }
             ]
         },
