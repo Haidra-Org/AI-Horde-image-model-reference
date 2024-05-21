@@ -6427,6 +6427,9 @@
         "homepage": "https://civitai.com/models/229002/icbinp-xl",
         "nsfw": false,
         "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
         "config": {
             "files": [
                 {
