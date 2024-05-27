@@ -5136,7 +5136,7 @@
         "config": {
             "files": [
                 {
-                    "path": "bb95FurryMix.safetensors",
+                    "path": "bb95FurryMix_v14.safetensors",
                     "sha256sum": "3B4857C8870C4200F34C6C8F93A35AEFFD6751303512FB685E13FBA54ABF49F5"
                 },
                 {
@@ -5145,9 +5145,9 @@
             ],
             "download": [
                 {
-                    "file_name": "bb95FurryMix14.safetensors",
+                    "file_name": "bb95FurryMix_v14.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/443235?format=SafeTensor"
+                    "file_url": "https://civitai.com/api/download/models/397456?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
