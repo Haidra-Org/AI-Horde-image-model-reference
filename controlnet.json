@@ -446,5 +446,55 @@
 			]
 		},
 		"available": false
+	},
+    "control_qr": {
+		"name": "control_qr",
+		"type": "control_qr",
+		"description": "control_qr",
+		"version": "2.0.0",
+		"style": "control_qr",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "control_v1p_sd15_qrcode_monster_v2.safetensors",
+					"sha256sum": "fc985da5850a03033c9e28032532f406ae04bd127178ae5bc6d3ec0502b25253"
+				}
+			],
+			"download": [
+				{
+					"file_name": "control_v1p_sd15_qrcode_monster_v2.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/resolve/main/v2/control_v1p_sd15_qrcode_monster_v2.safetensors?download=true"
+				}
+			]
+		},
+		"available": false
+	},
+    "control_qr_sdxl": {
+		"name": "control_qr_xl",
+		"type": "control_qr_xl",
+		"description": "control_qr_xl",
+		"version": "1.0.0",
+		"style": "control_qr_xl",
+		"nsfw": false,
+		"download_all": true,
+		"config": {
+			"files": [
+				{
+					"path": "control_v1p_sdxl_qrcode_monster.safetensors",
+					"sha256sum": "11e49b4e272fabda60094b35be6fd3e215e551211210938e381d27497fd2215c"
+				}
+			],
+			"download": [
+				{
+					"file_name": "control_v1p_sdxl_qrcode_monster.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/monster-labs/control_v1p_sdxl_qrcode_monster/resolve/main/diffusion_pytorch_model.safetensors"
+				}
+			]
+		},
+		"available": false
 	}
 }
