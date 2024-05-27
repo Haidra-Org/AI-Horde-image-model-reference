@@ -5137,7 +5137,7 @@
             "files": [
                 {
                     "path": "bb95FurryMix_v14.safetensors",
-                    "sha256sum": "3B4857C8870C4200F34C6C8F93A35AEFFD6751303512FB685E13FBA54ABF49F5"
+                    "sha256sum": "1AF9DD8A47F244A35565812B00FBF3633FE9DB42B7C70254CA1435BD8C030B2C"
                 },
                 {
                     "path": "v1-inference.yaml"
