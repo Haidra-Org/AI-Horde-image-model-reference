@@ -6879,7 +6879,7 @@
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "Introducing ᑎIᕼIᒪᗰᗩᑎIᗩ: A fusion of 𝐔𝐧𝐬𝐭𝐚𝐛𝐥𝐞 𝐃𝐢𝐟𝐟𝐮𝐬𝐞𝐫𝐬 and DataVoid's 𝐏𝐫𝐨𝐭𝐞𝐮𝐬-𝐑𝐮𝐧𝐃𝐢𝐟𝐟𝐮𝐬𝐢𝐨𝐧 checkpoint. This extraordinary model was born from the fusion of Yamer's SDXL Unstable Diffusers Version 11 and RunDiffusion's Proteus model. This fusion brings together the boundless creativity and unpredictability of Unstable Diffusers with the enhanced versatility and style-unlocking capabilities of Proteus.",
+        "description": "Introducing Nihilmania: A fusion of Unstable Diffusers and DataVoid's Proteus-Rundiffusion checkpoint. This extraordinary model was born from the fusion of Yamer's SDXL Unstable Diffusers Version 11 and RunDiffusion's Proteus model. This fusion brings together the boundless creativity and unpredictability of Unstable Diffusers with the enhanced versatility and style-unlocking capabilities of Proteus.",
         "version": "12",
         "style": "artistic",
         "homepage": "https://civitai.com/models/84040?modelVersionId=395107?type=Model&format=SafeTensor&size=full&fp=fp16",
