@@ -6457,7 +6457,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "The SDXL follow up to ICBINP, now with higher resolution and better realism",
-        "version": "5a",
+        "version": "6",
         "style": "realistic",
         "homepage": "https://civitai.com/models/229002/icbinp-xl",
         "nsfw": false,
@@ -6469,14 +6469,14 @@
             "files": [
                 {
                     "path": "icbinp_xl.safetensors",
-                    "sha256sum": "905be5013eb1551c89cc424d65c069bff797f582f2e52bd9f83983ebee88ec36"
+                    "sha256sum": "B54E38A6BDAF010179BCAF4CA8637598A5B0B7587BAB3B6EBD1CDFF699D8863D"
                 }
             ],
             "download": [
                 {
                     "file_name": "icbinp_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/residentchiefnz/Testing/resolve/main/ICBINP_XL_v5a.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ICBINP_XL_v6.safetensors"
                 }
             ]
         },
