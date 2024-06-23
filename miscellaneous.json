@@ -1,0 +1,68 @@
+{
+	"layer_diffuse_sd15": {
+		"name": "layer_diffuse_sd15",
+		"type": "layer_diffuse",
+		"baseline": "stable diffusion 1",
+		"description": "Layer Diffuse model for SD 1.5",
+		"config": {
+			"files": [
+				{
+					"path": "layer_sd15_vae_transparent_decoder.safetensors",
+					"sha256sum": "6df4712dfbb3783231b22f869a5da5cbfea782ebb05f782bd9e8744bfb0cdf03",
+					"md5sum": "83efed29860db8d92824cdaec51a7be7"
+				},
+				{
+					"path": "layer_sd15_transparent_attn.safetensors",
+					"sha256sum": "cc9ee87452bf1ccdd419035bf9618f6bdcaac1a2d3e23694d62e5a9c721da295",
+					"md5sum": "e02963bff337cdf6857a2e8e2d1a7bf5"
+				}
+			],
+			"download": [
+				{
+					"file_name": "layer_sd15_vae_transparent_decoder.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/LayerDiffusion/layerdiffusion-v1/resolve/main/layer_sd15_vae_transparent_decoder.safetensors"
+				},
+				{
+					"file_name": "layer_sd15_transparent_attn.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/LayerDiffusion/layerdiffusion-v1/resolve/main/layer_sd15_transparent_attn.safetensors"
+				}
+			]
+		},
+		"available": false
+	},
+	"layer_diffuse_sdxl": {
+		"name": "layer_diffuse_sdxl",
+		"type": "layer_diffuse",
+		"baseline": "stable_diffusion_xl",
+		"description": "Layer Diffuse model for SDXL",
+		"config": {
+			"files": [
+				{
+					"path": "vae_transparent_decoder.safetensors",
+					"sha256sum": "59dc8feefe40d26b6cb7186aed7af70c60d94ac4f9db8ebe7f121a01ba27a2fc",
+					"md5sum": "a44b57db8ee01dcc4691c818b8b4f440"
+				},
+				{
+					"path": "layer_xl_transparent_conv.safetensors",
+					"sha256sum": "5ee958d80dcd515fa7ac915274c536fadd3db5d919adeb5ff45107b6169aacc7",
+					"md5sum": "f9fe0430f16047445033d43e84969c70"
+				}
+			],
+			"download": [
+				{
+					"file_name": "vae_transparent_decoder.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/LayerDiffusion/layerdiffusion-v1/resolve/main/vae_transparent_decoder.safetensors"
+				},
+				{
+					"file_name": "layer_xl_transparent_conv.safetensors",
+					"file_path": "",
+					"file_url": "https://huggingface.co/LayerDiffusion/layerdiffusion-v1/resolve/main/layer_xl_transparent_conv.safetensors"
+				}
+			]
+		},
+		"available": false
+	}
+}
