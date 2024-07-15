@@ -111,8 +111,53 @@
 		},
 		"available": false
 	},
+	"YOLOv5l": {
+		"name": "YOLOv5l",
+		"type": "parsing",
+		"baseline": "none",
+		"description": "",
+		"config": {
+			"files": [
+				{
+					"path": "yolov5l-face.pth",
+					"sha256sum": "1ba9d2125fda4d823df5152b9fc2903c59aa76c0d3771e02bcf13a56a282cf96",
+					"md5sum": "a5d19f1ac865b3c2a27482531b3db667"
+				}
+			],
+			"download": [
+				{
+					"file_name": "yolov5l-face.pth",
+					"file_path": "",
+					"file_url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5l-face.pth"
+				}
+			]
+		},
+		"available": false
+	},
+	"YOLOv5n": {
+		"name": "YOLOv5n",
+		"type": "parsing",
+		"baseline": "none",
+		"description": "",
+		"config": {
+			"files": [
+				{
+					"path": "yolov5n-face.pth",
+					"sha256sum": "d2bbfbe9f36cf1ec345dc69658d7209e5448a676d946f1bf7818ac50d4489357",
+					"md5sum": "99e7ecf5ce1cf3d8efbbe9ba711b43b9"
+				}
+			],
+			"download": [
+				{
+					"file_name": "yolov5n-face.pth",
+					"file_path": "",
+					"file_url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5n-face.pth"
+				}
+			]
+		},
+		"available": false
+	},
 	"bisenet": {
-		"name": "bisenet",
 		"type": "parsing",
 		"baseline": "none",
 		"description": "",
