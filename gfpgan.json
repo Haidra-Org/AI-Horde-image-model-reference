@@ -16,8 +16,24 @@
 					"sha256sum": "6d1de9c2944f2ccddca5f5e010ea5ae64a39845a86311af6fdf30841b0a5a16d"
 				},
 				{
+					"path": "detection_mobilenet0.25_Final.pth",
+					"sha256sum": "2979b33ffafda5d74b6948cd7a5b9a7a62f62b949cef24e95fd15d2883a65220"
+				},
+				{
+					"path": "yolov5l-face.pth",
+					"sha256sum": "1ba9d2125fda4d823df5152b9fc2903c59aa76c0d3771e02bcf13a56a282cf96"
+				},
+				{
+					"path": "yolov5n-face.pth",
+					"sha256sum": "d2bbfbe9f36cf1ec345dc69658d7209e5448a676d946f1bf7818ac50d4489357"
+				},
+				{
 					"path": "parsing_parsenet.pth",
 					"sha256sum": "3d558d8d0e42c20224f13cf5a29c79eba2d59913419f945545d8cf7b72920de2"
+				},
+				{
+					"path": "parsing_bisenet.pth",
+					"sha256sum": "468e13ca13a9b43cc0881a9f99083a430e9c0a38abd935431d1c28ee94b26567"
 				}
 			],
 			"download": [
@@ -32,9 +48,29 @@
 					"file_url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_Resnet50_Final.pth"
 				},
 				{
+					"file_name": "detection_mobilenet0.25_Final.pth",
+					"file_path": "",
+					"file_url": "https://github.com/xinntao/facexlib/releases/download/v0.1.0/detection_mobilenet0.25_Final.pth"
+				},
+				{
+					"file_name": "yolov5l-face.pth",
+					"file_path": "",
+					"file_url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5l-face.pth"
+				},
+				{
+					"file_name": "yolov5n-face.pth",
+					"file_path": "",
+					"file_url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/yolov5n-face.pth"
+				},
+				{
 					"file_name": "parsing_parsenet.pth",
 					"file_path": "",
 					"file_url": "https://github.com/xinntao/facexlib/releases/download/v0.2.2/parsing_parsenet.pth"
+				},
+				{
+					"file_name": "parsing_bisenet.pth",
+					"file_path": "",
+					"file_url": "https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/parsing_bisenet.pth"
 				}
 			]
 		},
