@@ -6951,6 +6951,10 @@
         "homepage": "https://github.com/Stability-AI/StableCascade",
         "nsfw": false,
         "download_all": false,
+        "requirements": {
+            "min_steps": 20,
+            "max_steps": 30
+        },
         "config": {
             "files": [
                 {
@@ -6983,5 +6987,143 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 13776906831
+    },
+    "Flux.1-Dev fp8 (Compact)": {
+        "name": "Flux.1-Dev fp8 (Compact)",
+        "baseline": "flux_1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. For more information, please read our blog post.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://flux1ai.com/",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 20,
+            "max_steps": 30,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 4,
+            "clip_skip": 1,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "karras"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "flux1CompactCLIPAnd_Flux1DevFp8.safetensors",
+                    "sha256sum": "363D9D476AFBC38D4F950AC7B909DAA0B22121161F88698B0DC1432E82649274"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "flux1CompactCLIPAnd_Flux1DevFp8.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/712441?type=Model&format=SafeTensor&size=full"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 17246524772
+    },
+   "Flux.1-Dev fp16 (Compact)": {
+        "name": "Flux.1-Dev fp16 (Compact)",
+        "baseline": "flux_1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. For more information, please read our blog post.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://flux1ai.com/",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 20,
+            "max_steps": 30,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 4,
+            "clip_skip": 1,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "karras"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "flux1CompactCLIPAnd_Flux1DevFp16.safetensors",
+                    "sha256sum": "E0186741521463DC38D3ED6F5119D95146FB847176015758493D60E4650CA3D0"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "flux1CompactCLIPAnd_Flux1DevFp16.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/713385?type=Model&format=SafeTensor&size=full"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 17246524772
+    },
+    "Flux.1-Schnell fp8 (Compact)": {
+        "name": "Flux.1-Schnell fp8 (Compact)",
+        "baseline": "flux_1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. For more information, please read our blog post.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://flux1ai.com/",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 3,
+            "max_steps": 8,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 4,
+            "clip_skip": 1,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "karras"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "flux1CompactCLIPAnd_Flux1SchnellFp8.safetensors",
+                    "sha256sum": "5C2C590E92ED47500092EF8E1A00FD1F8E61009DA93B89130A80940F5257DF17"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "flux1CompactCLIPAnd_Flux1SchnellFp8.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/714945?type=Model&format=SafeTensor&size=full"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 17246524772
     }
 }
