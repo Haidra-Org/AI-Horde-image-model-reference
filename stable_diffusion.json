@@ -7034,7 +7034,7 @@
         ],
         "size_on_disk_bytes": 17246524772
     },
-   "Flux.1-Dev fp16 (Compact)": {
+    "Flux.1-Dev fp16 (Compact)": {
         "name": "Flux.1-Dev fp16 (Compact)",
         "baseline": "flux_1",
         "type": "ckpt",
