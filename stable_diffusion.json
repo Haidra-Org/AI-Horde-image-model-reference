@@ -6993,7 +6993,7 @@
         "baseline": "flux_1",
         "type": "ckpt",
         "inpainting": false,
-        "description": "FLUX.1 [dev] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. For more information, please read our blog post.",
+        "description": "FLUX.1 [schnell] is a 12 billion parameter rectified flow transformer capable of generating images from text descriptions. For more information, please read our blog post.",
         "version": "1.0",
         "style": "generalist",
         "homepage": "https://flux1ai.com/",
@@ -7007,9 +7007,6 @@
             "clip_skip": 1,
             "samplers": [
                 "k_euler"
-            ],
-            "schedulers": [
-                "karras"
             ]
         },
         "config": {
@@ -7053,9 +7050,6 @@
             "clip_skip": 1,
             "samplers": [
                 "k_euler"
-            ],
-            "schedulers": [
-                "karras"
             ]
         },
         "config": {
