@@ -7092,13 +7092,21 @@
         "nsfw": true,
         "download_all": false,
         "requirements": {
-            "clip_skip": 2
+            "clip_skip": 2,
+            "samplers": [
+                "k_heun",
+                "k_euler_a",
+                "k_dpmpp_2m",
+                "k_dpm_2",
+                "k_dpmpp_2s_a",
+                "k_dpmpp_sde"
+            ]
         },
         "config": {
             "files": [
                 {
                     "path": "ponyRealism_v21MainVAE.safetensors",
-                    "sha256sum": "059934ff58033c5abb606b6b98f969ffdf7e7312d352c3be47a0440ba28d303b"
+                    "sha256sum": "059934FF58033C5ABB606B6B98F969FFDF7E7312D352C3BE47A0440BA28D303B"
                 }
             ],
             "download": [
