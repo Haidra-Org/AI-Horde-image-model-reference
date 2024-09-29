@@ -7079,5 +7079,41 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 17246524772
+    },
+    "Pony Realism": {
+        "name": "Pony Realism",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Pony Realism is a realistic Pony model that is good at faces for medium-close distances, skin detail, and prompt adherence",
+        "version": "2.1",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/372465/pony-realism",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "ponyRealism_v21MainVAE.safetensors",
+                    "sha256sum": "059934ff58033c5abb606b6b98f969ffdf7e7312d352c3be47a0440ba28d303b"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ponyRealism_v21MainVAE.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/534642?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 7105348824
     }
 }
