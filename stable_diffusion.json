@@ -341,45 +341,6 @@
         "available": false,
         "size_on_disk_bytes": 2132887713
     },
-    "Tron Legacy Diffusion": {
-        "name": "Tron Legacy Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Tron Legacy movie style",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/tron_legacy_diffusion/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "trnlgcy"
-        ],
-        "homepage": "https://huggingface.co/dallinmackay/Tron-Legacy-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Tron-Legacy-Style-trnlgcy.ckpt",
-                    "md5sum": "97cd368155eed1d0f71c064e3dcd8553",
-                    "sha256sum": "dd92b39d030c5b493028ffb8c8de5a9334dcbedf596a0b91d491c37492702a84"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Tron-Legacy-Style-trnlgcy.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Tron-Legacy-Style-trnlgcy.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Microworlds": {
         "name": "Microworlds",
         "baseline": "stable diffusion 1",
@@ -850,49 +811,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Ranma Diffusion": {
-        "name": "Ranma Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "imitates the style of late '80s early 90's anime, Anything v3 base",
-        "tags": [
-            "anime",
-            "retro"
-        ],
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/ranma_diffusion/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "anime",
-        "trigger": [
-            "80sanimestyle"
-        ],
-        "homepage": "https://huggingface.co/tashachan28/ranma_diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "ranma_diffusion.ckpt",
-                    "md5sum": "20dc21ad6ed6b75b67cfa7e9afb7d9a5",
-                    "sha256sum": "d8c0a013f0ce95379aeb0afae962a462d9b01b8b004ca7f9d1bdd2132eec40c7"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "ranma_diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ranma_diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Ghibli Diffusion": {
         "name": "Ghibli Diffusion",
         "baseline": "stable diffusion 1",
@@ -1107,35 +1025,28 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "portraits of charecters in the style of the game Baldur's Gate. check homepage for a massive prompt guide",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/rpg/01_gigachad.webp"
-        ],
-        "version": "4",
+        "version": "5",
         "style": "artistic",
-        "homepage": "https://huggingface.co/Anashel/rpg",
+        "homepage": "https://civitai.com/models/1116?modelVersionId=124626",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "rpg.ckpt",
-                    "md5sum": "ce167ae992935aca271b5eccc7b8b983",
-                    "sha256sum": "3baa5c18c3c41f7df1fcb4dd5a03dfac45e37a216d852407f2bb1118aeeececf"
-                },
-                {
-                    "path": "v1-inference.yaml"
+                    "path": "rpg_v5.safetensors",
+                    "sha256sum": "BB7E29DEF5E64F1A303BF0D87195B7E88F4D463696B532C6CDFD109FBEC4FD9E"
                 }
             ],
             "download": [
                 {
-                    "file_name": "rpg.ckpt",
+                    "file_name": "rpg_v5.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/rpg.ckpt?download=true"
+                    "file_url": "https://civitai.com/api/download/models/124626?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 2300174645
+        "size_on_disk_bytes": 2132626066
     },
     "Poison": {
         "name": "Poison",
@@ -1209,45 +1120,6 @@
                     "file_name": "eimis_anime-diffusion.ckpt",
                     "file_path": "",
                     "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/eimis_anime-diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
-    "ChromaV5": {
-        "name": "ChromaV5",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "generates metalic/chrome looking images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/chromav5/01_gigachad.webp"
-        ],
-        "version": "1.6",
-        "style": "generalist",
-        "trigger": [
-            "ChromaV5"
-        ],
-        "homepage": "https://huggingface.co/SomaMythos/ChromaV5",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "chromav5.ckpt",
-                    "md5sum": "2fd4063028dacb05997dba772e002b04",
-                    "sha256sum": "ca620b55bdfcae8aa6659efddfc2cd13e6ce1f7c7ac63a9d94395bd7a4a44cd6"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "chromav5.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/chromav5.ckpt?download=true"
                 }
             ]
         },
@@ -1332,45 +1204,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Funko Diffusion": {
-        "name": "Funko Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/funko_diffusion/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "artistic",
-        "trigger": [
-            "funko style"
-        ],
-        "homepage": "https://huggingface.co/prompthero/funko-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "funko-diffusion.ckpt",
-                    "md5sum": "d2a2a80a8f725d517422259ce16c38fb",
-                    "sha256sum": "c5150eaeba0ccb86627e9007841dbc45d3b5b68fd084081f34c2a6b207befd48"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "funko-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/funko-diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Double Exposure Diffusion": {
         "name": "Double Exposure Diffusion",
         "baseline": "stable diffusion 1",
@@ -1445,43 +1278,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132856622
-    },
-    "Hassanblend": {
-        "name": "Hassanblend",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model was for creating people",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/hassanblend/01_gigachad.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/hassanblend/02_bettername.webp"
-        ],
-        "version": "1.5.1.2",
-        "style": "realistic",
-        "homepage": "https://huggingface.co/hassanblend/hassanblend1.5",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "hassanblend.ckpt",
-                    "md5sum": "071a44d5b076298a07227e34dad58d92",
-                    "sha256sum": "1bb3a2d7eb0e2f92c711248e11771866b8fd55f0920d2cc8d09d247933d0623d"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "hassanblend.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/hassanblend.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132885216
     },
     "ACertainThing": {
         "name": "ACertainThing",
@@ -1681,45 +1477,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132856622
-    },
-    "Dark Victorian Diffusion": {
-        "name": "Dark Victorian Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "finetuned on dark, moody, victorian imagery",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/dark_victorian_diffusion/01_victorian.webp"
-        ],
-        "version": "2.0",
-        "style": "artistic",
-        "trigger": [
-            "darkvictorian artstyle"
-        ],
-        "homepage": "https://huggingface.co/proxima/darkvictorian_artstyle",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "DarkVictorian_Diffusion.ckpt",
-                    "md5sum": "29f6c1d379360859c6e3fcf4be2e5381",
-                    "sha256sum": "f878aaffe5eac79ac963b105ee665c665887b567ffbb2387571a2004088068f6"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "DarkVictorian_Diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/DarkVictorian_Diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132903585
     },
     "DnD Item": {
         "name": "DnD Item",
@@ -1975,46 +1732,6 @@
         "available": false,
         "size_on_disk_bytes": 2300165166
     },
-    "Moedel": {
-        "name": "Moedel",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Moe.del produces cute female characters. It is also a mix of Stable Diffusion 1.4/1.5 in different proportions so you can challenge it to generate for you pretty much anything using regular SD prompts (like cute dogs, cats etc.)",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/moedel/01_moedel.webp"
-        ],
-        "version": "2",
-        "style": "other",
-        "trigger": [
-            "masterpiece",
-            "best quality",
-            "mdjrny-v4"
-        ],
-        "homepage": "https://civitai.com/models/2034/moedel",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "moedel.ckpt",
-                    "md5sum": "63132423ae711d87c813bf0f0442b154",
-                    "sha256sum": "b2c2e471f84ad2581238719c7f49a2a6e5e87960fdaf2828696e7af8cae00f5d"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "moedel.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/moedel.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false
-    },
     "DreamLikeSamKuvshinov": {
         "name": "DreamLikeSamKuvshinov",
         "baseline": "stable diffusion 1",
@@ -2131,41 +1848,6 @@
         "available": false,
         "size_on_disk_bytes": 4265327916
     },
-    "GuFeng": {
-        "name": "GuFeng",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is a model of ancient Chinese style, and it also belongs to the model series with ink and water orientation",
-        "tags": [
-            "anime"
-        ],
-        "version": "2.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/12903/gufeng",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "GuFeng.safetensors",
-                    "sha256sum": "1f4fd502679cdbddb168f36ca11de3787097497eeb0e4f85bd1102618178e332"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "GuFeng.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GuFeng.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4244097744
-    },
     "Elldreth's Lucid Mix": {
         "name": "Elldreth's Lucid Mix",
         "baseline": "stable diffusion 1",
@@ -2240,56 +1922,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132910547
-    },
-    "Ultraskin": {
-        "name": "Ultraskin",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model will add a LOT of skin detail compared to SD 2.1. Sometimes this makes images look more realistic, sometimes less realistic!",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/ultraskin/01_voodoocode.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/ultraskin/02_gigachad.webp"
-        ],
-        "version": "0.9",
-        "style": "realistic",
-        "trigger": [
-            "ultraskin",
-            "twenties",
-            "thirties",
-            "thirty year old",
-            "eighties",
-            "eighty year old",
-            "elderly",
-            "moles",
-            "freckles",
-            "scar",
-            "skin detail"
-        ],
-        "homepage": "https://huggingface.co/VegaKH/Ultraskin",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Ultraskin.ckpt",
-                    "md5sum": "8e487864e56b73235c5ec304ed3a94a5",
-                    "sha256sum": "be03ccbb0d58e5510acb9776aee48d42a4103b7c2418088ee9bdfe2d6309935e"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Ultraskin.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Ultraskin.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607613289
     },
     "PPP": {
         "name": "PPP",
@@ -2579,6 +2211,43 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
+    "BPModel": {
+        "name": "BPModel",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
+        "tags": [
+            "anime",
+            "high resolution"
+        ],
+        "version": "1024",
+        "style": "anime",
+        "homepage": "https://huggingface.co/Crosstyan/BPModel",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "BPModel.ckpt",
+                    "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420",
+                    "sha256sum": "d5d6e1898fbc096237038661a5a09bdd25ea31f7a942b0df414d4bae36e9a124"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "BPModel.ckpt",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/BPModel.ckpt?download=true"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 2300165102
+    },
     "Realistic Vision": {
         "name": "Realistic Vision",
         "baseline": "stable diffusion 1",
@@ -2654,42 +2323,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265327278
-    },
-    "PFG": {
-        "name": "PFG",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "NSFW Model for realistic and Hentai images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/pfg/01_pfg.webp"
-        ],
-        "version": "1.11",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/1227/pfg",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "PFG.ckpt",
-                    "md5sum": "07dc65f652bb400af4d03b0bf6a41b95",
-                    "sha256sum": "5a369d04a05862bdf83acb86fa9aa4ea65c9bcc4102badc01821e851f34cc1d7"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "PFG.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PFG.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 7703710054
     },
     "Epic Diffusion": {
         "name": "Epic Diffusion",
@@ -3903,41 +3536,6 @@
         "available": false,
         "size_on_disk_bytes": 2132860661
     },
-    "GuoFeng": {
-        "name": "GuoFeng",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is a Chinese gorgeous antique style model, which can also be said to be an antique game character model with a 2.5D texture",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/GuoFeng/01.webp"
-        ],
-        "version": "3.3",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/10415/3-guofeng3",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "GuoFeng.safetensors",
-                    "sha256sum": "4078eb4174eea1dd75e03d437f5104f36d7587db31ebdfadc534599f61920119"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "GuoFeng.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/GuoFeng.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4244098026
-    },
     "Anime Pencil Diffusion": {
         "name": "Anime Pencil Diffusion",
         "baseline": "stable diffusion 1",
@@ -3980,43 +3578,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4098041880
-    },
-    "BPModel": {
-        "name": "BPModel",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
-        "tags": [
-            "anime",
-            "high resolution"
-        ],
-        "version": "1024",
-        "style": "anime",
-        "homepage": "https://huggingface.co/Crosstyan/BPModel",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "BPModel.ckpt",
-                    "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420",
-                    "sha256sum": "d5d6e1898fbc096237038661a5a09bdd25ea31f7a942b0df414d4bae36e9a124"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "BPModel.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/BPModel.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2300165102
     },
     "UMI Olympus": {
         "name": "UMI Olympus",
@@ -4847,58 +4408,22 @@
         "available": false,
         "size_on_disk_bytes": 2132857262
     },
-    "JoMad Diffusion": {
-        "name": "JoMad Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SD 1.5 model trained on a sample of Joe Madureiras artwork, this model was combined with another anime style model to create the blend uploaded here.",
-        "version": "1.0",
-        "style": "anime",
-        "trigger": [
-            "style of joemadureira"
-        ],
-        "homepage": "https://civitai.com/models/1223/jomad-diffusion",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "jomadDiffusion.ckpt",
-                    "md5sum": "43aa66b9ef9b799b155cd5d905d6ef88",
-                    "sha256sum": "bfdb1bc07f86a37363bdf04b778e0d528d28f25d2b78becc66f5b725452e4e62"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "jomadDiffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/jomadDiffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132908576
-    },
     "Ether Real Mix": {
         "name": "Ether Real Mix",
         "baseline": "stable diffusion 1",
         "type": "ckpt",
         "inpainting": false,
         "description": "Ether Real Mix is a realistic to semi-realistic anime style model tuned with the flexibility for general purpose use (hopefully). It still has some shortcomings inherit to anime models such as biases in generating females and humans.",
-        "version": "1.1",
-        "style": "other",
-        "homepage": "https://civitai.com/models/18207?modelVersionId=23036",
+        "version": "4",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/18207?modelVersionId=538928",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "etherRealMix.safetensors",
-                    "sha256sum": "bfcaa69ad9ef9d7ecca9a2251a5c5a84f31da7bb66f093e185006435026de787"
+                    "path": "etherRealMix_etherRealMix4.safetensors",
+                    "sha256sum": "081C0D5FA113B01FB5EB2E9ADE24C05491325A983099B0AFC4813C9EEB7E6C13"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -4906,14 +4431,14 @@
             ],
             "download": [
                 {
-                    "file_name": "etherRealMix.safetensors",
+                    "file_name": "etherRealMix_etherRealMix4.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/etherRealMix.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/538928?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 2132626102
+        "size_on_disk_bytes": 2132651178
     },
     "Lyriel": {
         "name": "Lyriel",
@@ -6190,38 +5715,6 @@
         "available": false,
         "size_on_disk_bytes": 4265204948
     },
-    "Samaritan 3d Cartoon": {
-        "name": "Samaritan 3d Cartoon",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A merge with loras trained on hundreds of midjourney niji expressive images with variety of emotions, doesn't look as good but it's allright. Add 'toothy expression' for more pronounced teeth but it's hard to get it right. Can only make humans and humanoids at the moment.",
-        "version": "1.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/81270/samaritan-3d-cartoon",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "samaritan3dCartoon.safetensors",
-                    "sha256sum": "D43CE53B9B671FFFB4E636D56FB01EA19F246EB321620411EA33B43369233A9E"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "samaritan3dCartoon.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/samaritan3dCartoon.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4244100738
-    },
     "AnyLoRA": {
         "name": "AnyLoRA",
         "baseline": "stable diffusion 1",
@@ -7123,5 +6616,77 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 7105348824
+    },
+    "WAI-ANI-NSFW-PONYXL": {
+        "name": "WAI-ANI-NSFW-PONYXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "WAI-ANI-NSFW-PONYXL is a Pony finetuned for NSFW anime-style generations",
+        "version": "8.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/404154",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "waiANINSFWPONYXL_v80.safetensors",
+                    "sha256sum": "C09F285811F11AECDB6D8BA73057C3670A30752B25B835C1C2F8EC919F8F40CD"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "waiANINSFWPONYXL_v80.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/827519?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040714
+    },
+    "Ultraspice": {
+        "name": "Ultraspice",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Ultraspice is a highly realistic SDXL model.",
+        "version": "2.3",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/229392",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "max_cfg_scale": 2.5
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "ultraspice_v23.safetensors",
+                    "sha256sum": "CFD51D0CB5107B0B2C3DB37BDE3FBF3CD569F0A1E0A2D8826D2C4DA2FCB57C09"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ultraspice_v23.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/626054?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6939220250
     }
 }
