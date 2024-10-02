@@ -5147,7 +5147,7 @@
                 {
                     "file_name": "bb95FurryMix_v14.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/397456?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/bb95FurryMix_v14.safetensors"
                 }
             ]
         },
@@ -7069,7 +7069,7 @@
                 {
                     "file_name": "flux1CompactCLIPAnd_Flux1SchnellFp8.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/714945?type=Model&format=SafeTensor&size=full"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/flux1CompactCLIPAnd_Flux1SchnellFp8.safetensors"
                 }
             ]
         },
