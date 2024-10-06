@@ -6716,5 +6716,129 @@
             ]
         },
         "size_on_disk_bytes": 2132626066
+    },
+    "BlenderMix Pony": {
+        "name": "BlenderMix Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "This PonyXL checkpoint should create a blender animation style look. Model was merged using my loras (Fugtrup, Nyl2, RadRoachHD) and AutismMix. I also added a tiny pinch of DucHaiten-GameArt to add some more consistency for 3d generations.",
+        "version": "v2.0",
+        "style": "other",
+        "homepage": "https://civitai.com/models/359876?modelVersionId=541561",
+        "nsfw": true,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "blendermix_v20.safetensors",
+                    "sha256sum": "BCA71253F32D784D3CF4A8A334297C66FDA32725A9399FEDBD2BA9A8B306C5C3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "blendermix_v20.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/541561?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 7105350502
+    },
+    "DucHaiten GameArt (Unreal) Pony": {
+        "name": "DucHaiten GameArt (Unreal) Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "This is a 3D PonyXL model, based on the AAA game quality of Unreal Engine 5.",
+        "version": "v1.0",
+        "style": "other",
+        "homepage": "https://civitai.com/models/388321?modelVersionId=692973",
+        "nsfw": true,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "duchaitenGameart_unrealengineV10.safetensors",
+                    "sha256sum": "BB307BFC22EC0455E3EB37AF25D93C451E55A5C4F29D548C36560DECFFB9359E"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "duchaitenGameart_unrealengineV10.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/692973?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938040682
+    },
+    "TUNIX Pony": {
+        "name": "TUNIX Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Semi-realistic stylized PonyXL finetune",
+        "version": "v1.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/558362?modelVersionId=621563",
+        "nsfw": true,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "tunix3DStylizedPony_v10VAE.safetensors",
+                    "sha256sum": "22E9FA0DBC277BFDDF3960BDD5791B8A5DC7305B7A2DFCA4C0EE3E2F401738C5"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "tunix3DStylizedPony_v10VAE.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/621563?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938040706
+    },
+    "WAI-CUTE Pony": {
+        "name": "WAI-CUTE Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime Pony model, with an emphasis on cute female figures",
+        "version": "v8.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/451486?modelVersionId=915200",
+        "nsfw": true,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "waiCUTE_v80.safetensors",
+                    "sha256sum": "5DB3BCC019F0EBA2B913B80187B29D5636C3AB79DF6910ADB95EAB5BEAA10CC5"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "waiCUTE_v80.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/915200?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938040682
     }
 }

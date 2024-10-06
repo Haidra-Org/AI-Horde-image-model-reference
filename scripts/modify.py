@@ -38,6 +38,12 @@ def save_models(json_file, models):
 
 def download_and_get_size(url):
     response = requests.get(url, stream=True)
+    if response.status_code == 401:
+        print(
+            "Model requires authorization to add, please add details to stable_diffusion.json manually."
+        )
+        return url, 1, "REPLACE_ME", ""
+
     total_size = int(
         response.headers.get("Content-Length", 0)
     )  # Total size of the file
