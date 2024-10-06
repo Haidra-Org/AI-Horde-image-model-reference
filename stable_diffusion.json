@@ -6688,5 +6688,33 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6939220250
+    },
+    "Flat-2D Animerge": {
+        "name": "Flat-2D Animerge",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "This is a merge of some random anime based and cartoon based models to achieve a somewhat cartoony anime style, more similar to what you would actually see in anime as opposed to the more common hyper-detailed anime models.",
+        "version": "v4.5",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/35960?modelVersionId=266360",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "flat2DAnimerge_v45Sharp.safetensors",
+                    "sha256sum": "FE95063BA60BC9298D60EB252F98D057039D9A882158AFE042F266BDC1B1E528"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "flat2DAnimerge_v45Sharp.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/266360?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 2132626066
     }
 }
