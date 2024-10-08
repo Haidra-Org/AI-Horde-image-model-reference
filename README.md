@@ -2,8 +2,7 @@
 
 Model reference for [AIHorde](https://aihorde.net) [Worker](https://github.com/Haidra-Org/horde-worker-reGen).
 
-
-##  Notes to maintainers
+## Notes to maintainers
 
 - See https://github.com/Haidra-Org/horde-model-reference#horde-moderatorssupport-staff. Note that the venv the worker is installed in has `horde-model-reference` already installed.
 - Always use `.safetensors` files
@@ -15,7 +14,7 @@ Model reference for [AIHorde](https://aihorde.net) [Worker](https://github.com/H
   - The pruned version of models only remove training data. This has no impact on the horde, however, unpruned models are typically much larger.
 - Models selected from civitai should have extra care to be taken:
   - The download URL should be fully qualified and include all of the query data, such as
-    - `?type=Model&format=SafeTensor&size=full&fp=fp16`
+    - `?type=Model&format=SafeTensor&size=pruned&fp=fp16`
   - When selecting a version, try and prefer models which require fewer steps (such as lightning models) and those model versions which are shown to be popular.
   - Double, triple, and quadrple check that the SHA you've specified in the json matches the model type and format URL you've chosen.
 - When adding large numbers of models, please strongly consider also proposing removing certain low usage models.
