@@ -6727,10 +6727,10 @@
         "style": "other",
         "homepage": "https://civitai.com/models/359876?modelVersionId=541561",
         "nsfw": true,
+        "download_all": false,
         "requirements": {
             "clip_skip": 2
         },
-        "download_all": false,
         "config": {
             "files": [
                 {
@@ -6758,10 +6758,10 @@
         "style": "other",
         "homepage": "https://civitai.com/models/388321?modelVersionId=692973",
         "nsfw": true,
+        "download_all": false,
         "requirements": {
             "clip_skip": 2
         },
-        "download_all": false,
         "config": {
             "files": [
                 {
@@ -6789,10 +6789,10 @@
         "style": "realistic",
         "homepage": "https://civitai.com/models/558362?modelVersionId=621563",
         "nsfw": true,
+        "download_all": false,
         "requirements": {
             "clip_skip": 2
         },
-        "download_all": false,
         "config": {
             "files": [
                 {
@@ -6820,10 +6820,10 @@
         "style": "anime",
         "homepage": "https://civitai.com/models/451486?modelVersionId=915200",
         "nsfw": true,
+        "download_all": false,
         "requirements": {
             "clip_skip": 2
         },
-        "download_all": false,
         "config": {
             "files": [
                 {
