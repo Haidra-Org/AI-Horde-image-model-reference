@@ -25,7 +25,7 @@ jobs:
         echo "LAST_RELEASE_TAG=$LAST_RELEASE_TAG" >> "$GITHUB_ENV"
         echo "LAST_RELEASE_SHA=$LAST_RELEASE_SHA" >> "$GITHUB_ENV"
         cd $ORIG_WORKING_DIR
-    
+
     - name: Checkout last release repository
       uses: actions/checkout@v2
       with:
@@ -55,7 +55,7 @@ jobs:
     - name: Calculate and print SHA hash of each stable_diffusion.json file
       run: |
         echo "SHA of current_release/stable_diffusion.json: $(sha256sum current_release/stable_diffusion.json)"
-        echo "SHA of last_release/stable_diffusion.json: $(sha256sum last_release/stable_diffusion.json)"   
+        echo "SHA of last_release/stable_diffusion.json: $(sha256sum last_release/stable_diffusion.json)"
 
     - name: Run comparison script
       run: |
