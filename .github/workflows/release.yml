@@ -1,0 +1,74 @@
+name: Compare Release to Last Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  compare-release-to-last-release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout current release repository
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.release.tag_name }}
+        path: current_release
+        fetch-depth: 0
+
+    - name: Get last release repository
+      run: |
+        export ORIG_WORKING_DIR=$(pwd)
+        cd current_release
+        LAST_RELEASE_SHA=$(git rev-list --tags --skip=1 --max-count=1)
+        LAST_RELEASE_TAG=$(git describe --tags $LAST_RELEASE_SHA)
+        echo "LAST_RELEASE_TAG=$LAST_RELEASE_TAG" >> "$GITHUB_ENV"
+        echo "LAST_RELEASE_SHA=$LAST_RELEASE_SHA" >> "$GITHUB_ENV"
+        cd $ORIG_WORKING_DIR
+    
+    - name: Checkout last release repository
+      uses: actions/checkout@v2
+      with:
+        ref: ${{ env.LAST_RELEASE_SHA }}
+        path: last_release
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r current_release/scripts/requirements.txt
+
+    - name: Extract the first 8 characters from the current and last release SHA and store them as variables
+      run: |
+        CURRENT_RELEASE_SHA=${{ github.sha }}
+        echo "CURRENT_RELEASE_SHORT_HASH=$(echo $CURRENT_RELEASE_SHA | cut -c1-8)" >> "$GITHUB_ENV"
+        echo "LAST_RELEASE_SHORT_HASH=$(echo $LAST_RELEASE_SHA | cut -c1-8)" >> "$GITHUB_ENV"
+
+    - name: Set output file name
+      run: |
+        echo "INFO_FILE_OUT=$(echo release_diff_${{ env.CURRENT_RELEASE_SHORT_HASH }}_${{ env.LAST_RELEASE_SHORT_HASH }}.txt)" >> "$GITHUB_ENV"
+
+    - name: Calculate and print SHA hash of each stable_diffusion.json file
+      run: |
+        echo "SHA of current_release/stable_diffusion.json: $(sha256sum current_release/stable_diffusion.json)"
+        echo "SHA of last_release/stable_diffusion.json: $(sha256sum last_release/stable_diffusion.json)"   
+
+    - name: Run comparison script
+      run: |
+        python current_release/scripts/compare_pr_to_main.py --pr_path current_release/stable_diffusion.json --main_path last_release/stable_diffusion.json --main_hash ${{ github.sha }} --pr_hash $LAST_RELEASE_SHA --output_dir changes/stable_diffusion/ --info_file_out ${{ env.INFO_FILE_OUT }}
+
+    - name: "Provide information about the release and other metadata"
+      uses: tsickert/discord-webhook@v6.0.0
+      with:
+        webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        content: "Release by ${{ github.actor }}: ${{ github.event.release.name }} - ${{ github.event.release.html_url }}"
+
+    - name: "Inform with Discord Webhook"
+      uses: tsickert/discord-webhook@v6.0.0
+      with:
+          webhook-url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          filename: ${{ env.INFO_FILE_OUT }}
