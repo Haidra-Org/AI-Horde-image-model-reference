@@ -52,14 +52,20 @@ def compare_pr_to_main(
             pr_hash = None
             for _, pr_records in model.config.items():
                 for pr_record in pr_records:
-                    if isinstance(pr_record, RawLegacy_FileRecord) and pr_record.sha256sum:
+                    if (
+                        isinstance(pr_record, RawLegacy_FileRecord)
+                        and pr_record.sha256sum
+                    ):
                         pr_hash = pr_record.sha256sum
                         break
 
             main_hash = None
             for _, main_records in main_model_reference.root[model_name].config.items():
                 for main_record in main_records:
-                    if isinstance(main_record, RawLegacy_FileRecord) and main_record.sha256sum:
+                    if (
+                        isinstance(main_record, RawLegacy_FileRecord)
+                        and main_record.sha256sum
+                    ):
                         main_hash = main_record.sha256sum
                         break
 
@@ -128,7 +134,9 @@ def main():
     main_hash = args.main_hash
     output_dir = args.output_dir
 
-    models_added, models_removed, models_changed = compare_pr_to_main(pr_path, main_path)
+    models_added, models_removed, models_changed = compare_pr_to_main(
+        pr_path, main_path
+    )
     hash_compared = f"{main_hash[:8]}...{pr_hash[:8]}"
 
     output = ""
@@ -158,7 +166,9 @@ def main():
 
         if output_dir:
             if not pr_hash or not main_hash:
-                raise ValueError("Must provide both pr_hash and main_hash to write changes to disk")
+                raise ValueError(
+                    "Must provide both pr_hash and main_hash to write changes to disk"
+                )
             write_changes_to_dir(
                 models_added,
                 models_removed,
