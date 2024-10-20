@@ -6662,7 +6662,7 @@
         "version": "2.3",
         "style": "realistic",
         "homepage": "https://civitai.com/models/229392",
-        "nsfw": false,
+        "nsfw": true,
         "download_all": false,
         "requirements": {
             "max_cfg_scale": 2.5
