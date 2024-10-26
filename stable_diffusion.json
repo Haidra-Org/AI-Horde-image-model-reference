@@ -24,7 +24,8 @@
                     "file_url": "https://huggingface.co/ProfessorFT/AIPG_RED/resolve/main/AIPG%20RED.safetensors?download=true"
                 }
             ]
-        },
+        }
+    },
     "stable_diffusion_2.1": {
         "name": "stable_diffusion_2.1",
         "baseline": "stable diffusion 2",
