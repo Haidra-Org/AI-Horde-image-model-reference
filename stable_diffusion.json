@@ -27,7 +27,9 @@
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 6938040682
+        "size_on_disk_bytes": 6938040682,
+        "inpainting": false,
+        "baseline": "stable_diffusion_xl"
     },
     "stable_diffusion_2.1": {
         "name": "stable_diffusion_2.1",
@@ -1996,7 +1998,8 @@
         "inpainting": false,
         "description": "A best of both worlds - merging the anime of Anything v3 with Protogens photorealism - VAE is included",
         "tags": [
-            "anime"
+            "anime",
+            "high resolution"
         ],
         "showcases": [
             "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/anygen/01_gigachad.webp"
