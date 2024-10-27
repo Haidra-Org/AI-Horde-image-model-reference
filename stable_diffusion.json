@@ -6840,5 +6840,36 @@
             ]
         },
         "size_on_disk_bytes": 6938040682
+    },
+    "Prefect Pony": {
+        "name": "Prefect Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime Pony model with an emphasis on NSFW and LoRA support",
+        "version": "v3",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/439889?modelVersionId=828380",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "https://civitai.com/api/download/models/828380?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+                    "sha256sum": "E31A2563F0749CB4351A4A024780C025B9242E08A3A458F3B83A4B8516BD194B"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "prefectPonyXL_v3.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/828380?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938043248
     }
 }
