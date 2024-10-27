@@ -1,4 +1,33 @@
 {
+    "AIPG_RED": {
+        "name": "AIPG_RED",
+        "type": "ckpt",
+        "description": "Merged SDXL Model that doesn't require a refiner.",
+        "version": "1",
+        "style": "generalist",
+        "nsfw": true,
+        "download_all": true,
+        "config": {
+            "files": [
+                {
+                    "path": "AIPG_RED.safetensors",
+                    "sha256sum": "CCBF7592011A0548717BA81F7D4C9E3AB71057196841E9E67BA42A9F0F921121"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "AIPG_RED.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/ProfessorFT/AIPG_RED/resolve/main/AIPG%20RED.safetensors?download=true"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 6938040682
+    },
     "stable_diffusion_2.1": {
         "name": "stable_diffusion_2.1",
         "baseline": "stable diffusion 2",
