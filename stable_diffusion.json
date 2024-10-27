@@ -11,7 +11,8 @@
             "files": [
                 {
                     "path": "AIPG_RED.safetensors",
-                    "sha256sum": "CCBF7592011A0548717BA81F7D4C9E3AB71057196841E9E67BA42A9F0F921121"
+                    "sha256sum": "CCBF7592011A0548717BA81F7D4C9E3AB71057196841E9E67BA42A9F0F921121",
+                    "md5sum": "acb86a47c57637a87e878e7e4d8cabeb"
                 },
                 {
                     "path": "v1-inference.yaml"
