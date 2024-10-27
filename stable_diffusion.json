@@ -6858,7 +6858,7 @@
         "config": {
             "files": [
                 {
-                    "path": "https://civitai.com/api/download/models/828380?type=Model&format=SafeTensor&size=pruned&fp=fp16",
+                    "path": "prefectPonyXL_v3.safetensors",
                     "sha256sum": "E31A2563F0749CB4351A4A024780C025B9242E08A3A458F3B83A4B8516BD194B"
                 }
             ],
