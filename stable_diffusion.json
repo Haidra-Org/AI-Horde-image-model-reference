@@ -6871,5 +6871,126 @@
             ]
         },
         "size_on_disk_bytes": 6938043248
+    },
+    "NoobEvo": {
+        "name": "NoobEvo",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Generalist model, with an emphasis on detailed, smooth renders. It supports a large number of styles and characters, as well as being bright and vibrant by default.",
+        "version": "1",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/916715/noobevo",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "noobevo_v1.safetensors",
+                    "sha256sum": "BC505CAAB21724E8F4CDEC6AF7A11275BCFC1814AD814806B107474A09B5D7F3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "noobevo_v1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1026052?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938042794
+    },
+    "MHXL - Aventis Horizon": {
+        "name": "MHXL - Aventis Horizon",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Generalist model, focusing on semi-realistic yet stylized generations.",
+        "version": "3",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/331672/mhxl-aventis-horizon-sdxl",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "mhxlAventisHorizon_v30.safetensors",
+                    "sha256sum": "BC505CAAB21724E8F4CDEC6AF7A11275BCFC1814AD814806B107474A09B5D7F3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "mhxlAventisHorizon_v30.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1026052?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938222930
+    },
+    "Nova Furry Pony": {
+        "name": "Nova Furry Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Stylized 2d/2.5d furry/anthro model, emphasis on detailed fur, scales, feathers, etc.",
+        "version": "6.0",
+        "style": "furry",
+        "homepage": "https://civitai.com/models/503815?modelVersionId=1032006",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "novaFurryPony_v60.safetensors",
+                    "sha256sum": "C470F98735889CC44124F4F7045C2270574115DCAEDF27D4A33F5B5CECE008A1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaFurryPony_v60.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1032006?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938063064
+    },
+    "White Pony Diffusion 4": {
+        "name": "White Pony Diffusion 4",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Realistic Pony model with an incredibly strong emphasis on Asian people.",
+        "version": "4",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/658304?modelVersionId=1018371",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "whitePonyDiffusion4_whitepony4Classic.safetensors",
+                    "sha256sum": "CB61CBC8AE84581D9B27E13C5229AFBE0D0315156637EF424346AB8CF585E157"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "whitePonyDiffusion4_whitepony4Classic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1018371?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938048970
     }
 }
