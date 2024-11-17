@@ -6872,37 +6872,6 @@
         },
         "size_on_disk_bytes": 6938043248
     },
-    "NoobEvo": {
-        "name": "NoobEvo",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Generalist model, with an emphasis on detailed, smooth renders. It supports a large number of styles and characters, as well as being bright and vibrant by default.",
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/916715/noobevo",
-        "nsfw": true,
-        "download_all": false,
-        "requirements": {
-            "clip_skip": 2
-        },
-        "config": {
-            "files": [
-                {
-                    "path": "noobevo_v1.safetensors",
-                    "sha256sum": "BC505CAAB21724E8F4CDEC6AF7A11275BCFC1814AD814806B107474A09B5D7F3"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "noobevo_v1.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1026052?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-                }
-            ]
-        },
-        "size_on_disk_bytes": 6938042794
-    },
     "MHXL - Aventis Horizon": {
         "name": "MHXL - Aventis Horizon",
         "baseline": "stable_diffusion_xl",
