@@ -6898,7 +6898,7 @@
                 }
             ]
         },
-        "size_on_disk_bytes": 6938222930
+        "size_on_disk_bytes": 6938046564
     },
     "Nova Furry Pony": {
         "name": "Nova Furry Pony",
@@ -6926,6 +6926,37 @@
                     "file_name": "novaFurryPony_v60.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/1032006?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938063064
+    },
+    "Nova Anime XL": {
+        "name": "Nova Anime XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime 2d/2.5d model, emphasis on detailed fur, scales, feathers, etc.",
+        "version": "8.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/376130?modelVersionId=1065689",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "novaAnimeXL_illustriousV10.safetensors",
+                    "sha256sum": "6BE357F91D909C5268479AD7991E035C54036708D9DB6B8ACC9AE1D350C6EB63"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaAnimeXL_illustriousV10.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1065689?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
