@@ -6883,6 +6883,9 @@
         "homepage": "https://civitai.com/models/331672/mhxl-aventis-horizon-sdxl",
         "nsfw": true,
         "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
         "config": {
             "files": [
                 {
