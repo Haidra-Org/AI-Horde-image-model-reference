@@ -183,42 +183,6 @@
         "available": false,
         "size_on_disk_bytes": 3852165745
     },
-    "Zack3D": {
-        "name": "Zack3D",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Kink/NSFW oriented furry styled generations.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/zack3d/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "furry",
-        "homepage": "https://huggingface.co/Zack3D/Zack3D_Kinky-v1",
-        "nsfw": true,
-        "download_all": true,
-        "config": {
-            "files": [
-                {
-                    "path": "Zack3D.ckpt",
-                    "md5sum": "aa944b1ecdaac60113027a0fdcda4f1b",
-                    "sha256sum": "3fd17af06c610990a957a801a1831f88ef5e45d9c3c8e551557b8b9c6c1fc2d5"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Zack3D.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Zack3D.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 3852165937
-    },
     "Robo-Diffusion": {
         "name": "Robo-Diffusion",
         "baseline": "stable diffusion 1",
@@ -416,44 +380,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265327916
-    },
-    "OpenJourney Diffusion": {
-        "name": "OpenJourney Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Stable Diffusion fine tuned on Midjourney v4 images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/midjourney_diffusion/01_bigdowg.webp"
-        ],
-        "version": "4",
-        "style": "generalist",
-        "trigger": [
-            "mdjrny-v4 style"
-        ],
-        "homepage": "https://huggingface.co/prompthero/openjourney-v4",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "mdjrny-v4.ckpt",
-                    "sha256sum": "02e37aad9f74f574808ad456043b89e8c6b24e22828743fcf002168f76493d9b"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "mdjrny-v4.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mdjrny-v4.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132910209
     },
     "Papercut Diffusion": {
         "name": "Papercut Diffusion",
@@ -1439,45 +1365,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856686
     },
-    "PortraitPlus": {
-        "name": "PortraitPlus",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This is a dreambooth model trained on a diverse set of close to medium range portraits of people.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/portraitplus/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "realistic",
-        "trigger": [
-            "portrait+ style"
-        ],
-        "homepage": "https://huggingface.co/wavymulder/portraitplus",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "PortraitPlus.ckpt",
-                    "md5sum": "d25578c1fcb069c3f5613939d903ee84",
-                    "sha256sum": "345033419b5030bc7207879cfe0b080623c4bce85600cd8d406b989fbe777173"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "PortraitPlus.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/PortraitPlus.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "DnD Item": {
         "name": "DnD Item",
         "baseline": "stable diffusion 1",
@@ -1773,42 +1660,6 @@
         "available": false,
         "size_on_disk_bytes": 4265327916
     },
-    "MoistMix": {
-        "name": "MoistMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A do (almost) anything model",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/moistmix/01_gigachad.webp"
-        ],
-        "version": "2",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/3450/moistmix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "MoistMix.ckpt",
-                    "md5sum": "fe58cff02ec3c355d9d3abe925a775d5",
-                    "sha256sum": "a01de4dd971acbf013363b202cac71dc4db7d7cfa36ca63b99d662dd89c520c6"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "MoistMix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/MoistMix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 7949867729
-    },
     "Healy's Anime Blend": {
         "name": "Healy's Anime Blend",
         "baseline": "stable diffusion 1",
@@ -1847,40 +1698,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265327916
-    },
-    "Elldreth's Lucid Mix": {
-        "name": "Elldreth's Lucid Mix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "It's an all-around easy-to-prompt general purpose semi-realistic to realistic model that cranks out some really nice images. No trigger words required",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/elldreths_lucid_mix/01_gigachad.webp"
-        ],
-        "version": "1.0",
-        "style": "generalist",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Elldreths_Lucid_Mix.ckpt",
-                    "md5sum": "b2b73886b8d3cc040aea991f264acb56",
-                    "sha256sum": "d0cf7cf924c6a6f42eabed6729b8d6df3ef66ba2b4c35cb3d7e2f54a5d878166"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Elldreths_Lucid_Mix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Elldreths_Lucid_Mix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false
     },
     "Sci-Fi Diffusion": {
         "name": "Sci-Fi Diffusion",
@@ -1997,63 +1814,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 5984636185
-    },
-    "Protogen Infinity": {
-        "name": "Protogen Infinity",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Protogens photorealism mixed with more science fiction, comic, and synthwave to make ultimate awesomeness",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/protogen_infinity/01_gigachad.webp"
-        ],
-        "version": "8.6",
-        "style": "generalist",
-        "trigger": [
-            "modelshoot style",
-            "mdjrny-v4 style",
-            "nousr robot",
-            "dreamlikeart",
-            "nvinkpunk",
-            "snthwve style",
-            "charliebo artstyle",
-            "holliemengert artstyle",
-            "marioalberti artstyle",
-            "pepelarraz artstyle",
-            "andreasrocha artstyle",
-            "jamesdaly artstyle",
-            "elden ring style",
-            "postapocalypse",
-            "analog style",
-            "knollingcase",
-            "swpunk",
-            "synthwave",
-            "cyborgdiffusion"
-        ],
-        "homepage": "https://civitai.com/models/4398/protogen-infinity-official-release",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Protogen_Infinity.ckpt",
-                    "md5sum": "ad3f0b5772327511c896e4a7741f1e4e",
-                    "sha256sum": "2e58b8bf117b26094e4730023db9298ac17e22ab183739cb90536324996d1cdf"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Protogen_Infinity.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Protogen_Infinity.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132857836
     },
     "DucHaiten": {
         "name": "DucHaiten",
@@ -6871,5 +6631,129 @@
             ]
         },
         "size_on_disk_bytes": 6938043248
+    },
+    "MHXL - Aventis Horizon": {
+        "name": "MHXL - Aventis Horizon",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Generalist model, focusing on semi-realistic yet stylized generations.",
+        "version": "3",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/331672/mhxl-aventis-horizon-sdxl",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "mhxlAventisHorizon_v30.safetensors",
+                    "sha256sum": "BC505CAAB21724E8F4CDEC6AF7A11275BCFC1814AD814806B107474A09B5D7F3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "mhxlAventisHorizon_v30.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/461878?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938046564
+    },
+    "Nova Furry Pony": {
+        "name": "Nova Furry Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Stylized 2d/2.5d furry/anthro model, emphasis on detailed fur, scales, feathers, etc.",
+        "version": "6.0",
+        "style": "furry",
+        "homepage": "https://civitai.com/models/503815?modelVersionId=1032006",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "novaFurryPony_v60.safetensors",
+                    "sha256sum": "C470F98735889CC44124F4F7045C2270574115DCAEDF27D4A33F5B5CECE008A1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaFurryPony_v60.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1032006?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938063064
+    },
+    "Nova Anime XL": {
+        "name": "Nova Anime XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime 2d/2.5d model, emphasis on detailed fur, scales, feathers, etc.",
+        "version": "8.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/376130?modelVersionId=1065689",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "novaAnimeXL_illustriousV10.safetensors",
+                    "sha256sum": "6BE357F91D909C5268479AD7991E035C54036708D9DB6B8ACC9AE1D350C6EB63"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaAnimeXL_illustriousV10.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1065689?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938063064
+    },
+    "White Pony Diffusion 4": {
+        "name": "White Pony Diffusion 4",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Realistic Pony model with an incredibly strong emphasis on Asian people.",
+        "version": "4",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/658304?modelVersionId=1018371",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "whitePonyDiffusion4_whitepony4Classic.safetensors",
+                    "sha256sum": "CB61CBC8AE84581D9B27E13C5229AFBE0D0315156637EF424346AB8CF585E157"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "whitePonyDiffusion4_whitepony4Classic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1018371?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938048970
     }
 }
