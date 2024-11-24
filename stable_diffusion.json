@@ -6657,7 +6657,7 @@
                 {
                     "file_name": "mhxlAventisHorizon_v30.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/461878?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mhxlAventisHorizon_v30.safetensors"
                 }
             ]
         },
@@ -6688,7 +6688,7 @@
                 {
                     "file_name": "novaFurryPony_v60.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1032006?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/novaFurryPony_v60.safetensors"
                 }
             ]
         },
@@ -6719,7 +6719,7 @@
                 {
                     "file_name": "novaAnimeXL_illustriousV10.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1065689?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/novaAnimeXL_illustriousV10.safetensors"
                 }
             ]
         },
@@ -6750,7 +6750,7 @@
                 {
                     "file_name": "whitePonyDiffusion4_whitepony4Classic.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1018371?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/whitePonyDiffusion4_whitepony4Classic.safetensors"
                 }
             ]
         },
