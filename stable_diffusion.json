@@ -6700,7 +6700,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Anime 2d/2.5d model, emphasis on detailed fur, scales, feathers, etc.",
-        "version": "8.0",
+        "version": "Illustrious v1.0",
         "style": "anime",
         "homepage": "https://civitai.com/models/376130?modelVersionId=1065689",
         "nsfw": true,
