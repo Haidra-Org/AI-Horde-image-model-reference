@@ -6366,7 +6366,7 @@
                 {
                     "file_name": "ponyRealism_v21MainVAE.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/534642?type=Model&format=SafeTensor&size=full&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ponyRealism_v21MainVAE.safetensors"
                 }
             ]
         },
@@ -6595,7 +6595,7 @@
                 {
                     "file_name": "waiCUTE_v80.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/915200?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/waiCUTE_v80.safetensors"
                 }
             ]
         },
@@ -6626,7 +6626,7 @@
                 {
                     "file_name": "prefectPonyXL_v3.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/828380?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/prefectPonyXL_v3.safetensors"
                 }
             ]
         },
