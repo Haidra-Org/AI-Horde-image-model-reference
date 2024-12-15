@@ -6709,5 +6709,130 @@
             ]
         },
         "size_on_disk_bytes": 6938048970
+    },
+    "noobEvo": {
+        "name": "noobEvo",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime-styled model, with an emphasis on vibrant colors and detailed renders",
+        "version": "v1",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/658304?modelVersionId=1018371",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "noobevo_v1.safetensors",
+                    "sha256sum": "BC505CAAB21724E8F4CDEC6AF7A11275BCFC1814AD814806B107474A09B5D7F3"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "noobevo_v1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1026052?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938042794
+    },
+    "noob_v_pencil XL": {
+        "name": "noob_v_pencil XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Vibrant anime-style images. Based on NoobAI-XL",
+        "version": "v0.5.1",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/1027203?modelVersionId=1151993",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2,
+            "samplers": [
+                "k_euler",
+                "k_euler_a"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "noobVPencilXL_v051.safetensors",
+                    "sha256sum": "DD5C095CAC4277BC0B5B6599DAB30A9B20346FDC3922CC0FF0CF0CB63E5827BF"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "noobVPencilXL_v051.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1151993?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938040802
+    },
+    "KaynegIllustriousXL": {
+        "name": "KaynegIllustriousXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Anime-style model, excellent for close-up portraits.",
+        "version": "v1",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/932731?modelVersionId=1044071",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "kaynegillustriousxl_v10.safetensors",
+                    "sha256sum": "4AF2EA715AA0D52CE089020E8A9D23E05A9D22DFD67E487896D729871EE04DB1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "kaynegillustriousxl_v10.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1044071?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938040400
+    },
+    "NatViS": {
+        "name": "NatViS",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Realistic finetune of SDXL, with an emphasis on natural language prompting. Can produce both SFW and NSFW images. ",
+        "version": "v1",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/617652/natvis-natural-vision",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "natvisNaturalVision_v27.safetensors",
+                    "sha256sum": "24E8E68FC45B0835297D54C56A03A247D2CC5251A65821A6053E51120281DA0C"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "natvisNaturalVision_v27.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1030169?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "size_on_disk_bytes": 6938042770
     }
 }
