@@ -6683,9 +6683,9 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Realistic finetune of SDXL, with an emphasis on natural language prompting. Can produce both SFW and NSFW images. ",
-        "version": "v1",
+        "version": "v2.7",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/617652/natvis-natural-vision",
+        "homepage": "https://civitai.com/models/617652?modelVersionId=1030169",
         "nsfw": true,
         "download_all": false,
         "config": {
