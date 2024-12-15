@@ -4439,38 +4439,6 @@
         "available": false,
         "size_on_disk_bytes": 5672748956
     },
-    "MeinaMix": {
-        "name": "MeinaMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "MeinaMix objective is to be able to do good art with little prompting.",
-        "version": "10.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/7240/meinamix",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "meinamix.safetensors",
-                    "sha256sum": "77b7dc4ef0fca64ed8c3c38e80efa3e559488ee377f4138ec4bce488ef6c8412"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "meinamix.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/meinamix.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 3526112242
-    },
     "Mistoon Amethyst": {
         "name": "Mistoon Amethyst",
         "baseline": "stable diffusion 1",
@@ -4928,38 +4896,6 @@
         "available": false,
         "size_on_disk_bytes": 4265437280
     },
-    "Disney Pixar Cartoon Type A": {
-        "name": "Disney Pixar Cartoon Type A",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "From the creator: There's no good pixar disney looking cartoon model yet so i decided to make one. This is a merge of Pixar Style Model with my own Loras to create a generic 3d looking western cartoon. In the examples I Use hires. fix, upscale latent, denoising 0.5, hires steps 20, upscale by 2 . Clip skip 2.",
-        "version": "1",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/65203/disney-pixar-cartoon-type-a",
-        "nsfw": false,
-        "download_all": true,
-        "config": {
-            "files": [
-                {
-                    "path": "disneyPixarCartoon.safetensors",
-                    "sha256sum": "d6548414b4947186d0573d1a9f151fa1f1ca0e7c5fbe9e626a5e6f5532f7e654"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "disneyPixarCartoon.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/disneyPixarCartoon.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4244098204
-    },
     "Babes": {
         "name": "Babes",
         "baseline": "stable diffusion 1",
@@ -5165,38 +5101,6 @@
         "available": false,
         "size_on_disk_bytes": 2132625431
     },
-    "Realisian": {
-        "name": "Realisian",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A realistic model.",
-        "version": "4",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/47130/realisian",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "realisian.safetensors",
-                    "sha256sum": "fba9027fa4bc3156dbdbf3b72c0fc2c8b379d48e2569432509cfaacaa770e6ab"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "realisian.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/realisian.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132625614
-    },
     "Epic Diffusion Inpainting": {
         "name": "Epic Diffusion Inpainting",
         "baseline": "stable diffusion 1",
@@ -5273,37 +5177,7 @@
         "available": false,
         "size_on_disk_bytes": 4265205180
     },
-    "Fluffusion": {
-        "name": "Fluffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "The furry model that contains just about everything, and then some.",
-        "version": "1",
-        "style": "furry",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "fluffusion.safetensors",
-                    "sha256sum": "30ecde0ac1a4b335a40aecce354249d9ebe53337262879b6a9aac0bf83282bdb"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "fluffusion.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/fluffusion.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132625431
-    },
+
     "Anything v5": {
         "name": "Anything v5",
         "baseline": "stable diffusion 1",
@@ -5342,19 +5216,17 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Silly, stylish, and.. kind of cute? A bit of detail with a cartoony feel.",
-        "version": "Beta 3",
+        "version": "Beta 6",
         "style": "anime",
-        "trigger": [
-            "flat color"
-        ],
-        "homepage": "https://civitai.com/models/30240?modelVersionId=78775",
+
+        "homepage": "https://civitai.com/models/30240?modelVersionId=125771",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "toonyou.safetensors",
-                    "sha256sum": "52768d2bc4e73af920df3466d0806d9a40727dab0869fc7aa2f3bc82214bb071"
+                    "path": "toonyou_beta6.safetensors",
+                    "sha256sum": "E8D456C42E12841E6036AB283F976BB8EFF873B8AD6B893945863EED4F80DB33"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -5362,14 +5234,14 @@
             ],
             "download": [
                 {
-                    "file_name": "toonyou.safetensors",
+                    "file_name": "toonyou_beta6.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/toonyou.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/125771?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 2132626252
+        "size_on_disk_bytes": 2299933946
     },
     "Reliberate": {
         "name": "Reliberate",
