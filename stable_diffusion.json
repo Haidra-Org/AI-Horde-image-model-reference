@@ -4439,6 +4439,38 @@
         "available": false,
         "size_on_disk_bytes": 5672748956
     },
+    "MeinaMix": {
+        "name": "MeinaMix",
+        "baseline": "stable diffusion 1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "MeinaMix's objective is to be able to do good art with little prompting.",
+        "version": "10.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/7240/meinamix",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "meinamix.safetensors",
+                    "sha256sum": "77b7dc4ef0fca64ed8c3c38e80efa3e559488ee377f4138ec4bce488ef6c8412"
+                },
+                {
+                    "path": "v1-inference.yaml"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "meinamix.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/meinamix.safetensors?download=true"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 3526112242
+    },
     "Mistoon Amethyst": {
         "name": "Mistoon Amethyst",
         "baseline": "stable diffusion 1",
