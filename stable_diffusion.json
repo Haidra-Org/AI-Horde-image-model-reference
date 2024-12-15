@@ -5177,7 +5177,6 @@
         "available": false,
         "size_on_disk_bytes": 4265205180
     },
-
     "Anything v5": {
         "name": "Anything v5",
         "baseline": "stable diffusion 1",
@@ -5218,7 +5217,6 @@
         "description": "Silly, stylish, and.. kind of cute? A bit of detail with a cartoony feel.",
         "version": "Beta 6",
         "style": "anime",
-
         "homepage": "https://civitai.com/models/30240?modelVersionId=125771",
         "nsfw": false,
         "download_all": false,
