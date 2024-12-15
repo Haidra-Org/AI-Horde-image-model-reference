@@ -6588,7 +6588,7 @@
         "description": "Anime-styled model, with an emphasis on vibrant colors and detailed renders",
         "version": "v1",
         "style": "anime",
-        "homepage": "hhttps://civitai.com/models/916715?modelVersionId=1026052",
+        "homepage": "https://civitai.com/models/916715?modelVersionId=1026052",
         "nsfw": true,
         "download_all": false,
         "requirements": {
