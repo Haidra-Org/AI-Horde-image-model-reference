@@ -147,7 +147,8 @@ def main():
     else:
         output = f"Models added from {hash_compared}:\n"
         for model_name, model in models_added.items():
-            output += f"  + {model_name} v{model.version} ({model.baseline})\n"
+            fixed_model_version = model.version.removeprefix("v")
+            output += f"  + {model_name} v{fixed_model_version} ({model.baseline})\n"
             output += f"    {model.description}\n"
             output += f"    nsfw: {model.nsfw}\n"
             if model.inpainting:
