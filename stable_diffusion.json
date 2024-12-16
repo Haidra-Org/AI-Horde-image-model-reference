@@ -4345,16 +4345,16 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "A very versatile model, the more powerfull prompts you give, the better results. Capable of creating both NSFW and SFW images but also great scenery, both in landscape and portrait.",
-        "version": "4.0",
+        "version": "7.0",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/8030?modelVersionId=56498",
+        "homepage": "https://civitai.com/models/8030?modelVersionId=261539",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "analogMadness.safetensors",
-                    "sha256sum": "0b914c246e8aba8d7c91d66669fee78f391f9f5e851181aa57125e92ccde6438"
+                    "path": "analogMadness_v70.safetensors",
+                    "sha256sum": "3C5D7960A76DBC715AD1C4F2C4F948CD1F12CCD09D44CEF243A7DD2CF82371BF"
                 },
                 {
                     "path": "v1-inference.yaml"
@@ -4362,46 +4362,14 @@
             ],
             "download": [
                 {
-                    "file_name": "analogMadness.safetensors",
+                    "file_name": "analogMadness_v70.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/analogMadness.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/261539?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
         "available": false,
-        "size_on_disk_bytes": 2132626102
-    },
-    "Henmix Real": {
-        "name": "Henmix Real",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A realistic model, see homepage for details.",
-        "version": "3.0",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/20282",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "henmixReal.safetensors",
-                    "sha256sum": "9B213F38F8AAD6A3E8EF899EA264E13C8CA5FAB2690653BCCD47165C53A91985"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "henmixReal.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/henmixReal.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2400040296
+        "size_on_disk_bytes": 2132650982
     },
     "Elysium Anime": {
         "name": "Elysium Anime",
@@ -4572,26 +4540,23 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "Versatile photorealistic model - the result of a rigorous testing process that blends various models to achieve the desired output.",
-        "version": "2.1",
+        "version": "6",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/15003/cyberrealistic",
+        "homepage": "https://civitai.com/models/15003?modelVersionId=846876",
         "nsfw": false,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "cyberrealistic.safetensors",
-                    "sha256sum": "542F61E09A006EBF72F2C348BE2F13EA77BDD7C111325856A40C22CBE476BF3E"
-                },
-                {
-                    "path": "v1-inference.yaml"
+                    "path": "cyberrealistic_v60.safetensors",
+                    "sha256sum": "A7D05988CA8F2630C1EFB76C9CA1A6DCBEAECA8E33BECF2DCB5B73A4EC5137DF"
                 }
             ],
             "download": [
                 {
-                    "file_name": "cyberrealistic.safetensors",
+                    "file_name": "cyberrealistic_v60.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/cyberrealistic.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/846876?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
