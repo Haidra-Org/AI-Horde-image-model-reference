@@ -222,45 +222,6 @@
         "available": false,
         "size_on_disk_bytes": 4265477985
     },
-    "Classic Animation Diffusion": {
-        "name": "Classic Animation Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Popular animation studio classic style generations.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/classic_animation_diffusion/01_bigdowg.jpg"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "trigger": [
-            "classic disney style"
-        ],
-        "homepage": "https://huggingface.co/nitrosocke/classic-anim-diffusion",
-        "nsfw": false,
-        "download_all": true,
-        "config": {
-            "files": [
-                {
-                    "path": "classic-anim-diffusion.ckpt",
-                    "md5sum": "ef6f168e2cceedb104ca57f6a1da27fd",
-                    "sha256sum": "93d27720391c3028ad1dd897a17468b1c993e14bfadebcebd103672c2ca62ea1"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "classic-anim-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/classic-anim-diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856622
-    },
     "Comic-Diffusion": {
         "name": "Comic-Diffusion",
         "baseline": "stable diffusion 1",
@@ -1325,46 +1286,6 @@
         "available": false,
         "size_on_disk_bytes": 4265481056
     },
-    "Dreamlike Photoreal": {
-        "name": "Dreamlike Photoreal",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Dreamlike Photoreal 1.0 is a photorealistic Stable Diffusion 1.5 model fine tuned on high quality photos, made by dreamlike.art.",
-        "showcases": [
-            "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/preview1.jpg",
-            "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0/resolve/main/preview2.jpg"
-        ],
-        "version": "2.0",
-        "style": "realistic",
-        "trigger": [
-            "photo"
-        ],
-        "homepage": "https://huggingface.co/dreamlike-art/dreamlike-photoreal-2.0",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Dreamlike_Photoreal.ckpt",
-                    "md5sum": "f7bacaa513f5f54805d1fb5bfde7e658",
-                    "sha256sum": "fc52756a74d5f371422ff99a7268cb6abb14bfc4a4de3569382cf0bd75e55d36"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Dreamlike_Photoreal.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Dreamlike_Photoreal.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132856686
-    },
     "DnD Item": {
         "name": "DnD Item",
         "baseline": "stable diffusion 1",
@@ -1581,43 +1502,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4265327916
-    },
-    "3DKX": {
-        "name": "3DKX",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SFW model with limited nsfw capabilities (suggestive nsfw) that is highly versatile for 3D renders.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/3dkx/01_airic.webp",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/3dkx/02_gigachad.webp"
-        ],
-        "version": "1.1",
-        "style": "artistic",
-        "homepage": "https://huggingface.co/HavoAloe/3DKX_1.0b",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "3DKX.ckpt",
-                    "md5sum": "43501894669a781fd3e03ee865cc4ccc",
-                    "sha256sum": "522efa9a9b83dfe96aefaeecfb7e8c53222c5dde88ab9c37fd7bf0ea47655f14"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "3DKX.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/3DKX.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2300165166
     },
     "DreamLikeSamKuvshinov": {
         "name": "DreamLikeSamKuvshinov",
@@ -2188,50 +2072,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132625438
-    },
-    "CharHelper": {
-        "name": "CharHelper",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model was trained on a digital painting style mainly with characters and portraits. The main objective is to train a model to be a tool to help with character design ideas",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/charhelper/01_charhelper.webp"
-        ],
-        "version": "4",
-        "style": "artistic",
-        "trigger": [
-            "CHV3CZombie",
-            "CHV3CAlien",
-            "CHV3CBird",
-            "CHV3SLighthouse",
-            "CHV3SCute",
-            "CHV3SMacro"
-        ],
-        "homepage": "https://huggingface.co/ManglerFTW/CharHelper",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "CharHelper.ckpt",
-                    "md5sum": "f4d86a86161cb403f334fe46c066a74e",
-                    "sha256sum": "860be76eb75fb77be5fc9547d11aaca363ffed9a47bc1e64a22171efa605b1c3"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "CharHelper.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/CharHelper.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
     },
     "Pokemon3D": {
         "name": "Pokemon3D",
@@ -3229,39 +3069,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132625431
-    },
-    "Colorful": {
-        "name": "Colorful",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Realistic fantasy portraits, landscapes with vibrant colors, slightly photorealistic",
-        "version": "2.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/7279/colorful",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "colorful.ckpt",
-                    "md5sum": "313e96a3877b01ecd3effb1ccfad116c",
-                    "sha256sum": "e0c1c5d7543f16bea8a9ba61371b89b8bb280e7d5a9d91b0b8c506bebb8f87bd"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "colorful.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/colorful.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132858331
     },
     "Movie Diffusion": {
         "name": "Movie Diffusion",
@@ -4266,41 +4073,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2378834088
-    },
-    "BRA": {
-        "name": "BRA",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Trained on countless pictures of Beautiful Asian women. (some nsfw images included)",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/Beautiful_Realistic_Asians/01.webp"
-        ],
-        "version": "5.0",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/25494/bra",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "braBeautifulRealistic.safetensors",
-                    "sha256sum": "ac68270450051ac4da9577c622cd45774d19d2c1adf2bda339515daee141e5bc"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "braBeautifulRealistic.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/braBeautifulRealistic.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 3851752514
     },
     "MoonMix Fantasy": {
         "name": "MoonMix Fantasy",
