@@ -4534,35 +4534,6 @@
         "available": false,
         "size_on_disk_bytes": 2132625438
     },
-    "CyberRealistic": {
-        "name": "CyberRealistic",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Versatile photorealistic model - the result of a rigorous testing process that blends various models to achieve the desired output.",
-        "version": "6",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/15003?modelVersionId=846876",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "cyberrealistic_v60.safetensors",
-                    "sha256sum": "A7D05988CA8F2630C1EFB76C9CA1A6DCBEAECA8E33BECF2DCB5B73A4EC5137DF"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "cyberrealistic_v60.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/846876?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132651162
-    },
     "Realistic Vision Inpainting": {
         "name": "Realistic Vision Inpainting",
         "baseline": "stable diffusion 1",
@@ -6491,13 +6462,13 @@
         "config": {
             "files": [
                 {
-                    "path": "pony_diffusion_xl.safetensors",
+                    "path": "cyberrealisticPony_v8.safetensors",
                     "sha256sum": "9f90c59f3aa99d9160b5652c4c68215fdc27399e5d1c692429abf2407bb909d1"
                 }
             ],
             "download": [
                 {
-                    "file_name": "pony_diffusion_xl.safetensors",
+                    "file_name": "cyberrealisticPony_v8.safetensors",
                     "file_path": "",
                     "file_url": "https://civitai.com/api/download/models/1346181?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
