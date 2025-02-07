@@ -6542,7 +6542,7 @@
                 {
                     "file_name": "holyMixIllustriousxl_v1.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1190596?type=Model&format=SafeTensor&size=full&fp=bf16"
+                    "file_url": "https://civitai.com/api/download/models/1074235?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
