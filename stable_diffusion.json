@@ -6480,5 +6480,41 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938040682
+    },
+    "NoobAI-XL": {
+        "name": "NoobAI-XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "NoobAI-XL is a anime model that is trained on Danbooru and e621, with support for both natural language and tagging prompts. It requires the Euler sampler to work.",
+        "version": "V-Pred 1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/833294?modelVersionId=1190596",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "samplers":["k_euler"]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "noobaiXLNAIXL_vPred10Version.safetensors",
+                    "sha256sum": "ea349eeae87ca8d25ba902c93810f7ca83e5c82f920edf12f273af004ae02819"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "noobaiXLNAIXL_vPred10Version.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1190596?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 7105350110
     }
 }
