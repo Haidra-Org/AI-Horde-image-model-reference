@@ -6493,7 +6493,7 @@
         "nsfw": true,
         "download_all": false,
         "requirements": {
-            "clip_skip":2
+            "clip_skip": 2
         },
         "config": {
             "files": [
@@ -6529,7 +6529,7 @@
         "nsfw": true,
         "download_all": false,
         "requirements": {
-            "clip_skip":2
+            "clip_skip": 2
         },
         "config": {
             "files": [
