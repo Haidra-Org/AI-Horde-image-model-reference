@@ -6516,5 +6516,41 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 7105350110
+    },
+    "HolyMix ILXL": {
+        "name": "HolyMix ILXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "HolyMix Illustrious XL is a high-contrast, flat shading anime model. It supports multiple characters in the same image, as well as many more artist tags and characters as compared to Pony models.",
+        "version": "1",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/959490?modelVersionId=1074235",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip":2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "holyMixIllustriousxl_v1.safetensors",
+                    "sha256sum": "71f6653377759bff3565e8a723ef6238f16e5c05b7613c1e93fba6d529e80802"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "holyMixIllustriousxl_v1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1190596?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938056186
     }
 }
