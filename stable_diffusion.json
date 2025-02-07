@@ -6552,5 +6552,41 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938056186
+    },
+    "NTR MIX IL-Noob XL": {
+        "name": "NTR MIX IL-Noob XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "NTR Mix Illustrious Noob XL is a anime model that can generate stylized anime images, both SFW and NSFW. It can generate both singular portraits and images with multiple characters in them.",
+        "version": "13",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/926443?modelVersionId=1166878",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip":2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "ntrMIXIllustriousXL_xiii.safetensors",
+                    "sha256sum": "1207404b1705a026eaa2896b66953dbef8be5ccde5340e4fd940b674aecb8cf8"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ntrMIXIllustriousXL_xiii.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1190596?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938050106
     }
 }
