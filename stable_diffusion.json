@@ -6473,5 +6473,41 @@
             ]
         },
         "size_on_disk_bytes": 6938042770
+    },
+    "CyberRealistic Pony": {
+        "name": "CyberRealistic Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Cyberrealistic Pony is a semi-realistic Pony model capable of SFW and NSFW portraits as well as scenery.",
+        "version": "8.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/443821?modelVersionId=1346181",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "pony_diffusion_xl.safetensors",
+                    "sha256sum": "9f90c59f3aa99d9160b5652c4c68215fdc27399e5d1c692429abf2407bb909d1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "pony_diffusion_xl.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1346181?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040682
     }
 }
