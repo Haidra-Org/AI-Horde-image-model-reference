@@ -4534,35 +4534,6 @@
         "available": false,
         "size_on_disk_bytes": 2132625438
     },
-    "CyberRealistic": {
-        "name": "CyberRealistic",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Versatile photorealistic model - the result of a rigorous testing process that blends various models to achieve the desired output.",
-        "version": "6",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/15003?modelVersionId=846876",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "cyberrealistic_v60.safetensors",
-                    "sha256sum": "A7D05988CA8F2630C1EFB76C9CA1A6DCBEAECA8E33BECF2DCB5B73A4EC5137DF"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "cyberrealistic_v60.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/846876?type=Model&format=SafeTensor&size=pruned&fp=fp16"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132651162
-    },
     "Realistic Vision Inpainting": {
         "name": "Realistic Vision Inpainting",
         "baseline": "stable diffusion 1",
@@ -6473,5 +6444,113 @@
             ]
         },
         "size_on_disk_bytes": 6938042770
+    },
+    "CyberRealistic Pony": {
+        "name": "CyberRealistic Pony",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Cyberrealistic Pony is a semi-realistic Pony model capable of SFW and NSFW portraits as well as scenery.",
+        "version": "8.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/443821?modelVersionId=1346181",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "cyberrealisticPony_v8.safetensors",
+                    "sha256sum": "9f90c59f3aa99d9160b5652c4c68215fdc27399e5d1c692429abf2407bb909d1"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "cyberrealisticPony_v8.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1346181?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040682
+    },
+    "HolyMix ILXL": {
+        "name": "HolyMix ILXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "HolyMix Illustrious XL is a high-contrast, flat shading anime model. It supports multiple characters in the same image, as well as many more artist tags and characters as compared to Pony models.",
+        "version": "1",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/959490?modelVersionId=1074235",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "holyMixIllustriousxl_v1.safetensors",
+                    "sha256sum": "71f6653377759bff3565e8a723ef6238f16e5c05b7613c1e93fba6d529e80802"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "holyMixIllustriousxl_v1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1074235?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938056186
+    },
+    "NTR MIX IL-Noob XL": {
+        "name": "NTR MIX IL-Noob XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "NTR Mix Illustrious Noob XL is a anime model that can generate stylized anime images, both SFW and NSFW. It can generate both singular portraits and images with multiple characters in them.",
+        "version": "13",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/926443?modelVersionId=1166878",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "ntrMIXIllustriousXL_xiii.safetensors",
+                    "sha256sum": "1207404b1705a026eaa2896b66953dbef8be5ccde5340e4fd940b674aecb8cf8"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ntrMIXIllustriousXL_xiii.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1166878?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938050106
     }
 }
