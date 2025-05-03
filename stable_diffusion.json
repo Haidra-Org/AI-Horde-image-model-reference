@@ -6788,5 +6788,61 @@
             ]
         },
         "size_on_disk_bytes": 6938048970
+    },
+    "HiDream-I1-Dev": {
+        "name": "HiDream-I1-Dev",
+        "baseline": "flux",
+        "type": "safetensors",
+        "inpainting": false,
+        "description": "HiDream-I1 is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
+        "version": "Dev",
+        "style": "generalist",
+        "homepage": "https://huggingface.co/HiDream-ai/HiDream-I1-Dev",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "hidream_i1_dev_fp8.safetensors",
+                    "sha256sum": "9a372d7384d56e34a8cc7fd77a0fa3d26d6b75d82c7582fd5347e2fd9e6f8664"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "hidream_i1_dev_fp8.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/HiDream-I1_ComfyUI/resolve/main/split_files/diffusion_models/hidream_i1_dev_fp8.safetensors"
+                }
+            ]
+        },
+        "available": false
+    },
+    "Chroma-fp8-scaled": {
+        "name": "Chroma-fp8-scaled",
+        "baseline": "custom",
+        "type": "safetensors",
+        "inpainting": false,
+        "description": "Scaled FP8 safetensors variant of Lodestone Rock's Chroma model... leveraging the full dynamic range of FP8 (-448 to 448).",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://huggingface.co/Clybius/Chroma-fp8-scaled",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "chroma-unlocked-v27_float8_e4m3fn_scaled_stochastic.safetensors",
+                    "sha256sum": "34fbe142791d8044bd53191fc9eb33791364e9eb358900e5f1cc9c6a73fc5c1c"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "chroma-unlocked-v27_float8_e4m3fn_scaled_stochastic.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Clybius/Chroma-fp8-scaled/resolve/main/chroma-unlocked-v27_float8_e4m3fn_scaled_stochastic.safetensors"
+                }
+            ]
+        },
+        "available": false
     }
 }
