@@ -6819,7 +6819,7 @@
     },
     "Chroma-fp8-scaled": {
         "name": "Chroma-fp8-scaled",
-        "baseline": "custom",
+        "baseline": "flux_1",
         "type": "safetensors",
         "inpainting": false,
         "description": "Scaled FP8 safetensors variant of Lodestone Rock's Chroma model... leveraging the full dynamic range of FP8 (-448 to 448).",
