@@ -4909,24 +4909,24 @@
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "Very popular realistic model",
-        "version": "9.0",
+        "description": "Realistic yet versatile SDXL model",
+        "version": "Ranarok",
         "style": "realistic",
-        "homepage": "https://civitai.com/models/133005?modelVersionId=348913",
+        "homepage": "https://civitai.com/models/133005?modelVersionId=1759168",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "juggernaut_xl.safetensors",
-                    "sha256sum": "c9e3e68f89b8e38689e1097d4be4573cf308de4e3fd044c64ca697bdb4aa8bca"
+                    "path": "juggernautXL_ragnarokBy.safetensors",
+                    "sha256sum": "dd08fa32f98d05a2443ca1419e46df1575a0811f6e3b246d9dd47ff20f5eb66a"
                 }
             ],
             "download": [
                 {
-                    "file_name": "juggernaut_xl.safetensors",
+                    "file_name": "juggernautXL_ragnarokBy.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/348913?format=SafeTensor"
+                    "file_url": "https://civitai.com/api/download/models/1759168?type=Model&format=SafeTensor&size=full&fp=fp16"
                 }
             ]
         },
