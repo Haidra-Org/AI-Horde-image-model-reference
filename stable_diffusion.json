@@ -5120,23 +5120,23 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "SDXL Model for anime, bought to you from the maker of ICBINP",
-        "version": "1.0",
+        "version": "2.0",
         "style": "anime",
-        "homepage": "https://civitai.com/models/335240?modelVersionId=375465",
-        "nsfw": false,
+        "homepage": "https://civitai.com/models/335240?modelVersionId=521607",
+        "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "qg_xl.safetensors",
-                    "sha256sum": "0D1B81F722BB8E8E57DCE47E71CBC131C6A42C1A315FD0F5279A3C92B01E0C14"
+                    "path": "quietGoodnightXL_v2.safetensors",
+                    "sha256sum": "18B7586C94E8E410076DF1B077D654E9EA07BBBD15AD8C8E14E13FD0666150BA"
                 }
             ],
             "download": [
                 {
-                    "file_name": "qg_xl.safetensors",
+                    "file_name": "quietGoodnightXL_v2.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/375465?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://civitai.com/api/download/models/521607?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
