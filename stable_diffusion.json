@@ -5896,5 +5896,42 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938050106
+    },
+    "2DN": {
+        "name": "2DN",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "2DN is a NAI-based model that is capable of generating high-quality semi-realistic images.",
+        "version": "ll1.0",
+        "style": "realistic",
+        "homepage":"https://civitai.com/models/520661?modelVersionId=1656707",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+                "config": {
+            "files": [
+                {
+                    "path": "2dn_latentlensV1.safetensors",
+                    "sha256sum": "5383E5B15240C36A6A57934F00EFAC62578F3B6556E23CAD0A8C83E1661575AA"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "2dn_latentlensV1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1656707?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938050106
+
     }
 }
