@@ -4727,6 +4727,39 @@
         ],
         "size_on_disk_bytes": 6776583201
     },
+    "AlbedoBase XL 3.1": {
+        "name": "AlbedoBase XL 3.1",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model that doesn't require a refiner. This is the 3.1 version.",
+        "version": "3.1",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/140737?modelVersionId=1041855",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "albedobaseXL_V31Large.safetensors",
+                    "sha256sum": "C379D154EB476B67B390E31463C41C79AC9E766466315408886EBB7FAA2EA098"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "albedobaseXL_V31Large.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1041855?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6776583201
+    },
     "Pony Diffusion XL": {
         "name": "Pony Diffusion XL",
         "baseline": "stable_diffusion_xl",
