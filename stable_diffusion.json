@@ -3587,36 +3587,33 @@
         "available": false,
         "size_on_disk_bytes": 3526112242
     },
-    "Mistoon Amethyst": {
-        "name": "Mistoon Amethyst",
-        "baseline": "stable diffusion 1",
+    "Mistoon Anime": {
+        "name": "Mistoon Anime",
+        "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
         "description": "It creates realistic and expressive characters with a disney twist.",
-        "version": "2.0",
+        "version": "1.0Noob",
         "style": "anime",
-        "homepage": "https://civitai.com/models/33707/mistoonamethyst",
+        "homepage": "https://civitai.com/models/24149/mistoonanime",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "mistoonAmethyst.safetensors",
-                    "sha256sum": "87022143bd950ff509c6bc015c95da33e4816cd3b7eda87008f3513cb0e86eaf"
-                },
-                {
-                    "path": "v1-inference.yaml"
+                    "path": "mistoonAnime_v10Noobai.safetensors",
+                    "sha256sum": "77A72CFA4B175B61CED4FC2BD19955DD37DC578B274B7D4A8DDFC5ED4D25A953"
                 }
             ],
             "download": [
                 {
-                    "file_name": "mistoonAmethyst.safetensors",
+                    "file_name": "mistoonAnime_v10Noobai.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mistoonAmethyst.safetensors?download=true"
+                    "file_url": "https://civitai.com/api/download/models/1540184?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
         },
-        "available": false,
+
         "size_on_disk_bytes": 2369875248
     },
     "Art Of Mtg": {
