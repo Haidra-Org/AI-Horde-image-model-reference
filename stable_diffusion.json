@@ -5965,5 +5965,41 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938050106
+    },
+    "ZavyChromaXL": {
+        "name": "ZavyChromaXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "ZavyChromaXL is generalist model with a focus on vibrant colors and detailed renders. It is capable of generating both stylized and realistic images",
+        "version": "10.0",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/520661?modelVersionId=1656707",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "zavychromaxl_v100.safetensors",
+                    "sha256sum": "FF5B69C9A197EE7E577D72E0E73C826C8DD8B83D88289F93BB78B53A258ACC7C"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "zavychromaxl_v100.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/916744?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938050106
     }
 }
