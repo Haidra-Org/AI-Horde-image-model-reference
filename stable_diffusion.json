@@ -4702,7 +4702,7 @@
         "description": "SDXL Model that doesn't require a refiner.",
         "version": "2.1",
         "style": "generalist",
-        "homepage": "https://civitai.com/models/140737/albedobase-xl",
+        "homepage": "https://civitai.com/models/140737?modelVersionId=329420",
         "nsfw": false,
         "download_all": false,
         "config": {
