@@ -3593,7 +3593,7 @@
         "type": "ckpt",
         "inpainting": false,
         "description": "It creates realistic and expressive characters with a disney twist.",
-        "version": "1.0Noob",
+        "version": "1.0 Noob",
         "style": "anime",
         "homepage": "https://civitai.com/models/24149/mistoonanime",
         "nsfw": true,
@@ -3614,7 +3614,7 @@
             ]
         },
 
-        "size_on_disk_bytes": 2369875248
+        "size_on_disk_bytes": 6938040808
     },
     "Art Of Mtg": {
         "name": "Art Of Mtg",
@@ -5997,6 +5997,6 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6938050106
+        "size_on_disk_bytes": 6938040682
     }
 }
