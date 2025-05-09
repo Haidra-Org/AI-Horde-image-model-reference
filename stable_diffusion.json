@@ -3825,6 +3825,9 @@
         "homepage": "https://civitai.com/models/140272/hassaku-xl-illustrious",
         "nsfw": true,
         "download_all": false,
+        "requirements": {
+            "clip_skip": 2
+        },
         "config": {
             "files": [
                 {
@@ -3839,9 +3842,6 @@
                     "file_url": "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
-        },
-        "requirements":{
-            "clip_skip":2
         },
         "available": false,
         "size_on_disk_bytes": 6938040456
@@ -5905,13 +5905,13 @@
         "description": "2DN is a NAI-based model that is capable of generating high-quality semi-realistic images.",
         "version": "ll1.0",
         "style": "realistic",
-        "homepage":"https://civitai.com/models/520661?modelVersionId=1656707",
+        "homepage": "https://civitai.com/models/520661?modelVersionId=1656707",
         "nsfw": true,
         "download_all": false,
         "requirements": {
             "clip_skip": 2
         },
-                "config": {
+        "config": {
             "files": [
                 {
                     "path": "2dn_latentlensV1.safetensors",
@@ -5932,6 +5932,5 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938050106
-
     }
 }
