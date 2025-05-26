@@ -4679,7 +4679,7 @@
                 {
                     "file_name": "icbinp_xl.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/551129?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinp_xl.safetensors?download=true"
                 }
             ]
         },
