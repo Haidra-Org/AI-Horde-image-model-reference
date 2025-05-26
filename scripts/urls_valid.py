@@ -120,4 +120,8 @@ if __name__ == "__main__":
         "sd_db", type=Path, help="Path to the stable diffusion database JSON file."
     )
     args = parser.parse_args()
-    urls_valid(args.sd_db)
+    if not urls_valid(args.sd_db):
+        raise ValueError(
+            "Some URLs in the stable diffusion database are invalid. Please check the logs for details."
+        )
+
