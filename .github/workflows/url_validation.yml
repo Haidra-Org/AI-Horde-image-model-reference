@@ -9,7 +9,11 @@ on:
   push:
     branches:
       - main
-
+    paths:
+      - '**.py'
+      - '**.json'
+      - '.github/workflows/url_validation.yml'
+      - '.github/workflows/url_validation_pr.yml'
 jobs:
   url-validation-job:
     runs-on: ubuntu-latest  

@@ -1,4 +1,4 @@
-name: URL Validation
+name: URL Validation PR
 
 on:
   workflow_dispatch: # Allows manual triggering of the workflow
@@ -6,7 +6,11 @@ on:
   pull_request_target:
     branches:
       - main
-
+    paths:
+      - '**.py'
+      - '**.json'
+      - '.github/workflows/url_validation.yml'
+      - '.github/workflows/url_validation_pr.yml'
 jobs:
   required-label-job:
     runs-on: ubuntu-latest
