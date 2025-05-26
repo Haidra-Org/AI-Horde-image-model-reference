@@ -1,3 +1,4 @@
+import argparse
 import json
 import time
 from pathlib import Path
@@ -84,4 +85,7 @@ def urls_valid(
     return True
 
 if __name__ == "__main__":
-    urls_valid(Path("stable_diffusion.json"))
+    parser = argparse.ArgumentParser(description="Validate URLs in the stable diffusion database.")
+    parser.add_argument("sd_db", type=Path, help="Path to the stable diffusion database JSON file.")
+    args = parser.parse_args()
+    urls_valid(args.sd_db)
