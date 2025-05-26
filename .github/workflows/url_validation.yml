@@ -1,6 +1,11 @@
 name: URL Validation
 
 on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+
+  workflow_dispatch: # Allows manual triggering of the workflow
+
   pull_request_target:
     branches:
       - main
