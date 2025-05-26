@@ -3478,7 +3478,7 @@
                 {
                     "file_name": "icbinp.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinpICantBelieveIts_newYear.safetensors?download=true"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/icbinp.safetensors?download=true"
                 }
             ]
         },
@@ -4745,7 +4745,7 @@
                 {
                     "file_name": "albedobaseXL_V31Large.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1041855?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/albedobaseXL_V31Large.safetensors?download=true"
                 }
             ]
         },
