@@ -124,4 +124,3 @@ if __name__ == "__main__":
         raise ValueError(
             "Some URLs in the stable diffusion database are invalid. Please check the logs for details."
         )
-
