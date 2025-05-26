@@ -4955,7 +4955,7 @@
                 {
                     "file_name": "juggernautXL_ragnarokBy.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/juggernaut_xl.safetensors"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/juggernautXL_ragnarokBy.safetensors"
                 }
             ]
         },
@@ -5158,7 +5158,7 @@
             "files": [
                 {
                     "path": "quietGoodnightXL_v2.safetensors",
-                    "sha256sum": "18B7586C94E8E410076DF1B077D654E9EA07BBBD15AD8C8E14E13FD0666150BA"
+                    "sha256sum": "18b7586c94e8e410076df1b077d654e9ea07bbbd15ad8c8e14e13fd0666150ba"
                 }
             ],
             "download": [
