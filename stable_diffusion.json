@@ -6791,7 +6791,7 @@
     },
     "HiDream-I1-Dev": {
         "name": "HiDream-I1-Dev",
-        "baseline": "flux",
+        "baseline": "flux_1",
         "type": "safetensors",
         "inpainting": false,
         "description": "HiDream-I1 is a new open-source image generative foundation model with 17B parameters that achieves state-of-the-art image generation quality within seconds.",
@@ -6819,7 +6819,7 @@
     },
     "Chroma-fp8-scaled": {
         "name": "Chroma-fp8-scaled",
-        "baseline": "custom",
+        "baseline": "flux_1",
         "type": "safetensors",
         "inpainting": false,
         "description": "Scaled FP8 safetensors variant of Lodestone Rock's Chroma model... leveraging the full dynamic range of FP8 (-448 to 448).",
@@ -6844,5 +6844,34 @@
             ]
         },
         "available": false
+    },
+    "wan_2.1": {
+        "name": "wan_2.1",
+        "baseline": "video_diffusion",
+        "type": "safetensors",
+        "inpainting": false,
+        "description": "WAN 2.1 is a comprehensive and open suite of video foundation models that pushes the boundaries of video generation. Supports Text-to-Video, Image-to-Video, Video Editing, and Text-to-Image generation with multilingual text support.",
+        "version": "2.1",
+        "style": "video",
+        "homepage": "https://huggingface.co/vrgamedevgirl84/Wan14BT2VFusioniX",
+        "nsfw": false,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "Wan14BT2VFusioniX_fp16_.safetensors",
+                    "sha256sum": "78c098c8547b273149e27545b8aba08cb6473a462a4d7ff30b96f5da21fecd3b"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "Wan14BT2VFusioniX_fp16_.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/vrgamedevgirl84/Wan14BT2VFusioniX/resolve/main/Wan14BT2VFusioniX_fp16_.safetensors"
+                }
+            ]
+        },
+        "available": false,
+        "size_on_disk_bytes": 56000000000
     }
 }
