@@ -227,46 +227,6 @@
         "available": false,
         "size_on_disk_bytes": 2132887713
     },
-    "Microworlds": {
-        "name": "Microworlds",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microworlds/02_racebannin.webp"
-        ],
-        "version": "3",
-        "style": "other",
-        "trigger": [
-            "microworld"
-        ],
-        "homepage": "https://civitai.com/models/19/microworlds",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "microworld_PublicPrompts.ckpt",
-                    "md5sum": "8e674ab3b1478bcee60f1ca25bee088c",
-                    "sha256sum": "bfbfd3f27a0b0311594bdd50fcc36209be2a39e775125ad83b3138781bce7f38"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "microworld_PublicPrompts.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/microworld_PublicPrompts.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132862927
-    },
     "Zeipher Female Model": {
         "name": "Zeipher Female Model",
         "baseline": "stable diffusion 1",
@@ -2136,42 +2096,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132857708
-    },
-    "Microcritters": {
-        "name": "Microcritters",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A cross of Jak's Creepy Critter and microworlds, for creating tiny 3d monsters",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/Microcritters/01.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "homepage": "https://civitai.com/models/8026/micro-critters-merge",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Microcritters.ckpt",
-                    "md5sum": "a96bbfba440016114582b9d60ff6cc4c",
-                    "sha256sum": "da0fdd55916bf3d468b87fa6d41163bab69bf5011b29a5effa5a7f79c309b06e"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Microcritters.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Microcritters.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132915183
     },
     "AbyssOrangeMix-AfterDark": {
         "name": "AbyssOrangeMix-AfterDark",
