@@ -2440,7 +2440,6 @@
         "available": false,
         "size_on_disk_bytes": 4098041880
     },
-
     "HRL": {
         "name": "HRL",
         "baseline": "stable diffusion 1",
@@ -5849,19 +5848,23 @@
         "config": {
             "files": [
                 {
-                "path": "waiNSFWIllustrious_v140.safetensors",
-                "sha256sum": "BDB59BAC77D94AE7A55FF893170F9554C3F349E48A1B73C0C17C0B7C6F4D41A2"
+                    "path": "waiNSFWIllustrious_v140.safetensors",
+                    "sha256sum": "BDB59BAC77D94AE7A55FF893170F9554C3F349E48A1B73C0C17C0B7C6F4D41A2"
                 }
             ],
             "download": [
                 {
-                "file_name": "waiNSFWIllustrious_v140.safetensors",
-                "file_path": "",
-                "file_url": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_name": "waiNSFWIllustrious_v140.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
                 }
             ]
-            },
-        "features_not_supported": ["hires_fix", "inpainting", "controlnet"],
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
         "size_on_disk_bytes": 6938040416
-  }
+    }
 }

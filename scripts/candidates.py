@@ -16,12 +16,16 @@ for path in CANDIDATE_PATHS:
         REFERENCE_FILE = str(path.resolve())
         break
 else:
-    raise FileNotFoundError("Could not find stable_diffusion.json in expected locations.")
+    raise FileNotFoundError(
+        "Could not find stable_diffusion.json in expected locations."
+    )
+
 
 def load_reference_models():
     with open(REFERENCE_FILE, "r") as file:
         reference_data = json.load(file)
     return set(reference_data.keys())
+
 
 def process_model_stats():
     response = requests.get(API_URL)
@@ -46,8 +50,8 @@ def process_model_stats():
                 if value == 0:
                     # Skip models not in reference with zero usage
                     # These models have already been removed from the reference
-                    # and are not relevant for candidates for removal 
-                    continue 
+                    # and are not relevant for candidates for removal
+                    continue
             else:
                 output += "\033[32m (in reference)\033[0m"
                 if value == 0:
@@ -58,6 +62,7 @@ def process_model_stats():
             if non_zero_count >= 10:
                 break
         print()
+
 
 if __name__ == "__main__":
     process_model_stats()
