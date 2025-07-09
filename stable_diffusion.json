@@ -5768,5 +5768,100 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938040682
-    }
+    },
+    "BigASP": {
+        "name": "BigASP",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "BigASP is a photorealistic model designed for generating high-quality images with a variety of prompt lengths and amounts of detail.",
+        "version": "2.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/502468?modelVersionId=991916",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "bigasp_v20.safetensors",
+                    "sha256sum": "6C77BE501B95DA35528431C224CCFB51B0AE948857431B3556DB64E213CC1EDF"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "bigasp_v20.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/991916?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040682
+    },
+    "NEW ERA": {
+        "name": "NEW ERA",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "NEW ERA (New Era Retro Anime) is a anime model that is designed to generate high-quality anime images with a retro anime aesthetic.",
+        "version": "5.0 NAI Eps",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/137781?modelVersionId=1502081",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "newERANewEstheticRetro_newErav50NAIEpsilon.safetensors",
+                    "sha256sum": "0C623BCE42E5CA31BE648350BC764F4861D7F9A9738C6F9995472E0813A57AC6"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "newERANewEstheticRetro_newErav50NAIEpsilon.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1502081?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040416
+    },
+    "WAI-NSFW-illustrious-SDXL": {
+        "name": "WAI-NSFW-illustrious-SDXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "WAI-NSFW-illustrious-SDXL is a anime model that is designed to generate high-quality anime images with a focus on NSFW content.",
+        "version": "14.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/827184?modelVersionId=1761560",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                "path": "waiNSFWIllustrious_v140.safetensors",
+                "sha256sum": "BDB59BAC77D94AE7A55FF893170F9554C3F349E48A1B73C0C17C0B7C6F4D41A2"
+                }
+            ],
+            "download": [
+                {
+                "file_name": "waiNSFWIllustrious_v140.safetensors",
+                "file_path": "",
+                "file_url": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+            },
+        "features_not_supported": ["hires_fix", "inpainting", "controlnet"],
+        "size_on_disk_bytes": 6938040416
+  }
 }
