@@ -1753,46 +1753,6 @@
         "available": false,
         "size_on_disk_bytes": 2132878842
     },
-    "Pulp Vector Art": {
-        "name": "Pulp Vector Art",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
-        ],
-        "version": "beta",
-        "style": "other",
-        "trigger": [
-            "vector-art",
-            "pulp-diffusion"
-        ],
-        "homepage": "https://civitai.com/models/4618/vector-art",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "pulp_vectorart.ckpt",
-                    "md5sum": "f3427844a139d5be2c4b4cec2e67b2f1",
-                    "sha256sum": "0c27deb0c848bc97330d17c6916f651ccc2bf154905d1e29f9dcdfc6d12ee1c5"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "pulp_vectorart.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pulp_vectorart.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
-    },
     "Vector Art": {
         "name": "Vector Art",
         "baseline": "stable diffusion 2",
@@ -1831,46 +1791,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2607614519
-    },
-    "Laolei New Berry Protogen Mix": {
-        "name": "Laolei New Berry Protogen Mix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Awesome anime character/realism mix",
-        "tags": [
-            "anime",
-            "character"
-        ],
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/4099/laolei-new-berry-protogen-mix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "LNBPM.ckpt",
-                    "md5sum": "e64e0f0467695bd6f1d1ffd0c755269b",
-                    "sha256sum": "ce3dc5f56f8794fa78721833c62d18d96b54e8cb22046f97dd2b950e82775331"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "LNBPM.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/LNBPM.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 6476961219
     },
     "URPM": {
         "name": "URPM",
@@ -2023,42 +1943,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4098327353
-    },
-    "VinteProtogenMix": {
-        "name": "VinteProtogenMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "VinteProtogenMix.ckpt",
-                    "md5sum": "d5dc55479054c7d36fac397131fd9371",
-                    "sha256sum": "99317952cf35c1df700fe855939f5956ad1d044e157e1d5ef706719cdc49f629"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "VinteProtogenMix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/VinteProtogenMix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265482326
     },
     "Anything v3": {
         "name": "Anything v3",
@@ -2632,44 +2516,7 @@
         "available": false,
         "size_on_disk_bytes": 4098041880
     },
-    "UMI Olympus": {
-        "name": "UMI Olympus",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A model that generates extremely high quality landscapes, space battles, and fantasy settings. It can also generate very high quality anime characters, though that is not its primary purpose",
-        "tags": [
-            "anime",
-            "landscapes",
-            "scenes"
-        ],
-        "version": "1.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/6077/umi-ai-mythology-and-babes-by-dutchalex",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Olympus.ckpt",
-                    "md5sum": "443cb4ecec74fdfb29544b0b7974c4a9",
-                    "sha256sum": "6c153a7647880777f59b6098476597b81a45cc84fe7bb188f2284eafe0e27491"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Olympus.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Olympus.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132857708
-    },
+
     "HRL": {
         "name": "HRL",
         "baseline": "stable diffusion 1",
