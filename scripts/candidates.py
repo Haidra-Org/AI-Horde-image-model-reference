@@ -34,17 +34,29 @@ def process_model_stats():
 
     for period in ["day", "month", "total"]:
         stats = data[period]
-        # Filter models with zero usage first, then sort
-        filtered_stats = [(model, value) for model, value in stats.items() if value > 0]
-        sorted_stats = sorted(filtered_stats, key=lambda x: x[1])
+        # Sort all models by usage
+        sorted_stats = sorted(stats.items(), key=lambda x: x[1])
         print(f"{period.capitalize()} Lows")
         print("=" * 10)
-        for model, value in sorted_stats[:10]:
+        non_zero_count = 0
+        for model, value in sorted_stats:
             output = f"{model}: {value}"
             if model not in reference_models:
                 output += "\033[31m (not in reference)\033[0m"
+                if value == 0:
+                    # Skip models not in reference with zero usage
+                    # These models have already been removed from the reference
+                    # and are not relevant for candidates for removal 
+                    continue 
+            else:
+                output += "\033[32m (in reference)\033[0m"
+                if value == 0:
+                    output += "\033[33m (zero usage)\033[0m"
             print(output)
-
+            if value > 0:
+                non_zero_count += 1
+            if non_zero_count >= 10:
+                break
         print()
 
 if __name__ == "__main__":
