@@ -227,46 +227,6 @@
         "available": false,
         "size_on_disk_bytes": 2132887713
     },
-    "Microworlds": {
-        "name": "Microworlds",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A remake of the old microworld with cleaned up datasets that have no text or labels.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microworlds/01_bigdowg.jpg",
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/microworlds/02_racebannin.webp"
-        ],
-        "version": "3",
-        "style": "other",
-        "trigger": [
-            "microworld"
-        ],
-        "homepage": "https://civitai.com/models/19/microworlds",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "microworld_PublicPrompts.ckpt",
-                    "md5sum": "8e674ab3b1478bcee60f1ca25bee088c",
-                    "sha256sum": "bfbfd3f27a0b0311594bdd50fcc36209be2a39e775125ad83b3138781bce7f38"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "microworld_PublicPrompts.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/microworld_PublicPrompts.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132862927
-    },
     "Zeipher Female Model": {
         "name": "Zeipher Female Model",
         "baseline": "stable diffusion 1",
@@ -1753,46 +1713,6 @@
         "available": false,
         "size_on_disk_bytes": 2132878842
     },
-    "Pulp Vector Art": {
-        "name": "Pulp Vector Art",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Style model for Stable Diffusion mimicking vector style. vector-art and pulp model mix",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/pulp_vector_art/01_pulpvector.webp"
-        ],
-        "version": "beta",
-        "style": "other",
-        "trigger": [
-            "vector-art",
-            "pulp-diffusion"
-        ],
-        "homepage": "https://civitai.com/models/4618/vector-art",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "pulp_vectorart.ckpt",
-                    "md5sum": "f3427844a139d5be2c4b4cec2e67b2f1",
-                    "sha256sum": "0c27deb0c848bc97330d17c6916f651ccc2bf154905d1e29f9dcdfc6d12ee1c5"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "pulp_vectorart.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/pulp_vectorart.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
-    },
     "Vector Art": {
         "name": "Vector Art",
         "baseline": "stable diffusion 2",
@@ -1831,46 +1751,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2607614519
-    },
-    "Laolei New Berry Protogen Mix": {
-        "name": "Laolei New Berry Protogen Mix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Awesome anime character/realism mix",
-        "tags": [
-            "anime",
-            "character"
-        ],
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/laolei_new_berry_protogen_mix/01_laolei.webp"
-        ],
-        "version": "1",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/4099/laolei-new-berry-protogen-mix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "LNBPM.ckpt",
-                    "md5sum": "e64e0f0467695bd6f1d1ffd0c755269b",
-                    "sha256sum": "ce3dc5f56f8794fa78721833c62d18d96b54e8cb22046f97dd2b950e82775331"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "LNBPM.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/LNBPM.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 6476961219
     },
     "URPM": {
         "name": "URPM",
@@ -2023,42 +1903,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4098327353
-    },
-    "VinteProtogenMix": {
-        "name": "VinteProtogenMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A beautiful blend of Vintedois and an early Protogen model to create fantabulous images",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/vinte_protogen_mix/01_vinte.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://civitai.com/models/5657/vinteprotogenmix-v10",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "VinteProtogenMix.ckpt",
-                    "md5sum": "d5dc55479054c7d36fac397131fd9371",
-                    "sha256sum": "99317952cf35c1df700fe855939f5956ad1d044e157e1d5ef706719cdc49f629"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "VinteProtogenMix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/VinteProtogenMix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265482326
     },
     "Anything v3": {
         "name": "Anything v3",
@@ -2252,42 +2096,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132857708
-    },
-    "Microcritters": {
-        "name": "Microcritters",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A cross of Jak's Creepy Critter and microworlds, for creating tiny 3d monsters",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/Microcritters/01.webp"
-        ],
-        "version": "1.0",
-        "style": "other",
-        "homepage": "https://civitai.com/models/8026/micro-critters-merge",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Microcritters.ckpt",
-                    "md5sum": "a96bbfba440016114582b9d60ff6cc4c",
-                    "sha256sum": "da0fdd55916bf3d468b87fa6d41163bab69bf5011b29a5effa5a7f79c309b06e"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Microcritters.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Microcritters.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132915183
     },
     "AbyssOrangeMix-AfterDark": {
         "name": "AbyssOrangeMix-AfterDark",
@@ -2631,44 +2439,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 4098041880
-    },
-    "UMI Olympus": {
-        "name": "UMI Olympus",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "A model that generates extremely high quality landscapes, space battles, and fantasy settings. It can also generate very high quality anime characters, though that is not its primary purpose",
-        "tags": [
-            "anime",
-            "landscapes",
-            "scenes"
-        ],
-        "version": "1.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/6077/umi-ai-mythology-and-babes-by-dutchalex",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Olympus.ckpt",
-                    "md5sum": "443cb4ecec74fdfb29544b0b7974c4a9",
-                    "sha256sum": "6c153a7647880777f59b6098476597b81a45cc84fe7bb188f2284eafe0e27491"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Olympus.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Olympus.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132857708
     },
     "HRL": {
         "name": "HRL",
@@ -5997,5 +5767,104 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938040682
+    },
+    "BigASP": {
+        "name": "BigASP",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "BigASP is a photorealistic model designed for generating high-quality images with a variety of prompt lengths and amounts of detail.",
+        "version": "2.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/502468?modelVersionId=991916",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "bigasp_v20.safetensors",
+                    "sha256sum": "6C77BE501B95DA35528431C224CCFB51B0AE948857431B3556DB64E213CC1EDF"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "bigasp_v20.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/991916?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040682
+    },
+    "NEW ERA": {
+        "name": "NEW ERA",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "NEW ERA (New Era Retro Anime) is a anime model that is designed to generate high-quality anime images with a retro anime aesthetic.",
+        "version": "5.0 NAI Eps",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/137781?modelVersionId=1502081",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "newERANewEstheticRetro_newErav50NAIEpsilon.safetensors",
+                    "sha256sum": "0C623BCE42E5CA31BE648350BC764F4861D7F9A9738C6F9995472E0813A57AC6"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "newERANewEstheticRetro_newErav50NAIEpsilon.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1502081?type=Model&format=SafeTensor&size=full&fp=bf16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040416
+    },
+    "WAI-NSFW-illustrious-SDXL": {
+        "name": "WAI-NSFW-illustrious-SDXL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "WAI-NSFW-illustrious-SDXL is a anime model that is designed to generate high-quality anime images with a focus on NSFW content.",
+        "version": "14.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/827184?modelVersionId=1761560",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "waiNSFWIllustrious_v140.safetensors",
+                    "sha256sum": "BDB59BAC77D94AE7A55FF893170F9554C3F349E48A1B73C0C17C0B7C6F4D41A2"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "waiNSFWIllustrious_v140.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040416
     }
 }
