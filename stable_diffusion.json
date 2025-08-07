@@ -6366,6 +6366,52 @@
         ],
         "size_on_disk_bytes": 17246524772
     },
+    "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)": {
+        "name": "Flux.1-Krea-dev Uncensored (fp8+CLIP+VAE)",
+        "baseline": "flux_1",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "FLUX.1-Krea-dev Uncensored is a variant of the 12 billion parameter FLUX.1 model fine-tuned with data curated by Krea. This version includes CLIP and VAE. It is optimized for general-purpose image synthesis from text prompts, with uncensored content generation capabilities. For more information, visit https://civitai.com/models/1830497?modelVersionId=2071474.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://civitai.com/models/1830497?modelVersionId=2071474",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 20,
+            "max_steps": 30,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 4,
+            "clip_skip": 1,
+            "samplers": [
+            "k_euler"
+            ],
+            "schedulers": [
+            "karras"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "flux1KreaDev_fp8ClipWithVAE.safetensors",
+                    "sha256sum": "AD6185A8E9D0364417D5EFAF01CB44CEC04939098FF6429CD816674682815909"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "flux1KreaDev_fp8ClipWithVAE.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/2071474"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 17206700956
+    },
     "Pony Realism": {
         "name": "Pony Realism",
         "baseline": "stable_diffusion_xl",
