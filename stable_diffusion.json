@@ -5894,11 +5894,11 @@
             "files": [
                 {
                     "path": "qwen_image_fp8_e4m3fn.safetensors",
-                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612"
+                    "sha256sum": "98763a127701eb6fb59096f7742cb3aa7d64ed510b9f4e882d8351f8176e3ce3"
                 },
                 {
                     "path": "qwen_image_vae.safetensors",
-                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612",
+                    "sha256sum": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
                     "file_type": "vae"
                 },
                 {
