@@ -5866,5 +5866,70 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938040416
+    },
+    "Qwen-Image_fp8": {
+        "name": "Qwen-Image_fp8",
+        "baseline": "qwen_image",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "TODO",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://github.com/QwenLM/Qwen-Image",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 10,
+            "max_steps": 20,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 2.5,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "simple"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "qwen_image_fp8_e4m3fn.safetensors",
+                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612"
+                },
+                {
+                    "path": "qwen_image_vae.safetensors",
+                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612",
+                    "file_type": "vae"
+                },
+                {
+                    "path": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+                    "sha256sum": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4",
+                    "file_type": "text_encoder"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "qwen_image_fp8_e4m3fn.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/non_official/diffusion_models/qwen_image_distill_full_fp8_e4m3fn.safetensors"
+                },
+                {
+                    "file_name": "qwen_image_vae.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors"
+                },
+                {
+                    "file_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 20430635136
     }
 }
