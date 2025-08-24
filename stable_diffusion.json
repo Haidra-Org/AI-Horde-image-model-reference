@@ -5894,7 +5894,8 @@
             "files": [
                 {
                     "path": "qwen_image_fp8_e4m3fn.safetensors",
-                    "sha256sum": "98763a127701eb6fb59096f7742cb3aa7d64ed510b9f4e882d8351f8176e3ce3"
+                    "sha256sum": "98763a127701eb6fb59096f7742cb3aa7d64ed510b9f4e882d8351f8176e3ce3",
+                    "file_type": "unet"
                 },
                 {
                     "path": "qwen_image_vae.safetensors",
@@ -5915,12 +5916,12 @@
                 },
                 {
                     "file_name": "qwen_image_vae.safetensors",
-                    "file_path": "",
+                    "file_path": "../vae",
                     "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors?download=true"
                 },
                 {
                     "file_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
-                    "file_path": "",
+                    "file_path": "../text_encoders",
                     "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors?download=true"
                 }
             ]
