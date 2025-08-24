@@ -5911,17 +5911,17 @@
                 {
                     "file_name": "qwen_image_fp8_e4m3fn.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/non_official/diffusion_models/qwen_image_distill_full_fp8_e4m3fn.safetensors"
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/non_official/diffusion_models/qwen_image_distill_full_fp8_e4m3fn.safetensors?download=true"
                 },
                 {
                     "file_name": "qwen_image_vae.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors"
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors?download=true"
                 },
                 {
                     "file_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors"
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors?download=true"
                 }
             ]
         },
