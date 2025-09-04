@@ -5894,7 +5894,7 @@
             "files": [
                 {
                     "path": "qwen_image_fp8_e4m3fn.safetensors",
-                    "sha256sum": "98763a127701eb6fb59096f7742cb3aa7d64ed510b9f4e882d8351f8176e3ce3",
+                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612",
                     "directory": "",
                     "file_type": "unet"
                 },
