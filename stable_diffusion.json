@@ -5905,7 +5905,7 @@
                 {
                     "path": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
                     "sha256sum": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4",
-                    "file_type": "text_encoder"
+                    "file_type": "text_encoders"
                 }
             ],
             "download": [
