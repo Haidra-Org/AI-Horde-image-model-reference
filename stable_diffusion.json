@@ -5790,7 +5790,7 @@
                 {
                     "file_name": "bigasp_v20.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/991916?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/bigasp_v20.safetensors"
                 }
             ]
         },
@@ -5856,7 +5856,7 @@
                 {
                     "file_name": "waiNSFWIllustrious_v140.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/1761560?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/waiNSFWIllustrious_v140.safetensors"
                 }
             ]
         },
