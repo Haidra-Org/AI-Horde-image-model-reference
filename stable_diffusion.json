@@ -5689,5 +5689,71 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938040416
+    },
+    "Hidden Canvas": {
+        "name": "Hidden Canvas",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Hidden Canvas is a gateway to a realm where art demands sacrifice, and mastery — time. Built on Illustrious, this model does not tolerate haste. Its genius awakens only in the hands of those who dare to think, search, fail, and create again. Each render is not a result, but a journey. Beneath deceptive simplicity lies a second layer — a silent challenge to the artist. You won’t get a masterpiece by accident. It must be earned. Hidden Canvas is not a tool, but a rite of passage. Only perseverance, precision, and inspiration will reveal its hidden depths.",
+        "version": "1.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/1716457",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "hiddenCanvas_v10.safetensors",
+                    "sha256sum": "5DD4A9C289DBF72E62C2FB9B932CD710C85C839B5F63C3A6BE9BF11A1C917D68"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "hiddenCanvas_v10.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/1942411?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938052202
+    },
+    "Pixel Illustrious": {
+        "name": "Pixel Illustrious",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Pixel Illustrious is a checkpoint that generates vivid and expressive pixel art in retro anime and cyber-fantasy styles. It’s ideal for creating striking female characters with eye-catching hairstyles, detailed costumes, futuristic accessories, and unique backgrounds—from neon-lit cities to blooming fields. This style excels at producing art reminiscent of 16- or 32-bit video games, with a soft color palette, glowing eyes, and a high level of emotional expression.",
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/1640992/pixel-illustrious",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "pixelIllustrious_v20.safetensors",
+                    "sha256sum": "B5E5AB32E752A6D63F8844FC98C7DA1B1B734AA0B7A8CB3CE08D4F21FD0E1135"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "pixelIllustrious_v20.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/2281791?type=Model&format=SafeTensor&size=full&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938052202
     }
 }
