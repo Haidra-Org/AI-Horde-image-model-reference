@@ -6,7 +6,9 @@ from typing import Dict, Optional
 
 repo = Repo(Path(__file__).resolve(), search_parent_directories=True)
 if repo.working_tree_dir is None:
-    raise RuntimeError("Could not determine the working tree directory for the git repository.")
+    raise RuntimeError(
+        "Could not determine the working tree directory for the git repository."
+    )
 repo_path = Path(repo.working_tree_dir)
 file_path = "stable_diffusion.json"
 
@@ -26,7 +28,7 @@ for commit in repo.iter_commits(paths=file_path):
 models_list = sorted(all_models_ever)
 
 # Prepare tracking structure
-model_mod_data: Dict[str, Dict[str, Optional[str]]] = {
+model_mod_data: Dict[str, Dict[str, Optional[str | int]]] = {
     model: {
         "commit_added": None,
         "date_added": None,
@@ -59,21 +61,35 @@ for commit in reversed(commits):
             # Added
             if model_mod_data[model]["commit_added"] is None:
                 model_mod_data[model]["commit_added"] = commit.hexsha
-                model_mod_data[model]["date_added"] = commit.committed_datetime.isoformat()
+                model_mod_data[model][
+                    "date_added"
+                ] = int(commit.committed_datetime.timestamp())
                 # First appearance should also be counted as a modification.
                 model_mod_data[model]["commit_modified"] = commit.hexsha
-                model_mod_data[model]["date_modified"] = commit.committed_datetime.isoformat()
+                model_mod_data[model][
+                    "date_modified"
+                ] = int(commit.committed_datetime.timestamp())
             # Modified
-            if prev_model_data[model] is not None and prev_model_data[model] != data[model]:
+            if (
+                prev_model_data[model] is not None
+                and json.dumps(prev_model_data[model], sort_keys=True) != json.dumps(data.get(model), sort_keys=True)
+            ):
                 model_mod_data[model]["commit_modified"] = commit.hexsha
-                model_mod_data[model]["date_modified"] = commit.committed_datetime.isoformat()
+                model_mod_data[model][
+                    "date_modified"
+                ] = int(commit.committed_datetime.timestamp())
             prev_model_data[model] = data[model]
             present_last_commit[model] = True
         else:
             # Removed
-            if present_last_commit[model] and model_mod_data[model]["commit_removed"] is None:
+            if (
+                present_last_commit[model]
+                and model_mod_data[model]["commit_removed"] is None
+            ):
                 model_mod_data[model]["commit_removed"] = commit.hexsha
-                model_mod_data[model]["date_removed"] = commit.committed_datetime.isoformat()
+                model_mod_data[model][
+                    "date_removed"
+                ] = int(commit.committed_datetime.timestamp())
             prev_model_data[model] = None
             present_last_commit[model] = False
 
