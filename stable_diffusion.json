@@ -5755,5 +5755,38 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938052202
+    },
+    "Big Love": {
+        "name": "Big Love",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Big Love is a checkpoint with a focus on NSFW photorealistic images. It is a merge of several models, including original SDXL, bigASP, RealVis, Anteros and Pony.",
+        "version": "Insta1",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/897413?modelVersionId=2291289",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "bigLove_insta1.safetensors",
+                    "sha256sum": "84473D32867C1F58A970C2823CCBDEF252D4CD046746494BF903A9D73782626C"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "bigLove_insta1.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/2291289?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938044562
     }
 }
