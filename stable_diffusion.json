@@ -342,42 +342,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856622
     },
-    "Mega Merge Diffusion": {
-        "name": "Mega Merge Diffusion",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SD 1.5 merged with 17 other models",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/mega_merge_diffusion/01_gigachad.webp"
-        ],
-        "version": "1",
-        "style": "generalist",
-        "homepage": "https://huggingface.co/ShinCore/MMDv1-18",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "mega-merge-diffusion-a.ckpt",
-                    "md5sum": "8b4d66961604d1a64ca8f8bca3797dd6",
-                    "sha256sum": "9fcbb5c2bad234f4cf67db1cce9d62a6e0328dfaeb117ac5632434243c6b2609"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "mega-merge-diffusion-a.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/mega-merge-diffusion-a.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 4265380128
-    },
     "Anything Diffusion": {
         "name": "Anything Diffusion",
         "baseline": "stable diffusion 1",
@@ -1418,43 +1382,6 @@
         "available": false,
         "size_on_disk_bytes": 2132885216
     },
-    "BPModel": {
-        "name": "BPModel",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Anime model similar to A Certain Thing, but custom trained on 1024x1024 resolution images",
-        "tags": [
-            "anime",
-            "high resolution"
-        ],
-        "version": "1024",
-        "style": "anime",
-        "homepage": "https://huggingface.co/Crosstyan/BPModel",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "BPModel.ckpt",
-                    "md5sum": "3e0056af1fcd97b74c09ebd48d8b5420",
-                    "sha256sum": "d5d6e1898fbc096237038661a5a09bdd25ea31f7a942b0df414d4bae36e9a124"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "BPModel.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/BPModel.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2300165102
-    },
     "Realistic Vision": {
         "name": "Realistic Vision",
         "baseline": "stable diffusion 1",
@@ -2209,42 +2136,6 @@
         "available": false,
         "size_on_disk_bytes": 4265327980
     },
-    "Kenshi": {
-        "name": "Kenshi",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "An anime-style model merge that included Nixeu, WLOP, Guweiz, BoChen, and many others",
-        "tags": [
-            "anime"
-        ],
-        "version": "0.1.1",
-        "style": "anime",
-        "homepage": "https://huggingface.co/SweetLuna/Kenshi",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "Kenshi.ckpt",
-                    "md5sum": "1019ba7f78c5cc6b1eb51451ce015d56",
-                    "sha256sum": "065b8b5e17920980e6defdeba0b62ec4ee801b0546bf58e96337fba3498bf462"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "Kenshi.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/Kenshi.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132885216
-    },
     "DucHaiten Classic Anime": {
         "name": "DucHaiten Classic Anime",
         "baseline": "stable diffusion 1",
@@ -2582,42 +2473,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 3455797598
-    },
-    "Graphic-Art": {
-        "name": "Graphic-Art",
-        "baseline": "stable diffusion 2",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Style model for Stable Diffusion. Mainly focusing on graphic design.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/graphic_art/01_graphicart.webp"
-        ],
-        "version": "beta",
-        "style": "other",
-        "homepage": "https://civitai.com/models/7884/graphic-art",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "graphic-art.ckpt",
-                    "md5sum": "fe23f60ebb26bc8d2dfda9ed9363ce49",
-                    "sha256sum": "72adf3e51f689cdc54cf0672a74a7a281d9f38e05bd6b2e730ea962c3a4014fa"
-                },
-                {
-                    "path": "v2-inference-v.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "graphic-art.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/graphic-art.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2607610189
     },
     "Illuminati Diffusion": {
         "name": "Illuminati Diffusion",
@@ -4122,38 +3977,6 @@
         },
         "available": false,
         "size_on_disk_bytes": 2132625894
-    },
-    "SweetBoys 2D": {
-        "name": "SweetBoys 2D",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SweetBoys 2D is a model that can make slender and cute boy characters. Fall into the very fantastic and delicate world of beautiful boys! This model tends to ignore Prompt in Clip skip 1 and draws an abstract illustrations. Clip skip 2 or higher is recommended.",
-        "version": "2.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/46809/sweetboys2d",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "sweetboys2d.safetensors",
-                    "sha256sum": "737A639910C53CC3FDE1C39D8477CDA7B0638FFE8BF4A51F35B5303B11BEFC72"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "sweetboys2d.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/sweetboys2d.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2400040320
     },
     "iCoMix Inpainting": {
         "name": "iCoMix Inpainting",
