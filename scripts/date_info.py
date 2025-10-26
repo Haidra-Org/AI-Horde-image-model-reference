@@ -61,23 +61,22 @@ for commit in reversed(commits):
             # Added
             if model_mod_data[model]["commit_added"] is None:
                 model_mod_data[model]["commit_added"] = commit.hexsha
-                model_mod_data[model][
-                    "date_added"
-                ] = int(commit.committed_datetime.timestamp())
+                model_mod_data[model]["date_added"] = int(
+                    commit.committed_datetime.timestamp()
+                )
                 # First appearance should also be counted as a modification.
                 model_mod_data[model]["commit_modified"] = commit.hexsha
-                model_mod_data[model][
-                    "date_modified"
-                ] = int(commit.committed_datetime.timestamp())
+                model_mod_data[model]["date_modified"] = int(
+                    commit.committed_datetime.timestamp()
+                )
             # Modified
-            if (
-                prev_model_data[model] is not None
-                and json.dumps(prev_model_data[model], sort_keys=True) != json.dumps(data.get(model), sort_keys=True)
-            ):
+            if prev_model_data[model] is not None and json.dumps(
+                prev_model_data[model], sort_keys=True
+            ) != json.dumps(data.get(model), sort_keys=True):
                 model_mod_data[model]["commit_modified"] = commit.hexsha
-                model_mod_data[model][
-                    "date_modified"
-                ] = int(commit.committed_datetime.timestamp())
+                model_mod_data[model]["date_modified"] = int(
+                    commit.committed_datetime.timestamp()
+                )
             prev_model_data[model] = data[model]
             present_last_commit[model] = True
         else:
@@ -87,9 +86,9 @@ for commit in reversed(commits):
                 and model_mod_data[model]["commit_removed"] is None
             ):
                 model_mod_data[model]["commit_removed"] = commit.hexsha
-                model_mod_data[model][
-                    "date_removed"
-                ] = int(commit.committed_datetime.timestamp())
+                model_mod_data[model]["date_removed"] = int(
+                    commit.committed_datetime.timestamp()
+                )
             prev_model_data[model] = None
             present_last_commit[model] = False
 
