@@ -5879,8 +5879,8 @@
         "nsfw": true,
         "download_all": false,
         "requirements": {
-            "min_steps": 10,
-            "max_steps": 20,
+            "min_steps": 20,
+            "max_steps": 40,
             "min_cfg_scale": 1,
             "max_cfg_scale": 2.5,
             "samplers": [
