@@ -5941,7 +5941,7 @@
         "baseline": "z_image_turbo",
         "type": "ckpt",
         "inpainting": false,
-        "description": "Z-Image is a powerful and highly efficient image generation model with 6B parameters. Z-Image-Turbo is a distilled version of Z-Image that matches or exceeds leading competitors with only 8 NFEs (Number of Function Evaluations). It offers ⚡️sub-second inference latency⚡️ on enterprise-grade H800 GPUs and fits comfortably within 16G VRAM consumer devices. It excels in photorealistic image generation, bilingual text rendering (English & Chinese), and robust instruction adherence.",
+        "description": "Z-Image is a powerful and highly efficient image generation model with 6B parameters. Z-Image-Turbo is a distilled version of Z-Image that matches or exceeds leading competitors with only 8 NFEs (Number of Function Evaluations). It offers sub-second inference latency on enterprise-grade H800 GPUs and fits comfortably within 16G VRAM consumer devices. It excels in photorealistic image generation, bilingual text rendering (English & Chinese), and robust instruction adherence.",
         "version": "1.0",
         "style": "generalist",
         "homepage": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
