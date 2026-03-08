@@ -1,4 +1,5 @@
 import json
+import sys
 from git import Repo
 from pathlib import Path
 from typing import Dict, Optional
@@ -92,5 +93,13 @@ for commit in reversed(commits):
             prev_model_data[model] = None
             present_last_commit[model] = False
 
-with open(repo_path / "model_mod_data.json", "w") as f:
-    json.dump(model_mod_data, f, indent=4)
+if "--check" in sys.argv:
+    with open(repo_path / "model_mod_data.json") as f:
+        existing = json.load(f)
+    if existing != model_mod_data:
+        print("model_mod_data.json is out of date. Run: python scripts/date_info.py")
+        sys.exit(1)
+    print("model_mod_data.json is up to date.")
+else:
+    with open(repo_path / "model_mod_data.json", "w") as f:
+        json.dump(model_mod_data, f, indent=4)

@@ -1,2 +1,3 @@
 horde_model_reference~=0.9.1
 requests
+gitpython
