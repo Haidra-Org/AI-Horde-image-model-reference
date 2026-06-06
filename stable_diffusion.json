@@ -112,41 +112,6 @@
         "available": false,
         "size_on_disk_bytes": 4265384157
     },
-    "Furry Epoch": {
-        "name": "Furry Epoch",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Furry styled generations.",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/furry_epoch/01_gigachad.webp"
-        ],
-        "version": "4",
-        "style": "furry",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "furry-diffusion.ckpt",
-                    "md5sum": "f8ef45a295ef4966682f6e8fc2c6830d",
-                    "sha256sum": "4160c57f98f1727f5a52cba8c844656fc9061311f9c37daf45e8e0ebe913c987"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "furry-diffusion.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/furry-diffusion.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 3852166639
-    },
     "Yiffy": {
         "name": "Yiffy",
         "baseline": "stable diffusion 1",
@@ -1989,41 +1954,6 @@
         "available": false,
         "size_on_disk_bytes": 2132856686
     },
-    "ChilloutMix": {
-        "name": "ChilloutMix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "For creating images of nude solo women",
-        "showcases": [
-            "https://raw.githubusercontent.com/Haidra-Org/AI-Horde-image-model-reference/main/showcase/chillout_mix/01_chilloutmix.webp"
-        ],
-        "version": "1.0",
-        "style": "realistic",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "ChilloutMix.ckpt",
-                    "md5sum": "3c404ec36cda6034d064ce89ea6b3b91",
-                    "sha256sum": "84b2635c5693283986c2de52512638418f739742a46b970d1b6fc8ca6f410435"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "ChilloutMix.ckpt",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/ChilloutMix.ckpt?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132857708
-    },
     "AbyssOrangeMix-AfterDark": {
         "name": "AbyssOrangeMix-AfterDark",
         "baseline": "stable diffusion 1",
@@ -3467,38 +3397,6 @@
         "available": false,
         "size_on_disk_bytes": 6938040456
     },
-    "Dark Sushi Mix": {
-        "name": "Dark Sushi Mix",
-        "baseline": "stable diffusion 1",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "This model has good light effects, can generate darker images, and also has good light and shadow performance on normal brightness images.",
-        "version": "Colorful",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/24779/dark-sushi-mix-mix",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "darkSushiMix.safetensors",
-                    "sha256sum": "969673AD74A431348739CFC8B94FDFB1098DCC95127DAD3E7EDCE706A5AA22AB"
-                },
-                {
-                    "path": "v1-inference.yaml"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "darkSushiMix.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/darkSushiMix.safetensors?download=true"
-                }
-            ]
-        },
-        "available": false,
-        "size_on_disk_bytes": 2132625438
-    },
     "Realistic Vision Inpainting": {
         "name": "Realistic Vision Inpainting",
         "baseline": "stable diffusion 1",
@@ -4736,39 +4634,6 @@
         ],
         "size_on_disk_bytes": 6939226112
     },
-    "Quiet Goodnight XL": {
-        "name": "Quiet Goodnight XL",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "SDXL Model for anime, bought to you from the maker of ICBINP",
-        "version": "2.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/335240?modelVersionId=521607",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "quietGoodnightXL_v2.safetensors",
-                    "sha256sum": "18b7586c94e8e410076df1b077d654e9ea07bbbd15ad8c8e14e13fd0666150ba"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "quietGoodnightXL_v2.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/quietGoodnightXL_v2.safetensors"
-                }
-            ]
-        },
-        "features_not_supported": [
-            "hires_fix",
-            "inpainting",
-            "controlnet"
-        ],
-        "size_on_disk_bytes": 6939226112
-    },
     "Stable Cascade 1.0": {
         "name": "Stable Cascade 1.0",
         "baseline": "stable_cascade",
@@ -5755,5 +5620,104 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938052202
+    },
+    "PerfectDeliberate": {
+        "name": "PerfectDeliberate",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "PerfectDeliberate is an stylized realism model that generates vibrant, styled portraits. ",
+        "version": "9.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/24350/perfectdeliberate",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "perfectDeliberate_v90.safetensors",
+                    "sha256sum": "AEA4EC6C4D248FB9CDC3209BCBF3FCCB05ACB1A2A901D3F1E805E39810ED0B09"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "perfectDeliberate_v90.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/2805032?fileId=2690937"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040682
+    },
+    "Ri-Mix": {
+        "name": "Ri-Mix",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Ri-Mix is a stylized realism model that is designed to generate vibrant, stylized portraits and scenery. It is capable of generating both SFW and NSFW images, but it excels at generating high-quality NSFW portraits.",
+        "version": "Omega V2",
+        "style": "realistic",
+        "homepage": "https://civitai.red/models/996495/ri-mix-pony-illustrious?modelVersionId=2811854",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "riMixPONYIllustrious_riMixV2.safetensors",
+                    "sha256sum": "266B879D3A9C386A93FADE088C386B96058AAE2E92951A27DB98157FF7229E96"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "riMixPONYIllustrious_riMixV2.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.red/api/download/models/2811854?fileId=2697708"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938040784
+    },
+    "Nova Furry XL": {
+        "name": "Nova Furry XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Nova Furry XL is a furry model that is the successor to Nova Furry Pony. It is designed to generate high-quality furry images, with an emphasis on detailed fur, feathers, etc. It can generate humans, but excels at generating anthro and furry characters.",
+        "version": "IL 18A",
+        "style": "furry",
+        "homepage": "https://civitai.red/models/503815/nova-furry-xl?modelVersionId=2943166",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "novaFurryXL_ilV180A.safetensors",
+                    "sha256sum": "56D4DB7A9E925A53CE7CA32CB14107A8CC3E967B70DF0DA23A27351CDB68157F"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaFurryXL_ilV180A.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.red/api/download/models/2943166?fileId=2822349"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6939104724
     }
 }
