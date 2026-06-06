@@ -5662,7 +5662,7 @@
         "description": "Ri-Mix is a stylized realism model that is designed to generate vibrant, stylized portraits and scenery. It is capable of generating both SFW and NSFW images, but it excels at generating high-quality NSFW portraits.",
         "version": "Omega V2",
         "style": "realistic",
-        "homepage": "https://civitai.red/models/996495/ri-mix-pony-illustrious?modelVersionId=2811854",
+        "homepage": "https://civitai.com/models/996495/ri-mix-pony-illustrious?modelVersionId=2811854",
         "nsfw": true,
         "download_all": false,
         "config": {
@@ -5676,7 +5676,7 @@
                 {
                     "file_name": "riMixPONYIllustrious_riMixV2.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.red/api/download/models/2811854?fileId=2697708"
+                    "file_url": "https://civitai.com/api/download/models/2811854?fileId=2697708"
                 }
             ]
         },
@@ -5695,7 +5695,7 @@
         "description": "Nova Furry XL is a furry model that is the successor to Nova Furry Pony. It is designed to generate high-quality furry images, with an emphasis on detailed fur, feathers, etc. It can generate humans, but excels at generating anthro and furry characters.",
         "version": "IL 18A",
         "style": "furry",
-        "homepage": "https://civitai.red/models/503815/nova-furry-xl?modelVersionId=2943166",
+        "homepage": "https://civitai.com/models/503815/nova-furry-xl?modelVersionId=2943166",
         "nsfw": true,
         "download_all": false,
         "config": {
@@ -5709,7 +5709,7 @@
                 {
                     "file_name": "novaFurryXL_ilV180A.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.red/api/download/models/2943166?fileId=2822349"
+                    "file_url": "https://civitai.com/api/download/models/2943166?fileId=2822349"
                 }
             ]
         },
@@ -5761,7 +5761,7 @@
         "description": "Rag Illustrious Mix is an anime-style model. The main goal of it is being able to do both male and female characters with an anime style well with minimal need of positive or negative word soup.",
         "version": "v11.0",
         "style": "anime",
-        "homepage": "https://civitai.red/models/1491577/rag-illustrious-mix?modelVersionId=2732179",
+        "homepage": "https://civitai.com/models/1491577/rag-illustrious-mix?modelVersionId=2732179",
         "nsfw": true,
         "download_all": false,
         "config": {
@@ -5775,7 +5775,7 @@
                 {
                     "file_name": "ragIllustriousMix_v11.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.red/api/download/models/2732179?fileId=2618287"
+                    "file_url": "https://civitai.com/api/download/models/2732179?fileId=2618287"
                 }
             ]
         },
