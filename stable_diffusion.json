@@ -5094,10 +5094,10 @@
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "Anime 2d/2.5d model, emphasis on detailed fur, scales, feathers, etc.",
-        "version": "Illustrious 1.0",
+        "description": "Anime 2d/2.5d model, emphasis on generally high-quality anime-style generations, with a good performance on faces and bodies.",
+        "version": "IL 19",
         "style": "anime",
-        "homepage": "https://civitai.com/models/376130?modelVersionId=1065689",
+        "homepage": "https://civitai.com/models/376130/nova-anime-xl?modelVersionId=2940478",
         "nsfw": true,
         "download_all": false,
         "requirements": {
@@ -5106,19 +5106,19 @@
         "config": {
             "files": [
                 {
-                    "path": "novaAnimeXL_illustriousV10.safetensors",
-                    "sha256sum": "6BE357F91D909C5268479AD7991E035C54036708D9DB6B8ACC9AE1D350C6EB63"
+                    "path": "novaAnimeXL_ilV190.safetensors",
+                    "sha256sum": "fa486caafc330f133605d3c18b418d183812f14946631c6544bfb28730db6d6f"
                 }
             ],
             "download": [
                 {
-                    "file_name": "novaAnimeXL_illustriousV10.safetensors",
+                    "file_name": "novaAnimeXL_ilV190.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/novaAnimeXL_illustriousV10.safetensors"
+                    "file_url": "https://civitai.com/api/download/models/2940478?fileId=2819621"
                 }
             ]
         },
-        "size_on_disk_bytes": 6938063064
+        "size_on_disk_bytes": 6939105596
     },
     "White Pony Diffusion 4": {
         "name": "White Pony Diffusion 4",
@@ -5719,5 +5719,71 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6939104724
+    },
+    "Nova Flat XL": {
+        "name": "Nova Flat XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Nova Flat XL is Anime SDXL checkpoint that aims to have flat anime style: not flat coloring.",
+        "version": "v9.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/1240874/nova-flat-xl?modelVersionId=2610015",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "novaFlatXL_v90.safetensors",
+                    "sha256sum": "C236A776D04C409514ADC1A780EFD1339EB992A7F503CA67B668AF090B81FB88"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "novaFlatXL_v90.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.com/api/download/models/2610015?fileId=2497353"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938504356
+    },
+    "Rag Illustrious Mix": {
+        "name": "Rag Illustrious Mix",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Rag Illustrious Mix is an anime-style model. The main goal of it is being able to do both male and female characters with an anime style well with minimal need of positive or negative word soup.",
+        "version": "v11.0",
+        "style": "anime",
+        "homepage": "https://civitai.red/models/1491577/rag-illustrious-mix?modelVersionId=2732179",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "ragIllustriousMix_v11.safetensors",
+                    "sha256sum": "37F020BD8BF29D341E7B5A8DE8036C21DC3FFCE809A44A307BA12DFFFDC2CE77"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "ragIllustriousMix_v11.safetensors",
+                    "file_path": "",
+                    "file_url": "https://civitai.red/api/download/models/2732179?fileId=2618287"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6938059730
     }
 }
