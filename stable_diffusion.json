@@ -4391,39 +4391,6 @@
         ],
         "size_on_disk_bytes": 6776583201
     },
-    "Anime Illust Diffusion XL": {
-        "name": "Anime Illust Diffusion XL",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Anime Illustration Design XL, or AIDXL, is a model dedicated to generating stylized anime illustrations. It has over 800 (with more and more updates) built-in illustration styles, which are triggered by specific trigger words (see Appendix A). Please use AIDXL negative embedding model to boost generation quality (see Suggested Resources).",
-        "version": "0.71",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/124189",
-        "nsfw": false,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "anime_illust_diffusion_xl.safetensors",
-                    "sha256sum": "1813371de528253288eb8de8b2cc3674c79b6fc854ec7370583bd528706646d1"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "anime_illust_diffusion_xl.safetensors",
-                    "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/anime_illust_diffusion_xl.safetensors?download=true"
-                }
-            ]
-        },
-        "features_not_supported": [
-            "hires_fix",
-            "inpainting",
-            "controlnet"
-        ],
-        "size_on_disk_bytes": 6776583201
-    },
     "Juggernaut XL": {
         "name": "Juggernaut XL",
         "baseline": "stable_diffusion_xl",
@@ -5785,5 +5752,38 @@
             "controlnet"
         ],
         "size_on_disk_bytes": 6938059730
-    }
+    },
+    "Quiet Goodnight XL": {
+        "name": "Quiet Goodnight XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for anime, bought to you from the maker of ICBINP",
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/335240?modelVersionId=521607",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "quietGoodnightXL_v2.safetensors",
+                    "sha256sum": "18b7586c94e8e410076df1b077d654e9ea07bbbd15ad8c8e14e13fd0666150ba"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "quietGoodnightXL_v2.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/quietGoodnightXL_v2.safetensors"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6939226112
+    },
 }
