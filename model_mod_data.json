@@ -140,8 +140,8 @@
         "date_added": 1709252562,
         "commit_modified": "ec86a89ad253add1c5559c2345cd7946d181b004",
         "date_modified": 1711110575,
-        "commit_removed": null,
-        "date_removed": null
+        "commit_removed": "94bda5295c6f18f13daa1be12aaee01011a38cb1",
+        "date_removed": 1780936590
     },
     "Anime Pencil Diffusion": {
         "commit_added": "efc805c54d06ff100f6744b1667bca1bddf6b041",
