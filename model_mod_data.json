@@ -140,8 +140,8 @@
         "date_added": 1709252562,
         "commit_modified": "ec86a89ad253add1c5559c2345cd7946d181b004",
         "date_modified": 1711110575,
-        "commit_removed": "94bda5295c6f18f13daa1be12aaee01011a38cb1",
-        "date_removed": 1780936590
+        "commit_removed": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_removed": 1782093249
     },
     "Anime Pencil Diffusion": {
         "commit_added": "efc805c54d06ff100f6744b1667bca1bddf6b041",
@@ -412,8 +412,8 @@
         "date_added": 1676235246,
         "commit_modified": "517d8c5711cdf689f82749293d0cad5de34063dd",
         "date_modified": 1706234620,
-        "commit_removed": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_removed": 1780766986
+        "commit_removed": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_removed": 1782093249
     },
     "ChromaV5": {
         "commit_added": "8d6a065b9cfce9b51526fa249298e069ac725953",
@@ -532,8 +532,8 @@
         "date_added": 1684163874,
         "commit_modified": "517d8c5711cdf689f82749293d0cad5de34063dd",
         "date_modified": 1706234620,
-        "commit_removed": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_removed": 1780766986
+        "commit_removed": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_removed": 1782093249
     },
     "Dark Victorian Diffusion": {
         "commit_added": "8d6a065b9cfce9b51526fa249298e069ac725953",
@@ -876,8 +876,8 @@
         "date_added": 1674174500,
         "commit_modified": "517d8c5711cdf689f82749293d0cad5de34063dd",
         "date_modified": 1706234620,
-        "commit_removed": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_removed": 1780766986
+        "commit_removed": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_removed": 1782093249
     },
     "Fustercluck": {
         "commit_added": "f4732cdd3168831331adef5c5f0b6fa9682be245",
@@ -1394,16 +1394,16 @@
     "Nova Anime XL": {
         "commit_added": "77d18626681573ca938f4b47d5439a72488bbe1d",
         "date_added": 1731984031,
-        "commit_modified": "db042e8916ffb98af877cbfa12a0b8b93c3b32a9",
-        "date_modified": 1780769504,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
     "Nova Flat XL": {
-        "commit_added": "db042e8916ffb98af877cbfa12a0b8b93c3b32a9",
-        "date_added": 1780769504,
-        "commit_modified": "db042e8916ffb98af877cbfa12a0b8b93c3b32a9",
-        "date_modified": 1780769504,
+        "commit_added": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_added": 1782093249,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
@@ -1416,10 +1416,10 @@
         "date_removed": null
     },
     "Nova Furry XL": {
-        "commit_added": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_added": 1780766986,
-        "commit_modified": "924b32bd16a3dbf28c7d34b9ac0f7f6cce561f99",
-        "date_modified": 1780789917,
+        "commit_added": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_added": 1782093249,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
@@ -1528,10 +1528,10 @@
         "date_removed": null
     },
     "PerfectDeliberate": {
-        "commit_added": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_added": 1780766986,
-        "commit_modified": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_modified": 1780766986,
+        "commit_added": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_added": 1782093249,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
@@ -1652,8 +1652,16 @@
         "date_added": 1711795642,
         "commit_modified": "b24f47ecdd7707711959d52876c4fc643e68a93a",
         "date_modified": 1748289240,
-        "commit_removed": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_removed": 1780766986
+        "commit_removed": null,
+        "date_removed": null
+    },
+    "Qwen-Image_fp8": {
+        "commit_added": "913e8a8521d5001cd2b8821ba919a626aca855bc",
+        "date_added": 1787531592,
+        "commit_modified": "65575ddb12afa3a76d7c2ec319f200cfc4519b07",
+        "date_modified": 1787532026,
+        "commit_removed": null,
+        "date_removed": null
     },
     "RCNZ Dumb Monkey": {
         "commit_added": "5dd02d9d8f49ed7684af9f1143234acd5a260ff4",
@@ -1688,10 +1696,10 @@
         "date_removed": 1704963931
     },
     "Rag Illustrious Mix": {
-        "commit_added": "db042e8916ffb98af877cbfa12a0b8b93c3b32a9",
-        "date_added": 1780769504,
-        "commit_modified": "924b32bd16a3dbf28c7d34b9ac0f7f6cce561f99",
-        "date_modified": 1780789917,
+        "commit_added": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_added": 1782093249,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
@@ -1784,10 +1792,10 @@
         "date_removed": null
     },
     "Ri-Mix": {
-        "commit_added": "0f1479e8092d505f9ecad6cabdb088429f151149",
-        "date_added": 1780766986,
-        "commit_modified": "924b32bd16a3dbf28c7d34b9ac0f7f6cce561f99",
-        "date_modified": 1780789917,
+        "commit_added": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_added": 1782093249,
+        "commit_modified": "46fdd9e3cd50a777b5b680e4ae8c619475e01022",
+        "date_modified": 1782093249,
         "commit_removed": null,
         "date_removed": null
     },
@@ -2196,6 +2204,14 @@
         "date_added": 1674174500,
         "commit_modified": "517d8c5711cdf689f82749293d0cad5de34063dd",
         "date_modified": 1706234620,
+        "commit_removed": null,
+        "date_removed": null
+    },
+    "Z-Image-Turbo": {
+        "commit_added": "913e8a8521d5001cd2b8821ba919a626aca855bc",
+        "date_added": 1787531592,
+        "commit_modified": "913e8a8521d5001cd2b8821ba919a626aca855bc",
+        "date_modified": 1787531592,
         "commit_removed": null,
         "date_removed": null
     },
