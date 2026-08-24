@@ -22,6 +22,19 @@ Model reference for [AIHorde](https://aihorde.net) [Worker](https://github.com/H
 - If an added model can generate NSFW content/has NSFW training data, set `nsfw: true`. **Unless a model has been explicitly censored and cleaned of NSFW content, it is better set this to `true`**
 - If your model change affects a top 10 model (by changing it or removing it, metadata-only changes for accuracy are always OK), you must go through the [consensus process on loomio](https://loomio.haidra.net/) in order for that change to be accepted.
 
+### Model modification history
+
+`model_mod_data.json` stores the literal Git commit IDs where each model was added,
+modified, or removed. After changing `stable_diffusion.json`, regenerate it with:
+
+```bash
+python scripts/date_info.py
+```
+
+PRs containing model-history updates must be merged with a **merge commit**. Squash
+or rebase merging rewrites the recorded commit IDs and makes `model_mod_data.json`
+out of date immediately after it reaches `main`.
+
 ### PRs/Release notify
 - When you are ready for a review of your model change PR, add the `ready-for-review` label and the [#image-model-reference](https://discord.com/channels/781145214752129095/1290309549290422314) channel in discord will start receiving notifications with a breakdown of the changes.
 - Once the PR is merged, be sure to create a new release from the main repo page. You can do this from that page on the right, click 'releases' and then 'Draft new release' and be sure to set a tag version starting with `v` that is later than the last tag. For example, if the last tag was `v0.0.9` the next one should be `v0.0.10`.

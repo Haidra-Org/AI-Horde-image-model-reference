@@ -1656,10 +1656,10 @@
         "date_removed": null
     },
     "Qwen-Image_fp8": {
-        "commit_added": "2f0388af9b01eac5fac3f608c863ca6247e180e4",
-        "date_added": 1787533365,
-        "commit_modified": "18e258c9033ef5afb410e39acd01549028766b35",
-        "date_modified": 1787533365,
+        "commit_added": "f2a999addb223792f1de9cf6b7d686a5a5347f3c",
+        "date_added": 1787533742,
+        "commit_modified": "433789a4a1ae63582972667224694ebb99afae4c",
+        "date_modified": 1787533742,
         "commit_removed": null,
         "date_removed": null
     },
@@ -2208,10 +2208,10 @@
         "date_removed": null
     },
     "Z-Image-Turbo": {
-        "commit_added": "2f0388af9b01eac5fac3f608c863ca6247e180e4",
-        "date_added": 1787533365,
-        "commit_modified": "2f0388af9b01eac5fac3f608c863ca6247e180e4",
-        "date_modified": 1787533365,
+        "commit_added": "f2a999addb223792f1de9cf6b7d686a5a5347f3c",
+        "date_added": 1787533742,
+        "commit_modified": "f2a999addb223792f1de9cf6b7d686a5a5347f3c",
+        "date_modified": 1787533742,
         "commit_removed": null,
         "date_removed": null
     },

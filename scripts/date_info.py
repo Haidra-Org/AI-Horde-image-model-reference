@@ -97,7 +97,11 @@ if "--check" in sys.argv:
     with open(repo_path / "model_mod_data.json") as f:
         existing = json.load(f)
     if existing != model_mod_data:
-        print("model_mod_data.json is out of date. Run: python scripts/date_info.py")
+        print(
+            "model_mod_data.json is out of date. Run: python scripts/date_info.py. "
+            "If it was current before merging, verify that the model PR was not "
+            "squash- or rebase-merged; those strategies rewrite the recorded commit IDs."
+        )
         sys.exit(1)
     print("model_mod_data.json is up to date.")
 else:
