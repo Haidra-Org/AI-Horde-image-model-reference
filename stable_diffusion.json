@@ -5813,21 +5813,18 @@
             "files": [
                 {
                     "path": "qwen_image_fp8_e4m3fn.safetensors",
-                    "md5sum": null,
                     "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612",
                     "file_type": "unet",
                     "directory": ""
                 },
                 {
                     "path": "qwen_image_vae.safetensors",
-                    "md5sum": null,
                     "sha256sum": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
                     "file_type": "vae",
                     "directory": "../vae"
                 },
                 {
                     "path": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
-                    "md5sum": null,
                     "sha256sum": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4",
                     "file_type": "text_encoders",
                     "directory": "../text_encoders"
