@@ -44,14 +44,14 @@ def compare_pr_to_main(
             models_added[model_name] = model
         else:
             pr_hash = None
-            for _, pr_records in model.config.files:
+            for pr_records in model.config.files:
                 for pr_record in pr_records:
                     if isinstance(pr_record, LegacyConfigFile) and pr_record.sha256sum:
                         pr_hash = pr_record.sha256sum
                         break
 
             main_hash = None
-            for _, main_records in main_model_reference[model_name].config.files:
+            for main_records in main_model_reference[model_name].config.files:
                 for main_record in main_records:
                     if (
                         isinstance(main_record, LegacyConfigFile)
