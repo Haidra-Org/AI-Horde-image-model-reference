@@ -103,3 +103,4 @@ if "--check" in sys.argv:
 else:
     with open(repo_path / "model_mod_data.json", "w") as f:
         json.dump(model_mod_data, f, indent=4)
+        f.write("\n")  # Ensure the file ends with a newline
