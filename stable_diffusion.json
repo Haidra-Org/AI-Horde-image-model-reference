@@ -4601,6 +4601,39 @@
         ],
         "size_on_disk_bytes": 6939226112
     },
+    "Quiet Goodnight XL": {
+        "name": "Quiet Goodnight XL",
+        "baseline": "stable_diffusion_xl",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "SDXL Model for anime, bought to you from the maker of ICBINP",
+        "version": "2.0",
+        "style": "anime",
+        "homepage": "https://civitai.com/models/335240?modelVersionId=521607",
+        "nsfw": true,
+        "download_all": false,
+        "config": {
+            "files": [
+                {
+                    "path": "quietGoodnightXL_v2.safetensors",
+                    "sha256sum": "18b7586c94e8e410076df1b077d654e9ea07bbbd15ad8c8e14e13fd0666150ba"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "quietGoodnightXL_v2.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/quietGoodnightXL_v2.safetensors"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 6939226112
+    },
     "Stable Cascade 1.0": {
         "name": "Stable Cascade 1.0",
         "baseline": "stable_cascade",
@@ -5588,29 +5621,29 @@
         ],
         "size_on_disk_bytes": 6938052202
     },
-    "PerfectDeliberate": {
-        "name": "PerfectDeliberate",
+    "Nova Flat XL": {
+        "name": "Nova Flat XL",
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "PerfectDeliberate is an stylized realism model that generates vibrant, styled portraits. ",
-        "version": "9.0",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/24350/perfectdeliberate",
+        "description": "Nova Flat XL is Anime SDXL checkpoint that aims to have flat anime style: not flat coloring.",
+        "version": "v9.0",
+        "style": "artistic",
+        "homepage": "https://civitai.com/models/1240874/nova-flat-xl?modelVersionId=2610015",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "perfectDeliberate_v90.safetensors",
-                    "sha256sum": "AEA4EC6C4D248FB9CDC3209BCBF3FCCB05ACB1A2A901D3F1E805E39810ED0B09"
+                    "path": "novaFlatXL_v90.safetensors",
+                    "sha256sum": "C236A776D04C409514ADC1A780EFD1339EB992A7F503CA67B668AF090B81FB88"
                 }
             ],
             "download": [
                 {
-                    "file_name": "perfectDeliberate_v90.safetensors",
+                    "file_name": "novaFlatXL_v90.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2805032?fileId=2690937"
+                    "file_url": "https://civitai.com/api/download/models/2610015?fileId=2497353"
                 }
             ]
         },
@@ -5619,40 +5652,7 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6938040682
-    },
-    "Ri-Mix": {
-        "name": "Ri-Mix",
-        "baseline": "stable_diffusion_xl",
-        "type": "ckpt",
-        "inpainting": false,
-        "description": "Ri-Mix is a stylized realism model that is designed to generate vibrant, stylized portraits and scenery. It is capable of generating both SFW and NSFW images, but it excels at generating high-quality NSFW portraits.",
-        "version": "Omega V2",
-        "style": "realistic",
-        "homepage": "https://civitai.com/models/996495/ri-mix-pony-illustrious?modelVersionId=2811854",
-        "nsfw": true,
-        "download_all": false,
-        "config": {
-            "files": [
-                {
-                    "path": "riMixPONYIllustrious_riMixV2.safetensors",
-                    "sha256sum": "266B879D3A9C386A93FADE088C386B96058AAE2E92951A27DB98157FF7229E96"
-                }
-            ],
-            "download": [
-                {
-                    "file_name": "riMixPONYIllustrious_riMixV2.safetensors",
-                    "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2811854?fileId=2697708"
-                }
-            ]
-        },
-        "features_not_supported": [
-            "hires_fix",
-            "inpainting",
-            "controlnet"
-        ],
-        "size_on_disk_bytes": 6938040784
+        "size_on_disk_bytes": 6938504356
     },
     "Nova Furry XL": {
         "name": "Nova Furry XL",
@@ -5687,29 +5687,29 @@
         ],
         "size_on_disk_bytes": 6939104724
     },
-    "Nova Flat XL": {
-        "name": "Nova Flat XL",
+    "PerfectDeliberate": {
+        "name": "PerfectDeliberate",
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "Nova Flat XL is Anime SDXL checkpoint that aims to have flat anime style: not flat coloring.",
-        "version": "v9.0",
-        "style": "artistic",
-        "homepage": "https://civitai.com/models/1240874/nova-flat-xl?modelVersionId=2610015",
+        "description": "PerfectDeliberate is an stylized realism model that generates vibrant, styled portraits. ",
+        "version": "9.0",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/24350/perfectdeliberate",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "novaFlatXL_v90.safetensors",
-                    "sha256sum": "C236A776D04C409514ADC1A780EFD1339EB992A7F503CA67B668AF090B81FB88"
+                    "path": "perfectDeliberate_v90.safetensors",
+                    "sha256sum": "AEA4EC6C4D248FB9CDC3209BCBF3FCCB05ACB1A2A901D3F1E805E39810ED0B09"
                 }
             ],
             "download": [
                 {
-                    "file_name": "novaFlatXL_v90.safetensors",
+                    "file_name": "perfectDeliberate_v90.safetensors",
                     "file_path": "",
-                    "file_url": "https://civitai.com/api/download/models/2610015?fileId=2497353"
+                    "file_url": "https://civitai.com/api/download/models/2805032?fileId=2690937"
                 }
             ]
         },
@@ -5718,7 +5718,7 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6938504356
+        "size_on_disk_bytes": 6938040682
     },
     "Rag Illustrious Mix": {
         "name": "Rag Illustrious Mix",
@@ -5753,29 +5753,29 @@
         ],
         "size_on_disk_bytes": 6938059730
     },
-    "Quiet Goodnight XL": {
-        "name": "Quiet Goodnight XL",
+    "Ri-Mix": {
+        "name": "Ri-Mix",
         "baseline": "stable_diffusion_xl",
         "type": "ckpt",
         "inpainting": false,
-        "description": "SDXL Model for anime, bought to you from the maker of ICBINP",
-        "version": "2.0",
-        "style": "anime",
-        "homepage": "https://civitai.com/models/335240?modelVersionId=521607",
+        "description": "Ri-Mix is a stylized realism model that is designed to generate vibrant, stylized portraits and scenery. It is capable of generating both SFW and NSFW images, but it excels at generating high-quality NSFW portraits.",
+        "version": "Omega V2",
+        "style": "realistic",
+        "homepage": "https://civitai.com/models/996495/ri-mix-pony-illustrious?modelVersionId=2811854",
         "nsfw": true,
         "download_all": false,
         "config": {
             "files": [
                 {
-                    "path": "quietGoodnightXL_v2.safetensors",
-                    "sha256sum": "18b7586c94e8e410076df1b077d654e9ea07bbbd15ad8c8e14e13fd0666150ba"
+                    "path": "riMixPONYIllustrious_riMixV2.safetensors",
+                    "sha256sum": "266B879D3A9C386A93FADE088C386B96058AAE2E92951A27DB98157FF7229E96"
                 }
             ],
             "download": [
                 {
-                    "file_name": "quietGoodnightXL_v2.safetensors",
+                    "file_name": "riMixPONYIllustrious_riMixV2.safetensors",
                     "file_path": "",
-                    "file_url": "https://huggingface.co/mirroring/horde_models/resolve/main/quietGoodnightXL_v2.safetensors"
+                    "file_url": "https://civitai.com/api/download/models/2811854?fileId=2697708"
                 }
             ]
         },
@@ -5784,6 +5784,147 @@
             "inpainting",
             "controlnet"
         ],
-        "size_on_disk_bytes": 6939226112
+        "size_on_disk_bytes": 6938040784
+    },
+    "Qwen-Image_fp8": {
+        "name": "Qwen-Image_fp8",
+        "baseline": "qwen_image",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Qwen-Image (fp8) text-to-image model. Re-introduced as a beta via the pending queue.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://github.com/QwenLM/Qwen-Image",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 20,
+            "max_steps": 40,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 2.5,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "simple"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "qwen_image_fp8_e4m3fn.safetensors",
+                    "md5sum": null,
+                    "sha256sum": "a1d50aa60140f156fc2fae6b4b370c95fde65d5d3485dbbd7a1b387fd7ae8612",
+                    "file_type": "unet",
+                    "directory": ""
+                },
+                {
+                    "path": "qwen_image_vae.safetensors",
+                    "md5sum": null,
+                    "sha256sum": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+                    "file_type": "vae",
+                    "directory": "../vae"
+                },
+                {
+                    "path": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+                    "md5sum": null,
+                    "sha256sum": "cb5636d852a0ea6a9075ab1bef496c0db7aef13c02350571e388aea959c5c0b4",
+                    "file_type": "text_encoders",
+                    "directory": "../text_encoders"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "qwen_image_fp8_e4m3fn.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/non_official/diffusion_models/qwen_image_distill_full_fp8_e4m3fn.safetensors?download=true"
+                },
+                {
+                    "file_name": "qwen_image_vae.safetensors",
+                    "file_path": "../vae",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors?download=true"
+                },
+                {
+                    "file_name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
+                    "file_path": "../text_encoders",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors?download=true"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 20430635136
+    },
+    "Z-Image-Turbo": {
+        "name": "Z-Image-Turbo",
+        "baseline": "z_image_turbo",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Z-Image is a powerful and highly efficient image generation model with 6B parameters. Z-Image-Turbo is a distilled version of Z-Image that matches or exceeds leading competitors with only 8 NFEs (Number of Function Evaluations). It offers sub-second inference latency on enterprise-grade H800 GPUs and fits comfortably within 16G VRAM consumer devices. It excels in photorealistic image generation, bilingual text rendering (English & Chinese), and robust instruction adherence.",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+        "nsfw": true,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 9,
+            "max_steps": 9,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 1,
+            "samplers": [
+                "k_euler"
+            ],
+            "schedulers": [
+                "simple"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "z_image_turbo_bf16.safetensors",
+                    "sha256sum": "2407613050b809ffdff18a4ac99af83ea6b95443ecebdf80e064a79c825574a6",
+                    "file_type": "unet",
+                    "directory": ""
+                },
+                {
+                    "path": "ae.safetensors",
+                    "sha256sum": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+                    "file_type": "vae",
+                    "directory": "../vae"
+                },
+                {
+                    "path": "qwen_3_4b.safetensors",
+                    "sha256sum": "6c671498573ac2f7a5501502ccce8d2b08ea6ca2f661c458e708f36b36edfc5a",
+                    "file_type": "text_encoders",
+                    "directory": "../text_encoders"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "z_image_turbo_bf16.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors?download=true"
+                },
+                {
+                    "file_name": "ae.safetensors",
+                    "file_path": "../vae",
+                    "file_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors"
+                },
+                {
+                    "file_name": "qwen_3_4b.safetensors",
+                    "file_path": "../text_encoders",
+                    "file_url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors?download=true"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 20430635136
     }
 }
