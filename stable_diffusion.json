@@ -5855,6 +5855,76 @@
         ],
         "size_on_disk_bytes": 20430635136
     },
+    "Krea2-Turbo_fp8": {
+        "name": "Krea2-Turbo_fp8",
+        "baseline": "krea2_turbo",
+        "type": "ckpt",
+        "inpainting": false,
+        "description": "Krea 2 is a text-to-image diffusion model that generates images from natural-language text descriptions. ",
+        "license": "https://cdn.jsdelivr.net/gh/krea-ai/krea-2@db3984fbc6e13b34c0064990fc2d95ac64d00058/assets/hf_samples/LICENSE.pdf",
+        "version": "1.0",
+        "style": "generalist",
+        "homepage": "https://www.krea.ai/models/krea-2-turbo",
+        "nsfw": false,
+        "download_all": false,
+        "requirements": {
+            "min_steps": 8,
+            "max_steps": 8,
+            "min_cfg_scale": 1,
+            "max_cfg_scale": 1,
+            "samplers": [
+                "er_sde"
+            ],
+            "schedulers": [
+                "simple"
+            ]
+        },
+        "config": {
+            "files": [
+                {
+                    "path": "krea2_turbo_fp8_scaled.safetensors",
+                    "sha256sum": "eb4dd8c612cfd10f64f25b057e6e6bbcb5737c94a7372177e456dbf7579502f1",
+                    "file_type": "unet",
+                    "directory": ""
+                },
+                {
+                    "path": "qwen_image_vae.safetensors",
+                    "sha256sum": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+                    "file_type": "vae",
+                    "directory": "../vae"
+                },
+                {
+                    "path": "qwen3vl_4b_fp8_scaled.safetensors",
+                    "sha256sum": "54bd5144df0bbc25dd6ccadfcb826b521445a1b06ae5a42570bdd2974ca87094",
+                    "file_type": "text_encoders",
+                    "directory": "../text_encoders"
+                }
+            ],
+            "download": [
+                {
+                    "file_name": "krea2_turbo_fp8_scaled.safetensors",
+                    "file_path": "",
+                    "file_url": "https://huggingface.co/Comfy-Org/Krea-2/blob/main/diffusion_models/krea2_turbo_fp8_scaled.safetensors?download=true"
+                },
+                {
+                    "file_name": "qwen_image_vae.safetensors",
+                    "file_path": "../vae",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors?download=true"
+                },
+                {
+                    "file_name": "qwen3vl_4b_fp8_scaled.safetensors",
+                    "file_path": "../text_encoders",
+                    "file_url": "https://huggingface.co/Comfy-Org/Qwen3-VL/resolve/8bb77f7ad334bc594cd68c0c48e868abd1e0f719/text_encoders/qwen3vl_4b_fp8_scaled.safetensors?download=true"
+                }
+            ]
+        },
+        "features_not_supported": [
+            "hires_fix",
+            "inpainting",
+            "controlnet"
+        ],
+        "size_on_disk_bytes": 20430635136
+    },
     "Z-Image-Turbo": {
         "name": "Z-Image-Turbo",
         "baseline": "z_image_turbo",
